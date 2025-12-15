@@ -220,10 +220,11 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-09-18</td>
       <td style="width: 55%;">
       <strong>A Survey of Machine Unlearning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
-      <td style="width: 15%;">
-        <a href="https://dl.acm.org/doi/full/10.1145/3749987"><img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge"></a>
+        <a href="https://dl.acm.org/doi/full/10.1145/3749987">
+        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge">
+        </a>
       </td>
     </tr>
     <tr>
@@ -237,11 +238,11 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-09-02</td>
       <td style="width: 55%;">
       <strong>A Survey on the Memory Mechanism of Large Language Model based Agents</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
       <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules Badge">
       <td style="width: 15%;">
-        <a href="https://dl.acm.org/doi/pdf/10.1145/3748302"><img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge"></a>
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3748302">
+        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -258,7 +259,8 @@ Papers below are ordered by **publication date**:
       <td style="width: 15%;">
       <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2503.01854v2"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2503.01854v2">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -272,9 +274,16 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-05-27</td>
       <td style="width: 55%;">
       <strong>Rethinking Memory in AI Taxonomy, Operations, Topics, and Future Directions</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/QA_Head-blue" alt="QA Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2505.00675"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2505.00675">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -288,9 +297,12 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-04-24</td>
       <td style="width: 55%;">
       <strong>Cognitive Memory in Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory_Head-blue" alt="Memory Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2504.02441"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2504.02441">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -303,9 +315,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-23</td>
       <td style="width: 55%;"><strong>From Human Memory to AI Memory A Survey on Memory Mechanisms in the Era of LLMs </strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Arithmetic_Head-blue" alt="Arithmetic Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2504.15965"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2504.15965">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -318,9 +333,15 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-12</td>
       <td style="width: 55%;"><strong>Human-inspired Perspectives: A Survey on AI Long-term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Retrieval_Head-blue" alt="Retrieval Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Non--Parametric%20Memory-green" alt="Non-Parametric Memory">
+      <img src="https://img.shields.io/badge/Sensory%20Memory-brown" alt="Sensory Memory">
+      <img src="https://img.shields.io/badge/Working%20Memory-blueviolet" alt="Working Memory">
+      </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2411.00489"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2411.00489">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -333,9 +354,10 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-02</td>
       <td style="width: 55%;"><strong>Digital Forgetting in Large Language Models: A Survey of Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Retrieval_Head-blue" alt="Retrieval Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2404.02062"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <a href="https://arxiv.org/pdf/2404.02062">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -363,8 +385,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
       <td style="width: 55%;"><strong>How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2505.16067"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Memory%20Addition-slateblue" alt="Memory Addition">
+      <img src="https://img.shields.io/badge/Memory%20Deletion-salmon" alt="Memory Deletion">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2505.16067">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -376,8 +402,11 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-09-11</td>
       <td style="width: 55%;"><strong>OpenUnlearning:Accelerating LLM unlearning via unified benchmarking of methods and metrics</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Detection_Head-blue" alt="Detection Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2506.12618"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2506.12618">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -389,8 +418,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-27</td>
       <td style="width: 55%;"><strong>SynapticRAG:Enhancing temporal memory retrieval in large language models through synaptic mechanisms</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Direct_effect_Head-blue" alt="Direct Effect Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.1048.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Cross--Memory%20Retrieval-orchid" alt="Cross-Memory Retrieval">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.1048.pdf">
+      <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -402,8 +436,11 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-05-30</td>
         <td style="width: 55%;"><strong>M+：Extending MemoryLLM with scalable Long-Term Memory</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Copy_Suppression_Head-blue" alt="Copy Suppression Head Badge"></td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2310.04625"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> <a href="https://copy-suppression.streamlit.app/"><img src="https://arxiv.org/pdf/2502.00592" alt="Demo Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2310.04625">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> 
     </tr>
     <tr>
         <td colspan="3">
@@ -415,8 +452,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-02-25</td>
         <td style="width: 55%;"><strong>Towards effective evaluation and comparisons for LLM unlearning methods</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Truthfulness_Head-blue" alt="Truthfulness Head Badge"></td>
-        <td style="width: 15%;"><a href="https://openreview.net/forum?id=aLLuYpn83y"><img src="https://img.shields.io/badge/NeurIPS-Paper-%23D2691E" alt="Paper Badge"></a> <a href="https://arxiv.org/pdf/2406.09179"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
+        <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+        </td>
+        <td style="width: 15%;"><a href="https://openreview.net/forum?id=aLLuYpn83y">
+        <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -428,8 +469,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-01-19</td>
         <td style="width: 55%;"><strong>Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2025.coling-main.252.pdf"><img src="https://img.shields.io/badge/NeurIPS-Paper-%23D2691E" alt="Paper Badge"></a><a href="https://github.com/albietz/transformer-birth"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+        <img src="https://img.shields.io/badge/Forgetting%20Strategies-darkmagenta" alt="Forgetting Strategies">
+        </td>
+        <td style="width: 15%;"><a href="https://aclanthology.org/2025.coling-main.252.pdf">
+        <img src="https://img.shields.io/badge/COLING-Paper-black?labelColor=brown" alt="COLING Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -441,8 +486,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-12-17</td>
       <td style="width: 55%;"><strong>On the Structural Memory of LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2412.15266"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Modules-crimson)" alt="Memory Modules">
+      <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2412.15266">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+      </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -454,8 +503,13 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2024-10-10</td>
         <td style="width: 55%;"><strong>Assessing episodic memory in LLMs with sequence order recall tasks</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Correct_Letter_Head-blue" alt="Correct Letter Head Badge"> <img src="https://img.shields.io/badge/Content_Gatherer_Head-blue" alt="Content Gatherer Head Badge"> <img src="https://img.shields.io/badge/Amplification_Head-blue" alt="Amplification Head Badge"> <img src="https://img.shields.io/badge/Constant_Head-blue" alt="Constant Head Badge"> <img src="https://img.shields.io/badge/Single_Letter_Head-blue" alt="Single Letter Head Badge"></td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.08133"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
+        <img src="https://img.shields.io/badge/Sequential%20Recall-tomato" alt="Sequential Recall"> 
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.08133">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -467,8 +521,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2024-08-11</td>
         <td style="width: 55%;"><strong>Towards Safer Large Language Models through Machine Unlearning</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"> <img src="https://img.shields.io/badge/S--Inhibition_Head-blue" alt="S-Inhibition Head Badge"> <img src="https://img.shields.io/badge/Name_Mover_Head-blue" alt="Name Mover Head Badge"> <img src="https://img.shields.io/badge/Previous_Token_Head-blue" alt="Previous Token Head Badge"> <img src="https://img.shields.io/badge/Duplicate_Token_Head-blue" alt="Duplicate Token Head Badge"> <img src="https://img.shields.io/badge/Negative_Name_Mover_Head-blue" alt="Negative Name Mover Head Badge"> <img src="https://img.shields.io/badge/Backup_Name_Mover_Head-blue" alt="Backup Name Mover Head Badge"></td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-acl.107.pdf"><img src="https://img.shields.io/badge/ICLR-Paper-%23D2691E" alt="Paper Badge"></a> <a href="https://github.com/redwoodresearch/Easy-Transformer"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+        </td>
+        <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-acl.107.pdf">
+        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -480,8 +538,12 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-08-06</td>
       <td style="width: 55%;"><strong>RULER: What’s the Real Context Size of Your Long-Context Language Models?</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.06654"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
+      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.06654">
+      <img src="https://img.shields.io/badge/COLM-Paper-black?labelColor=gold" alt="COLM Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -493,8 +555,12 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-07-22</td>
       <td style="width: 55%;"><strong>A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.09727"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.09727">
+      <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -506,8 +572,11 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-06-30</td>
       <td style="width: 55%;"><strong>Towards Efficient and Effective Unlearning of Large Language Models for Recommendation</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2403.03536"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <img src="https://img.shields.io/badge/Recommender%20Systems-darkslategray" alt="Recommender Systems">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2403.03536">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -519,8 +588,13 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-05-26</td>
       <td style="width: 55%;"><strong>MemoryLLM:Towards self-Update Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.04624"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.04624">
+      <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -532,8 +606,11 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-04-13</td>
       <td style="width: 55%;"><strong>LLM In-Context Recall is Prompt Dependen</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.08865"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/LLM%20Recall-steelblue" alt="LLM Recall">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.08865">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -545,8 +622,12 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-03-24</td>
       <td style="width: 55%;"><strong>MemoryBank: Enhancing Large Language Models with Long-Term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29946"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29946">
+      <img src="https://img.shields.io/badge/AAAI-Paper-black?labelColor=orange" alt="AAAI Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -558,8 +639,12 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-02-16</td>
       <td style="width: 55%;"><strong>Large Language Model Unlearning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2310.10683"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <img src="https://img.shields.io/badge/Forgetting%20Strategies-darkmagenta" alt="Forgetting Strategies">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2310.10683">
+      <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -571,8 +656,12 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2024-02-06</td>
       <td style="width: 55%;"><strong>Compressed context memory for online language model interaction</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2312.03414"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2312.03414">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -584,8 +673,11 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2023-12-10</td>
       <td style="width: 55%;"><strong>Unlearn What You Want to Forget: Efficient Unlearning for LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/anthology-files/pdf/emnlp/2023.emnlp-main.738.pdf"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-sienna" alt="Machine Forgetting">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/anthology-files/pdf/emnlp/2023.emnlp-main.738.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -597,8 +689,11 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2023-11-15</td>
       <td style="width: 55%;"><strong>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2311.08719"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2311.08719">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -610,8 +705,13 @@ Papers below are ordered by **publication date**:
      <tr>
       <td rowspan="2" style="width: 15%;">2023-09-22</td>
       <td style="width: 55%;"><strong>Augmenting Language Models with Long-Term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://papers.nips.cc/paper_files/paper/2023/file/ebd82705f44793b6f9ade5a669d0f0bf-Paper-Conference.pdf"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Text%20Processing-navy" alt="Long-Text Processing">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://papers.nips.cc/paper_files/paper/2023/file/ebd82705f44793b6f9ade5a669d0f0bf-Paper-Conference.pdf">
+      <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -638,8 +738,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
       <td style="width: 55%;"><strong>Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Previous_Head-blue" alt="Previous Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.580.pdf"><img src="https://img.shields.io/badge/Blog-Post-black" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.580.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -651,8 +756,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-27</td>
       <td style="width: 55%;"><strong>Know Me, Respond to Me, benchmarking LLMs for Dynamic User profiling and personalized response at scale</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Detection_Head-blue" alt="Detection Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.14225"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.14225">
+      <img src="https://img.shields.io/badge/COLM-Paper-black?labelColor=gold" alt="COLM Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -664,8 +774,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2023-09-26</td>
       <td style="width: 55%;"><strong>Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Direct_effect_Head-blue" alt="Direct Effect Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2507.05257"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2507.05257">
+      <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -677,8 +791,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
         <td style="width: 55%;"><strong>PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Copy_Suppression_Head-blue" alt="Copy Suppression Head Badge"></td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.49.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> <a href="https://copy-suppression.streamlit.app/"><img src="https://img.shields.io/badge/Demo-View-purple?logo=internet-explorer" alt="Demo Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Personalized%20Evaluation-tealgreen" alt="Personalized Evaluation">
+        </td>
+        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.49.pdf">
+        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -690,8 +808,11 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
         <td style="width: 55%;"><strong>MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Truthfulness_Head-blue" alt="Truthfulness Head Badge"></td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.989.pdf"><img src="https://img.shields.io/badge/NeurIPS-Paper-%23D2691E" alt="Paper Badge"></a> <a href="https://github.com/likenneth/honest_llama"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        </td>
+        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.989.pdf">
+        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -703,8 +824,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
         <td style="width: 55%;"><strong>Evaluating the Long-term memory of large language models</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.1014.pdf"><img src="https://img.shields.io/badge/NeurIPS-Paper-%23D2691E" alt="Paper Badge"></a> <a href="https://github.com/albietz/transformer-birth"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+        </td>
+        <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.1014.pdf">
+        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -716,8 +841,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-27</td>
       <td style="width: 55%;"><strong>Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1025.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dialogue%20Augmentation-olive" alt="Dialogue Augmentation">
+      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1025.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -729,8 +858,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-06-15</td>
         <td style="width: 55%;"><strong>PersonaFeedback: A Large-scale Human-annotated Benchmark For Personalization</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Correct_Letter_Head-blue" alt="Correct Letter Head Badge"> <img src="https://img.shields.io/badge/Content_Gatherer_Head-blue" alt="Content Gatherer Head Badge"> <img src="https://img.shields.io/badge/Amplification_Head-blue" alt="Amplification Head Badge"> <img src="https://img.shields.io/badge/Constant_Head-blue" alt="Constant Head Badge"> <img src="https://img.shields.io/badge/Single_Letter_Head-blue" alt="Single Letter Head Badge"></td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2506.12915"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Personalized%20Evaluation-tealgreen" alt="Personalized Evaluation">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2506.12915">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
     </tr>
     <tr>
         <td colspan="3">
@@ -742,8 +875,12 @@ Papers below are ordered by **publication date**:
     <tr>
         <td rowspan="2" style="width: 15%;">2025-06-09</td>
         <td style="width: 55%;"><strong>Minerva: A Programmable memory test benchmark for language models</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"> <img src="https://img.shields.io/badge/S--Inhibition_Head-blue" alt="S-Inhibition Head Badge"> <img src="https://img.shields.io/badge/Name_Mover_Head-blue" alt="Name Mover Head Badge"> <img src="https://img.shields.io/badge/Previous_Token_Head-blue" alt="Previous Token Head Badge"> <img src="https://img.shields.io/badge/Duplicate_Token_Head-blue" alt="Duplicate Token Head Badge"> <img src="https://img.shields.io/badge/Negative_Name_Mover_Head-blue" alt="Negative Name Mover Head Badge"> <img src="https://img.shields.io/badge/Backup_Name_Mover_Head-blue" alt="Backup Name Mover Head Badge"></td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.03358"><img src="https://img.shields.io/badge/ICLR-Paper-%23D2691E" alt="Paper Badge"></a> <a href="https://github.com/redwoodresearch/Easy-Transformer"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.03358">
+        <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
+        </td>
     </tr>
     <tr>
         <td colspan="3">
@@ -755,8 +892,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2022-03-04</td>
       <td style="width: 55%;"><strong>LongMemEval: Benchmarking chat assistants on long-term interactive memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      <img src="https://img.shields.io/badge/Evaluation%20Framework-darkgoldenrod" alt="Evaluation Framework">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -768,8 +910,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-02-25</td>
       <td style="width: 55%;"><strong>Towards Effective Evaluations and Comparisons for LLM Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <img src="https://img.shields.io/badge/Memory%20Erasure-darkcyan" alt="Memory Erasure">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -781,8 +927,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2022-02-13</td>
       <td style="width: 55%;"><strong>DO LLMS RECOGNIZE YOUR PREFERENCES? EVAL-UATING PERSONALIZED PREFERENCE FOLLOWING IN LLMS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Dialogue%20Reasoning-teal" alt="Long-Dialogue Reasoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -794,8 +944,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-23</td>
       <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Complex%20Instruction%20Following-darkolivegreen" alt="Complex Instruction Following">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -807,8 +962,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-11-12</td>
       <td style="width: 55%;"><strong>MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for  Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -820,8 +979,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-11-12</td>
       <td style="width: 55%;"><strong>LONGGENBENCH: Long-context Generation Benchmark</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -833,8 +996,14 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-08-16</td>
       <td style="width: 55%;"><strong>A personal long-term memory dataset for memory classification,Retrieval, and Synthesis in question Answering</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Mid--Term%20Memory-saddlebrown" alt="Mid-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf">
+      <img src="https://img.shields.io/badge/ACL%20Workshop-Paper-black?labelColor=purple" alt="ACL Workshop Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -846,8 +1015,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-08-11</td>
       <td style="width: 55%;"><strong>Evaluating Very Long-Term Conversational Memory of LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -859,8 +1032,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-08-11</td>
       <td style="width: 55%;"><strong>Lamp: When large language models meet personalization</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Personalized%20Tasks-darkkhaki" alt="Personalized Tasks">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -886,8 +1064,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
       <td style="width: 55%;"><strong>Human-inspired Episodic Memory for Infinite Context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -899,8 +1081,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-27</td>
       <td style="width: 55%;"><strong>MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -913,14 +1099,13 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-05-28</td>
       <td style="width: 55%;"><strong>Self-Taught Agentic Long-Context Understanding</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Local_Head-blue" alt="Local Head Badge">
-        <img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge">
-        <img src="https://img.shields.io/badge/Delimiter_Head-blue" alt="Delimiter Head Badge">
-        <img src="https://img.shields.io/badge/Block_Head-blue" alt="Block Head Badge">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2502.15920"><img src="https://img.shields.io/badge/AAAI-Paper-%23D2691E" alt="Paper Badge"></a>
-        <a href="https://github.com/iitmnlp/heads-hypothesis"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a>
+        <a href="https://arxiv.org/pdf/2502.15920">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
       </td>
     </tr>
     <tr>
@@ -933,8 +1118,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-03-11</td>
       <td style="width: 55%;"><strong>SCBench: A Benchmark for Long Context Methods Based on KV-Cache</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Constituency_grammar_inducing_Head-blue" alt="Constituency Grammar Inducing Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2412.10319"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Context%20Evaluation-darkslategray" alt="Long-Context Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2412.10319">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -946,8 +1135,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2015-01-25</td>
       <td style="width: 55%;"><strong>Episodic Memory Benchmark: Episodic Memories Generation and Evaluation Benchmark for Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Syntactic_dependency_Head-blue" alt="Syntactic Dependency Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.13121"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.13121">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -960,13 +1153,12 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2015-01-03</td>
       <td style="width: 55%;"><strong>LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Positional_Head-blue" alt="Positional Head Badge">
-        <img src="https://img.shields.io/badge/BPE--merging_Head-blue" alt="BPE-merging Head Badge">
-        <img src="https://img.shields.io/badge/Interrogation_Head-blue" alt="Interrogation Head Badge">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2412.15204"><img src="https://img.shields.io/badge/EMNLP-Paper-%23D2691E" alt="Paper Badge"></a>
-        <a href="https://github.com/deep-spin/entmax"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a>
+        <a href="https://arxiv.org/pdf/2412.15204">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -979,10 +1171,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-10-23</td>
       <td style="width: 55%;"><strong>MADial-Bench Towards real-world evaluation of memory-augmented diglogue generation</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2409.15240"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a>
-        <a href="https://github.com/clarkkev/attention-analysis"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a>
+        <a href="https://arxiv.org/abs/2409.15240">
+        <img src="https://img.shields.io/badge/NAACL-Paper-black?labelColor=cyan" alt="NAACL Paper">
       </td>
     </tr>
     <tr>
@@ -996,13 +1191,12 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2024-10-04</td>
       <td style="width: 55%;"><strong>L-CiteEval: A Long-Context Citation Evaluation Benchmark</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Positional_Head-blue" alt="Positional Head Badge">
-        <img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge">
-        <img src="https://img.shields.io/badge/Rare_words_Head-blue" alt="Rare Words Head Badge">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Long--Context%20Evaluation-darkslategray" alt="Long-Context Evaluation">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2410.02115"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a>
-        <a href="https://github.com/lena-voita/the-story-of-heads"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a>
+        <a href="https://arxiv.org/pdf/2410.02115">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -1015,8 +1209,12 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-08-11</td>
       <td style="width: 55%;"><strong>CAN LONG-CONTEXT LANGUAGE MODELS UNDER-STAND LONG CONTEXTS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Positional_Head-blue" alt="Positional Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.859/"><img src="https://img.shields.io/badge/EMNLP-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.859/">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1028,8 +1226,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-06-19</td>
       <td style="width: 55%;"><strong>LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Retrieval_Head-blue" alt="Retrieval Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2308.14508"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Bilingual%20Evaluation-darkorchid" alt="Bilingual Evaluation">
+      <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2308.14508">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper"></a>
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1041,8 +1244,11 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-04-16</td>
       <td style="width: 55%;"><strong>HIERARCHICAL CONTEXT MERGING: BETTER LONG CONTEXT UNDERSTANDING FOR PRE-TRAINED LLMS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Retrieval_Head-blue" alt="Retrieval Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.10308"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.10308">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1069,8 +1275,14 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
       <td style="width: 55%;"><strong>Memory OS of AI Agent</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.1318.pdf"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
+      <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.1318.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1082,8 +1294,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-08</td>
       <td style="width: 55%;"><strong>A-MEM: Agentic Memory for LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Induction_Head-blue" alt="Induction Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.12110"><img src="https://img.shields.io/badge/Anthropic-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.12110">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1096,14 +1313,13 @@ Papers below are ordered by **publication date**:
       <td rowspan="2" style="width: 15%;">2025-07-04</td>
       <td style="width: 55%;"><strong>MemOS: A Memory OS for AI System</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Local_Head-blue" alt="Local Head Badge">
-        <img src="https://img.shields.io/badge/Syntactic_Head-blue" alt="Syntactic Head Badge">
-        <img src="https://img.shields.io/badge/Delimiter_Head-blue" alt="Delimiter Head Badge">
-        <img src="https://img.shields.io/badge/Block_Head-blue" alt="Block Head Badge">
+        <img src="https://img.shields.io/badge/MemOS-darkorange" alt="MemOS">
+        <img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
+        <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2507.03724"><img src="https://img.shields.io/badge/AAAI-Paper-%23D2691E" alt="Paper Badge"></a>
-        <a href="https://github.com/iitmnlp/heads-hypothesis"><img src="https://img.shields.io/badge/GitHub-Code-brightgreen?logo=github" alt="Code Badge"></a>
+        <a href="https://arxiv.org/abs/2507.03724">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -1116,8 +1332,13 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-28</td>
       <td style="width: 55%;"><strong>Mem0 Building production-ready AI agents with Scalable Long-Term memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Constituency_grammar_inducing_Head-blue" alt="Constituency Grammar Inducing Head Badge"></td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.19413"><img src="https://img.shields.io/badge/ACL-Paper-%23D2691E" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.19413">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
     </tr>
     <tr>
       <td colspan="3">
@@ -1129,8 +1350,14 @@ Papers below are ordered by **publication date**:
     <tr>
       <td rowspan="2" style="width: 15%;">2024-09-21</td>
       <td style="width: 55%;"><strong>Memory3: Language modeling with explict memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Syntactic_dependency_Head-blue" alt="Syntactic Dependency Head Badge"></td>
-      <td style="width: 15%;"><a href="https://doi.org/10.4208/jml.240708"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Base%20Model-darkred" alt="Base Model">
+      <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
+      <img src="https://img.shields.io/badge/Memory%20Circuit-slateblue" alt="Memory Circuit">
+      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
+      </td>
+      <td style="width: 15%;"><a href="https://doi.org/10.4208/jml.240708">
+      <img src="https://img.shields.io/badge/Journal%20of%20ML-Paper-black?labelColor=blueviolet" alt="Journal of ML Paper">
+      </a></td>
     </tr>
     <tr>
       <td colspan="3">
