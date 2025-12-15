@@ -233,9 +233,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Provides an in-depth exploration of the concept and background of **machine unlearning**, highlighting its importance in modern machine learning.<br>
-          • Machine unlearning aims to enable learning algorithms to effectively remove the influence of specific data **without requiring full model retraining**.<br>
-          • The paper analyzes the necessity, challenges, and design requirements of machine unlearning, reviews current research progress, and emphasizes the field’s complexity and diversity in terms of **algorithmic effectiveness, fairness, and privacy protection**.
+          • Provides an in-depth exploration of the concept and background of machine unlearning, highlighting its importance in modern machine learning.<br>
+          • Machine unlearning aims to enable learning algorithms to effectively remove the influence of specific data without requiring full model retraining.<br>
+          • The paper analyzes the necessity, challenges, and design requirements of machine unlearning, reviews current research progress, and emphasizes the field’s complexity and diversity in terms of algorithmic effectiveness, fairness, and privacy protection.
         </td>
     </tr>
     <tr>
@@ -251,9 +251,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Explores the memory mechanisms of **LLM-based agents**, emphasizing the crucial role of memory in agent self-evolution and complex interactions.<br>
+          • Explores the memory mechanisms of LLM-based agents, emphasizing the crucial role of memory in agent self-evolution and complex interactions.<br>
           • Systematically summarizes and categorizes existing memory module designs and evaluation methods, while analyzing their roles and limitations across different application scenarios.<br>
-          • Such agents are able to **improve decision-making and task execution**.
+          • Such agents are able to improve decision-making and task execution.
         </td>
     </tr>
     <tr>
@@ -269,8 +269,8 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • The paper investigates **machine unlearning in large language models (LLMs)**, aiming to effectively remove the influence of undesirable data (e.g., sensitive or illegal information) **without full retraining**, while preserving overall model utility.<br>
-          • It defines the objectives and paradigms of **LLM unlearning** and establishes a comprehensive taxonomy.<br>
+          • The paper investigates machine unlearning in large language models (LLMs), aiming to effectively remove the influence of undesirable data (e.g., sensitive or illegal information) without full retraining, while preserving overall model utility.<br>
+          • It defines the objectives and paradigms of LLM unlearning and establishes a comprehensive taxonomy.<br>
           • The paper reviews existing approaches, evaluates their strengths and limitations, and discusses opportunities for future research.
         </td>
     </tr>
@@ -292,9 +292,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Explores multidimensional research on **memory in artificial intelligence (AI)**, with a particular focus on memory operations and management in **large language models (LLMs)**.<br>
-          • Categorizes various types of memory representations and operations—including **integration, updating, indexing, forgetting, retrieval, and compression**—and provides a systematic analysis of the importance of memory in AI and how it is implemented.<br>
-          • Through an extensive review of the literature, the paper identifies four key research themes: **long-term memory, parametric memory, long-context memory, and multi-source memory integration**.
+          • Explores multidimensional research on memory in artificial intelligence (AI), with a particular focus on memory operations and management in large language models (LLMs).<br>
+          • Categorizes various types of memory representations and operations—including integration, updating, indexing, forgetting, retrieval, and compression—and provides a systematic analysis of the importance of memory in AI and how it is implemented.<br>
+          • Through an extensive review of the literature, the paper identifies four key research themes: long-term memory, parametric memory, long-context memory, and multi-source memory integration.
         </td>
     </tr>
     <tr>
@@ -311,9 +311,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Provides a comprehensive examination of **memory mechanisms in large language models (LLMs)**, with a particular focus on different types of memory and their roles within the models.<br>
-          • While LLMs excel at **information retrieval and interaction summarization**, their **long-term memory remains unstable**.<br>
-          • Integrating memory into AI systems is crucial for delivering **context-rich responses**, reducing **hallucinations**, improving **data processing efficiency**, and enabling the **self-evolution of AI systems**.
+          • Provides a comprehensive examination of memory mechanisms in large language models (LLMs), with a particular focus on different types of memory and their roles within the models.<br>
+          • While LLMs excel at information retrieval and interaction summarization, their long-term memory remains unstable.<br>
+          • Integrating memory into AI systems is crucial for delivering context-rich responses, reducing hallucinations, improving data processing efficiency, and enabling the self-evolution of AI systems.
         </td>
     </tr>
     <tr>
@@ -329,9 +329,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Explores the relationship between **human memory** and the memory mechanisms of **LLM-based artificial intelligence (AI) systems**.<br>
-          • The main contributions include a **systematic definition of memory in LLM-driven AI systems** and its conceptual linkage to human memory.<br>
-          • The paper proposes a **three-dimensional memory taxonomy** based on **object, form, and time**, and summarizes key open issues in current research on **personal memory and system memory**.
+          • Explores the relationship between human memory and the memory mechanisms of LLM-based artificial intelligence (AI) systems.<br>
+          • The main contributions include a systematic definition of memory in LLM-driven AI systems and its conceptual linkage to human memory.<br>
+          • The paper proposes a three-dimensional memory taxonomy based on object, form, and time, and summarizes key open issues in current research on personal memory and system memory.
         </td>
     </tr>
     <tr>
@@ -350,9 +350,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • This paper systematically examines the interplay between **human long-term memory mechanisms** and **AI long-term memory**, and proposes an **adaptive long-term memory cognitive architecture (SALM)**.<br>
-          • It introduces the structure of human memory, including **sensory memory**, **working memory**, and different types of **long-term memory** (episodic, semantic, and procedural memory).<br>
-          • The paper analyzes the classification of **AI long-term memory**—**parametric** and **non-parametric memory**—as well as their **storage and retrieval mechanisms**.
+          • This paper systematically examines the interplay between human long-term memory mechanisms and AI long-term memory, and proposes an adaptive long-term memory cognitive architecture (SALM).<br>
+          • It introduces the structure of human memory, including sensory memory, working memory, and different types of long-term memory (episodic, semantic, and procedural memory).<br>
+          • The paper analyzes the classification of AI long-term memory—parametric and non-parametric memory—as well as their storage and retrieval mechanisms.
         </td>
     </tr>
     <tr>
@@ -366,9 +366,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • The paper explores **digital forgetting in large language models (LLMs)** and corresponding **unlearning methods**, with a focus on addressing issues related to **privacy, copyright, and social ethics**.<br>
-          • It analyzes different types of **model architectures and training processes**, as well as practical approaches to digital forgetting, including **data retraining, machine unlearning, and prompt engineering**.<br>
-          • By introducing the concept of **“forgetting guarantees,”** the paper emphasizes effective mechanisms for both **exact** and **approximate forgetting**.
+          • The paper explores digital forgetting in large language models (LLMs) and corresponding unlearning methods, with a focus on addressing issues related to privacy, copyright, and social ethics.<br>
+          • It analyzes different types of model architectures and training processes, as well as practical approaches to digital forgetting, including data retraining, machine unlearning, and prompt engineering.<br>
+          • By introducing the concept of “forgetting guarantees,” the paper emphasizes effective mechanisms for both exact and approximate forgetting.
         </td>
     </tr>  
   </table>
@@ -398,9 +398,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • The paper investigates **memory management in large language model (LLM) agents** and its impact on **long-term performance**.<br>
-          • It identifies issues such as **error propagation** and **misaligned experience replay**, highlighting the importance of **high-quality memory**.<br>
-          • By comparing multiple memory insertion and deletion strategies, the study finds that **selective insertion** performs better for long-term learning, while **historical deletion** is particularly effective at reducing **low-quality memory records**.
+          • The paper investigates memory management in large language model (LLM) agents and its impact on long-term performance.<br>
+          • It identifies issues such as error propagation and misaligned experience replay, highlighting the importance of high-quality memory.<br>
+          • By comparing multiple memory insertion and deletion strategies, the study finds that selective insertion performs better for long-term learning, while historical deletion is particularly effective at reducing low-quality memory records.
         </td>
     </tr>
     <tr>
@@ -414,9 +414,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the **“OpenUnlearning” framework**, designed to advance research on **unlearning in large language models (LLMs)**.<br>
-          • **OpenUnlearning** integrates a wide range of unlearning algorithms and evaluation methods, streamlining the research workflow for studying forgetting.<br>
-          • Through **targeted and task-specific evaluations**, OpenUnlearning ensures the **credibility and robustness** of unlearning assessment standards.
+          • Introduces the “OpenUnlearning” framework, designed to advance research on unlearning in large language models (LLMs).<br>
+          • OpenUnlearning integrates a wide range of unlearning algorithms and evaluation methods, streamlining the research workflow for studying forgetting.<br>
+          • Through targeted and task-specific evaluations, OpenUnlearning ensures the credibility and robustness of unlearning assessment standards.
         </td>
     </tr>
     <tr>
@@ -432,9 +432,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **SynapticRAG** is a novel memory retrieval framework for **large language models (LLMs)**, designed to enhance memory retrieval in **cross-session conversations**.<br>
-          • By combining **temporal association triggers** with **biologically inspired synaptic propagation mechanisms**, SynapticRAG significantly improves the identification of relevant conversational history.<br>
-          • Experimental results show that the framework achieves improvements of up to **14.66% across multiple performance metrics** and demonstrates clear advantages in **dynamic memory management**.
+          • SynapticRAG is a novel memory retrieval framework for large language models (LLMs), designed to enhance memory retrieval in cross-session conversations.<br>
+          • By combining temporal association triggers with biologically inspired synaptic propagation mechanisms, SynapticRAG significantly improves the identification of relevant conversational history.<br>
+          • Experimental results show that the framework achieves improvements of up to 14.66% across multiple performance metrics and demonstrates clear advantages in dynamic memory management.
         </td>
     </tr>
     <tr>
@@ -448,9 +448,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **M+** is a memory-augmented model designed to improve **long-term information retention** in **large language models (LLMs)**.<br>
-          • Built upon **MemoryLLM**, M+ integrates **long-term memory mechanisms** with a **jointly trained retriever**, substantially enhancing the model’s ability to handle knowledge spanning **over 20,000 tokens** while maintaining comparable **GPU memory overhead**.<br>
-          • M+ achieves strong performance across multiple benchmarks, outperforming **MemoryLLM** and other competitive baselines, and demonstrates **efficient information compression** and **end-to-end training**, exhibiting mechanisms that closely resemble **human memory**.
+          • M+ is a memory-augmented model designed to improve long-term information retention in large language models (LLMs).<br>
+          • Built upon MemoryLLM, M+ integrates long-term memory mechanisms with a jointly trained retriever, substantially enhancing the model’s ability to handle knowledge spanning over 20,000 tokens while maintaining comparable GPU memory overhead.<br>
+          • M+ achieves strong performance across multiple benchmarks, outperforming MemoryLLM and other competitive baselines, and demonstrates efficient information compression and end-to-end training, exhibiting mechanisms that closely resemble human memory.
         </td>
     </tr>
     <tr>
@@ -465,9 +465,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • The paper examines **machine unlearning in large language models (LLMs)** and the importance of its **evaluation**, with a particular focus on removing **undesirable or unnecessary data memories**.<br>
-          • It introduces **Unlearning with Calibration (UWC)** to calibrate model performance and strengthen the evaluation of different unlearning methods.<br>
-          • The study emphasizes the importance of selecting appropriate evaluation metrics and recommends **Extraction Strength (ES)** as a primary evaluation tool to ensure **accuracy and robustness** in assessment.
+          • The paper examines machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on removing undesirable or unnecessary data memories.<br>
+          • It introduces Unlearning with Calibration (UWC) to calibrate model performance and strengthen the evaluation of different unlearning methods.<br>
+          • The study emphasizes the importance of selecting appropriate evaluation metrics and recommends Extraction Strength (ES) as a primary evaluation tool to ensure accuracy and robustness in assessment.
         </td>
     </tr>
     <tr>
@@ -482,9 +482,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Proposes **Alternate Preference Optimization (AltPO)**, a method designed to effectively address the challenges of **machine unlearning** in **large language models (LLMs)**.<br>
-          • AltPO enhances unlearning by combining **negative feedback from the forget set** with **positive feedback from the same domain** to generate multiple alternative responses, thereby improving forgetting capability while preserving overall model performance.<br>
-          • Experimental results demonstrate that **AltPO outperforms existing methods** in terms of both **unlearning quality** and **model utility**.
+          • Proposes Alternate Preference Optimization (AltPO), a method designed to effectively address the challenges of machine unlearning in large language models (LLMs).<br>
+          • AltPO enhances unlearning by combining negative feedback from the forget set with positive feedback from the same domain to generate multiple alternative responses, thereby improving forgetting capability while preserving overall model performance.<br>
+          • Experimental results demonstrate that AltPO outperforms existing methods in terms of both unlearning quality and model utility.
         </td>
     </tr>
     <tr>
@@ -499,9 +499,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • The paper investigates how the **structure and retrieval methods of memory modules** in **large language models (LLMs)** affect model performance, with a focus on different memory architectures and their roles in **information extraction and generation**.<br>
-          • The study finds that **hybrid memory structures** outperform others in **complex tasks**, demonstrating greater **robustness in noisy environments**.<br>
-          • Through **hyperparameter sensitivity analysis**, the research identifies **memory retrieval strategies** that are best suited to different task settings.
+          • The paper investigates how the structure and retrieval methods of memory modules in large language models (LLMs) affect model performance, with a focus on different memory architectures and their roles in information extraction and generation.<br>
+          • The study finds that hybrid memory structures outperform others in complex tasks, demonstrating greater robustness in noisy environments.<br>
+          • Through hyperparameter sensitivity analysis, the research identifies memory retrieval strategies that are best suited to different task settings.
         </td>
     </tr>
     <tr>
@@ -517,9 +517,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • This study introduces the **Sequence Order Recall Task (SORT)**, designed to evaluate the **episodic memory** capabilities of **large language models (LLMs)**.<br>
-          • The task highlights the importance of episodic memory—linking memories with relevant context such as **time and location**—particularly in everyday cognitive tasks.<br>
-          • Preliminary results indicate that LLMs exhibit **strong memory performance when contextual information is provided**, but their performance **degrades significantly when relying solely on training data**.
+          • This study introduces the Sequence Order Recall Task (SORT), designed to evaluate the episodic memory capabilities of large language models (LLMs).<br>
+          • The task highlights the importance of episodic memory—linking memories with relevant context such as time and location—particularly in everyday cognitive tasks.<br>
+          • Preliminary results indicate that LLMs exhibit strong memory performance when contextual information is provided, but their performance degrades significantly when relying solely on training data.
         </td>
     </tr>
     <tr>
@@ -534,9 +534,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • This paper introduces the **Selective Knowledge Unlearning (SKU)** framework, aimed at improving the **safety of large language models (LLMs)**.<br>
-          • The SKU framework consists of two main stages: **harmful knowledge acquisition**, followed by **knowledge negation**, which focuses on removing undesirable knowledge **without degrading model utility under benign prompts**.<br>
-          • SKU successfully reduces **harmful outputs** while preserving **response quality**, and demonstrates a strong balance between **unlearning effectiveness and model utility** across multiple LLM architectures, such as **OPT** and **LLaMA2**.
+          • This paper introduces the Selective Knowledge Unlearning (SKU) framework, aimed at improving the safety of large language models (LLMs).<br>
+          • The SKU framework consists of two main stages: harmful knowledge acquisition, followed by knowledge negation, which focuses on removing undesirable knowledge without degrading model utility under benign prompts.<br>
+          • SKU successfully reduces harmful outputs while preserving response quality, and demonstrates a strong balance between unlearning effectiveness and model utility across multiple LLM architectures, such as OPT and LLaMA2.
         </td>
     </tr>
      <tr>
@@ -551,9 +551,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **RULER** is designed for the **comprehensive evaluation of long-context language models (LMs)** across a wide range of tasks.<br>
-          • It extends the traditional **Needle-in-a-Haystack (NIAH)** test by incorporating tasks such as **multi-hop tracking** and **aggregation**, enabling a more thorough assessment of models’ understanding under long-context settings.<br>
-          • RULER demonstrates strong performance in **multi-hop reasoning** and **information retrieval** tasks.
+          • RULER is designed for the comprehensive evaluation of long-context language models (LMs) across a wide range of tasks.<br>
+          • It extends the traditional Needle-in-a-Haystack (NIAH) test by incorporating tasks such as multi-hop tracking and aggregation, enabling a more thorough assessment of models’ understanding under long-context settings.<br>
+          • RULER demonstrates strong performance in multi-hop reasoning and information retrieval tasks.
         </td>
     </tr>
      <tr>
@@ -568,9 +568,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **ReadAgent** is a reading comprehension system designed to improve the performance of **large language models (LLMs)** when processing **long-form text**.<br>
-          • Through three steps—**episodic pagination, memory summarization, and interactive lookup**—ReadAgent significantly extends the effective context length by up to **20×**.<br>
-          • ReadAgent outperforms traditional approaches on long-document reading comprehension benchmarks such as **QuALITY**, **NarrativeQA**, and **QMSum**.
+          • ReadAgent is a reading comprehension system designed to improve the performance of large language models (LLMs) when processing long-form text.<br>
+          • Through three steps—episodic pagination, memory summarization, and interactive lookup—ReadAgent significantly extends the effective context length by up to 20×.<br>
+          • ReadAgent outperforms traditional approaches on long-document reading comprehension benchmarks such as QuALITY, NarrativeQA, and QMSum.
         </td>
     </tr>
      <tr>
@@ -584,9 +584,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces **E2URec**, a recommendation data unlearning method specifically designed for **LLM-based recommender systems (LLMRec)**.<br>
-          • E2URec significantly improves **unlearning efficiency** while preserving recommendation performance by updating **only Low-Rank Adaptation (LoRA) parameters**.<br>
-          • Experimental results show that **E2URec outperforms existing baseline methods** on real-world datasets.
+          • Introduces E2URec, a recommendation data unlearning method specifically designed for LLM-based recommender systems (LLMRec).<br>
+          • E2URec significantly improves unlearning efficiency while preserving recommendation performance by updating only Low-Rank Adaptation (LoRA) parameters.<br>
+          • Experimental results show that E2URec outperforms existing baseline methods on real-world datasets.
         </td>
     </tr>
      <tr>
@@ -602,9 +602,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **MEMORYLLM** is a **self-updating large language model** designed to effectively integrate new knowledge while maintaining **long-term information retention**.<br>
-          • By embedding a **fixed-size memory pool** in the latent space of the transformer, MEMORYLLM achieves a seamless combination of **model self-updating** and **knowledge preservation**.<br>
-          • Key design features include **memory tokens that store compressed knowledge**, an **intelligent self-updating mechanism**, and **comprehensive evaluations** of knowledge integration, retention capability, and robustness.
+          • MEMORYLLM is a self-updating large language model designed to effectively integrate new knowledge while maintaining long-term information retention.<br>
+          • By embedding a fixed-size memory pool in the latent space of the transformer, MEMORYLLM achieves a seamless combination of model self-updating and knowledge preservation.<br>
+          • Key design features include memory tokens that store compressed knowledge, an intelligent self-updating mechanism, and comprehensive evaluations of knowledge integration, retention capability, and robustness.
         </td>
     </tr>
      <tr>
@@ -618,9 +618,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Investigates the **information recall capabilities** of **large language models (LLMs)**, with particular emphasis on their dependence on **prompt content and formatting**.<br>
-          • Using the **Needle-in-a-Haystack (NIAH)** evaluation, the study finds that recall performance is strongly influenced by **training data bias**, as well as the **content and structure of prompts**.<br>
-          • The results show that **architectural improvements**, **training strategy adjustments**, and **fine-tuning** can all effectively enhance recall performance.
+          • Investigates the information recall capabilities of large language models (LLMs), with particular emphasis on their dependence on prompt content and formatting.<br>
+          • Using the Needle-in-a-Haystack (NIAH) evaluation, the study finds that recall performance is strongly influenced by training data bias, as well as the content and structure of prompts.<br>
+          • The results show that architectural improvements, training strategy adjustments, and fine-tuning can all effectively enhance recall performance.
         </td>
     </tr>
      <tr>
@@ -635,9 +635,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **MemoryBank** is a long-term memory mechanism designed for **large language models (LLMs)** to address memory limitations in **continuous interactions**.<br>
-          • By enabling models to effectively **recall, update, and adapt user memories**, MemoryBank enhances **contextual understanding** and **user experience**.<br>
-          • Experimental results and analyses demonstrate MemoryBank’s effectiveness in improving **emotional support** and **personalized interactions**.
+          • MemoryBank is a long-term memory mechanism designed for large language models (LLMs) to address memory limitations in continuous interactions.<br>
+          • By enabling models to effectively recall, update, and adapt user memories, MemoryBank enhances contextual understanding and user experience.<br>
+          • Experimental results and analyses demonstrate MemoryBank’s effectiveness in improving emotional support and personalized interactions.
         </td>
     </tr>
      <tr>
@@ -652,9 +652,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Explores methods for implementing **“forgetting” or “unlearning”** in **large language models (LLMs)** to eliminate **undesired or misaligned behaviors**.<br>
-          • By applying a **gradient ascent (GA)** strategy and introducing a **random-output loss**, the study demonstrates that unlearning can effectively **prevent models from generating harmful responses**.<br>
-          • Experimental results show that the **GA** and **GA + Mismatch** approaches perform particularly well in **reducing content leakage rates**.
+          • Explores methods for implementing “forgetting” or “unlearning” in large language models (LLMs) to eliminate undesired or misaligned behaviors.<br>
+          • By applying a gradient ascent (GA) strategy and introducing a random-output loss, the study demonstrates that unlearning can effectively prevent models from generating harmful responses.<br>
+          • Experimental results show that the GA and GA + Mismatch approaches perform particularly well in reducing content leakage rates.
         </td>
     </tr>
      <tr>
@@ -669,9 +669,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Proposes a **compressed contextual memory** approach to improve the **memory efficiency and computational performance** of **online language models** when handling extended contexts.<br>
-          • By leveraging **conditional LoRA integration** and **parallel computation**, the method significantly reduces memory requirements and enables support for **effectively unlimited context lengths**, surpassing traditional **sliding-window** strategies.<br>
-          • Experimental results demonstrate that, across applications such as **multi-task learning** and **dialogue generation**, the approach reduces memory usage by **up to 5×** while effectively preserving **generation quality and accuracy**.
+          • Proposes a compressed contextual memory approach to improve the memory efficiency and computational performance of online language models when handling extended contexts.<br>
+          • By leveraging conditional LoRA integration and parallel computation, the method significantly reduces memory requirements and enables support for effectively unlimited context lengths, surpassing traditional sliding-window strategies.<br>
+          • Experimental results demonstrate that, across applications such as multi-task learning and dialogue generation, the approach reduces memory usage by up to 5× while effectively preserving generation quality and accuracy.
         </td>
     </tr>
      <tr>
@@ -685,9 +685,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the **Efficient Unlearning (EUL)** framework, designed to address the challenges of handling **user privacy data** in **large language models (LLMs)**.<br>
-          • As LLMs are widely deployed, models may inadvertently **memorize sensitive information** during pretraining, raising significant **privacy concerns**.<br>
-          • **EUL** enables the effective removal of **specific sensitive data** from LLMs **without full retraining**, while preserving overall **predictive performance**.
+          • Introduces the Efficient Unlearning (EUL) framework, designed to address the challenges of handling user privacy data in large language models (LLMs).<br>
+          • As LLMs are widely deployed, models may inadvertently memorize sensitive information during pretraining, raising significant privacy concerns.<br>
+          • EUL enables the effective removal of specific sensitive data from LLMs without full retraining, while preserving overall predictive performance.
         </td>
     </tr>
      <tr>
@@ -701,9 +701,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces a novel memory mechanism, **Think-in-Memory (TiM)**, designed to enhance the performance of **large language models (LLMs)** in **long-term human–AI interactions**.<br>
-          • TiM incorporates an **efficient retrieval mechanism based on locality-sensitive hashing**, enabling effective memory storage and management over extended interactions.<br>
-          • Experimental results show that **TiM significantly improves response accuracy and coherence** in **multi-turn dialogues**.
+          • Introduces a novel memory mechanism, Think-in-Memory (TiM), designed to enhance the performance of large language models (LLMs) in long-term human–AI interactions.<br>
+          • TiM incorporates an efficient retrieval mechanism based on locality-sensitive hashing, enabling effective memory storage and management over extended interactions.<br>
+          • Experimental results show that TiM significantly improves response accuracy and coherence in multi-turn dialogues.
         </td>
     </tr>
      <tr>
@@ -719,9 +719,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces a new framework, **LONGMEM**, designed to enhance the ability of **large language models (LLMs)** to process **long-form text**.<br>
-          • LONGMEM employs a **decoupled network architecture** that combines a **frozen LLM memory encoder** with an **adaptive residual side network**, enabling efficient caching and updating of long-term contextual information.<br>
-          • By incorporating **specialized memory-augmentation layers**, a **token-based memory retrieval module**, and a **joint attention mechanism**, LONGMEM improves memory retrieval and context utilization, and demonstrates effectiveness across a variety of tasks.
+          • Introduces a new framework, LONGMEM, designed to enhance the ability of large language models (LLMs) to process long-form text.<br>
+          • LONGMEM employs a decoupled network architecture that combines a frozen LLM memory encoder with an adaptive residual side network, enabling efficient caching and updating of long-term contextual information.<br>
+          • By incorporating specialized memory-augmentation layers, a token-based memory retrieval module, and a joint attention mechanism, LONGMEM improves memory retrieval and context utilization, and demonstrates effectiveness across a variety of tasks.
         </td>
     </tr>
 
@@ -752,9 +752,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the **IMPLEXCONV** dataset and the **TACITREE** framework for studying **implicit reasoning in personalized dialogue**.<br>
-          • **IMPLEXCONV** consists of **2,500 examples** focused on implicit reasoning scenarios, capturing subtle **syntactic and semantic relationships** within conversations.<br>
-          • **TACITREE** enhances **large language models (LLMs)**’ ability to perform **implicit contextual reasoning** in long dialogues by **hierarchically organizing dialogue history**.
+          • Introduces the IMPLEXCONV dataset and the TACITREE framework for studying implicit reasoning in personalized dialogue.<br>
+          • IMPLEXCONV consists of 2,500 examples focused on implicit reasoning scenarios, capturing subtle syntactic and semantic relationships within conversations.<br>
+          • TACITREE enhances large language models (LLMs)’ ability to perform implicit contextual reasoning in long dialogues by hierarchically organizing dialogue history.
         </td>
     </tr>
     <tr>
@@ -770,9 +770,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the **PERSONAMEM** benchmark, designed to evaluate the performance of **large language models (LLMs)** in **dynamic user profiling** and **personalized response generation**.<br>
-          • Although existing models achieve some success in recalling user preferences, they still exhibit **significant performance gaps when handling novel scenarios**.<br>
-          • The paper provides a detailed description of the benchmark’s structure, the process for generating user dialogues, the methods for evaluating model performance, and related work, highlighting the importance of **personalized dialogue generation** in enhancing **user experience**.
+          • Introduces the PERSONAMEM benchmark, designed to evaluate the performance of large language models (LLMs) in dynamic user profiling and personalized response generation.<br>
+          • Although existing models achieve some success in recalling user preferences, they still exhibit significant performance gaps when handling novel scenarios.<br>
+          • The paper provides a detailed description of the benchmark’s structure, the process for generating user dialogues, the methods for evaluating model performance, and related work, highlighting the importance of personalized dialogue generation in enhancing user experience.
         </td>
     </tr>
     <tr>
@@ -787,9 +787,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **MemoryAgentBench** is a benchmark designed to evaluate four core capabilities of language models with memory mechanisms (**Memory Agents**): **accurate retrieval, test-time learning, long-range understanding, and conflict resolution**.<br>
-          • By integrating existing datasets with newly constructed data, MemoryAgentBench enables a **systematic evaluation** of these capabilities.<br>
-          • The benchmark reveals **limitations of current approaches** in **memory updating** and **long-horizon dialogue processing**, highlighting key challenges for future research.
+          • MemoryAgentBench is a benchmark designed to evaluate four core capabilities of language models with memory mechanisms (Memory Agents): accurate retrieval, test-time learning, long-range understanding, and conflict resolution.<br>
+          • By integrating existing datasets with newly constructed data, MemoryAgentBench enables a systematic evaluation of these capabilities.<br>
+          • The benchmark reveals limitations of current approaches in memory updating and long-horizon dialogue processing, highlighting key challenges for future research.
         </td>
     </tr>
     <tr>
@@ -804,9 +804,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **PersonaBench** is a benchmark designed to evaluate **AI models’ ability to understand personal information**.<br>
-          • The paper highlights the importance of **personalization in AI assistants** and emphasizes the challenge posed by the **lack of publicly available datasets** for assessing such capabilities.<br>
-          • The evaluation primarily focuses on **retrieval-augmented generation (RAG)** models, with results indicating that **current models still struggle to effectively handle personal queries**.
+          • PersonaBench is a benchmark designed to evaluate AI models’ ability to understand personal information.<br>
+          • The paper highlights the importance of personalization in AI assistants and emphasizes the challenge posed by the lack of publicly available datasets for assessing such capabilities.<br>
+          • The evaluation primarily focuses on retrieval-augmented generation (RAG) models, with results indicating that current models still struggle to effectively handle personal queries.
         </td>
     </tr>
     <tr>
@@ -820,9 +820,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **MemBench** is designed to comprehensively evaluate the **memory capabilities of LLM-based agents**.<br>
-          • By constructing datasets that cover both **factual memory** and **reflective memory**, the study addresses limitations of existing evaluation approaches.<br>
-          • The paper provides a detailed description of memory mechanism construction—including **user relationship graphs** and **multi-layer memory designs**—and emphasizes the importance of evaluation metrics such as **accuracy, efficiency, and capacity**.
+          • MemBench is designed to comprehensively evaluate the memory capabilities of LLM-based agents.<br>
+          • By constructing datasets that cover both factual memory and reflective memory, the study addresses limitations of existing evaluation approaches.<br>
+          • The paper provides a detailed description of memory mechanism construction—including user relationship graphs and multi-layer memory designs—and emphasizes the importance of evaluation metrics such as accuracy, efficiency, and capacity.
         </td>
     </tr>
     <tr>
@@ -837,9 +837,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • This paper investigates the **memory capabilities of large language models (LLMs)** in **long-term tasks**, with a particular focus on **dialogue systems**.<br>
-          • By constructing the **Long-Order Chronological Conversation (LOCCO)** dataset, the study provides a **quantitative evaluation** of LLMs’ long-term memory performance.<br>
-          • Experimental results show that while LLMs can **retain historical conversational information to some extent**, their memory **gradually degrades over time**.
+          • This paper investigates the memory capabilities of large language models (LLMs) in long-term tasks, with a particular focus on dialogue systems.<br>
+          • By constructing the Long-Order Chronological Conversation (LOCCO) dataset, the study provides a quantitative evaluation of LLMs’ long-term memory performance.<br>
+          • Experimental results show that while LLMs can retain historical conversational information to some extent, their memory gradually degrades over time.
         </td>
     </tr>
     <tr>
@@ -854,9 +854,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces a user simulation framework, the **Implicit User Profile User Simulator (USP)**, designed to enhance interactions between dialogue systems and human users by inferring **implicit user attributes**.<br>
-          • USP extracts implicit features from user dialogues and combines **conditionally supervised fine-tuning** with **reinforcement learning under cycle consistency**, improving the **realism and coherence** of generated conversations.<br>
-          • Experimental results show that USP achieves **significant advantages across multiple metrics**, particularly when compared with other dialogue generation models such as **GPT-4o** and **PlatoLM**.
+          • Introduces a user simulation framework, the Implicit User Profile User Simulator (USP), designed to enhance interactions between dialogue systems and human users by inferring implicit user attributes.<br>
+          • USP extracts implicit features from user dialogues and combines conditionally supervised fine-tuning with reinforcement learning under cycle consistency, improving the realism and coherence of generated conversations.<br>
+          • Experimental results show that USP achieves significant advantages across multiple metrics, particularly when compared with other dialogue generation models such as GPT-4o and PlatoLM.
         </td>
     </tr>
     <tr>
@@ -871,9 +871,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • Proposes the **PersonaFeedback** benchmark for evaluating **large language models (LLMs)** in **personalized response generation**.<br>
-          • The study shows that while LLMs have made progress in producing personalized content, they still face **limitations in complex scenarios**.<br>
-          • By leveraging **dynamic user attribute inference**, **personalized profiles**, and **reward models**, the researchers aim to improve the effectiveness of **personalized question answering**.
+          • Proposes the PersonaFeedback benchmark for evaluating large language models (LLMs) in personalized response generation.<br>
+          • The study shows that while LLMs have made progress in producing personalized content, they still face limitations in complex scenarios.<br>
+          • By leveraging dynamic user attribute inference, personalized profiles, and reward models, the researchers aim to improve the effectiveness of personalized question answering.
         </td>
     </tr>
     <tr>
@@ -888,9 +888,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
         <td colspan="3">
-          • **Minerva** is a **programmable memory testing benchmark** designed to evaluate **large language models (LLMs)** across diverse memory tasks.<br>
-          • It quantitatively assesses models’ ability to **use memory**, with a particular focus on tasks such as **information retrieval, reasoning, and state tracking**.<br>
-          • Experimental results indicate that while some models perform well on **simple tasks**, there remain **substantial gaps on more complex tasks**.
+          • Minerva is a programmable memory testing benchmark designed to evaluate large language models (LLMs) across diverse memory tasks.<br>
+          • It quantitatively assesses models’ ability to use memory, with a particular focus on tasks such as information retrieval, reasoning, and state tracking.<br>
+          • Experimental results indicate that while some models perform well on simple tasks, there remain substantial gaps on more complex tasks.
         </td>
     </tr>
     <tr>
@@ -906,9 +906,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • The paper introduces **LONGMEMEVAL**, a comprehensive benchmark for evaluating the **long-term memory capabilities of chat assistants**.<br>
-        • The benchmark assesses **five core memory abilities**, capturing key challenges faced by existing systems.<br>
-        • **LONGMEMEVAL** adopts a unified **three-stage framework**—**indexing, retrieval, and reading**—and proposes several design optimizations to improve **memory recall** and **question-answering accuracy**.
+        • The paper introduces LONGMEMEVAL, a comprehensive benchmark for evaluating the long-term memory capabilities of chat assistants.<br>
+        • The benchmark assesses five core memory abilities, capturing key challenges faced by existing systems.<br>
+        • LONGMEMEVAL adopts a unified three-stage framework—indexing, retrieval, and reading—and proposes several design optimizations to improve memory recall and question-answering accuracy.
       </td>
     </tr>
     <tr>
@@ -923,9 +923,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • Explores **machine unlearning in large language models (LLMs)** and the importance of its **evaluation**, with a particular focus on eliminating **unnecessary data memorization**.<br>
-        • The study addresses two key challenges: the **robustness of evaluation metrics** and the **trade-off between removing target knowledge and preserving other knowledge**.<br>
-        • It recommends **Extraction Strength (ES)** as a primary evaluation metric to ensure **accuracy and robustness** in unlearning assessment.
+        • Explores machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on eliminating unnecessary data memorization.<br>
+        • The study addresses two key challenges: the robustness of evaluation metrics and the trade-off between removing target knowledge and preserving other knowledge.<br>
+        • It recommends Extraction Strength (ES) as a primary evaluation metric to ensure accuracy and robustness in unlearning assessment.
       </td>
     </tr>
     <tr>
@@ -940,9 +940,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **PREFEVAL** is a benchmark designed to evaluate **large language models (LLMs)** in their ability to **infer, remember, and follow user preferences** over long conversations.<br>
-        • The benchmark includes **3,000 user preference–query pairs** spanning **20 topics**, revealing significant challenges for current LLMs in adhering to user preferences.<br>
-        • The study shows that **explicit preferences** are easier for models to infer than **implicit preferences**, and that **task types** and **preference expression styles** have a substantial impact on model performance.
+        • PREFEVAL is a benchmark designed to evaluate large language models (LLMs) in their ability to infer, remember, and follow user preferences over long conversations.<br>
+        • The benchmark includes 3,000 user preference–query pairs spanning 20 topics, revealing significant challenges for current LLMs in adhering to user preferences.<br>
+        • The study shows that explicit preferences are easier for models to infer than implicit preferences, and that task types and preference expression styles have a substantial impact on model performance.
       </td>
     </tr>
     <tr>
@@ -958,9 +958,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **LongGenBench** is a benchmark designed to evaluate **large language models (LLMs)** in generating **high-quality long-form text**, with a particular emphasis on **following complex instructions**.<br>
-        • Unlike existing benchmarks, LongGenBench focuses specifically on **long-text generation scenarios**, covering tasks such as **diary writing** and **menu design**.<br>
-        • Despite strong performance on other evaluations, LLMs face **significant challenges** on the LongGenBench benchmark.
+        • LongGenBench is a benchmark designed to evaluate large language models (LLMs) in generating high-quality long-form text, with a particular emphasis on following complex instructions.<br>
+        • Unlike existing benchmarks, LongGenBench focuses specifically on long-text generation scenarios, covering tasks such as diary writing and menu design.<br>
+        • Despite strong performance on other evaluations, LLMs face significant challenges on the LongGenBench benchmark.
       </td>
     </tr>
     <tr>
@@ -975,9 +975,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **MT-Eval** is a benchmark designed to evaluate the performance of **large language models (LLMs)** in **multi-turn conversations**.<br>
-        • While existing evaluations primarily focus on **single-turn dialogue**, MT-Eval fills this gap by constructing **1,170 multi-turn queries**.<br>
-        • The benchmark categorizes interaction patterns into **recall, expansion, refinement, and follow-up**, revealing that most models perform **consistently worse in multi-turn settings** than in single-turn scenarios.
+        • MT-Eval is a benchmark designed to evaluate the performance of large language models (LLMs) in multi-turn conversations.<br>
+        • While existing evaluations primarily focus on single-turn dialogue, MT-Eval fills this gap by constructing 1,170 multi-turn queries.<br>
+        • The benchmark categorizes interaction patterns into recall, expansion, refinement, and follow-up, revealing that most models perform consistently worse in multi-turn settings than in single-turn scenarios.
       </td>
     </tr>
     <tr>
@@ -992,9 +992,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **LongGenBench** is a newly proposed **long-context generation benchmark** designed to evaluate the performance of **large language models (LLMs)** on **long-form text generation tasks**.<br>
-        • It complements existing benchmarks that primarily focus on **retrieval skills** by emphasizing **coherence and logical consistency across multiple sub-questions**.<br>
-        • The study shows that different models exhibit **substantial performance disparities** in long-text generation.
+        • LongGenBench is a newly proposed long-context generation benchmark designed to evaluate the performance of large language models (LLMs) on long-form text generation tasks.<br>
+        • It complements existing benchmarks that primarily focus on retrieval skills by emphasizing coherence and logical consistency across multiple sub-questions.<br>
+        • The study shows that different models exhibit substantial performance disparities in long-text generation.
       </td>
     </tr>
     <tr>
@@ -1011,9 +1011,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **PerLTQA** is a question-answering dataset designed to enhance **long-term memory integration** in dialogue systems.<br>
-        • PerLTQA combines **semantic memory** and **episodic memory**, containing **8,593 questions** across **30 personas**, with the goal of improving **memory classification, retrieval, and synthesis**.<br>
-        • Experiments show that **BERT-based models** outperform other large language models in **memory classification tasks**.
+        • PerLTQA is a question-answering dataset designed to enhance long-term memory integration in dialogue systems.<br>
+        • PerLTQA combines semantic memory and episodic memory, containing 8,593 questions across 30 personas, with the goal of improving memory classification, retrieval, and synthesis.<br>
+        • Experiments show that BERT-based models outperform other large language models in memory classification tasks.
       </td>
     </tr>
     <tr>
@@ -1028,9 +1028,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • Evaluates the **memory capabilities of large language models (LLMs)** in **long-duration conversations**, with a particular focus on **multimodal dialogue scenarios**.<br>
-        • By developing the **LOCOMO** dataset, the researchers establish a **comprehensive evaluation benchmark** covering tasks such as **question answering, event summarization, and multimodal dialogue generation**.<br>
-        • Experimental results indicate that while some LLMs perform strongly, they still **lag significantly behind humans in memory and reasoning**, and the study outlines an evaluation framework and directions for future improvements.
+        • Evaluates the memory capabilities of large language models (LLMs) in long-duration conversations, with a particular focus on multimodal dialogue scenarios.<br>
+        • By developing the LOCOMO dataset, the researchers establish a comprehensive evaluation benchmark covering tasks such as question answering, event summarization, and multimodal dialogue generation.<br>
+        • Experimental results indicate that while some LLMs perform strongly, they still lag significantly behind humans in memory and reasoning, and the study outlines an evaluation framework and directions for future improvements.
       </td>
     </tr>
     <tr>
@@ -1046,9 +1046,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the importance of **large language models (LLMs)** in **personalized response generation** and introduces **LaMP**, a new benchmark specifically designed for **training and evaluating personalized text generation and classification tasks**.<br>
-        • **LaMP** comprises **seven personalized subtasks**, highlighting the effectiveness of leveraging **user-specific inputs** (e.g., historical data) and **retrieval-augmented strategies** to enhance language model performance.<br>
-        • Experimental results demonstrate that **personalization methods significantly improve model performance**, with the best results achieved through **fine-tuning** and the use of **appropriate retrieval strategies**.
+        • Explores the importance of large language models (LLMs) in personalized response generation and introduces LaMP, a new benchmark specifically designed for training and evaluating personalized text generation and classification tasks.<br>
+        • LaMP comprises seven personalized subtasks, highlighting the effectiveness of leveraging user-specific inputs (e.g., historical data) and retrieval-augmented strategies to enhance language model performance.<br>
+        • Experimental results demonstrate that personalization methods significantly improve model performance, with the best results achieved through fine-tuning and the use of appropriate retrieval strategies.
       </td>
     </tr>
   </table>
@@ -1077,9 +1077,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **EM-LLM (Event Memory Large Language Model)** is a novel large language model designed to address the limitations of existing models in handling **long contexts**.<br>
-        • EM-LLM achieves **near-unlimited context processing without fine-tuning**, delivering significant improvements over existing models across multiple benchmarks.<br>
-        • The model integrates **surprise-based event segmentation**, **graph-theoretic boundary refinement**, and a **two-stage memory retrieval mechanism**, substantially enhancing performance on **information retrieval** and **question-answering** tasks.
+        • EM-LLM (Event Memory Large Language Model) is a novel large language model designed to address the limitations of existing models in handling long contexts.<br>
+        • EM-LLM achieves near-unlimited context processing without fine-tuning, delivering significant improvements over existing models across multiple benchmarks.<br>
+        • The model integrates surprise-based event segmentation, graph-theoretic boundary refinement, and a two-stage memory retrieval mechanism, substantially enhancing performance on information retrieval and question-answering tasks.
       </td>
     </tr>
     <tr>
@@ -1094,9 +1094,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **MiniLongBench** is a **low-cost long-text understanding benchmark** designed to improve the **efficiency and affordability** of evaluating **large language models (LLMs)** on **long-context understanding (LCU)**.<br>
-        • By applying **data compression techniques**, MiniLongBench significantly reduces the number of evaluation samples while maintaining **evaluation consistency**, and shows a **high correlation** with results from the original **LongBench** benchmark.<br>
-        • Evaluations across multiple task categories demonstrate MiniLongBench’s effectiveness, although further improvements are still needed for **summarization and synthesis** tasks.
+        • MiniLongBench is a low-cost long-text understanding benchmark designed to improve the efficiency and affordability of evaluating large language models (LLMs) on long-context understanding (LCU).<br>
+        • By applying data compression techniques, MiniLongBench significantly reduces the number of evaluation samples while maintaining evaluation consistency, and shows a high correlation with results from the original LongBench benchmark.<br>
+        • Evaluations across multiple task categories demonstrate MiniLongBench’s effectiveness, although further improvements are still needed for summarization and synthesis tasks.
       </td>
     </tr>
     <tr>
@@ -1114,9 +1114,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • The **Agentic Long-Context Understanding (AgenticLU)** framework is designed to enhance **large language models (LLMs)** in **long-text understanding and reasoning**.<br>
-        • AgenticLU introduces a **Chain-of-Clarifications (CoC)** mechanism that optimizes the model’s **self-clarification process** and employs **tree-structured search paths** to generate clarification questions, thereby significantly improving the **accuracy and effectiveness of multi-step reasoning**.<br>
-        • Evaluation results show that the framework **outperforms existing prompting techniques** on **long-context question answering**, while keeping **computational overhead well controlled**.
+        • The Agentic Long-Context Understanding (AgenticLU) framework is designed to enhance large language models (LLMs) in long-text understanding and reasoning.<br>
+        • AgenticLU introduces a Chain-of-Clarifications (CoC) mechanism that optimizes the model’s self-clarification process and employs tree-structured search paths to generate clarification questions, thereby significantly improving the accuracy and effectiveness of multi-step reasoning.<br>
+        • Evaluation results show that the framework outperforms existing prompting techniques on long-context question answering, while keeping computational overhead well controlled.
       </td>
     </tr>
     <tr>
@@ -1131,9 +1131,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **SCBENCH (Shared Context BENCH)** is a benchmark specifically designed to evaluate **long-context large language models (LLMs)**.<br>
-        • SCBENCH focuses on the **lifecycle of key–value (KV) caches**, covering **generation, compression, retrieval, and loading**, and aims to fill a gap in existing benchmarks regarding **KV cache evaluation in multi-turn interactions**.<br>
-        • Experimental results reveal **substantial differences across methods** on different tasks, and show that **dynamic sparse attention** and **cache optimization strategies** deliver **superior performance in complex scenarios**.
+        • SCBENCH (Shared Context BENCH) is a benchmark specifically designed to evaluate long-context large language models (LLMs).<br>
+        • SCBENCH focuses on the lifecycle of key–value (KV) caches, covering generation, compression, retrieval, and loading, and aims to fill a gap in existing benchmarks regarding KV cache evaluation in multi-turn interactions.<br>
+        • Experimental results reveal substantial differences across methods on different tasks, and show that dynamic sparse attention and cache optimization strategies deliver superior performance in complex scenarios.
       </td>
     </tr>
     <tr>
@@ -1148,9 +1148,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the importance of **episodic memory** in **large language models (LLMs)** and proposes the construction of **new benchmarks** to evaluate models’ reasoning capabilities.<br>
-        • The authors develop a **comprehensive framework** with newly designed tasks and evaluation protocols, emphasizing the need for **novel training strategies** to effectively integrate episodic memory.<br>
-        • The framework provides a **promising solution** for evaluating **episodic memory** in LLMs.
+        • Explores the importance of episodic memory in large language models (LLMs) and proposes the construction of new benchmarks to evaluate models’ reasoning capabilities.<br>
+        • The authors develop a comprehensive framework with newly designed tasks and evaluation protocols, emphasizing the need for novel training strategies to effectively integrate episodic memory.<br>
+        • The framework provides a promising solution for evaluating episodic memory in LLMs.
       </td>
     </tr>
     <tr>
@@ -1167,9 +1167,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **LongBench v2** is a **multi-task benchmark** for evaluating **large language models (LLMs)** in **long-context understanding and reasoning**.<br>
-        • It consists of **503 multiple-choice questions** spanning diverse task types, with a focus on **comprehending and answering long-form text**.<br>
-        • The study finds that the **best-performing models surpass human experts** in long-context tasks, highlighting the importance of **enhanced reasoning** and **increased test-time computation**.
+        • LongBench v2 is a multi-task benchmark for evaluating large language models (LLMs) in long-context understanding and reasoning.<br>
+        • It consists of 503 multiple-choice questions spanning diverse task types, with a focus on comprehending and answering long-form text.<br>
+        • The study finds that the best-performing models surpass human experts in long-context tasks, highlighting the importance of enhanced reasoning and increased test-time computation.
       </td>
     </tr>
     <tr>
@@ -1186,9 +1186,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **MADial-Bench** is a benchmark for evaluating **memory-augmented dialogue generation**, targeting the limitations of current dialogue systems in **long-term memory**.<br>
-        • MADial-Bench incorporates concepts from **cognitive science** to assess **memory retrieval and recognition**, and introduces **multi-dimensional evaluation metrics**.<br>
-        • The study shows that while **large language models (LLMs)** perform well in **emotional support**, their **memory recognition and injection capabilities** still require improvement.
+        • MADial-Bench is a benchmark for evaluating memory-augmented dialogue generation, targeting the limitations of current dialogue systems in long-term memory.<br>
+        • MADial-Bench incorporates concepts from cognitive science to assess memory retrieval and recognition, and introduces multi-dimensional evaluation metrics.<br>
+        • The study shows that while large language models (LLMs) perform well in emotional support, their memory recognition and injection capabilities still require improvement.
       </td>
     </tr>
     <tr>
@@ -1205,9 +1205,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **L-CiteEval** is a **multi-task evaluation benchmark** for **long-context models (LCMs)**, designed to measure their abilities in **understanding and citation**.<br>
-        • The benchmark covers **11 tasks**, supports context lengths ranging from **8K to 48K**, and provides a **comprehensive evaluation framework**.<br>
-        • The study shows that **closed-source models** outperform **open-source models** in **citation quality** and **generation accuracy**, while **retrieval-augmented generation (RAG)** techniques effectively improve **citation quality**.
+        • L-CiteEval is a multi-task evaluation benchmark for long-context models (LCMs), designed to measure their abilities in understanding and citation.<br>
+        • The benchmark covers 11 tasks, supports context lengths ranging from 8K to 48K, and provides a comprehensive evaluation framework.<br>
+        • The study shows that closed-source models outperform open-source models in citation quality and generation accuracy, while retrieval-augmented generation (RAG) techniques effectively improve citation quality.
       </td>
     </tr>
     <tr>
@@ -1222,9 +1222,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the capabilities and limitations of **large language models (LLMs)** in **long-text processing**, and introduces the **GLE benchmark** for evaluating LLMs’ performance in **long-context understanding**.<br>
-        • The paper describes the construction process and evaluation criteria of **long-dependency question-answering tasks**, and compares the performance of different models.<br>
-        • Experimental results show that the **GLE benchmark effectively assesses LLMs’ ability to process long-form text**.
+        • Explores the capabilities and limitations of large language models (LLMs) in long-text processing, and introduces the GLE benchmark for evaluating LLMs’ performance in long-context understanding.<br>
+        • The paper describes the construction process and evaluation criteria of long-dependency question-answering tasks, and compares the performance of different models.<br>
+        • Experimental results show that the GLE benchmark effectively assesses LLMs’ ability to process long-form text.
       </td>
     </tr>
     <tr>
@@ -1240,9 +1240,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **LongBench** is a **bilingual, multi-task benchmark** designed to evaluate **large language models (LLMs)** on **long-context understanding**.<br>
-        • The benchmark comprises **21 datasets** spanning six task categories: **single-document QA, multi-document QA, summarization, few-shot learning, synthetic tasks, and code completion**, with an average length of **6,711 words** and **13,386 characters**.<br>
-        • Experimental results show that **commercial models** (e.g., **GPT-3.5-Turbo-16k**) generally **outperform open-source models** on long-context tasks.
+        • LongBench is a bilingual, multi-task benchmark designed to evaluate large language models (LLMs) on long-context understanding.<br>
+        • The benchmark comprises 21 datasets spanning six task categories: single-document QA, multi-document QA, summarization, few-shot learning, synthetic tasks, and code completion, with an average length of 6,711 words and 13,386 characters.<br>
+        • Experimental results show that commercial models (e.g., GPT-3.5-Turbo-16k) generally outperform open-source models on long-context tasks.
       </td>
     </tr>
     <tr>
@@ -1256,9 +1256,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **HOMER (Hierarchical cOntext MERging)** is an algorithm designed to address the limitations of **large language models (LLMs)** in handling **long contexts**.<br>
-        • By splitting long inputs into smaller chunks and **hierarchically merging** them, HOMER improves both **memory efficiency** and **reasoning capability** when processing long-form text.<br>
-        • Experimental results show that HOMER delivers **strong performance** with **32K and 64K context inputs**, maintaining **low perplexity** and **reduced memory consumption**.
+        • HOMER (Hierarchical cOntext MERging) is an algorithm designed to address the limitations of large language models (LLMs) in handling long contexts.<br>
+        • By splitting long inputs into smaller chunks and hierarchically merging them, HOMER improves both memory efficiency and reasoning capability when processing long-form text.<br>
+        • Experimental results show that HOMER delivers strong performance with 32K and 64K context inputs, maintaining low perplexity and reduced memory consumption.
       </td>
     </tr>
 
@@ -1289,9 +1289,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **A-Mem** introduces a **Zettelkasten-inspired dynamic memory organization** that equips LLM agents with **genuine long-term memory**.<br>
-        • Beyond simple storage, A-Mem enables **self-linking and self-evolution**, allowing agents to achieve significant advantages in **complex reasoning tasks**.<br>
-        • Experimental results demonstrate that A-Mem **outperforms existing methods** in **performance, efficiency, and scalability**, laying a strong foundation for building **more intelligent and autonomous LLM agents**.
+        • A-Mem introduces a Zettelkasten-inspired dynamic memory organization that equips LLM agents with genuine long-term memory.<br>
+        • Beyond simple storage, A-Mem enables self-linking and self-evolution, allowing agents to achieve significant advantages in complex reasoning tasks.<br>
+        • Experimental results demonstrate that A-Mem outperforms existing methods in performance, efficiency, and scalability, laying a strong foundation for building more intelligent and autonomous LLM agents.
       </td>
     </tr>
     <tr>
@@ -1308,9 +1308,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **MemoryOS** aims to provide **comprehensive and efficient memory management** for AI agents.<br>
-        • Inspired by **memory management principles in computer operating systems** and the **hierarchical structure of human memory**, MemoryOS adopts a unique **segment–page hierarchical storage architecture** and comprises four core functional modules: **memory storage, memory updating, memory retrieval, and response generation**.<br>
-        • Experimental results show that MemoryOS significantly improves **contextual coherence** and **personalized memory retention** in long conversations across mainstream benchmarks; for example, on the **LoCoMo** benchmark, average **F1** and **BLEU-1** scores increase by **49.11%** and **46.18%**, respectively.
+        • MemoryOS aims to provide comprehensive and efficient memory management for AI agents.<br>
+        • Inspired by memory management principles in computer operating systems and the hierarchical structure of human memory, MemoryOS adopts a unique segment–page hierarchical storage architecture and comprises four core functional modules: memory storage, memory updating, memory retrieval, and response generation.<br>
+        • Experimental results show that MemoryOS significantly improves contextual coherence and personalized memory retention in long conversations across mainstream benchmarks; for example, on the LoCoMo benchmark, average F1 and BLEU-1 scores increase by 49.11% and 46.18%, respectively.
       </td>
     </tr>
     <tr>
@@ -1328,9 +1328,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **MemOS (Memory Operating System)** is a memory operating system designed for AI systems that treats memory as a **manageable system resource**, unifying the representation, scheduling, and evolution of **explicit, activation-based, and parameter-level memory** to enable **cost-efficient storage and retrieval**.<br>
-        • MemOS adopts a **three-layer architecture** consisting of an **interface layer**, an **operation layer**, and an **infrastructure layer**. The interface layer interacts with users or upstream systems and provides standardized **memory APIs**; the operation layer organizes and schedules memory resources; and the infrastructure layer handles **storage, security, migration, and data flow** of memory.<br>
-        • MemOS provides **operating-system-level support** for **cross-task adaptation, cross-modality evolution, and cross-platform migration**. Its introduction marks a key transition for large models from **“perception and generation only”** to **“memory-enabled and evolutionary”** intelligence.
+        • MemOS (Memory Operating System) is a memory operating system designed for AI systems that treats memory as a manageable system resource, unifying the representation, scheduling, and evolution of explicit, activation-based, and parameter-level memory to enable cost-efficient storage and retrieval.<br>
+        • MemOS adopts a three-layer architecture consisting of an interface layer, an operation layer, and an infrastructure layer. The interface layer interacts with users or upstream systems and provides standardized memory APIs; the operation layer organizes and schedules memory resources; and the infrastructure layer handles storage, security, migration, and data flow of memory.<br>
+        • MemOS provides operating-system-level support for cross-task adaptation, cross-modality evolution, and cross-platform migration. Its introduction marks a key transition for large models from “perception and generation only” to “memory-enabled and evolutionary” intelligence.
       </td>
     </tr>
     <tr>
@@ -1346,9 +1346,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **Mem0** is a memory architecture that dynamically extracts and integrates key information from conversations, enabling AI systems to remember important content and sustain **cross-session dialogue**.<br>
-        • The authors further propose **Mem0g**, which extends Mem0 by incorporating **graph-structured memory (i.e., knowledge graphs)**, allowing AI systems to handle **complex relational reasoning** more effectively.<br>
-        • **NLI tasks enhance constituency grammar induction ability, whereas SMS tasks reduce it in the upper layers.**
+        • Mem0 is a memory architecture that dynamically extracts and integrates key information from conversations, enabling AI systems to remember important content and sustain cross-session dialogue.<br>
+        • The authors further propose Mem0g, which extends Mem0 by incorporating graph-structured memory (i.e., knowledge graphs), allowing AI systems to handle complex relational reasoning more effectively.<br>
+        • NLI tasks enhance constituency grammar induction ability, whereas SMS tasks reduce it in the upper layers.
       </td>
     </tr>
     <!-- <tr>
@@ -1365,9 +1365,9 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • **Memory3** is a novel large language model that introduces **explicit memory** to reduce **training and inference costs**.<br>
-        • The study proposes a **memory circuit theory** that describes the process of **memory externalization**, clarifies the definition of knowledge, and highlights the model’s advantages in **handling long contexts**.<br>
-        • **Memory3** effectively manages the **costs of knowledge writing and reading**, and employs **compression techniques** to significantly reduce the storage requirements of explicit memory.
+        • Memory3 is a novel large language model that introduces explicit memory to reduce training and inference costs.<br>
+        • The study proposes a memory circuit theory that describes the process of memory externalization, clarifies the definition of knowledge, and highlights the model’s advantages in handling long contexts.<br>
+        • Memory3 effectively manages the costs of knowledge writing and reading, and employs compression techniques to significantly reduce the storage requirements of explicit memory.
       </td>
     </tr> -->
 
