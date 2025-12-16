@@ -1395,19 +1395,18 @@ Papers below are ordered by **publication date**:
 
 
 ### 💻 Systems and Open Sources
+Systems below are ordered by **publication date**:
 
-| System    | Open Sources  | Official Website                 |
-|-----------|---------------------------------------------|----------------------------------|
-| MemOS     | https://github.com/MemTensor/MemOS          | https://memos.openmem.net/       |
-| MemoryOS  | https://github.com/BAI-LAB/MemoryOS         | https://baijia.online/memoryos/  |
-| mem0      | https://github.com/mem0ai/mem0              | https://mem0.ai/                 |
-| A-mem     | https://github.com/agiresearch/A-mem        | No                               |
-| zep       | https://github.com/getzep/zep               | https://www.getzep.com/          |
-| Letta     | https://github.com/letta-ai/letta           | No                               |
-| memobase  | https://github.com/memodb-io/memobase       | https://www.memobase.io/         |
-| Memary    | https://github.com/kingjulio8238/Memary     | No                               |
-| memoryOS  | No    | https://memoryos.com/               |
-
+| System    | Time       | Stars | Open Sources                                | Official Website                 |
+|-----------|------------|-------|---------------------------------------------|----------------------------------|
+| A-mem     | 2025-10-08 | [GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) | https://github.com/agiresearch/A-mem        | No                               |
+| MemoryOS  | 2025-05-30 | [GitHub Repo stars](https://img.shields.io/github/stars/BAI-LAB/MemoryOS?style=social) | https://github.com/BAI-LAB/MemoryOS         | https://baijia.online/memoryos/  |
+| MemOS     | 2025-05-28 | [GitHub Repo stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social) | https://github.com/MemTensor/MemOS          | https://memos.openmem.net/       |
+| mem0      | 2025-04-28 | [GitHub Repo stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) | https://github.com/mem0ai/mem0              | https://mem0.ai/                 |
+| zep       | 2025-01-20 | [GitHub Repo stars](https://img.shields.io/github/stars/getzep/zep?style=social) | https://github.com/getzep/zep               | https://www.getzep.com/          |
+| memobase  | 2024-12-10 | [GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) | https://github.com/memodb-io/memobase       | https://www.memobase.io/         |
+| Memary    | 2024-04-25 | [GitHub Repo stars](https://img.shields.io/github/stars/kingjulio8238/Memary?style=social) | https://github.com/kingjulio8238/Memary     | No                               |
+| Letta     | 2023-10-16 | [GitHub Repo stars](https://img.shields.io/github/stars/letta-ai/letta?style=social) | https://github.com/letta-ai/letta           | No                               |
 
 ### 🎥 Multi-media resource
 
