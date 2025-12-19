@@ -388,6 +388,22 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-10-12</td>
+      <td style="width: 55%;"><strong>MemGen Weaving Generative Latent Memory for Self-Evolving Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2509.24704">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MemGen is a dynamic generative memory framework designed to enhance the reasoning and decision-making capabilities of agents based on large language models (LLMS).<br>
+          • MemGen simulates human cognitive patterns by interweaving memory with the reasoning process.<br>
+          • This framework consists of two parts: memory triggers and memory weavers, which can dynamically determine when to invoke potential memories and integrate them into the reasoning process.
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
       <td style="width: 55%;"><strong>How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
@@ -405,6 +421,25 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-09-26</td>
+      <td style="width: 55%;"><strong>Conflict-Aware Soft Prompting for Retrieval-Augmented Generation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmented%20Generation-blue" alt="Retrieval Augmented Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.15253">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • The "Conflict-Aware Retrieval Enhancement Generation" (CARE) model aims to address the context-memory conflict problem that occurs in Retrieval Enhancement Generation (RAG).<br>
+          • CARE optimizes the performance of large language models (LLMs) by introducing context evaluators, especially in dealing with conflicts between external and internal knowledge.<br>
+          • This method significantly enhances the accuracy and reliability of the model in multiple tasks through techniques such as conflict-aware fine-tuning, soft prompts, and adversarial soft prompts.
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-09-11</td>
       <td style="width: 55%;"><strong>OpenUnlearning:Accelerating LLM unlearning via unified benchmarking of methods and metrics</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
@@ -418,6 +453,23 @@ Papers below are ordered by **publication date**:
           • Introduces the “OpenUnlearning” framework, designed to advance research on unlearning in large language models (LLMs).<br>
           • OpenUnlearning integrates a wide range of unlearning algorithms and evaluation methods, streamlining the research workflow for studying forgetting.<br>
           • Through targeted and task-specific evaluations, OpenUnlearning ensures the credibility and robustness of unlearning assessment standards.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-08-26</td>
+      <td style="width: 55%;"><strong>MemoryVLA Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Memory%20Aware-purple" alt="Memory Aware">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.19236">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MemoryVLA is a newly developed robot operation framework, aiming to enhance the performance of robots in complex tasks by integrating visual, language, and perception-cognitive mechanisms.<br>
+          • This framework adopts an architecture similar to the human dual memory system, enhancing the robot's ability to handle long-sequence tasks.<br>
+          • MemoryVLA introduces perception-cognitive memory banks (PCMB), which can effectively integrate historical information with current decisions, thereby enhancing the success rate of robots in responding to complex scenarios.
         </td>
     </tr>
     <tr>
@@ -439,6 +491,22 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-17</td>
+      <td style="width: 55%;"><strong>MEM1 Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2506.15841">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MEM1 is an innovative end-to-end reinforcement learning framework designed to enhance the efficiency of large language models (LLMs) in long-term multi-round interactions.<br>
+          • MEM1 effectively solves the problem of memory dilation in context processing of traditional models by constructing a compact shared internal state.<br>
+          • The experimental results show that MEM1 significantly improves performance in multiple tasks while reducing memory usage, demonstrating its wide applicability and optimization potential in dynamic environments.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2025-05-30</td>
         <td style="width: 55%;"><strong>M+：Extending MemoryLLM with scalable Long-Term Memory</strong></td>
         <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
@@ -452,6 +520,24 @@ Papers below are ordered by **publication date**:
           • M+ is a memory-augmented model designed to improve long-term information retention in large language models (LLMs).<br>
           • Built upon MemoryLLM, M+ integrates long-term memory mechanisms with a jointly trained retriever, substantially enhancing the model’s ability to handle knowledge spanning over 20,000 tokens while maintaining comparable GPU memory overhead.<br>
           • M+ achieves strong performance across multiple benchmarks, outperforming MemoryLLM and other competitive baselines, and demonstrates efficient information compression and end-to-end training, exhibiting mechanisms that closely resemble human memory.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2025-04-22</td>
+        <td style="width: 55%;"><strong>MemoRAG Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation</strong></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Long%20Context%20Processing-teal" alt="Long Context Processing">
+        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+        </td>
+        <td style="width: 15%;"><a href="https://dl.acm.org/doi/10.1145/3696410.3714805">
+        <img src="https://img.shields.io/badge/WWW-Paper-black?labelColor=teal" alt="WWW Paper">
+        </a> 
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MemoRAG aims to enhance the ability of large language models (LLMs) in handling long contexts by improving the information retrieval and generation process through a global memory-enhanced retrieval mechanism.<br>
+          • This framework adopts a lightweight global memory module and a complex generation system, which can effectively manage long contexts and generate useful clues to assist in answer generation.<br>
+          • This model is applicable to a variety of tasks, including long document question answering and summarization, demonstrating its potential in handling complex long text scenarios.
         </td>
     </tr>
     <tr>
@@ -472,6 +558,22 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
     <tr>
+        <td rowspan="2" style="width: 15%;">2025-02-09</td>
+        <td style="width: 55%;"><strong>LM2 Large Memory Models</strong></td>
+        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2502.06049">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • LM2 aims to overcome the limitations of traditional Transformers in multi-step reasoning, relational argumentation, and long context processing.<br>
+          • The LM2 integrates an auxiliary memory module, which utilizes cross-attention mechanisms and gating technology to enhance information storage and update capabilities.<br>
+          • In multiple benchmark tests, LM2 has demonstrated significantly superior performance, particularly excelling in long context reasoning tasks, effectively enhancing the ability to process and remember complex information.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2025-01-19</td>
         <td style="width: 55%;"><strong>Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models</strong></td>
         <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
@@ -486,6 +588,23 @@ Papers below are ordered by **publication date**:
           • Proposes Alternate Preference Optimization (AltPO), a method designed to effectively address the challenges of machine unlearning in large language models (LLMs).<br>
           • AltPO enhances unlearning by combining negative feedback from the forget set with positive feedback from the same domain to generate multiple alternative responses, thereby improving forgetting capability while preserving overall model performance.<br>
           • Experimental results demonstrate that AltPO outperforms existing methods in terms of both unlearning quality and model utility.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-12-31</td>
+      <td style="width: 55%;"><strong>Titans Learning to Memorize at Test Time</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00663">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • "Titans" aims to enhance the model's memory capacity when dealing with long sequences and complex contexts.<br>
+          • The Titans architecture combines short-term memory and long-term memory modules, overcomes the limitations of traditional recursive models and attention mechanisms, and is capable of handling larger context Windows.<br>
+          • The experimental results show that Titans exhibit superior performance and flexibility, especially in handling long dependency relationships and diverse tasks.
         </td>
     </tr>
     <tr>
