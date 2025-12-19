@@ -1425,15 +1425,44 @@ Systems below are ordered by **publication date**:
 
 ### 🎥 Multi-media resource
 
-| Type | Website Link |
-|---------------|--------------|
-| **LLM** | https://www.bilibili.com/video/BV1a6j1z6En9<br>https://www.youtube.com/watch?v=LdFou-SXB00<br>https://www.bilibili.com/video/BV1JWy3BkEU4 |
-| **LLM Memory** | https://www.youtube.com/watch?v=-sRvcGURDbQ<br>https://www.youtube.com/watch?v=LdFou-SXB00<br>https://www.bilibili.com/video/BV1RBbUzQEFr |
-| **Memory Concept** | https://www.youtube.com/watch?v=UF230UuclZM |
-| **Base Model** | https://www.youtube.com/watch?v=yMWaHnMduzQ<br>https://www.bilibili.com/video/BV1Aw5Vz8EFS<br> https://www.bilibili.com/video/BV1NGf2YtE8r |
-| **Multi-Model LLM** | https://www.bilibili.com/video/BV1sMEyzhEM3<br>https://www.bilibili.com/video/BV1RsBGYZEs4|
-| **AI Agent** | https://www.bilibili.com/video/BV1aaxyz8ELY<br>https://www.bilibili.com/video/BV1SnmMBoEDP |
-
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Website Link</th>
+      <th>Video Introduction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="1"><strong>Memory-Related Concepts</strong></td>
+      <td>https://www.youtube.com/watch?v=UF230UuclZM</td>
+      <td>Introduce the basic concept of memory in machine learning and explore how AI systems store and utilize information</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Basic Theory of Memory</strong></td>
+      <td>https://www.youtube.com/watch?v=-sRvcGURDbQ</td>
+      <td>The working principle of the human memory system and its implications for AI design</td>
+    </tr>
+    <tr>
+      <td>https://www.youtube.com/watch?v=LdFou-SXB00</td>
+      <td>A Comparative analysis of memory Mechanisms in Deep Learning and Traditional Memory Models</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Memory-Related Papers</strong></td>
+      <td>https://www.youtube.com/watch?v=-sRvcGURDbQ</td>
+      <td>Analysis of the Core viewpoints of the paper: How to Build an artificial intelligence System with long-term memory Capability</td>
+    </tr>
+    <tr>
+      <td>https://www.youtube.com/watch?v=LdFou-SXB00</td>
+      <td>Paper Interpretation: Innovation and Performance Evaluation of Memory Network Architecture</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1RBbUzQEFr</td>
+      <td>Review of top Conference Papers on memory and Analysis of Research Trends</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🤝  Make a Contribution
 Issue Template: 
