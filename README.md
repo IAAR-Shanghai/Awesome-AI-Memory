@@ -1435,34 +1435,87 @@ Systems below are ordered by **publication date**:
   </thead>
   <tbody>
     <tr>
-      <td rowspan="1"><strong>Memory-Related Concepts</strong></td>
-      <td>https://www.youtube.com/watch?v=UF230UuclZM</td>
-      <td>Introduce the basic concept of memory in machine learning and explore how AI systems store and utilize information</td>
+      <td rowspan="5"><strong>Basic Theory of Memory</strong></td>
+      <td>https://www.youtube.com/watch?v=k3FUWWEwgfc</td>
+      <td>Short-Term Memory with LangGraph</td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Basic Theory of Memory</strong></td>
-      <td>https://www.youtube.com/watch?v=-sRvcGURDbQ</td>
-      <td>The working principle of the human memory system and its implications for AI design</td>
+      <td>https://www.youtube.com/watch?v=fsENEq4F55Q</td>
+      <td>Long-Term Memory with LangGraph</td>
     </tr>
     <tr>
-      <td>https://www.youtube.com/watch?v=LdFou-SXB00</td>
-      <td>A Comparative analysis of memory Mechanisms in Deep Learning and Traditional Memory Models</td>
+      <td>https://www.youtube.com/watch?v=L-au0tvDJbI</td>
+      <td>LLMs Do Not Have Human-Like Working Memories</td>
     </tr>
     <tr>
-      <td rowspan="3"><strong>Memory-Related Papers</strong></td>
-      <td>https://www.youtube.com/watch?v=-sRvcGURDbQ</td>
-      <td>Analysis of the Core viewpoints of the paper: How to Build an artificial intelligence System with long-term memory Capability</td>
+      <td>https://www.youtube.com/watch?v=RkWor1BZOn0</td>
+      <td> long-term memory and personalization for LLM applications</td>
     </tr>
     <tr>
-      <td>https://www.youtube.com/watch?v=LdFou-SXB00</td>
-      <td>Paper Interpretation: Innovation and Performance Evaluation of Memory Network Architecture</td>
+      <td>https://www.youtube.com/watch?v=CFih0_6tn2w</td>
+      <td>A Paradigm Shift to Memory as a First Class Citizen for LLMs</td>
     </tr>
     <tr>
-      <td>https://www.bilibili.com/video/BV1RBbUzQEFr</td>
-      <td>Review of top Conference Papers on memory and Analysis of Research Trends</td>
+      <td rowspan="4"><strong>Memory-Related Tools</strong></td>
+      <td>https://www.bilibili.com/video/BV1hom8YAEhX</td>
+      <td>LLMs as Operating Systems: Agent Memory</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1CU421o7DL</td>
+      <td>Langchain Agent with memory</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1arJazVEaX</td>
+      <td>Open Memory MCP</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV11HxXzuExk</td>
+      <td> Agentic Memory for LLM Agents</td>
+    </tr>
+    <tr>
+      <td rowspan="10"><strong>Memory-Related Papers</strong></td>
+      <td>https://www.bilibili.com/video/BV1XT8ez6E46</td>
+      <td>AI agent Survey Memory</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1f12wBpEXX</td>
+      <td>MemGen: Weaving Generative Latent Memory for Self-Evolving Agents</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1deyFBKEFh</td>
+      <td>MLP Memory: A Retriever-Pretrained Memory for Large Language Models</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV18FnVzpE6S</td>
+      <td>How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1mpbrzSEH9</td>
+      <td>Agent Workflow Memory</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1qEtozyEoh</td>
+      <td>Introduction to the Memory Mechanism of Large Language Model Agents</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1FGrhYhEZK</td>
+      <td>Memory Layers at Scale</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1aQ1xBkE45</td>
+      <td>Agentic Memory for LLM Agents</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV1Yz421f7uH</td>
+      <td>Evaluating Very Long-Term Conversational Memory of LLM Agents</td>
+    </tr>
+    <tr>
+      <td>https://www.bilibili.com/video/BV19RWdzxEsR</td>
+      <td>Lightweight plug-in memory system</td>
     </tr>
   </tbody>
 </table>
+
 
 ## 🤝  Make a Contribution
 Issue Template: 
