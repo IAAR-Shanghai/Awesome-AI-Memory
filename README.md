@@ -225,6 +225,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-15</td>
+      <td style="width: 55%;">
+      <strong>Memory in the Age of AI Agents: A Survey</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+        <img src="https://img.shields.io/badge/Forms--Functions--Dynamics-purple" alt="Forms-Functions-Dynamics">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2512.13564">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • Provides a comprehensive and up-to-date landscape of agent memory, explicitly distinguishing it from related concepts like LLM memory, RAG, and context engineering.<br>
+          • Introduces a unified taxonomy examining memory through three lenses: <strong>Forms</strong> (token-level, parametric, latent), <strong>Functions</strong> (factual, experiential, working), and <strong>Dynamics</strong> (formation, evolution, retrieval).<br>
+          • Discusses emerging research frontiers such as automation-oriented memory design, reinforcement learning integration, and trustworthiness, while compiling representative benchmarks and frameworks.
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-09-18</td>
       <td style="width: 55%;">
       <strong>A Survey of Machine Unlearning</strong></td>

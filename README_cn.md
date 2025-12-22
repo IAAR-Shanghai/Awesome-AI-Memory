@@ -218,45 +218,67 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>日期</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-18</td>
+      <td rowspan="2" style="width: 15%;">2025-12-15</td>
       <td style="width: 55%;">
-      <strong>A Survey of Machine Unlearning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
+      <strong>Memory in the Age of AI Agents: A Survey</strong></td>
       <td style="width: 15%;">
-        <a href="https://dl.acm.org/doi/full/10.1145/3749987">
-        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge">
+        <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+        <img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
+        <img src="https://img.shields.io/badge/形式--功能--动态-purple" alt="形式-功能-动态">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2512.13564">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章">
         </a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Provides an in-depth exploration of the concept and background of machine unlearning, highlighting its importance in modern machine learning.<br>
-          • Machine unlearning aims to enable learning algorithms to effectively remove the influence of specific data without requiring full model retraining.<br>
-          • The paper analyzes the necessity, challenges, and design requirements of machine unlearning, reviews current research progress, and emphasizes the field’s complexity and diversity in terms of algorithmic effectiveness, fairness, and privacy protection.
+          • 提供了一个全面且最新的智能体记忆全景图，明确将其与 LLM 记忆、RAG 和上下文工程等相关概念区分开来。<br>
+          • 引入了一个统一的分类体系，通过三个视角审视记忆：<strong>形式</strong>（Token 级、参数化、潜在）、<strong>功能</strong>（事实性、经验性、工作）和<strong>动态</strong>（形成、演变、检索）。<br>
+          • 探讨了新兴的研究前沿，如面向自动化的记忆设计、强化学习集成和可信度，同时汇编了具有代表性的基准和框架。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-09-18</td>
+      <td style="width: 55%;">
+      <strong>A Survey of Machine Unlearning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘"></td>
+      <td style="width: 15%;">
+        <a href="https://dl.acm.org/doi/full/10.1145/3749987">
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="论文徽章">
+        </a>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • 深入探讨了机器遗忘的概念和背景，强调了其在现代机器学习中的重要性。<br>
+          • 机器遗忘旨在使学习算法能够有效地消除特定数据的影响，而无需进行完整的模型重新训练。<br>
+          • 论文分析了机器遗忘的必要性、挑战和设计要求，回顾了当前的研究进展，并强调了该领域在算法有效性、公平性和隐私保护方面的复杂性和多样性。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-09-02</td>
       <td style="width: 55%;">
       <strong>A Survey on the Memory Mechanism of Large Language Model based Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
-      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules Badge">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制徽章">
+      <img src="https://img.shields.io/badge/记忆模块-orange" alt="记忆模块徽章">
       <td style="width: 15%;">
         <a href="https://dl.acm.org/doi/pdf/10.1145/3748302">
-        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Explores the memory mechanisms of LLM-based agents, emphasizing the crucial role of memory in agent self-evolution and complex interactions.<br>
-          • Systematically summarizes and categorizes existing memory module designs and evaluation methods, while analyzing their roles and limitations across different application scenarios.<br>
-          • Such agents are able to improve decision-making and task execution.
+          • 探讨了基于 LLM 的智能体的记忆机制，强调了记忆在智能体自我进化和复杂交互中的关键作用。<br>
+          • 系统总结和分类了现有的记忆模块设计和评估方法，并分析了它们在不同应用场景中的作用和局限性。<br>
+          • 此类智能体能够改善决策制定和任务执行。
         </td>
     </tr>
     <tr>
@@ -264,114 +286,114 @@ To systematically organize the diverse research and practical resources in the f
       <td style="width: 55%;">
       <strong>A Survey of Machine Unlearning in Large Language Models: Methods, Challenges and Future Directions</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
+      <img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘"></td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2503.01854v2">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • The paper investigates machine unlearning in large language models (LLMs), aiming to effectively remove the influence of undesirable data (e.g., sensitive or illegal information) without full retraining, while preserving overall model utility.<br>
-          • It defines the objectives and paradigms of LLM unlearning and establishes a comprehensive taxonomy.<br>
-          • The paper reviews existing approaches, evaluates their strengths and limitations, and discusses opportunities for future research.
+          • 论文调查了大语言模型（LLM）中的机器遗忘，旨在有效消除不良数据（如敏感或非法信息）的影响，无需完全重新训练，同时保留整体模型效用。<br>
+          • 它定义了 LLM 遗忘的目标和范式，并建立了一个全面的分类体系。<br>
+          • 论文回顾了现有方法，评估了它们的优势和局限性，并讨论了未来的研究机会。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-05-27</td>
       <td style="width: 55%;">
       <strong>Rethinking Memory in AI Taxonomy, Operations, Topics, and Future Directions</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
-      <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
-      <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
+      <img src="https://img.shields.io/badge/记忆操作-brightgreen" alt="记忆操作">
+      <img src="https://img.shields.io/badge/记忆整合-purple" alt="记忆整合">
+      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/参数化记忆-pink" alt="参数化记忆">
+      <img src="https://img.shields.io/badge/上下文记忆-cyan" alt="上下文记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2505.00675">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Explores multidimensional research on memory in artificial intelligence (AI), with a particular focus on memory operations and management in large language models (LLMs).<br>
-          • Categorizes various types of memory representations and operations—including integration, updating, indexing, forgetting, retrieval, and compression—and provides a systematic analysis of the importance of memory in AI and how it is implemented.<br>
-          • Through an extensive review of the literature, the paper identifies four key research themes: long-term memory, parametric memory, long-context memory, and multi-source memory integration.
+          • 探索了人工智能（AI）中关于记忆的多维研究，特别关注大语言模型（LLM）中的记忆操作和管理。<br>
+          • 对各种类型的记忆表示和操作（包括整合、更新、索引、遗忘、检索和压缩）进行了分类，并系统分析了记忆在 AI 中的重要性及其实现方式。<br>
+          • 通过广泛的文献回顾，论文确定了四个关键研究主题：长期记忆、参数化记忆、长上下文记忆和多源记忆整合。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-24</td>
       <td style="width: 55%;">
       <strong>Cognitive Memory in Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
+      <img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2504.02441">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Provides a comprehensive examination of memory mechanisms in large language models (LLMs), with a particular focus on different types of memory and their roles within the models.<br>
-          • While LLMs excel at information retrieval and interaction summarization, their long-term memory remains unstable.<br>
-          • Integrating memory into AI systems is crucial for delivering context-rich responses, reducing hallucinations, improving data processing efficiency, and enabling the self-evolution of AI systems.
+          • 对大语言模型（LLM）中的记忆机制进行了全面考察，特别关注不同类型的记忆及其在模型中的作用。<br>
+          • 虽然 LLM 在信息检索和交互总结方面表现出色，但其长期记忆仍然不稳定。<br>
+          • 将记忆集成到 AI 系统中对于提供上下文丰富的响应、减少幻觉、提高数据处理效率以及实现 AI 系统的自我进化至关重要。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-23</td>
-      <td style="width: 55%;"><strong>From Human Memory to AI Memory A Survey on Memory Mechanisms in the Era of LLMs </strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
-      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <td style="width: 55%;"><strong>From Human Memory to AI Memory A Survey on Memory Mechanisms in the Era of LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/人类记忆-red" alt="人类记忆">
+      <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2504.15965">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Explores the relationship between human memory and the memory mechanisms of LLM-based artificial intelligence (AI) systems.<br>
-          • The main contributions include a systematic definition of memory in LLM-driven AI systems and its conceptual linkage to human memory.<br>
-          • The paper proposes a three-dimensional memory taxonomy based on object, form, and time, and summarizes key open issues in current research on personal memory and system memory.
+          • 探讨了人类记忆与基于 LLM 的人工智能（AI）系统的记忆机制之间的关系。<br>
+          • 主要贡献包括系统定义了 LLM 驱动的 AI 系统中的记忆，及其与人类记忆的概念联系。<br>
+          • 论文提出了一个基于对象、形式和时间的三维记忆分类体系，并总结了当前个人记忆和系统记忆研究中的关键开放问题。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-12</td>
       <td style="width: 55%;"><strong>Human-inspired Perspectives: A Survey on AI Long-term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-      <img src="https://img.shields.io/badge/Non--Parametric%20Memory-green" alt="Non-Parametric Memory">
-      <img src="https://img.shields.io/badge/Sensory%20Memory-brown" alt="Sensory Memory">
-      <img src="https://img.shields.io/badge/Working%20Memory-blueviolet" alt="Working Memory">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/参数化记忆-pink" alt="参数化记忆">
+      <img src="https://img.shields.io/badge/非参数化记忆-green" alt="非参数化记忆">
+      <img src="https://img.shields.io/badge/感官记忆-brown" alt="感官记忆">
+      <img src="https://img.shields.io/badge/工作记忆-blueviolet" alt="工作记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2411.00489">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • This paper systematically examines the interplay between human long-term memory mechanisms and AI long-term memory, and proposes an adaptive long-term memory cognitive architecture (SALM).<br>
-          • It introduces the structure of human memory, including sensory memory, working memory, and different types of long-term memory (episodic, semantic, and procedural memory).<br>
-          • The paper analyzes the classification of AI long-term memory—parametric and non-parametric memory—as well as their storage and retrieval mechanisms.
+          • 本文系统地考察了人类长期记忆机制与 AI 长期记忆之间的相互作用，并提出了一种自适应长期记忆认知架构（SALM）。<br>
+          • 它介绍了人类记忆的结构，包括感官记忆、工作记忆以及不同类型的长期记忆（情景记忆、语义记忆和程序记忆）。<br>
+          • 论文分析了 AI 长期记忆的分类——参数化记忆和非参数化记忆——及其存储和检索机制。
         </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-02</td>
       <td style="width: 55%;"><strong>Digital Forgetting in Large Language Models: A Survey of Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘">
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2404.02062">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • The paper explores digital forgetting in large language models (LLMs) and corresponding unlearning methods, with a focus on addressing issues related to privacy, copyright, and social ethics.<br>
-          • It analyzes different types of model architectures and training processes, as well as practical approaches to digital forgetting, including data retraining, machine unlearning, and prompt engineering.<br>
-          • By introducing the concept of “forgetting guarantees,” the paper emphasizes effective mechanisms for both exact and approximate forgetting.
+          • 论文探讨了大语言模型（LLM）中的数字遗忘及相应的遗忘方法，重点是解决与隐私、版权和社会伦理相关的问题。<br>
+          • 它分析了不同类型的模型架构和训练过程，以及数字遗忘的实际方法，包括数据重新训练、机器遗忘和提示工程。<br>
+          • 通过引入“遗忘保证”的概念，论文强调了精确遗忘和近似遗忘的有效机制。
         </td>
     </tr>  
   </table>
@@ -2313,211 +2335,211 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>日期</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-11</td>
       <td style="width: 55%;"><strong>O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+        <img src="https://img.shields.io/badge/个性化记忆-darkturquoise" alt="个性化记忆">
+        <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
+        <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.13593">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • O-Mem is a novel memory framework based on active user profiling that dynamically extracts and updates user characteristics and event records from proactive interactions.<br>
-        • Unlike systems relying on semantic grouping, O-Mem supports hierarchical retrieval of persona attributes and topic-related context to enable adaptive and coherent personalized responses.<br>
-        • The system achieves state-of-the-art performance on LoCoMo and PERSONAMEM benchmarks while significantly improving token efficiency and interaction response time compared to previous frameworks like LangMem and MemoryOS.
+        • O-Mem 是一种基于主动用户画像的新型记忆框架，能够通过主动交互动态提取并更新用户特征和事件记录。<br>
+        • 与依赖语义分组的系统不同，O-Mem 支持对角色属性和主题相关上下文进行层级检索，从而实现自适应且连贯的个性化响应。<br>
+        • 该系统在 LoCoMo 和 PERSONAMEM 基准测试中达到了最先进的性能，同时与 LangMem 和 MemoryOS 等先前的框架相比，显著提高了 Token 效率和交互响应时间。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-21</td>
       <td style="width: 55%;"><strong>LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
-      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
-      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+      <img src="https://img.shields.io/badge/人类记忆-red" alt="人类记忆">
+      <img src="https://img.shields.io/badge/记忆压缩-chocolate" alt="记忆压缩">
+      <img src="https://img.shields.io/badge/更新机制-olive" alt="更新机制">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2510.18866">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • LightMem is a lightweight memory architecture inspired by the Atkinson-Shiffrin human memory model, designed to balance performance and efficiency in LLMs.<br>
-        • It features a three-stage process: cognition-inspired sensory memory for filtering redundancy, topic-aware short-term memory for structured access, and long-term memory with sleep-time updates to decouple maintenance from inference.<br>
-        • Experimental results on LongMemEval and LoCoMo show LightMem outperforms strong baselines in accuracy while reducing token usage by up to 100× and API calls significantly.
+        • LightMem 是一种受 Atkinson-Shiffrin 人类记忆模型启发的轻量级记忆架构，旨在平衡 LLM 的性能与效率。<br>
+        • 它具有三阶段流程：受认知启发的感官记忆用于过滤冗余，主题感知的短期记忆用于结构化访问，以及具有睡眠时间更新机制的长期记忆，以将维护与推理解耦。<br>
+        • 在 LongMemEval 和 LoCoMo 上的实验结果表明，LightMem 在准确性上优于强大的基线模型，同时将 Token 使用量减少高达 100 倍，并显著降低了 API 调用。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
       <td style="width: 55%;"><strong>Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
+      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
+      <img src="https://img.shields.io/badge/基准测试-darkred" alt="基准测试">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.09736">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Introduces M3-Agent, a novel multimodal agent framework that mimics human memory by processing continuous visual and auditory inputs to build entity-centric episodic and semantic long-term memories.<br>
-        • Proposes M3-Bench, a comprehensive long-video question answering benchmark comprising 1,020 videos from robot and web perspectives, designed to evaluate capabilities like person understanding and cross-modal reasoning.<br>
-        • Experimental results demonstrate that M3-Agent, trained via reinforcement learning, significantly outperforms strong baselines such as Gemini-1.5-Pro and GPT-4o in memory retention and reasoning tasks.
+        • 介绍了 M3-Agent，这是一种新型多模态智能体框架，通过处理连续的视觉和听觉输入来模拟人类记忆，以构建以实体为中心的情景和语义长期记忆。<br>
+        • 提出了 M3-Bench，这是一个全面的长视频问答基准，包含来自机器人和网络视角的 1,020 个视频，旨在评估人物理解和跨模态推理等能力。<br>
+        • 实验结果表明，通过强化学习训练的 M3-Agent 在记忆保持和推理任务中显著优于 Gemini-1.5-Pro 和 GPT-4o 等强大的基线模型。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-08</td>
       <td style="width: 55%;"><strong>A-MEM: Agentic Memory for LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="记忆框架">
+      <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
+      <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.12110">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • A-Mem introduces a Zettelkasten-inspired dynamic memory organization that equips LLM agents with genuine long-term memory.<br>
-        • Beyond simple storage, A-Mem enables self-linking and self-evolution, allowing agents to achieve significant advantages in complex reasoning tasks.<br>
-        • Experimental results demonstrate that A-Mem outperforms existing methods in performance, efficiency, and scalability, laying a strong foundation for building more intelligent and autonomous LLM agents.
+        • A-Mem 引入了一种受卢曼卡片盒笔记法（Zettelkasten）启发的动态记忆组织方式，赋予 LLM 智能体真正的长期记忆。<br>
+        • 除了简单的存储，A-Mem 还支持自链接和自进化，使智能体在复杂的推理任务中获得显著优势。<br>
+        • 实验结果表明，A-Mem 在性能、效率和可扩展性方面均优于现有方法，为构建更智能、更自主的 LLM 智能体奠定了坚实基础。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-08-12</td>
       <td style="width: 55%;"><strong>Livia: An Emotion-Aware AR Companion Powered by Modular AI Agents and Progressive Memory Compression</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/System-darkblue" alt="System">
-        <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
-        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
+        <img src="https://img.shields.io/badge/记忆压缩-chocolate" alt="记忆压缩">
+        <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
+        <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2509.05298">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Livia is an emotion-aware AR companion designed to combat loneliness through a modular multi-agent architecture and immersive augmented reality interactions.<br>
-        • It introduces two novel memory compression algorithms—Temporal Binary Compression (TBC) and Dynamic Importance Memory Filter (DIMF)—to efficiently manage long-term memory while retaining emotionally significant context.<br>
-        • The system integrates multimodal emotion recognition (text and voice) and an adaptive personality model, demonstrating high accuracy and fostering deeper emotional bonds with users.
+        • Livia 是一款具有情感意识的 AR 伴侣，旨在通过模块化的多智能体架构和沉浸式增强现实交互来缓解孤独感。<br>
+        • 它引入了两种新颖的记忆压缩算法——时间二进制压缩（TBC）和动态重要性记忆过滤器（DIMF）——以高效管理长期记忆，同时保留具有情感意义的上下文。<br>
+        • 该系统集成了多模态情感识别（文本和语音）和自适应个性模型，展现出高准确性并能与用户建立更深层的情感纽带。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-08-05</td>
       <td style="width: 55%;"><strong>NEMORI: SELF-ORGANIZING AGENT MEMORY INSPIRED BY COGNITIVE SCIENCE</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
-        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/模型架构-indigo" alt="模型架构">
+        <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
+        <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
+        <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2508.03341">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Nemori is a self-organizing memory architecture inspired by cognitive science, designed to address the limitations of Large Language Models in long-term interactions by enabling persistent, adaptive memory.<br>
-        • It introduces the Two-Step Alignment Principle for autonomous episode segmentation and the Predict-Calibrate Principle for proactive knowledge distillation, moving beyond passive storage to active learning.<br>
-        • Experimental results on LoCoMo and LongMemEval benchmarks show that Nemori significantly outperforms state-of-the-art systems while using 88% fewer tokens than full-context baselines.
+        • Nemori 是一种受认知科学启发的自组织记忆架构，旨在通过实现持久、自适应的记忆来解决大型语言模型在长期交互中的局限性。<br>
+        • 它引入了用于自主情节分割的“两步对齐原则”和用于主动知识蒸馏的“预测-校准原则”，实现了从被动存储到主动学习的转变。<br>
+        • 在 LoCoMo 和 LongMemEval 基准测试上的实验结果表明，Nemori 显著优于最先进的系统，且 Token 使用量比全上下文基线少 88%。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-23</td>
       <td style="width: 55%;"><strong>H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
+      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2507.22925">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • Proposes H-MEM, a hierarchical memory architecture that organizes memory into four semantic levels with positional index encoding, enabling efficient layer-by-layer retrieval without exhaustive similarity computation.<br>
-        • Introduces a dynamic memory update mechanism that adjusts memory weights based on user feedback to reflect changing user interests and psychological states.<br>
-        • Experimental results on the LoCoMo dataset demonstrate that H-MEM consistently outperforms baselines in long-term dialogue tasks while significantly reducing computational cost and retrieval latency.
+        • 提出了 H-MEM，这是一种分层记忆架构，利用位置索引编码将记忆组织成四个语义层级，实现了高效的逐层检索，无需进行穷尽的相似度计算。<br>
+        • 引入了一种动态记忆更新机制，根据用户反馈调整记忆权重，以反映用户不断变化的兴趣和心理状态。<br>
+        • 在 LoCoMo 数据集上的实验结果表明，H-MEM 在长期对话任务中始终优于基线模型，同时显著降低了计算成本和检索延迟。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-10</td>
       <td style="width: 55%;"><strong>MIRIX: Multi-Agent Memory System for LLM-Based Agents</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
-        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+        <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
+        <img src="https://img.shields.io/badge/记忆模块-orange" alt="记忆模块">
+        <img src="https://img.shields.io/badge/数据集-seagreen" alt="数据集">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/abs/2507.07957">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • MIRIX is a modular, multi-agent memory system that addresses the limitations of flat memory architectures by integrating six specialized memory components—including Episodic, Semantic, and Procedural memory—managed by dedicated agents.<br>
-        • The framework introduces an "Active Retrieval" mechanism and a Meta Memory Manager to dynamically coordinate memory updates and retrieval, and validates these capabilities on a newly introduced multimodal benchmark, ScreenshotVQA, consisting of high-resolution user activity logs.<br>
-        • Experimental results show that MIRIX outperforms RAG baselines by 35% in accuracy on ScreenshotVQA while reducing storage by 99.9%, and achieves state-of-the-art performance on the LOCOMO long-form conversation benchmark.
+        • MIRIX 是一个模块化的多智能体记忆系统，通过集成由专用智能体管理的六个专门记忆组件（包括情景记忆、语义记忆和程序记忆），解决了扁平化记忆架构的局限性。<br>
+        • 该框架引入了“主动检索”机制和元记忆管理器来动态协调记忆更新与检索，并在新引入的多模态基准 ScreenshotVQA（由高分辨率用户活动日志组成）上验证了这些能力。<br>
+        • 实验结果表明，MIRIX 在 ScreenshotVQA 上的准确率比 RAG 基线高出 35%，存储空间减少了 99.9%，并在 LOCOMO 长对话基准上达到了最先进的性能。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-06-30</td>
       <td style="width: 55%;"><strong>Ella: Embodied Social Agents with Lifelong Memory</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+        <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+        <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
+        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+        <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2506.24019">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Introduces Ella, an embodied social agent equipped with a structured long-term multimodal memory system comprising name-centric semantic memory and spatiotemporal episodic memory.<br>
-        • By integrating this lifelong memory system with foundation models, Ella can retrieve relevant information for decision-making, plan daily activities, and build social relationships in a 3D open world.<br>
-        • Experimental results in a dynamic environment demonstrate Ella's ability to influence, lead, and cooperate with other agents, highlighting the potential of combining structured memory with foundation models.
+        • 介绍了 Ella，这是一个具身社交智能体，配备了结构化的终身多模态记忆系统，包含以名字为中心的语义记忆和时空情景记忆。<br>
+        • 通过将这种终身记忆系统与基础模型集成，Ella 可以检索相关信息以进行决策、规划日常活动，并在 3D 开放世界中建立社会关系。<br>
+        • 在动态环境中的实验结果证明了 Ella 影响、领导以及与其他智能体合作的能力，突显了结合结构化记忆与基础模型的潜力。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-05-30</td>
       <td style="width: 55%;"><strong>Memory OS of AI Agent</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
-      <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆操作系统-midnightblue" alt="记忆操作系统">
+      <img src="https://img.shields.io/badge/人脑记忆-darkcyan" alt="人脑记忆">
+      <img src="https://img.shields.io/badge/记忆管理-darkorange" alt="记忆管理">
+      <img src="https://img.shields.io/badge/个性化记忆-darkturquoise" alt="个性化记忆">
       </td>
       <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.1318.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP 论文">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • MemoryOS aims to provide comprehensive and efficient memory management for AI agents.<br>
-        • Inspired by memory management principles in computer operating systems and the hierarchical structure of human memory, MemoryOS adopts a unique segment–page hierarchical storage architecture and comprises four core functional modules: memory storage, memory updating, memory retrieval, and response generation.<br>
-        • Experimental results show that MemoryOS significantly improves contextual coherence and personalized memory retention in long conversations across mainstream benchmarks; for example, on the LoCoMo benchmark, average F1 and BLEU-1 scores increase by 49.11% and 46.18%, respectively.
+        • MemoryOS 旨在为 AI 智能体提供全面且高效的记忆管理。<br>
+        • 受计算机操作系统内存管理原理和人类记忆分层结构的启发，MemoryOS 采用独特的段-页分层存储架构，包含四个核心功能模块：记忆存储、记忆更新、记忆检索和响应生成。<br>
+        • 实验结果表明，MemoryOS 在主流基准测试的长对话中显著提高了上下文连贯性和个性化记忆保持能力；例如，在 LoCoMo 基准测试上，平均 F1 和 BLEU-1 分数分别提高了 49.11% 和 46.18%。
       </td>
     </tr>
     <tr>
@@ -2525,143 +2547,123 @@ To systematically organize the diverse research and practical resources in the f
       <td style="width: 55%;"><strong>MemOS: A Memory OS for AI System</strong></td>
       <td style="width: 15%;">
         <img src="https://img.shields.io/badge/MemOS-darkorange" alt="MemOS">
-        <img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
-        <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+        <img src="https://img.shields.io/badge/记忆操作系统-midnightblue" alt="记忆操作系统">
+        <img src="https://img.shields.io/badge/参数记忆-pink" alt="参数记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/abs/2507.03724">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • MemOS (Memory Operating System) is a memory operating system designed for AI systems that treats memory as a manageable system resource, unifying the representation, scheduling, and evolution of explicit, activation-based, and parameter-level memory to enable cost-efficient storage and retrieval.<br>
-        • MemOS adopts a three-layer architecture consisting of an interface layer, an operation layer, and an infrastructure layer. The interface layer interacts with users or upstream systems and provides standardized memory APIs; the operation layer organizes and schedules memory resources; and the infrastructure layer handles storage, security, migration, and data flow of memory.<br>
-        • MemOS provides operating-system-level support for cross-task adaptation, cross-modality evolution, and cross-platform migration. Its introduction marks a key transition for large models from “perception and generation only” to “memory-enabled and evolutionary” intelligence.
+        • MemOS（记忆操作系统）是专为 AI 系统设计的记忆操作系统，它将记忆视为可管理的系统资源，统一了显式记忆、基于激活的记忆和参数级记忆的表示、调度和进化，以实现低成本的存储和检索。<br>
+        • MemOS 采用三层架构，由接口层、操作层和基础设施层组成。接口层与用户或上游系统交互并提供标准化记忆 API；操作层组织和调度记忆资源；基础设施层处理记忆的存储、安全、迁移和数据流。<br>
+        • MemOS 为跨任务适应、跨模态进化和跨平台迁移提供了操作系统级的支持。它的引入标志着大模型从“仅感知和生成”向“具有记忆和进化能力”智能的关键转变。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-28</td>
       <td style="width: 55%;"><strong>Mem0 Building production-ready AI agents with Scalable Long-Term memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+      <img src="https://img.shields.io/badge/知识图谱-sepia" alt="知识图谱">
+      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.19413">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Mem0 is a memory architecture that dynamically extracts and integrates key information from conversations, enabling AI systems to remember important content and sustain cross-session dialogue.<br>
-        • The authors further propose Mem0g, which extends Mem0 by incorporating graph-structured memory (i.e., knowledge graphs), allowing AI systems to handle complex relational reasoning more effectively.<br>
-        • NLI tasks enhance constituency grammar induction ability, whereas SMS tasks reduce it in the upper layers.
+        • Mem0 是一种记忆架构，能从对话中动态提取并整合关键信息，使 AI 系统能够记住重要内容并维持跨会话对话。<br>
+        • 作者进一步提出了 Mem0g，通过结合图结构记忆（即知识图谱）扩展了 Mem0，使 AI 系统能更有效地处理复杂的关系推理。<br>
+        • NLI 任务增强了成分句法归纳能力，而 SMS 任务则降低了上层的这一能力。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-20</td>
       <td style="width: 55%;"><strong>ZEP: A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+      <img src="https://img.shields.io/badge/知识图谱-sepia" alt="知识图谱">
+      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
+      <img src="https://img.shields.io/badge/动态记忆管理-mediumseagreen" alt="动态记忆管理">
+      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.13956">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • Introduces Zep, a memory layer service for AI agents powered by Graphiti, a dynamic and temporally-aware knowledge graph engine.<br>
-        • Zep synthesizes unstructured conversational data and structured business data while maintaining historical relationships, enabling agents to handle complex, evolving contexts.<br>
-        • Experimental results demonstrate that Zep outperforms MemGPT on the Deep Memory Retrieval (DMR) benchmark and achieves significant improvements in accuracy and latency on the more challenging LongMemEval benchmark.
+        • 介绍了 Zep，这是一种由动态且具有时间感知的知识图谱引擎 Graphiti 驱动的 AI 智能体记忆层服务。<br>
+        • Zep 在保持历史关系的同时，综合了非结构化对话数据和结构化业务数据，使智能体能够处理复杂、演变的上下文。<br>
+        • 实验结果表明，Zep 在深度记忆检索（DMR）基准测试中优于 MemGPT，并在更具挑战性的 LongMemEval 基准测试中显著提高了准确性和延迟表现。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-09</td>
       <td style="width: 55%;"><strong>Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+      <img src="https://img.shields.io/badge/模型架构-indigo" alt="模型架构">
+      <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
+      <img src="https://img.shields.io/badge/动态记忆管理-mediumseagreen" alt="动态记忆管理">
+      <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00358">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
       </a></td>
     </tr>
     <tr>
       <td colspan="3">
-        • Proposes Embodied VideoAgent, a multimodal agent that constructs persistent scene memory by fusing egocentric video with embodied sensory inputs like depth and pose to address dynamic scene understanding.<br>
-        • Features a VLM-driven memory update mechanism that dynamically tracks object state changes and relations during actions, ensuring the memory remains accurate over long-form interactions.<br>
-        • The agent achieves state-of-the-art performance on benchmarks such as Ego4D-VQ3D and OpenEQA, and demonstrates practical utility in generating synthetic embodied user-assistant interaction data.
+        • 提出了 Embodied VideoAgent，这是一种多模态智能体，通过融合第一视角视频与深度、姿态等具身感知输入来构建持久的场景记忆，以解决动态场景理解问题。<br>
+        • 具有 VLM 驱动的记忆更新机制，可在动作过程中动态跟踪物体状态变化和关系，确保记忆在长形式交互中保持准确。<br>
+        • 该智能体在 Ego4D-VQ3D 和 OpenEQA 等基准测试中达到了最先进的性能，并在生成合成具身用户-助手交互数据方面展示了实用价值。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2024-06-16</td>
       <td style="width: 55%;"><strong>Towards Lifelong Dialogue Agents via Timeline-based Memory Management</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/记忆管理-darkorange" alt="记忆管理">
+      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
+      <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
+      <img src="https://img.shields.io/badge/基准测试-darkred" alt="基准测试">
       </td>
       <td style="width: 15%;"><a href="https://aclanthology.org/2025.naacl-long.435.pdf">
-      <img src="https://img.shields.io/badge/NAACL-Paper-black?labelColor=cyan" alt="NAACL Paper">
+      <img src="https://img.shields.io/badge/NAACL-Paper-black?labelColor=cyan" alt="NAACL 论文">
       </td>
     </tr>
     <tr>
       <td colspan="3">
-        • Proposes THEANINE, a framework for lifelong dialogue agents that utilizes a relation-aware memory graph to store memories without deletion, preserving temporal and cause-effect connections.<br>
-        • Introduces a timeline-augmented response generation approach that retrieves and refines entire memory timelines, ensuring rich contextual cues are maintained for long-term interaction.<br>
-        • Presents TeaFarm, a counterfactual-driven evaluation pipeline designed to stress-test dialogue agents' ability to correctly reference past conversations, where THEANINE demonstrates superior performance over existing baselines.
+        • 提出了 THEANINE，这是一个用于终身对话智能体的框架，利用关系感知的记忆图谱来存储记忆而不删除，保留了时间与因果连接。<br>
+        • 引入了一种时间轴增强的响应生成方法，检索并细化整个记忆时间轴，确保为长期交互保留丰富的上下文线索。<br>
+        • 展示了 TeaFarm，这是一个反事实驱动的评估流程，旨在压力测试对话智能体正确引用过去对话的能力，THEANINE 在该流程中表现出优于现有基线的性能。
       </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2024-05-04</td>
       <td style="width: 55%;"><strong>Memoro: Using Large Language Models to Realize a Concise Interface for Real-Time Memory Augmentation</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/System-darkblue" alt="System">
-        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-        <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+        <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
+        <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
+        <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
+        <img src="https://img.shields.io/badge/上下文记忆-cyan" alt="上下文记忆">
       </td>
       <td style="width: 15%;">
         <a href="https://dl.acm.org/doi/10.1145/3613904.3642450">
-        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="ACM Paper">
+        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="ACM 论文">
         </a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Memoro is a wearable audio-based memory assistant designed to minimize disruption during social interactions by utilizing Large Language Models (LLMs) for concise memory retrieval.<br>
-          • The system introduces a "Queryless Mode" that proactively infers user memory needs based on real-time conversational context, alongside a traditional "Query Mode" for explicit natural language requests.<br>
-          • User studies indicate that Memoro increases recall confidence and reduces device interaction time while effectively preserving the quality of ongoing conversations.
+          • Memoro 是一款可穿戴的音频记忆助手，旨在利用大型语言模型（LLM）进行简明的记忆检索，从而最大限度地减少社交互动中的干扰。<br>
+          • 该系统引入了“无查询模式”，根据实时对话上下文主动推断用户的记忆需求，同时保留了用于明确自然语言请求的传统“查询模式”。<br>
+          • 用户研究表明，Memoro 提高了回忆的信心并减少了设备交互时间，同时有效地保持了正在进行的对话质量。
         </td>
     </tr>
-    <!-- <tr>
-      <td rowspan="2" style="width: 15%;">2024-09-21</td>
-      <td style="width: 55%;"><strong>Memory3: Language modeling with explict memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Base%20Model-darkred" alt="Base Model">
-      <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
-      <img src="https://img.shields.io/badge/Memory%20Circuit-slateblue" alt="Memory Circuit">
-      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
-      </td>
-      <td style="width: 15%;"><a href="https://doi.org/10.4208/jml.240708">
-      <img src="https://img.shields.io/badge/Journal%20of%20ML-Paper-black?labelColor=blueviolet" alt="Journal of ML Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Memory3 is a novel large language model that introduces explicit memory to reduce training and inference costs.<br>
-        • The study proposes a memory circuit theory that describes the process of memory externalization, clarifies the definition of knowledge, and highlights the model’s advantages in handling long contexts.<br>
-        • Memory3 effectively manages the costs of knowledge writing and reading, and employs compression techniques to significantly reduce the storage requirements of explicit memory.
-      </td>
-    </tr> -->
-
   </table>
 
 </details>
