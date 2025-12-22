@@ -130,81 +130,81 @@ To systematically organize the diverse research and practical resources in the f
 
 ## 🧠 Core Concepts
 
-- LLM Memory: A fusion of implicit knowledge encoded within parameters (acquired during training) and explicit storage outside parameters (retrieved at runtime), enabling models to transcend token limitations and possess human-like abilities to "remember the past, understand the present, and predict the future."
+- 大模型记忆: LLM的记忆机制融合了隐性知识（通过训练过程内化于模型参数中）与显式存储（运行时可检索的外部存储），这种双重架构使模型突破token处理的局限，具备类似人类"记忆过往、认知当下、预见未来"的认知能力。
 
-- Memory System: The complete technical stack implementing memory functionality for large language models, comprising four core components:
-  - Memory Storage Layer: Vector databases (e.g., Chroma, Weaviate), graph databases, or hybrid storage solutions
-  - Memory Processing Layer: Embedding models, summarization generators, and memory segmenters
-  - Memory Retrieval Layer: Multi-stage retrievers, reranking modules, and context injectors
-  - Memory Control Layer: Memory prioritization managers, forgetting controllers, and consistency coordinators
+- **记忆系统**：为大语言模型实现记忆功能的完整技术架构，包含四大核心组件：
+  - **记忆存储层**：向量数据库（如 Chroma、Weaviate）、图数据库或混合存储方案
+  - **记忆处理层**：嵌入模型、摘要生成器与记忆分割器
+  - **记忆检索层**：多阶段检索器、重排序模块与上下文注入器
+  - **记忆控制层**：记忆优先级管理器、遗忘控制器与一致性协调器
 
-- Memory Operations: Atomic memory operations executed through tool calling in memory systems:
-  - Writing: Converting dialogue content into vectors for storage, often combined with summarization to reduce noise
-  - Retrieval: Generating queries based on current context to obtain Top-K relevant memories
-  - Updating: Finding relevant memories via vector similarity and replacing or enhancing them
-  - Deletion: Removing specific memories based on user instructions or automatic policies (e.g., privacy expiration)
-  - Compression: Merging multiple related memories into summaries to free storage space
+- **记忆操作**：通过记忆系统工具调用执行的原子级记忆操作：
+  - **写入**：将对话内容转换为向量进行存储，通常结合摘要生成以减少噪声信息
+  - **检索**：根据当前上下文生成查询语句以获取Top-K相关记忆
+  - **更新**：通过向量相似度找到相关记忆并进行替换或增强
+  - **删除**：基于用户指令或自动策略（如隐私数据过期）删除特定记忆
+  - **压缩**：将多个相关记忆合并为摘要以释放存储空间
 
-- Memory Management: The methodology for managing memories within memory systems, including:
-  - Memory Lifecycle: End-to-end management from creation, active usage, infrequent access, to archiving/deletion
-  - Conflict Resolution: Arbitration mechanisms for contradictory information (e.g., timestamp priority, source credibility weighting)
-  - Resource Budgeting: Allocating memory quotas to different users/tasks to prevent resource abuse
-  - Security Governance: Automatic detection and de-identification of PII (Personally Identifiable Information)
+- **记忆管理**：在记忆系统内实施记忆管控的方法论，包含以下机制：
+  - **记忆生命周期**：从创建、活跃使用、冷启动访问到归档/删除的全周期管理
+  - **冲突解决**：矛盾信息仲裁机制（如时间戳优先级、来源可信度加权）
+  - **资源预算**：为不同用户/任务分配内存配额以防止资源滥用
+  - **安全治理**：自动检测和去标识化个人身份信息（PII）
 
-- Memory Classification: A multi-dimensional classification system unique to memory systems:
-  - By Access Frequency: Working memory (current tasks), frequent memory (personal preferences), archived memory (historical records)
-  - By Structured Degree: Structured memory (database records), semi-structured memory (dialogue summaries), unstructured memory (raw conversations)
-  - By Sharing Scope: Personal memory (single user), team memory (collaborative spaces), public memory (shared knowledge bases)
-  - By Temporal Validity: Permanent memory (core facts), temporary memory (conversation context), time-sensitive memory (e.g., "user is in a bad mood today")
+- **记忆分类**：记忆系统特有的多维度分类体系：
+  - **按访问频率**：工作记忆（当前任务）、常用记忆（个人偏好）、归档记忆（历史记录）
+  - **按结构化程度**：结构化记忆（数据库记录）、半结构化记忆（对话摘要）、非结构化记忆（原始对话文本）
+  - **按共享范围**：个人记忆（单用户）、团队记忆（协作空间）、公共记忆（共享知识库）
+  - **按时效属性**：永久记忆（核心事实）、临时记忆（对话上下文）、时效性记忆（如"用户今天心情不好"）
 
-- Memory Mechanisms: Core technical components enabling memory system functionality:
-  - Retrieval-Augmented Generation (RAG): Enhancing generation by retrieving relevant information from knowledge bases
-  - Memory Reflection Loop: Models periodically "review" conversation history to generate high-level summaries
-  - Memory Routing: Automatically selecting retrieval sources based on query type (personal memory/public knowledge base)
+- **记忆机制**：驱动记忆系统功能的核心技术组件：
+  - **检索增强生成（RAG）**：通过从知识库中检索相关信息来增强生成能力
+  - **记忆反思循环**：模型定期"回顾"对话历史以生成高层次摘要
+  - **记忆路由**：根据查询类型（个人记忆/公共知识库）自动选择检索源
 
-- Explicit Memory: Memory stored as raw text outside the model, implemented through vector databases with hybrid indexing strategies:
-  - Dense Vector Indexing: Handling semantic similarity queries
-  - Sparse Keyword Indexing: Processing exact match queries
-  - Multi-vector Indexing: Segmenting long documents into multiple parts, each independently indexed
+- **显式记忆**：以原始文本形式存储在模型外部的记忆，通过融合混合索引策略的向量数据库实现：
+  - **稠密向量索引**：处理语义相似性查询
+  - **稀疏关键词索引**：处理精确匹配查询
+  - **多向量索引**：将长文档切分为多个部分，每个部分独立索引
 
-- Parametric Memory: Knowledge and capabilities stored within the fixed weights of a language model's architecture, characterized by:
-  - Serving as the model's core long-term semantic memory carrier
-  - Being activatable without external retrieval or explicit contextual support
-  - Providing the foundational capability for zero-shot reasoning, general responses, and language generation
+- **参数化记忆**：存储于语言模型固定权重中的知识与能力，具有以下特征：
+  - 作为模型的核心长期语义记忆载体
+  - 无需外部检索或显式上下文支持即可激活
+  - 提供零样本推理、通用响应与语言生成的基础能力
 
-- Long-Term Memory: Key information designed for persistent storage, typically implemented as external knowledge bases with capabilities including:
-  - Automatic Summarization: Distilling multi-turn dialogues into structured memory
-  - Context Binding: Recording memory context to prevent erroneous generalization
-  - Multimodal Storage: Simultaneously preserving text, images, audio, and other multimodal memories
+- **长期记忆**：设计用于持久存储的关键信息，通常通过外部知识库实现，包含以下功能：
+  - **自动摘要生成**：将多轮对话提炼为结构化记忆
+  - **上下文绑定**：记录记忆上下文以防止错误泛化
+  - **多模态存储**：同时保存文本、图像、音频等多种模态记忆
 
-- Short-Term Memory: Active information within the LLM's context window, constrained by attention mechanisms. Key techniques include:
-  - KV Cache Management: Reusing key-value caches to reduce redundant computation
-  - Context Compression: Using summaries instead of detailed history (e.g., "the previous 5 dialogue rounds discussed project budget")
-  - Sliding Window Attention: Focusing only on the most recent N tokens while preserving special markers
-  - Memory Summary Injection: Dynamically inserting summaries of long-term memory into short-term context
+- **短期记忆**：受限于注意力机制的大语言模型上下文窗口中的活跃信息，包含以下关键技术：
+  - **KV缓存管理**：复用键值缓存以减少冗余计算
+  - **上下文压缩**：使用摘要替代详细历史（如："前5轮对话讨论了项目预算"）
+  - **滑动窗口注意力机制**：仅关注最近N个token，同时保留特殊标记
+  - **记忆摘要注入**：将长期记忆摘要动态插入短期上下文
 
-- Episodic Memory: Memory type recording specific user interaction history, fundamental to personalized AI:
-  - User Identity Recognition: Identifying the same user across sessions
-  - Interaction Trajectory Recording: Preserving user decision paths and feedback
-  - Emotional State Tracking: Recording patterns of user mood changes
-  - Preference Evolution Modeling: Capturing long-term changes in user interests
+- **情景记忆**：记录特定用户交互历史的记忆类型，是个性化AI的基础：
+  - **用户身份识别**：跨会话识别同一用户
+  - **交互轨迹记录**：保存用户决策路径与反馈
+  - **情绪状态追踪**：记录用户情绪变化规律
+  - **偏好演化建模**：捕捉用户兴趣长期变化
 
-- Memory Forgetting: Deliberately designed forgetting mechanisms in large models, including:
-  - Selective Forgetting (Machine Unlearning): Removing the influence of specific information from training data, such as covering specific knowledge with forgetting layers
-  - Privacy-Driven Forgetting: Automatically identifying and deleting PII information, or setting automatic expiration
-  - Memory Decay: Automatically lowering the priority of infrequently accessed memories based on usage frequency
-  - Conflict-Driven Forgetting: Strategically updating or discarding old memories when new evidence conflicts with them
+- **记忆遗忘**：大模型中刻意设计的遗忘机制，包含以下技术实现：
+  - **选择性遗忘（机器遗忘）**：移除训练数据中特定信息的影响，例如通过遗忘层覆盖特定知识
+  - **隐私保护遗忘**：自动识别并删除个人身份信息（PII），或设置自动过期策略
+  - **记忆衰减**：根据使用频率自动降低低频访问记忆的优先级
+  - **冲突驱动遗忘**：当新证据与旧记忆冲突时，策略性更新或淘汰旧记忆
 
-- Memory Retrieval: The complex process of precisely locating relevant information from massive memory repositories:
-  - Semantic Pre-filtering: Vector similarity matching to obtain Top-100 candidates
-  - Contextual Reranking: Reordering results based on current query context
-  - Temporal Filtering: Prioritizing the most recent relevant information
+- **记忆检索**：从海量记忆库中精确定位相关信息的复杂过程：
+  - **语义预过滤**：通过向量相似度匹配获取Top-100候选结果
+  - **上下文重排序**：根据当前查询上下文重新排序结果
+  - **时间过滤**：优先选择最新相关数据
 
-- Memory Compression: A collection of techniques maximizing memory utility under limited resources:
-  - Content-level Compression: Extracting core information while discarding redundant details
-  - Representation-level Compression: Vector quantization (e.g., PQ coding), dimensionality reduction
-  - Organization-level Compression: Clustering similar memories, building hierarchical memory structures
-  - Knowledge Distillation: Transferring key patterns from external memory into parametric memory
+- **记忆压缩**：在资源受限条件下最大化记忆效用的技术体系：
+  - **内容级压缩**：提取核心信息并舍弃冗余细节
+  - **表征级压缩**：向量量化（如乘积量化编码）、维度约简
+  - **组织级压缩**：聚类相似记忆、构建分层记忆结构
+  - **知识蒸馏**：将外部记忆中的关键模式迁移至参数化记忆
 
 ---
 
