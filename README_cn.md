@@ -27,7 +27,7 @@ Awesome-AI-Memory 是一个围绕 AI 大模型记忆与记忆系统构建的�
 
 ---
 
-## 📏 Project Scope
+## 📏 项目范围
 本仓库关注的是用于扩展或补充大模型上下文窗口能力的记忆机制与系统设计，而非单纯的模型预训练或通用知识学习。内容同时涵盖理论研究与工程实践。
 
 🌀 包含内容（In Scope）
@@ -103,32 +103,34 @@ To systematically organize the diverse research and practical resources in the f
 
 --- -->
 
-## 🔔 News
+## 🔔 最新消息
 
 + 2025-12-10 – 🎉 Initial Repo
 
 ---
 
-🗺️ Table of Contents
-- [Introduction](#-introduction)
-- [Goal of Repository](#-goal-of-repository)
-- [Project Scope](#-project-scope)
-- [News](#-news)
-- [Introduction of Core Concept](#-introduction-of-core-concept)
-- [Paper List](#-paper-list)
-  - [Survey](#-survey)
-  - [Framework & Methods](#-framework--methods)
-  - [Benchmark & Datasets](#-benchmark--datasets)
-  - [Memory Evaluation](#-memory-evaluation)
-  - [System & model](#-system--model)
-- [Resource](#-resource)
-  - [Benchmarks and tasks](#-benchmarks-and-tasks)
-  - [Systems and open sources](#-systems-and-open-sources)
-  - [Star Trends](#-star-trends)
+🗺️ 目录表
+- [简介](#-简介)
+- [仓库目标](#-仓库目标)
+- [项目范围](#-项目范围)
+- [最新消息](#-最新消息)
+- [核心概念](#-核心概念)
+- [论文列表](#-论文列表)
+  - [综述](#综述)
+  - [方法类与框架类论文](#方法类与框架类论文)
+  - [数据集和评估基准类论文](#数据集与评估基准类论文)
+  - [记忆评估类论文](#记忆评估类论文)
+  - [模型和系统类论文](#模型和系统类论文)
+- [仓库资源](#-仓库资源)
+  - [测试基准](#测试基准)
+  - [开源系统](#开源系统)
+  - [多媒体资源](#多媒体资源)
+- [如何贡献](#-如何贡献)
+- [仓库关注量](#-仓库关注量)
 
 ---
 
-## 🧠 Core Concepts
+## 🧠 核心概念
 
 - 大模型记忆: LLM的记忆机制融合了隐性知识（通过训练过程内化于模型参数中）与显式存储（运行时可检索的外部存储），这种双重架构使模型突破token处理的局限，具备类似人类"记忆过往、认知当下、预见未来"的认知能力。
 
@@ -208,11 +210,11 @@ To systematically organize the diverse research and practical resources in the f
 
 ---
 
-## 📚 Paper List
-Papers below are ordered by **publication date**:
+## 📚 论文列表
+以下论文按发表日期排列：
 
 <details>
-  <summary><strong>Survey</strong></summary>
+  <summary><strong>综述</strong></summary>
 
   <table style="width: 100%;">
     <tr>
@@ -378,7 +380,7 @@ Papers below are ordered by **publication date**:
 
 
 <details>
-  <summary><strong>Framework & Methods</strong></summary>
+  <summary><strong>方法类与框架类论文</strong></summary>
 
   <table style="width: 100%;">
     <tr>
@@ -1730,7 +1732,7 @@ Papers below are ordered by **publication date**:
 </details>
 
 <details>
-  <summary><strong>Datasets & Benchmark</strong></summary>
+  <summary><strong>数据集和评估基准类论文</strong></summary>
 
   <table style="width: 100%;">
     <tr>
@@ -2056,7 +2058,7 @@ Papers below are ordered by **publication date**:
 </details>
 
 <details>
-  <summary><strong>Memory Evaluation</strong></summary>
+  <summary><strong>记忆评估类论文</strong></summary>
 
   <table style="width: 100%;">
     <tr>
@@ -2307,7 +2309,7 @@ Papers below are ordered by **publication date**:
 </details>
 
 <details>
-  <summary><strong>Systems & Models</strong></summary>
+  <summary><strong>模型和系统类论文</strong></summary>
 
   <table style="width: 100%;">
     <tr>
@@ -2664,9 +2666,9 @@ Papers below are ordered by **publication date**:
 
 </details>
 
-## 🧰 Resources
+## 🧰 仓库资源
 
-### 📊 Benchmarks and Tasks
+### 📊 测试基准
 
 |     Edit Type      | Benchmarks \& Datasets                                                  |
 | :-----------------------: | ------------------------------------------------------------ |
@@ -2683,8 +2685,8 @@ Papers below are ordered by **publication date**:
 |  **Web Interaction & Navigation** | [WebChoreArena](https://arxiv.org/pdf/2506.01952), [MT-Mind2Web](https://arxiv.org/pdf/2402.15057), [WebShop](https://arxiv.org/pdf/2207.01206), [WebArena](https://arxiv.org/pdf/2307.13854) |
 
 
-### 💻 Systems and Open Sources
-Systems below are ordered by **publication date**:
+### 💻 开源系统
+下面系统按照时间顺序排列:
 
 | System      | Time       | Stars | GitHub & Website |
 |-------------|------------|-------|------------------|
@@ -2711,7 +2713,7 @@ Systems below are ordered by **publication date**:
 | MineContext | 2025-09-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) | https://github.com/volcengine/MineContext<br>No official website |
 | EverMemOS   | 2025-10-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/EverMind-AI/EverMemOS?style=social) | https://github.com/EverMind-AI/EverMemOS<br>https://evermind.ai/ |
 
-### 🎥 Multi-media resource
+### 🎥 多媒体资源
 
 <table>
   <thead>
@@ -2805,7 +2807,7 @@ Systems below are ordered by **publication date**:
 </table>
 
 
-## 🤝  Make a Contribution
+## 🤝  如何贡献
 Issue Template: 
 ```
 Title: [paper's title]
@@ -2817,7 +2819,7 @@ Summary:
   - Significant Result: 
 ```
 
-## 🌟 Star Trends
+## 🌟 仓库关注量
 
 <a href="https://star-history.com/#IAAR-Shanghai/Awesome-AI-Memory&Date">
   <picture>
