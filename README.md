@@ -2693,7 +2693,7 @@ Papers below are ordered by **publication date**:
 
 ### 📊 Benchmarks and Tasks
 
-|     Edit Type      | Benchmarks \& Datasets                                                  |
+|     Task Type      | Benchmarks \& Datasets                                                  |
 | :-----------------------: | ------------------------------------------------------------ |
 | **Personalized Task Evaluation**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250)  |
 |  **Comprehensive Evaluation**   | [MemoryAgentBench](https://arxiv.org/pdf/2507.05257), [Evo-Memory](https://arxiv.org/pdf/2511.20857), [LifelongAgentBench](https://arxiv.org/pdf/2505.11942), [StreamBench](https://arxiv.org/pdf/2406.08747) |

@@ -2672,25 +2672,25 @@ To systematically organize the diverse research and practical resources in the f
 
 ### 📊 测试基准
 
-|     Edit Type      | Benchmarks \& Datasets                                                  |
+|     任务类型      | 数据集和评估基准                                                  |
 | :-----------------------: | ------------------------------------------------------------ |
-| **Personalized Task Evaluation**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250)  |
-|  **Comprehensive Evaluation**   | [MemoryAgentBench](https://arxiv.org/pdf/2507.05257), [Evo-Memory](https://arxiv.org/pdf/2511.20857), [LifelongAgentBench](https://arxiv.org/pdf/2505.11942), [StreamBench](https://arxiv.org/pdf/2406.08747) |
-|  **Memory Mechanism Evaluation**   | [MemBench](https://aclanthology.org/2025.findings-acl.989.pdf),  [Minerva](https://arxiv.org/pdf/2502.03358), [MemoryBench](https://arxiv.org/pdf/2510.17281) |
-|  **Long-Term Memory Evaluation**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144) |
-|  **Long-Dialogue Reasoning**   | [PREFEVAL](https://arxiv.org/pdf/2502.09597),  [MiniLongBench](https://aclanthology.org/2025.acl-long.560.pdf)|
-|  **Long-Context Understanding**   | [LongBench V2](https://arxiv.org/pdf/2412.15204), [LongBench](https://arxiv.org/abs/2308.14508), [BABILong](https://arxiv.org/pdf/2406.10149), [HotpotQA](https://aclanthology.org/D18-1259.pdf) |
-|  **Long-Context Evaluation** |[SCBENCH](https://arxiv.org/abs/2412.10319), [L-CiteEval](https://arxiv.org/pdf/2410.02115), [GLE](https://aclanthology.org/2024.acl-long.859/), [HOMER](https://arxiv.org/pdf/2404.10308), [RULER](https://arxiv.org/pdf/2404.06654), [MM-Needle](https://aclanthology.org/2025.naacl-long.166.pdf) |
-|  **Long-Form Text Generation**   | [LongGenBench](https://arxiv.org/pdf/2409.02076) |
-|  **Episodic Memory Evaluation**   | [PerLTQA](https://aclanthology.org/2024.sighan-1.18.pdf)|
-|  **Memory Hallucination Evaluation**   | [HaluMem](https://arxiv.org/pdf/2511.03506) |
-|  **Web Interaction & Navigation** | [WebChoreArena](https://arxiv.org/pdf/2506.01952), [MT-Mind2Web](https://arxiv.org/pdf/2402.15057), [WebShop](https://arxiv.org/pdf/2207.01206), [WebArena](https://arxiv.org/pdf/2307.13854) |
+| **个性化任务评估**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250)  |
+|  **综合评价**   | [MemoryAgentBench](https://arxiv.org/pdf/2507.05257), [Evo-Memory](https://arxiv.org/pdf/2511.20857), [LifelongAgentBench](https://arxiv.org/pdf/2505.11942), [StreamBench](https://arxiv.org/pdf/2406.08747) |
+|  **记忆机制评价**   | [MemBench](https://aclanthology.org/2025.findings-acl.989.pdf),  [Minerva](https://arxiv.org/pdf/2502.03358), [MemoryBench](https://arxiv.org/pdf/2510.17281) |
+|  **长期记忆评估**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144) |
+|  **长对话推理**   | [PREFEVAL](https://arxiv.org/pdf/2502.09597),  [MiniLongBench](https://aclanthology.org/2025.acl-long.560.pdf)|
+|  **长上下文理解**   | [LongBench V2](https://arxiv.org/pdf/2412.15204), [LongBench](https://arxiv.org/abs/2308.14508), [BABILong](https://arxiv.org/pdf/2406.10149), [HotpotQA](https://aclanthology.org/D18-1259.pdf) |
+|  **长上下文评估** |[SCBENCH](https://arxiv.org/abs/2412.10319), [L-CiteEval](https://arxiv.org/pdf/2410.02115), [GLE](https://aclanthology.org/2024.acl-long.859/), [HOMER](https://arxiv.org/pdf/2404.10308), [RULER](https://arxiv.org/pdf/2404.06654), [MM-Needle](https://aclanthology.org/2025.naacl-long.166.pdf) |
+|  **长文本生成**   | [LongGenBench](https://arxiv.org/pdf/2409.02076) |
+|  **情景记忆评估**   | [PerLTQA](https://aclanthology.org/2024.sighan-1.18.pdf)|
+|  **记忆幻觉评估**   | [HaluMem](https://arxiv.org/pdf/2511.03506) |
+|  **Web交互与导航** | [WebChoreArena](https://arxiv.org/pdf/2506.01952), [MT-Mind2Web](https://arxiv.org/pdf/2402.15057), [WebShop](https://arxiv.org/pdf/2207.01206), [WebArena](https://arxiv.org/pdf/2307.13854) |
 
 
 ### 💻 开源系统
 下面系统按照时间顺序排列:
 
-| System      | Time       | Stars | GitHub & Website |
+| 系统      | 时间       | 关注数 | 开源网址和官方网站 |
 |-------------|------------|-------|------------------|
 | Zep         | 2023-05-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/getzep/zep?style=social) | https://github.com/getzep/zep<br>https://www.getzep.com/ |
 | Agentmemory | 2023-07-07 | ![GitHub Repo stars](https://img.shields.io/github/stars/elizaOS/agentmemory?style=social) | https://github.com/elizaOS/agentmemory<br>No official website |
@@ -2720,14 +2720,14 @@ To systematically organize the diverse research and practical resources in the f
 <table>
   <thead>
     <tr>
-      <th>Type</th>
-      <th>Website Link</th>
-      <th>Video Introduction</th>
+      <th>类型</th>
+      <th>网址链接</th>
+      <th>视频内容简介</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong>Basic Theory of Memory</strong></td>
+      <td rowspan="5"><strong>记忆基本理论</strong></td>
       <td>https://www.youtube.com/watch?v=k3FUWWEwgfc</td>
       <td>Short-Term Memory with LangGraph</td>
     </tr>
@@ -2748,7 +2748,7 @@ To systematically organize the diverse research and practical resources in the f
       <td>A Paradigm Shift to Memory as a First Class Citizen for LLMs</td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>Memory-Related Tools</strong></td>
+      <td rowspan="4"><strong>记忆相关工具</strong></td>
       <td>https://www.bilibili.com/video/BV1hom8YAEhX</td>
       <td>LLMs as Operating Systems: Agent Memory</td>
     </tr>
@@ -2765,7 +2765,7 @@ To systematically organize the diverse research and practical resources in the f
       <td> Agentic Memory for LLM Agents</td>
     </tr>
     <tr>
-      <td rowspan="10"><strong>Memory-Related Papers</strong></td>
+      <td rowspan="10"><strong>记忆相关论文</strong></td>
       <td>https://www.bilibili.com/video/BV1XT8ez6E46</td>
       <td>AI agent Survey Memory</td>
     </tr>
@@ -2810,7 +2810,7 @@ To systematically organize the diverse research and practical resources in the f
 
 
 ## 🤝  如何贡献
-Issue Template: 
+提交样式: 
 ```
 Title: [paper's title]
 Head: [head name1] (, [head name2] ...)
