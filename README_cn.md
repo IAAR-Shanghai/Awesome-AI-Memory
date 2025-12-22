@@ -1,7 +1,7 @@
 # Awesome-AI-Memory
 
 <p align="center">
-    【English | <a href="README_cn.md">中文</a>】
+    【<a href="README.md">English</a> | 中文</a>】
 </p>
 
 <div align="center">
@@ -13,41 +13,40 @@
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 
-## 👋 Introduction
-Large Language Models (LLMs) have rapidly evolved into powerful general-purpose reasoning and generation engines. Nevertheless, despite their continuously advancing capabilities, LLMs remain fundamentally constrained by a critical limitation: the finite length of their context window. This constraint defines the scope of information directly accessible during a single inference process, endowing models with only short-term memory capabilities. Consequently, they struggle to support extended conversations, personalized interactions, continuous learning, and complex multi-stage tasks.
+## 👋 简介
+大语言模型（LLM）已迅速发展为强大的通用推理与生成引擎。然而，尽管其能力不断提升，LLM 仍然受到一个根本性限制的约束：上下文窗口（Context Window）长度有限。这一限制决定了模型在单次推理过程中能够直接访问的信息范围，使其在本质上仅具备短期记忆能力，难以支持长期对话、个性化交互、持续学习以及复杂的多阶段任务。
 
-To transcend the inherent limitations of context windows, AI memory and memory systems for LLMs have emerged as a vital and active research and engineering frontier. By introducing external, persistent, and controllable memory structures beyond model parameters, these systems enable large models to store, retrieve, compress, and manage historical information during generation processes. This capability allows models to continuously leverage long-term experiences within limited context windows, achieving cross-session consistency and continuous reasoning abilities.
+为突破上下文窗口的固有限制，面向大模型的记忆与记忆系统（AI Memory & Memory Systems for LLMs）逐渐成为一个重要且活跃的研究与工程方向。通过为模型引入参数之外的外部、可持久化且可控的记忆结构，记忆系统使大模型能够在生成过程中存储、检索、压缩和管理历史信息，从而在有限上下文中持续利用长期经验，实现跨会话的一致性与连续推理能力。
 
-Awesome-AI-Memory is a comprehensive repository dedicated to AI memory and memory systems for large language models, systematically curating relevant research papers, framework tools, and practical implementations. This repository endeavors to map the rapidly evolving research landscape in LLM memory systems, bridging multiple disciplines including natural language processing, information retrieval, intelligent agent systems, and cognitive science.
-
+Awesome-AI-Memory 是一个围绕 AI 大模型记忆与记忆系统构建的资源汇编仓库，系统性地收集相关的研究论文、框架工具与实践经验。该仓库致力于梳理并呈现大模型记忆领域快速发展的研究脉络，连接自然语言处理、信息检索、智能体系统与认知科学等多个研究方向。
 
 ---
 
-## 🎯 Goal of Repository
-Our mission is to establish a centralized, continuously evolving knowledge base that serves as a valuable reference for researchers and practitioners, ultimately accelerating the development of intelligent systems capable of long-term memory retention, sustained reasoning, and adaptive evolution over time.
+## 🎯 仓库目标
+本仓库的目标是构建一个集中、持续演进的知识库，为研究者与工程实践者提供参考，助力构建能够长期记忆、持续推理并随时间不断适应的智能系统。
 
 ---
 
 ## 📏 Project Scope
-This repository focuses on memory mechanisms and system designs that extend or augment the context window capabilities of large language models, rather than merely addressing model pre-training or general knowledge learning. The content encompasses both theoretical research and engineering practices.
+本仓库关注的是用于扩展或补充大模型上下文窗口能力的记忆机制与系统设计，而非单纯的模型预训练或通用知识学习。内容同时涵盖理论研究与工程实践。
 
-🌀 Included Content (In Scope)
-- Memory and memory system designs for large language models
-- External explicit memory beyond model parameters
-- Short-term memory, long-term memory, episodic memory, and semantic memory
-- Retrieval-Augmented Generation (RAG) as a memory access mechanism
-- Memory management strategies (writing, updating, forgetting, compression)
-- Memory systems in intelligent agents (Agents)
-- Shared and collaborative memory in multi-agent systems
-- Memory models inspired by cognitive science and biological memory
-- Evaluation methods, benchmarks, and datasets related to LLM memory
-- Open-source frameworks and tools for memory-enhanced LLMs
+🌀 包含内容（In Scope）
+- 面向大语言模型的记忆与记忆系统设计
+- 模型参数之外的外部显式记忆
+- 短期记忆、长期记忆、情节记忆与语义记忆
+- 作为记忆访问机制的检索增强生成（RAG）
+- 记忆管理策略（写入、更新、遗忘、压缩）
+- 智能体（Agent）中的记忆系统
+- 多智能体的共享记忆与协作记忆
+- 受认知科学与生物记忆启发的记忆模型
+- 与大模型记忆相关的评测方法、基准与数据集
+- 记忆增强型 LLM 的开源框架与工具
 
-🌀 Excluded Content (Out of Scope)
-- General model pre-training or scaling research without direct memory relevance
-- Purely parameterized knowledge learning without memory interaction
-- Traditional databases or information retrieval systems unrelated to LLMs
-- Generic memory systems outside the LLM context (unless demonstrating direct transfer value)
+🌀 不包含内容（Out of Scope）
+- 与记忆无直接关联的一般模型预训练或规模化研究
+- 不涉及记忆交互的纯参数化知识学习
+- 与 LLM 无关的传统数据库或信息检索系统
+- 非大模型场景下的通用记忆系统（除非具有直接迁移价值）
 
 ---
 
