@@ -1782,9 +1782,6 @@ Papers below are ordered by **publication date**:
           • EUL enables the effective removal of specific sensitive data from LLMs without full retraining, while preserving overall predictive performance.
         </td>
     </tr>
-
-
-
     <tr>
       <td rowspan="2" style="width: 15%;">2023-11-30</td>
       <td style="width: 55%;"><strong>JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models</strong></td>
@@ -1804,18 +1801,6 @@ Papers below are ordered by **publication date**:
         • JARVIS-1 excels in over 200 Minecraft tasks, especially in long-term tasks (such as obtaining a diamond pickaxe), outperforming current state-of-the-art models by five times in success rate. As the game progresses, its performance improves through continuous learning and experience accumulation.
       </td>
     </tr>
-
-
-
-
-
-
-
-
-
-
-
-
     <tr>
       <td rowspan="2" style="width: 15%;">2023-11-15</td>
       <td style="width: 55%;"><strong>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</strong></td>
