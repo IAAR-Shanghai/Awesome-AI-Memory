@@ -218,10 +218,10 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>时间</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-15</td>
@@ -406,10 +406,10 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>时间</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-14</td>
@@ -1756,10 +1756,10 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>时间</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
@@ -2082,10 +2082,10 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>时间</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
@@ -2333,10 +2333,10 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
+      <td><strong>时间</strong></td>
+      <td><strong>论文与摘要</strong></td>
+      <td><strong>标签</strong></td>
+      <td><strong>链接</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-11</td>
