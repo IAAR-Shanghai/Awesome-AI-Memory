@@ -218,23 +218,23 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>日期</strong></td>
-      <td><strong>论文与摘要</strong></td>
-      <td><strong>标签</strong></td>
-      <td><strong>链接</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Paper & Summary</strong></td>
+      <td><strong>Tags</strong></td>
+      <td><strong>Links</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-15</td>
       <td style="width: 55%;">
       <strong>Memory in the Age of AI Agents: A Survey</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
-        <img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
-        <img src="https://img.shields.io/badge/形式--功能--动态-purple" alt="形式-功能-动态">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+        <img src="https://img.shields.io/badge/Forms--Functions--Dynamics-purple" alt="Forms-Functions-Dynamics">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2512.13564">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a>
       </td>
     </tr>
@@ -249,10 +249,10 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-09-18</td>
       <td style="width: 55%;">
       <strong>A Survey of Machine Unlearning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘"></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
       <td style="width: 15%;">
         <a href="https://dl.acm.org/doi/full/10.1145/3749987">
-        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="论文徽章">
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="Paper Badge">
         </a>
       </td>
     </tr>
@@ -267,11 +267,11 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-09-02</td>
       <td style="width: 55%;">
       <strong>A Survey on the Memory Mechanism of Large Language Model based Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制徽章">
-      <img src="https://img.shields.io/badge/记忆模块-orange" alt="记忆模块徽章">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
+      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules Badge">
       <td style="width: 15%;">
         <a href="https://dl.acm.org/doi/pdf/10.1145/3748302">
-        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -286,10 +286,10 @@ To systematically organize the diverse research and practical resources in the f
       <td style="width: 55%;">
       <strong>A Survey of Machine Unlearning in Large Language Models: Methods, Challenges and Future Directions</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘"></td>
+      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2503.01854v2">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -303,16 +303,16 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-05-27</td>
       <td style="width: 55%;">
       <strong>Rethinking Memory in AI Taxonomy, Operations, Topics, and Future Directions</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
-      <img src="https://img.shields.io/badge/记忆操作-brightgreen" alt="记忆操作">
-      <img src="https://img.shields.io/badge/记忆整合-purple" alt="记忆整合">
-      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-      <img src="https://img.shields.io/badge/参数化记忆-pink" alt="参数化记忆">
-      <img src="https://img.shields.io/badge/上下文记忆-cyan" alt="上下文记忆">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2505.00675">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -326,12 +326,12 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-04-24</td>
       <td style="width: 55%;">
       <strong>Cognitive Memory in Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
-      <img src="https://img.shields.io/badge/记忆分类学-lightgrey" alt="记忆分类学">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2504.02441">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -344,12 +344,12 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-23</td>
       <td style="width: 55%;"><strong>From Human Memory to AI Memory A Survey on Memory Mechanisms in the Era of LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/人类记忆-red" alt="人类记忆">
-      <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2504.15965">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -362,15 +362,15 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-12</td>
       <td style="width: 55%;"><strong>Human-inspired Perspectives: A Survey on AI Long-term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-      <img src="https://img.shields.io/badge/参数化记忆-pink" alt="参数化记忆">
-      <img src="https://img.shields.io/badge/非参数化记忆-green" alt="非参数化记忆">
-      <img src="https://img.shields.io/badge/感官记忆-brown" alt="感官记忆">
-      <img src="https://img.shields.io/badge/工作记忆-blueviolet" alt="工作记忆">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Non--Parametric%20Memory-green" alt="Non-Parametric Memory">
+      <img src="https://img.shields.io/badge/Sensory%20Memory-brown" alt="Sensory Memory">
+      <img src="https://img.shields.io/badge/Working%20Memory-blueviolet" alt="Working Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2411.00489">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -383,10 +383,10 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-02</td>
       <td style="width: 55%;"><strong>Digital Forgetting in Large Language Models: A Survey of Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/机器遗忘-grey" alt="机器遗忘">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2404.02062">
-        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -412,1342 +412,179 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>Links</strong></td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-12-14</td>
-      <td style="width: 55%;"><strong>HINDSIGHT IS 20/20: BUILDING AGENT MEMORY THAT RETAINS, RECALLS, AND REFLECTS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2512.12818">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • HINDSIGHT is a unified memory architecture that treats memory as a structured, first-class substrate for reasoning, organizing information into four logical networks: world facts, agent experiences, synthesized entity summaries, and evolving beliefs.<br>
-        • The system introduces TEMPR (Temporal Entity Memory Priming Retrieval) for building temporal entity graphs and CARA (Coherent Adaptive Reasoning Agents) for preference-conditioned reasoning, enabling agents to epistemically distinguish evidence from inference.<br>
-        • Experimental results on LongMemEval and LoCoMo benchmarks demonstrate that HINDSIGHT significantly outperforms existing memory systems and full-context frontier models in multi-session consistency and open-domain question answering.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-11-12</td>
-      <td style="width: 55%;"><strong>ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</strong></td>
+      <td rowspan="2" style="width: 15%;">2025-12-15</td>
+      <td style="width: 55%;">
+      <strong>Memory in the Age of AI Agents: A Survey</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+        <img src="https://img.shields.io/badge/Forms--Functions--Dynamics-purple" alt="Forms-Functions-Dynamics">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.10419">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <a href="https://arxiv.org/pdf/2512.13564">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces ComoRAG, a retrieval-augmented generation framework inspired by the human Prefrontal Cortex, designed to achieve stateful reasoning in long narrative contexts.<br>
-          • The framework employs a dynamic memory workspace and a metacognitive regulation loop (including Self-Probe, Mem-Fuse, and Mem-Update) to iteratively fuse fragmented evidence into coherent context.<br>
-          • Experimental results demonstrate that ComoRAG consistently outperforms strong baselines on challenging benchmarks like NarrativeQA and ∞BENCH, particularly excelling in complex narrative queries requiring global understanding.
+          • 提供了一个全面且最新的智能体记忆全景图，明确将其与 LLM 记忆、RAG 和上下文工程等相关概念区分开来。<br>
+          • 引入了一个统一的分类体系，通过三个视角审视记忆：<strong>形式</strong>（Token 级、参数化、潜在）、<strong>功能</strong>（事实性、经验性、工作）和<strong>动态</strong>（形成、演变、检索）。<br>
+          • 探讨了新兴的研究前沿，如面向自动化的记忆设计、强化学习集成和可信度，同时汇编了具有代表性的基准和框架。
         </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-11-04</td>
-      <td style="width: 55%;"><strong>MemSearcher Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2511.02805">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MemSearcher is a large language model (LLMs) agent trained through end-to-end Reinforcement Learning (RL), aiming to enhance the efficiency of knowledge acquisition tasks.<br>
-          • MemSearcher optimizes memory management by adopting a new framework called multi-context Group Relative Strategy Optimization (Multi-Context GRPO), which enables the model to self-evolve in multiple conversations.<br>
-          • Compared with traditional ReAct search agents, MemSearcher offers significant performance improvements while maintaining low token consumption, especially on smaller models.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-15</td>
-      <td style="width: 55%;"><strong>D-SMART: Enhancing LLM Dialogue Consistency via Dynamic Structured Memory And Reasoning Tree</strong></td>
+      <td rowspan="2" style="width: 15%;">2025-09-18</td>
+      <td style="width: 55%;">
+      <strong>A Survey of Machine Unlearning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2510.13363">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Proposes D-SMART, a model-agnostic framework designed to maintain logical and factual consistency in multi-turn dialogues by coupling a Dynamic Structured Memory (DSM) with a Reasoning Tree (RT).<br>
-        • DSM incrementally builds an OWL-compliant knowledge graph from conversation history to prevent context decay, while RT guides the LLM through explicit, traceable multi-step reasoning over this graph.<br>
-        • Comprehensive experiments on MT-Bench-101 demonstrate that D-SMART significantly outperforms state-of-the-art baselines, improving consistency scores by over 48% and exhibiting strong stability in extended dialogues.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-14</td>
-      <td style="width: 55%;"><strong>Memory as Action Autonomous Context Curation for Long-Horizon Agentic Tasks</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2510.12635">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Memory-as-action (MemAct) addresses the issue of working Memory management for large language models (LLMS) in long-duration tasks.<br>
-          • MemAct transforms memory management into a learnable intrinsic capability, enabling agents to dynamically manage memories while performing tasks, and introduces the Dynamic Context Policy Optimization (DCPO) algorithm to handle the trajectory breakage problem caused by memory editing.<br>
-          • MemAct performs exceptionally well in multi-objective question answering tasks, demonstrating higher accuracy and robustness than traditional models.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-12</td>
-      <td style="width: 55%;"><strong>MemGen Weaving Generative Latent Memory for Self-Evolving Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2509.24704">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MemGen is a dynamic generative memory framework designed to enhance the reasoning and decision-making capabilities of agents based on large language models (LLMS).<br>
-          • MemGen simulates human cognitive patterns by interweaving memory with the reasoning process.<br>
-          • This framework consists of two parts: memory triggers and memory weavers, which can dynamically determine when to invoke potential memories and integrate them into the reasoning process.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-10</td>
-      <td style="width: 55%;"><strong>How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Memory%20Addition-slateblue" alt="Memory Addition">
-      <img src="https://img.shields.io/badge/Memory%20Deletion-salmon" alt="Memory Deletion">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2505.16067">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • The paper investigates memory management in large language model (LLM) agents and its impact on long-term performance.<br>
-          • It identifies issues such as error propagation and misaligned experience replay, highlighting the importance of high-quality memory.<br>
-          • By comparing multiple memory insertion and deletion strategies, the study finds that selective insertion performs better for long-term learning, while historical deletion is particularly effective at reducing low-quality memory records.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-09</td>
-      <td style="width: 55%;"><strong>Enabling Personalized Long-term Interactions in LLM-based Agents through Persistent Memory and User Profiles</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2510.07925v1">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces a framework for adaptive, user-centered AI agents that combines persistent memory, dynamic coordination, and evolving user profiles to enable personalized long-term interactions.<br>
-          • The approach integrates established agentic AI patterns—such as Multi-Agent Collaboration and Multi-Source Retrieval—with mechanisms like self-validation and implicit user profiling to tailor responses to individual needs.<br>
-          • Evaluations on three public datasets and a pilot user study demonstrate improvements in retrieval accuracy, response correctness, and perceived personalization compared to standard RAG baselines.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-07</td>
-      <td style="width: 55%;"><strong>CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2510.05520">
-      <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • The paper introduces CAM, a Constructivist Agentic Memory system inspired by Jean Piaget’s theory, designed to enhance Large Language Models (LLMs) in long-form document comprehension.<br>
-        • CAM features structured schemata, flexible assimilation, and dynamic accommodation, utilizing an incremental overlapping clustering algorithm for efficient memory development and an adaptive Prune-and-Grow strategy for retrieval.<br>
-        • Experimental results across diverse benchmarks show that CAM achieves dual advantages in both performance and efficiency compared to existing structured and unstructured memory approaches.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-30</td>
-      <td style="width: 55%;"><strong>MEM-α: LEARNING MEMORY CONSTRUCTION VIA REINFORCEMENT LEARNING</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2509.25911">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <a href="https://dl.acm.org/doi/full/10.1145/3749987">
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="Paper Badge">
         </a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Proposes Mem-α, a reinforcement learning framework that trains agents to effectively manage complex memory systems (comprising core, episodic, and semantic components) through interaction and feedback.<br>
-          • Unlike approaches relying on pre-defined instructions, Mem-α treats memory construction as a sequential decision-making problem, optimizing directly for downstream question-answering accuracy.<br>
-          • Experimental results show that Mem-α significantly outperforms existing baselines and demonstrates remarkable generalization, effectively handling contexts exceeding 400k tokens despite being trained on 30k token sequences.
+          • 深入探讨了机器遗忘的概念和背景，强调了其在现代机器学习中的重要性。<br>
+          • 机器遗忘旨在使学习算法能够有效地消除特定数据的影响，而无需进行完整的模型重新训练。<br>
+          • 论文分析了机器遗忘的必要性、挑战和设计要求，回顾了当前的研究进展，并强调了该领域在算法有效性、公平性和隐私保护方面的复杂性和多样性。
         </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-29</td>
-      <td style="width: 55%;"><strong>Pretraining with hierarchical memories: separating long-tail and common knowledge</strong></td>
+      <td rowspan="2" style="width: 15%;">2025-09-02</td>
+      <td style="width: 55%;">
+      <strong>A Survey on the Memory Mechanism of Large Language Model based Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
+      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules Badge">
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2510.02375">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Proposes a "pretraining-with-memories" architecture that decouples reasoning capabilities (anchor model) from long-tail world knowledge (hierarchical memory bank).<br>
-        • The system dynamically retrieves and attaches context-dependent parameter blocks from a massive memory bank to a small anchor model during inference, enabling efficient scaling.<br>
-        • Experiments demonstrate that a 160M model augmented with memories matches the performance of a standard model with over twice the parameters, specifically excelling at long-tail knowledge tasks.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-26</td>
-      <td style="width: 55%;"><strong>Conflict-Aware Soft Prompting for Retrieval-Augmented Generation</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Retrieval%20Augmented%20Generation-blue" alt="Retrieval Augmented Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.15253">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • The "Conflict-Aware Retrieval Enhancement Generation" (CARE) model aims to address the context-memory conflict problem that occurs in Retrieval Enhancement Generation (RAG).<br>
-          • CARE optimizes the performance of large language models (LLMs) by introducing context evaluators, especially in dealing with conflicts between external and internal knowledge.<br>
-          • This method significantly enhances the accuracy and reliability of the model in multiple tasks through techniques such as conflict-aware fine-tuning, soft prompts, and adversarial soft prompts.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-26</td>
-      <td style="width: 55%;"><strong>PRIME Planning and Retrieval-Integrated Memory for Enhanced Reasoning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2509.22315">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • PRIME is a multi-agent inference framework. PRIME provides intuitive answers to simple questions through fast-response agents.<br>
-          • PRIME performs complex reasoning through multiple specific agents, such as memory, planning, search and reading agents.<br>
-          • PRIME still needs to improve its belief correction mechanism and optimize the interaction among agents.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-25</td>
-      <td style="width: 55%;"><strong>SGMEM: Sentence Graph Memory for Long-Term Conversational Agents</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2509.21212">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • SGMem is a hierarchical memory management framework designed to address memory fragmentation in long-term conversational agents by organizing dialogue into sentence-level graphs.<br>
-        • It explicitly models associations across turns, rounds, and sessions, and uses a multi-hop retrieval mechanism to integrate raw dialogue history with generated memory such as summaries, facts, and insights.<br>
-        • Extensive experiments on LongMemEval and LoCoMo benchmarks demonstrate that SGMem consistently improves retrieval coherence and outperforms strong baselines in question answering accuracy.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-16</td>
-      <td style="width: 55%;"><strong>WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2509.13312">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces WebWeaver, a dual-agent framework comprising a Planner and a Writer designed to tackle open-ended deep research (OEDR) by emulating human research processes.<br>
-        • The Planner uses a dynamic cycle to interleave evidence acquisition with outline optimization, building a memory bank of evidence; the Writer performs hierarchical, citation-grounded retrieval to compose the report section by section.<br>
-        • WebWeaver achieves state-of-the-art performance on benchmarks like DeepResearch Bench by effectively managing long contexts and mitigating hallucinations through targeted memory retrieval.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-15</td>
-      <td style="width: 55%;"><strong>MOOM: Maintenance, Organization and Optimization of Memory in Ultra-Long Role-Playing Dialogues</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Forgetting%20Strategies-darkmagenta" alt="Forgetting Strategies">
-      <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2509.11860">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3748302">
+        <img src="https://img.shields.io/badge/ACM-paper-black?labelColor=blue" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • MOOM is a dual-branch memory extraction framework designed for ultra-long role-playing dialogues, modeling "plot development" and "character portrayal" as core storytelling elements.<br>
-          • It incorporates a novel forgetting mechanism based on "competition-inhibition" theory to effectively control memory capacity and prevent uncontrolled expansion.<br>
-          • The authors introduce ZH-4O, a large-scale Chinese role-playing dataset with average 600-turn dialogues and manual memory annotations, demonstrating MOOM's superior performance over state-of-the-art methods.
+          • 探讨了基于 LLM 的智能体的记忆机制，强调了记忆在智能体自我进化和复杂交互中的关键作用。<br>
+          • 系统总结和分类了现有的记忆模块设计和评估方法，并分析了它们在不同应用场景中的作用和局限性。<br>
+          • 此类智能体能够改善决策制定和任务执行。
         </td>
     </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-13</td>
-      <td style="width: 55%;"><strong>Pre-Storage Reasoning for Episodic Memory: Shifting Inference Burden to Memory for Personalized Dialogue</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2509.10852">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
     <tr>
-      <td colspan="3">
-        • PREMem (Pre-storage Reasoning for Episodic Memory) is a novel approach that shifts complex reasoning processes from response generation to the memory construction phase.<br>
-        • It extracts fine-grained memory fragments (categorized into factual, experiential, and subjective information) and establishes explicit cross-session relationships based on cognitive schema theory, capturing evolution patterns like extensions and transformations.<br>
-        • Experiments on LongMemEval and LoCoMo benchmarks show significant performance improvements, enabling smaller models to achieve results comparable to larger baselines while reducing inference computational demands.
+      <td rowspan="2" style="width: 15%;">2025-05-31</td>
+      <td style="width: 55%;">
+      <strong>A Survey of Machine Unlearning in Large Language Models: Methods, Challenges and Future Directions</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting"></td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2503.01854v2">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-09-11</td>
-      <td style="width: 55%;"><strong>OpenUnlearning:Accelerating LLM unlearning via unified benchmarking of methods and metrics</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2506.12618">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the “OpenUnlearning” framework, designed to advance research on unlearning in large language models (LLMs).<br>
-          • OpenUnlearning integrates a wide range of unlearning algorithms and evaluation methods, streamlining the research workflow for studying forgetting.<br>
-          • Through targeted and task-specific evaluations, OpenUnlearning ensures the credibility and robustness of unlearning assessment standards.
+          • 论文调查了大语言模型（LLM）中的机器遗忘，旨在有效消除不良数据（如敏感或非法信息）的影响，无需完全重新训练，同时保留整体模型效用。<br>
+          • 它定义了 LLM 遗忘的目标和范式，并建立了一个全面的分类体系。<br>
+          • 论文回顾了现有方法，评估了它们的优势和局限性，并讨论了未来的研究机会。
         </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-27</td>
-      <td style="width: 55%;"><strong>Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <td rowspan="2" style="width: 15%;">2025-05-27</td>
+      <td style="width: 55%;">
+      <strong>Rethinking Memory in AI Taxonomy, Operations, Topics, and Future Directions</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
       <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.19828v4">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Memory-R1 is an RL-driven framework that empowers LLMs to actively manage and utilize external memory via two specialized agents: a Memory Manager and an Answer Agent.<br>
-          • The Memory Manager learns structured operations (ADD, UPDATE, DELETE) to maintain memory, while the Answer Agent filters retrieved memories for accurate reasoning.<br>
-          • With only 152 training samples, it outperforms strong baselines on LoCoMo, MSC, and LongMemEval, demonstrating high data efficiency and generalization.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-26</td>
-      <td style="width: 55%;"><strong>MemoryVLA Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Memory%20Aware-purple" alt="Memory Aware">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.19236">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MemoryVLA is a newly developed robot operation framework, aiming to enhance the performance of robots in complex tasks by integrating visual, language, and perception-cognitive mechanisms.<br>
-          • This framework adopts an architecture similar to the human dual memory system, enhancing the robot's ability to handle long-sequence tasks.<br>
-          • MemoryVLA introduces perception-cognitive memory banks (PCMB), which can effectively integrate historical information with current decisions, thereby enhancing the success rate of robots in responding to complex scenarios.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-21</td>
-      <td style="width: 55%;"><strong>Multiple Memory Systems for Enhancing the Long-term Memory of Agent</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-        <img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.15294">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes a Multiple Memory System (MMS) inspired by cognitive psychology to address the issue of low-quality memory content in existing agent memory modules.<br>
-          • The system processes short-term memory into diverse fragments—keywords, cognitive perspectives, episodic memory, and semantic memory—to construct specialized retrieval and contextual memory units.<br>
-          • Experimental results on the LoCoMo dataset demonstrate that MMS significantly outperforms methods like MemoryBank and A-MEM, particularly in multi-hop reasoning and open-domain tasks.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-18</td>
-      <td style="width: 55%;"><strong>Semantic Anchoring in Agentic Memory: Leveraging Linguistic Structures for Persistent Conversational Context</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2508.12630v1">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Semantic Anchoring is a hybrid agentic memory architecture designed to enhance the long-term context retention of LLMs by enriching vector-based storage with explicit linguistic cues such as syntactic dependencies, discourse relations, and coreference links.<br>
-          • The proposed framework employs a multi-stage pipeline involving dependency parsing, coreference resolution, and discourse tagging to construct a hybrid index, allowing retrieval systems to access memories based on both semantic similarity and structural linguistic roles.<br>
-          • Experimental results on adapted long-term dialogue datasets (MultiWOZ-Long and DialogRE-L) demonstrate that Semantic Anchoring outperforms strong RAG baselines, improving factual recall and discourse coherence by up to 18% while maintaining higher user satisfaction.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-12</td>
-      <td style="width: 55%;"><strong>Context as Memory Scene-Consistent Interactive Long Video Generation with Memory Retrieval</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2506.03141">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • "Context-as-memory" significantly enhances the scene consistency and Memory capacity of long video generation by leveraging historical Context as memory.<br>
-          • The paper studies key designs such as context learning mechanisms, camera control, and memory retrieval strategies, and points out the balance between computational efficiency and generation quality.<br>
-          • Based on the long video generation architecture of the diffusion model, the current technological progress, challenges and future directions are expounded.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-12</td>
-      <td style="width: 55%;"><strong>Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-        <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2508.08997">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces Intrinsic Memory Agents, a multi-agent framework designed to address context limitations and role inconsistency using structured, agent-specific memories.<br>
-          • The method employs role-aligned memory templates and intrinsic updates derived directly from agent outputs, preserving heterogeneous perspectives and domain expertise without external summarization.<br>
-          • Evaluations on the PDDL benchmark demonstrate a 38.6% performance improvement with high token efficiency, while case studies show enhanced quality in complex planning tasks.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-06</td>
-      <td style="width: 55%;"><strong>RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-        <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2508.04903">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • RCR-Router is a role-aware context routing framework designed for multi-agent LLM systems to address the limitations of static and full-context routing, such as excessive token consumption and redundant memory exposure.<br>
-        • The framework dynamically selects semantically relevant memory subsets for each agent based on their specific role and the current task stage, enforcing a strict token budget and utilizing an iterative feedback mechanism to refine context.<br>
-        • Experiments on multi-hop QA benchmarks (HotPotQA, MuSiQue, 2WikiMultihop) demonstrate that RCR-Router reduces token usage by 25–47% while maintaining or improving answer quality compared to baseline strategies.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-08-03</td>
-      <td style="width: 55%;"><strong>MLP Memory: A Retriever-Pretrained Memory for Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2508.01832">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces MLP Memory, a lightweight parametric module that learns to internalize retrieval patterns without requiring explicit document access during inference, effectively bridging the gap between RAG and parametric fine-tuning.<br>
-        • By pretraining an MLP to imitate a kNN retriever’s behavior on the entire pretraining dataset, the model compresses large datastores into a differentiable memory component that integrates with Transformer decoders via probability interpolation.<br>
-        • Experimental results show that MLP Memory achieves superior scaling behavior, improves QA performance by 12.3% relative to baselines, reduces hallucinations by up to 10 points, and offers 2.5× faster inference than RAG.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-07-27</td>
-      <td style="width: 55%;"><strong>SynapticRAG:Enhancing temporal memory retrieval in large language models through synaptic mechanisms</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Cross--Memory%20Retrieval-orchid" alt="Cross-Memory Retrieval">
-      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.findings-acl.1048.pdf">
-      <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • SynapticRAG is a novel memory retrieval framework for large language models (LLMs), designed to enhance memory retrieval in cross-session conversations.<br>
-          • By combining temporal association triggers with biologically inspired synaptic propagation mechanisms, SynapticRAG significantly improves the identification of relevant conversational history.<br>
-          • Experimental results show that the framework achieves improvements of up to 14.66% across multiple performance metrics and demonstrates clear advantages in dynamic memory management.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-07-17</td>
-      <td style="width: 55%;"><strong>MEM1 Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2506.15841">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MEM1 is an innovative end-to-end reinforcement learning framework designed to enhance the efficiency of large language models (LLMs) in long-term multi-round interactions.<br>
-          • MEM1 effectively solves the problem of memory dilation in context processing of traditional models by constructing a compact shared internal state.<br>
-          • The experimental results show that MEM1 significantly improves performance in multiple tasks while reducing memory usage, demonstrating its wide applicability and optimization potential in dynamic environments.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-07-03</td>
-        <td style="width: 55%;"><strong>MemAgent Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2507.02259">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> 
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MemAgent is a long text processing method that uses reinforcement learning (RL) to dynamically update memory, aiming to address the performance degradation and high computational complexity issues of large language models (LLMS) when dealing with long texts.<br>
-          • The model can maintain a linear time complexity while handling inputs of infinite length by treating memory as a latent variable and introducing stream processing and multi-session strategies.<br>
-          • The experimental results show that MemAgent performs outstandingly with high accuracy in ultra-long text tasks, especially having obvious advantages in complex multi-hop reasoning tasks.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-06-09</td>
-      <td style="width: 55%;"><strong>G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/abs/2506.07398">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces G-Memory, a hierarchical memory system designed to address the lack of self-evolution capabilities in Large Language Model (LLM)-based Multi-Agent Systems (MAS).<br>
-        • Implements a three-tier graph architecture—Insight Graph, Query Graph, and Interaction Graph—to manage lengthy interaction histories by abstracting generalizable insights and condensing specific collaborative trajectories.<br>
-        • Experimental results across embodied action and knowledge QA benchmarks demonstrate that G-Memory significantly enhances agent team performance, improving success rates by up to 20.89% without modifying the original frameworks.
-      </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-05-30</td>
-        <td style="width: 55%;"><strong>M+：Extending MemoryLLM with scalable Long-Term Memory</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-        </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2310.04625">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> 
-    </tr>
-    <tr>
-        <td colspan="3">
-          • M+ is a memory-augmented model designed to improve long-term information retention in large language models (LLMs).<br>
-          • Built upon MemoryLLM, M+ integrates long-term memory mechanisms with a jointly trained retriever, substantially enhancing the model’s ability to handle knowledge spanning over 20,000 tokens while maintaining comparable GPU memory overhead.<br>
-          • M+ achieves strong performance across multiple benchmarks, outperforming MemoryLLM and other competitive baselines, and demonstrates efficient information compression and end-to-end training, exhibiting mechanisms that closely resemble human memory.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-05-26</td>
-      <td style="width: 55%;"><strong>MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
-      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2505.20231v2">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • MemGuide is a two-stage framework designed to enhance multi-session task-oriented dialogue (TOD) by incorporating task intent and slot-level guidance into memory selection.<br>
-        • It employs Intent-Aligned Retrieval to match current context with stored intent descriptions and Missing-Slot Guided Filtering to prioritize memory units that fill information gaps using a Chain-of-Thought reasoner.<br>
-        • The authors also introduce MS-TOD, a multi-session TOD benchmark. Evaluations show MemGuide significantly improves task success rates and reduces dialogue turns compared to strong baselines.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-05-23</td>
-      <td style="width: 55%;"><strong>Towards General Continuous Memory for Vision-Language Models</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Memory%20Modules-crimson" alt="Memory Modules">
-      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2505.17670">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • CoMEM addresses the token overload and performance degradation issues in traditional Retrieval-Augmented Generation (RAG) for Vision-Language Models (VLMs) by introducing a general continuous memory mechanism.<br>
-          • The method innovatively utilizes the VLM itself as a memory encoder combined with a lightweight Q-Former, efficiently compressing diverse multimodal and multilingual knowledge into a compact set of continuous embeddings.<br>
-          • CoMEM is data- and parameter-efficient (requiring only 1.2% trainable parameters) and plug-and-play, significantly enhancing performance on complex multimodal reasoning tasks while keeping the inference model frozen.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-05-21</td>
-      <td style="width: 55%;"><strong>Pre-training Limited Memory Language Models with Internal and External Knowledge</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
-        <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2505.15962">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces Limited Memory Language Models (LMLM), a new class of models that externalizes factual knowledge to an external database during pre-training rather than encoding it in parameters.<br>
-        • The approach uses a modified pre-training objective that masks retrieved factual values from the loss, encouraging the model to perform targeted lookups for facts instead of memorizing them.<br>
-        • Experiments demonstrate that LMLMs match the factual precision of significantly larger models while enabling instant, verifiable knowledge updates and effective machine unlearning through simple database operations.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-05-11</td>
-      <td style="width: 55%;"><strong>In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://aclanthology.org/2025.acl-long.413/">
-        <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes Reflective Memory Management (RMM), a novel framework for long-term dialogue agents that addresses the limitations of rigid memory granularity and fixed retrieval mechanisms.<br>
-          • Integrates Prospective Reflection to dynamically organize dialogue history into topic-based memories, and Retrospective Reflection to iteratively refine retrieval using online reinforcement learning guided by LLM attribution signals.<br>
-          • Experimental results on MSC and LongMemEval benchmarks demonstrate that RMM significantly outperforms strong baselines, achieving over 10% improvement in accuracy and enhancing response personalization.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-04-22</td>
-        <td style="width: 55%;"><strong>MemoRAG Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-        <img src="https://img.shields.io/badge/Long%20Context%20Processing-teal" alt="Long Context Processing">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        </td>
-        <td style="width: 15%;"><a href="https://dl.acm.org/doi/10.1145/3696410.3714805">
-        <img src="https://img.shields.io/badge/WWW-Paper-black?labelColor=teal" alt="WWW Paper">
-        </a> 
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MemoRAG aims to enhance the ability of large language models (LLMs) in handling long contexts by improving the information retrieval and generation process through a global memory-enhanced retrieval mechanism.<br>
-          • This framework adopts a lightweight global memory module and a complex generation system, which can effectively manage long contexts and generate useful clues to assist in answer generation.<br>
-          • This model is applicable to a variety of tasks, including long document question answering and summarization, demonstrating its potential in handling complex long text scenarios.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-04-14</td>
-      <td style="width: 55%;"><strong>ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.10419">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces ComoRAG, a retrieval-augmented generation framework inspired by the human Prefrontal Cortex, designed to achieve stateful reasoning in long narrative contexts.<br>
-          • The framework employs a dynamic memory workspace and a metacognitive regulation loop (including Self-Probe, Mem-Fuse, and Mem-Update) to iteratively fuse fragmented evidence into coherent context.<br>
-          • Experimental results demonstrate that ComoRAG consistently outperforms strong baselines on challenging benchmarks like NarrativeQA and ∞BENCH, particularly excelling in complex narrative queries requiring global understanding.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-02-25</td>
-        <td style="width: 55%;"><strong>Towards effective evaluation and comparisons for LLM unlearning methods</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
-        <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-        </td>
-        <td style="width: 15%;"><a href="https://openreview.net/forum?id=aLLuYpn83y">
-        <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • The paper examines machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on removing undesirable or unnecessary data memories.<br>
-          • It introduces Unlearning with Calibration (UWC) to calibrate model performance and strengthen the evaluation of different unlearning methods.<br>
-          • The study emphasizes the importance of selecting appropriate evaluation metrics and recommends Extraction Strength (ES) as a primary evaluation tool to ensure accuracy and robustness in assessment.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-02-09</td>
-        <td style="width: 55%;"><strong>LM2 Large Memory Models</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2502.06049">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a> 
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • LM2 aims to overcome the limitations of traditional Transformers in multi-step reasoning, relational argumentation, and long context processing.<br>
-          • The LM2 integrates an auxiliary memory module, which utilizes cross-attention mechanisms and gating technology to enhance information storage and update capabilities.<br>
-          • In multiple benchmark tests, LM2 has demonstrated significantly superior performance, particularly excelling in long context reasoning tasks, effectively enhancing the ability to process and remember complex information.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-01-23</td>
-      <td style="width: 55%;"><strong>ON MEMORY CONSTRUCTION AND RETRIEVAL FOR PERSONALIZED CONVERSATIONAL AGENTS</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2502.05589">
-        <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces SECOM, a memory management method that constructs memory banks at the segment level to address limitations of turn-level and session-level approaches in long-term conversations.<br>
-          • SECOM partitions conversations into topically coherent segments and employs prompt compression (LLMLingua-2) as a denoising mechanism to enhance retrieval accuracy.<br>
-          • Experimental results demonstrate that SECOM significantly outperforms existing baselines on long-term conversation benchmarks like LOCOMO and Long-MT-Bench+.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2025-01-19</td>
-        <td style="width: 55%;"><strong>Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-        <img src="https://img.shields.io/badge/Forgetting%20Strategies-darkmagenta" alt="Forgetting Strategies">
-        </td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2025.coling-main.252.pdf">
-        <img src="https://img.shields.io/badge/COLING-Paper-black?labelColor=brown" alt="COLING Paper">
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes Alternate Preference Optimization (AltPO), a method designed to effectively address the challenges of machine unlearning in large language models (LLMs).<br>
-          • AltPO enhances unlearning by combining negative feedback from the forget set with positive feedback from the same domain to generate multiple alternative responses, thereby improving forgetting capability while preserving overall model performance.<br>
-          • Experimental results demonstrate that AltPO outperforms existing methods in terms of both unlearning quality and model utility.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-12-31</td>
-      <td style="width: 55%;"><strong>Titans Learning to Memorize at Test Time</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00663">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • "Titans" aims to enhance the model's memory capacity when dealing with long sequences and complex contexts.<br>
-          • The Titans architecture combines short-term memory and long-term memory modules, overcomes the limitations of traditional recursive models and attention mechanisms, and is capable of handling larger context Windows.<br>
-          • The experimental results show that Titans exhibit superior performance and flexibility, especially in handling long dependency relationships and diverse tasks.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-12-17</td>
-      <td style="width: 55%;"><strong>On the Structural Memory of LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Modules-crimson)" alt="Memory Modules">
-      <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2412.15266">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • The paper investigates how the structure and retrieval methods of memory modules in large language models (LLMs) affect model performance, with a focus on different memory architectures and their roles in information extraction and generation.<br>
-          • The study finds that hybrid memory structures outperform others in complex tasks, demonstrating greater robustness in noisy environments.<br>
-          • Through hyperparameter sensitivity analysis, the research identifies memory retrieval strategies that are best suited to different task settings.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-12-01</td>
-      <td style="width: 55%;"><strong>SELF-UPDATABLE LARGE LANGUAGE MODELS BY INTEGRATING CONTEXT INTO MODEL PARAMETERS</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-        <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
-        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2410.00487">
-        <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes SELF-PARAM, a method to integrate contexts directly into LLM parameters without requiring extra storage modules, ensuring both high efficacy and long-term retention.<br>
-          • Employs a training objective that minimizes the KL divergence between an original model (with context access) and a target model (without context), utilizing diverse generated QA pairs.<br>
-          • Experiments demonstrate that SELF-PARAM significantly outperforms existing continual learning and RAG methods in question-answering and conversational recommendation tasks, achieving near-optimal performance with zero storage complexity.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2024-10-10</td>
-        <td style="width: 55%;"><strong>Assessing episodic memory in LLMs with sequence order recall tasks</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
-        <img src="https://img.shields.io/badge/Sequential%20Recall-tomato" alt="Sequential Recall"> 
-        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-        </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.08133">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • This study introduces the Sequence Order Recall Task (SORT), designed to evaluate the episodic memory capabilities of large language models (LLMs).<br>
-          • The task highlights the importance of episodic memory—linking memories with relevant context such as time and location—particularly in everyday cognitive tasks.<br>
-          • Preliminary results indicate that LLMs exhibit strong memory performance when contextual information is provided, but their performance degrades significantly when relying solely on training data.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-19</td>
-      <td style="width: 55%;"><strong>ELDER: Enhancing Lifelong Model Editing with Mixture-of-LoRA</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2408.11869">
-        <img src="https://img.shields.io/badge/AAAI-Paper-black?labelColor=orange" alt="AAAI Paper">
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • ELDER proposes a novel lifelong model editing method using a Mixture-of-LoRA structure to establish continuous associations between data and adapters, enhancing robustness against rephrased inputs.<br>
-          • The framework integrates a router network with a guided loss function to align LoRA allocations with edit knowledge and utilizes a deferral mechanism to preserve the model's general capabilities.<br>
-          • Extensive experiments on GPT-2 XL and LLaMA2-7B demonstrate that ELDER outperforms existing baselines in reliability, generalization, and scalability while maintaining performance on downstream tasks.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" style="width: 15%;">2024-08-11</td>
-        <td style="width: 55%;"><strong>Towards Safer Large Language Models through Machine Unlearning</strong></td>
-        <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-        </td>
-        <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-acl.107.pdf">
-        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • This paper introduces the Selective Knowledge Unlearning (SKU) framework, aimed at improving the safety of large language models (LLMs).<br>
-          • The SKU framework consists of two main stages: harmful knowledge acquisition, followed by knowledge negation, which focuses on removing undesirable knowledge without degrading model utility under benign prompts.<br>
-          • SKU successfully reduces harmful outputs while preserving response quality, and demonstrates a strong balance between unlearning effectiveness and model utility across multiple LLM architectures, such as OPT and LLaMA2.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-06</td>
-      <td style="width: 55%;"><strong>RULER: What’s the Real Context Size of Your Long-Context Language Models?</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
-      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.06654">
-      <img src="https://img.shields.io/badge/COLM-Paper-black?labelColor=gold" alt="COLM Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • RULER is designed for the comprehensive evaluation of long-context language models (LMs) across a wide range of tasks.<br>
-          • It extends the traditional Needle-in-a-Haystack (NIAH) test by incorporating tasks such as multi-hop tracking and aggregation, enabling a more thorough assessment of models’ understanding under long-context settings.<br>
-          • RULER demonstrates strong performance in multi-hop reasoning and information retrieval tasks.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-07-22</td>
-      <td style="width: 55%;"><strong>A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.09727">
-      <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • ReadAgent is a reading comprehension system designed to improve the performance of large language models (LLMs) when processing long-form text.<br>
-          • Through three steps—episodic pagination, memory summarization, and interactive lookup—ReadAgent significantly extends the effective context length by up to 20×.<br>
-          • ReadAgent outperforms traditional approaches on long-document reading comprehension benchmarks such as QuALITY, NarrativeQA, and QMSum.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-06-30</td>
-      <td style="width: 55%;"><strong>Towards Efficient and Effective Unlearning of Large Language Models for Recommendation</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      <img src="https://img.shields.io/badge/Recommender%20Systems-darkslategray" alt="Recommender Systems">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2403.03536">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces E2URec, a recommendation data unlearning method specifically designed for LLM-based recommender systems (LLMRec).<br>
-          • E2URec significantly improves unlearning efficiency while preserving recommendation performance by updating only Low-Rank Adaptation (LoRA) parameters.<br>
-          • Experimental results show that E2URec outperforms existing baseline methods on real-world datasets.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-05-30</td>
-      <td style="width: 55%;"><strong>Knowledge Graph Tuning: Real-time Large Language Model Personalization based on Human Feedback</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
-        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2405.19686">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes Knowledge Graph Tuning (KGT), a novel approach that personalizes large language models (LLMs) by optimizing external knowledge graphs based on user feedback, without modifying model parameters.<br>
-          • KGT extracts personalized factual knowledge triples from user interactions and employs a heuristic optimization algorithm, avoiding the high computational costs and low interpretability of back-propagation methods.<br>
-          • Experiments with models like Llama2 and Llama3 demonstrate that KGT significantly enhances personalization performance while reducing latency by up to 84% and GPU memory costs by up to 77%.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-05-26</td>
-      <td style="width: 55%;"><strong>MemoryLLM:Towards self-Update Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2402.04624">
-      <img src="https://img.shields.io/badge/ICML-Paper-black?labelColor=brightgreen" alt="ICML Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • MEMORYLLM is a self-updating large language model designed to effectively integrate new knowledge while maintaining long-term information retention.<br>
-          • By embedding a fixed-size memory pool in the latent space of the transformer, MEMORYLLM achieves a seamless combination of model self-updating and knowledge preservation.<br>
-          • Key design features include memory tokens that store compressed knowledge, an intelligent self-updating mechanism, and comprehensive evaluations of knowledge integration, retention capability, and robustness.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-05-23</td>
-      <td style="width: 55%;"><strong>HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
-      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-      <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2405.14831">
-        <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • HippoRAG is a novel retrieval framework inspired by the hippocampal indexing theory of human long-term memory, designed to enable deeper and more efficient knowledge integration for LLMs.<br>
-          • By orchestrating LLMs, knowledge graphs, and Personalized PageRank (PPR) to mimic the neocortex and hippocampus, it enables effective single-step multi-hop retrieval.<br>
-          • The method outperforms state-of-the-art retrieval-augmented generation (RAG) methods on multi-hop QA tasks by up to 20% and is significantly faster and cheaper than iterative retrieval approaches.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-05-23</td>
-      <td style="width: 55%;"><strong>WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
       <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
       <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
-      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2405.14768">
-        <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Identifies an "impossible triangle" in lifelong model editing—reliability, generalization, and locality cannot be simultaneously achieved—attributing this to the gap between long-term and working memory mechanisms.<br>
-          • Proposes WISE, a dual parametric memory framework that utilizes a side memory for edits and a router to bridge it with the pretrained main memory, employing knowledge sharding and merging to handle continuous updates.<br>
-          • Extensive experiments show that WISE outperforms existing methods in question answering, hallucination correction, and out-of-distribution generalization settings across multiple LLM architectures.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-04-26</td>
-      <td style="width: 55%;"><strong>Enhancing Large Language Model with Self-Controlled Memory Framework</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-      <img src="https://img.shields.io/badge/Long--Text%20Processing-navy" alt="Long-Text Processing">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2304.13343">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes the Self-Controlled Memory (SCM) framework to unleash infinite-length input capacity for Large Language Models (LLMs) without requiring modification or fine-tuning.<br>
-          • The framework comprises an LLM-based agent, a memory stream for storing historical information, and a memory controller that dynamically manages "Activation Memory" (long-term) and "Flash Memory" (short-term).<br>
-          • The authors also contribute a dataset covering long-term dialogues, book summarization, and meeting summarization, demonstrating that SCM achieves superior retrieval recall and response generation compared to baselines.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-04-24</td>
-      <td style="width: 55%;"><strong>From Local to Global: A GraphRAG Approach to Query-Focused Summarization</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
-        <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2404.16130">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces GraphRAG, a graph-based retrieval-augmented generation approach designed to address the limitations of conventional vector RAG in answering global questions about an entire text corpus.<br>
-          • The method constructs an entity knowledge graph from source documents, partitions it into hierarchical communities using the Leiden algorithm, and pre-generates summaries to facilitate global sensemaking.<br>
-          • By utilizing a map-reduce mechanism over community summaries, GraphRAG significantly outperforms baseline RAG systems in comprehensiveness and diversity for large-scale datasets.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-04-15</td>
-      <td style="width: 55%;"><strong>Memory Sharing for Large Language Model based Agents</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2404.09982v2">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces the Memory Sharing (MS) framework, which enables multiple LLM-based agents to share Prompt-Answer (PA) pairs as memories in a dynamic, real-time pool.<br>
-          • The framework employs a dual-purpose mechanism where newly generated high-quality memories are used to enhance In-Context Learning for agents and simultaneously train the retriever to improve future retrieval relevance.<br>
-          • Experimental results across domains like Literary Creation and Logic Problem-solving demonstrate that the MS framework effectively evolves individual intelligence into collective intelligence, significantly improving performance on open-ended questions without explicit fine-tuning.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-04-13</td>
-      <td style="width: 55%;"><strong>LLM In-Context Recall is Prompt Dependen</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/LLM%20Recall-steelblue" alt="LLM Recall">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2404.08865">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Investigates the information recall capabilities of large language models (LLMs), with particular emphasis on their dependence on prompt content and formatting.<br>
-          • Using the Needle-in-a-Haystack (NIAH) evaluation, the study finds that recall performance is strongly influenced by training data bias, as well as the content and structure of prompts.<br>
-          • The results show that architectural improvements, training strategy adjustments, and fine-tuning can all effectively enhance recall performance.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-04-07</td>
-      <td style="width: 55%;"><strong>Online Adaptation of Language Models with a Memory of Amortized Contexts</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
       <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2403.04317">
-        <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-        </a>
+        <a href="https://arxiv.org/pdf/2505.00675">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces Memory of Amortized Contexts (MAC), an efficient online adaptation framework for large language models (LLMs) designed to address catastrophic forgetting and high computational costs in keeping models up-to-date.<br>
-          • MAC utilizes a meta-learned amortization network to compress new documents into compact parameter-efficient finetuning (PEFT) modulations stored in a memory bank, using an aggregation network to retrieve and combine relevant knowledge for specific queries.<br>
-          • Experimental results on StreamingQA and SQuAD-Seq demonstrate that MAC significantly outperforms existing online finetuning methods in both adaptation performance and knowledge retention, while offering superior time and memory efficiency.
+          • 探索了人工智能（AI）中关于记忆的多维研究，特别关注大语言模型（LLM）中的记忆操作和管理。<br>
+          • 对各种类型的记忆表示和操作（包括整合、更新、索引、遗忘、检索和压缩）进行了分类，并系统分析了记忆在 AI 中的重要性及其实现方式。<br>
+          • 通过广泛的文献回顾，论文确定了四个关键研究主题：长期记忆、参数化记忆、长上下文记忆和多源记忆整合。
         </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-03-24</td>
-      <td style="width: 55%;"><strong>MemoryBank: Enhancing Large Language Models with Long-Term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29946">
-      <img src="https://img.shields.io/badge/AAAI-Paper-black?labelColor=orange" alt="AAAI Paper">
-      </a></td>
     </tr>
     <tr>
-        <td colspan="3">
-          • MemoryBank is a long-term memory mechanism designed for large language models (LLMs) to address memory limitations in continuous interactions.<br>
-          • By enabling models to effectively recall, update, and adapt user memories, MemoryBank enhances contextual understanding and user experience.<br>
-          • Experimental results and analyses demonstrate MemoryBank’s effectiveness in improving emotional support and personalized interactions.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-02-16</td>
-      <td style="width: 55%;"><strong>Large Language Model Unlearning</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      <img src="https://img.shields.io/badge/Forgetting%20Strategies-darkmagenta" alt="Forgetting Strategies">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2310.10683">
-      <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Explores methods for implementing “forgetting” or “unlearning” in large language models (LLMs) to eliminate undesired or misaligned behaviors.<br>
-          • By applying a gradient ascent (GA) strategy and introducing a random-output loss, the study demonstrates that unlearning can effectively prevent models from generating harmful responses.<br>
-          • Experimental results show that the GA and GA + Mismatch approaches perform particularly well in reducing content leakage rates.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2024-02-06</td>
-      <td style="width: 55%;"><strong>Compressed context memory for online language model interaction</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
-      <img src="https://img.shields.io/badge/Long--Context%20Models-royalblue" alt="Long-Context Models">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2312.03414">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Proposes a compressed contextual memory approach to improve the memory efficiency and computational performance of online language models when handling extended contexts.<br>
-          • By leveraging conditional LoRA integration and parallel computation, the method significantly reduces memory requirements and enables support for effectively unlimited context lengths, surpassing traditional sliding-window strategies.<br>
-          • Experimental results demonstrate that, across applications such as multi-task learning and dialogue generation, the approach reduces memory usage by up to 5× while effectively preserving generation quality and accuracy.
-        </td>
-    </tr>
-     <tr>
-      <td rowspan="2" style="width: 15%;">2023-12-10</td>
-      <td style="width: 55%;"><strong>Unlearn What You Want to Forget: Efficient Unlearning for LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-sienna" alt="Machine Forgetting">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/anthology-files/pdf/emnlp/2023.emnlp-main.738.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces the Efficient Unlearning (EUL) framework, designed to address the challenges of handling user privacy data in large language models (LLMs).<br>
-          • As LLMs are widely deployed, models may inadvertently memorize sensitive information during pretraining, raising significant privacy concerns.<br>
-          • EUL enables the effective removal of specific sensitive data from LLMs without full retraining, while preserving overall predictive performance.
-        </td>
-    </tr>
-       <tr>
-      <td rowspan="2" style="width: 15%;">2023-11-15</td>
-      <td style="width: 55%;"><strong>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</strong></td>
+      <td rowspan="2" style="width: 15%;">2025-04-24</td>
+      <td style="width: 55%;">
+      <strong>Cognitive Memory in Large Language Models</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2311.08719">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces a novel memory mechanism, Think-in-Memory (TiM), designed to enhance the performance of large language models (LLMs) in long-term human–AI interactions.<br>
-          • TiM incorporates an efficient retrieval mechanism based on locality-sensitive hashing, enabling effective memory storage and management over extended interactions.<br>
-          • Experimental results show that TiM significantly improves response accuracy and coherence in multi-turn dialogues.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2023-10-16</td>
-      <td style="width: 55%;"><strong>Character-LLM: A Trainable Agent for Role-Playing</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
-      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
       </td>
       <td style="width: 15%;">
-        <a href="https://aclanthology.org/2023.emnlp-main.814.pdf">
-        <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-        </a>
+        <a href="https://arxiv.org/pdf/2504.02441">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces <strong>Character-LLM</strong>, a trainable agent framework that teaches LLMs to act as specific characters (e.g., Beethoven) by learning from reconstructed experiences rather than relying solely on prompts.<br>
-          • Proposes an <strong>Experience Upload</strong> process involving profile collection, scene extraction, and experience completion to generate high-quality, character-specific training data.<br>
-          • Implements <strong>Protective Experiences</strong> to mitigate hallucinations, enabling agents to effectively "forget" or refuse knowledge inconsistent with their character's era or identity.
+          • 对大语言模型（LLM）中的记忆机制进行了全面考察，特别关注不同类型的记忆及其在模型中的作用。<br>
+          • 虽然 LLM 在信息检索和交互总结方面表现出色，但其长期记忆仍然不稳定。<br>
+          • 将记忆集成到 AI 系统中对于提供上下文丰富的响应、减少幻觉、提高数据处理效率以及实现 AI 系统的自我进化至关重要。
         </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2023-09-22</td>
-      <td style="width: 55%;"><strong>Augmenting Language Models with Long-Term Memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Long--Text%20Processing-navy" alt="Long-Text Processing">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      </td>
-      <td style="width: 15%;"><a href="https://papers.nips.cc/paper_files/paper/2023/file/ebd82705f44793b6f9ade5a669d0f0bf-Paper-Conference.pdf">
-      <img src="https://img.shields.io/badge/NeurIPS-Paper-black?labelColor=yellowgreen" alt="NeurIPS Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduces a new framework, LONGMEM, designed to enhance the ability of large language models (LLMs) to process long-form text.<br>
-          • LONGMEM employs a decoupled network architecture that combines a frozen LLM memory encoder with an adaptive residual side network, enabling efficient caching and updating of long-term contextual information.<br>
-          • By incorporating specialized memory-augmentation layers, a token-based memory retrieval module, and a joint attention mechanism, LONGMEM improves memory retrieval and context utilization, and demonstrates effectiveness across a variety of tasks.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2023-08-16</td>
-      <td style="width: 55%;"><strong>MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation</strong></td>
-      <td style="width: 15%;">
+      <td rowspan="2" style="width: 15%;">2025-04-23</td>
+      <td style="width: 55%;"><strong>From Human Memory to AI Memory A Survey on Memory Mechanisms in the Era of LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
       <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
-      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2308.08239">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
+        <a href="https://arxiv.org/pdf/2504.15965">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
-      <td colspan="3">
-        • Proposes MemoChat, an instruction tuning pipeline designed to enable Large Language Models (LLMs) to employ self-composed memos for maintaining consistency in long-range open-domain conversations.<br>
-        • The approach utilizes a "memorization-retrieval-response" cycle, teaching LLMs to restructure dialogue history into memos and retrieve relevant evidence for answering current queries.<br>
-        • Experiments show that MemoChat outperforms strong baselines on a newly curated, expert-annotated consistency benchmark (MT-Bench+), verifying the efficacy of the memo-equipped inner thinking process.
+        <td colspan="3">
+          • 探讨了人类记忆与基于 LLM 的人工智能（AI）系统的记忆机制之间的关系。<br>
+          • 主要贡献包括系统定义了 LLM 驱动的 AI 系统中的记忆，及其与人类记忆的概念联系。<br>
+          • 论文提出了一个基于对象、形式和时间的三维记忆分类体系，并总结了当前个人记忆和系统记忆研究中的关键开放问题。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-01-12</td>
+      <td style="width: 55%;"><strong>Human-inspired Perspectives: A Survey on AI Long-term Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Non--Parametric%20Memory-green" alt="Non-Parametric Memory">
+      <img src="https://img.shields.io/badge/Sensory%20Memory-brown" alt="Sensory Memory">
+      <img src="https://img.shields.io/badge/Working%20Memory-blueviolet" alt="Working Memory">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2411.00489">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2023-05-23</td>
-      <td style="width: 55%;"><strong>RET-LLM: Towards a General Read-Write Memory for Large Language Models</strong></td>
+        <td colspan="3">
+          • 本文系统地考察了人类长期记忆机制与 AI 长期记忆之间的相互作用，并提出了一种自适应长期记忆认知架构（SALM）。<br>
+          • 它介绍了人类记忆的结构，包括感官记忆、工作记忆以及不同类型的长期记忆（情景记忆、语义记忆和程序记忆）。<br>
+          • 论文分析了 AI 长期记忆的分类——参数化记忆和非参数化记忆——及其存储和检索机制。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-04-02</td>
+      <td style="width: 55%;"><strong>Digital Forgetting in Large Language Models: A Survey of Unlearning Methods</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
-        <img src="https://img.shields.io/badge/Memory%20Modules-crimson" alt="Memory Modules">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2305.14322">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
+        <a href="https://arxiv.org/pdf/2404.02062">
+        <img src="https://img.shields.io/badge/arXiv-paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
-      <td colspan="3">
-        • RET-LLM is a framework that equips large language models (LLMs) with a dedicated read-write memory unit, enabling them to explicitly extract, store, and recall knowledge from text.<br>
-        • Inspired by Davidsonian semantics, the system extracts knowledge in the form of triplets (concept, relationship, concept) and uses a controller to manage interactions between the LLM and the memory module using a text-based API.<br>
-        • The memory unit is designed to be scalable, updatable, and interpretable, effectively handling temporal-based question answering tasks where static models often fail.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2023-05-22</td>
-      <td style="width: 55%;"><strong>RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2305.13304">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces RECURRENTGPT, a language-based simulacrum of the LSTM recurrence mechanism built upon LLMs to generate arbitrarily long texts without forgetting.<br>
-        • Utilizes a dual-memory system: a short-term memory updated in the prompt and a long-term memory stored on hard drives retrieved via semantic search.<br>
-        • Enables interpretable and interactive text generation ("AI as Contents"), allowing human users to observe and edit natural language memories and plans during the generation process.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2023-05-08</td>
-      <td style="width: 55%;"><strong>Prompted LLMs as Chatbot Modules for Long Open-domain Conversation</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
-        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
-        <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://aclanthology.org/2023.findings-acl.277.pdf">
-          <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Proposes MPC (Modular Prompted Chatbot), a novel approach using pre-trained LLMs as individual modules (clarifier, memory processor, utterance generator, summarizer) to create high-quality conversational agents without fine-tuning.<br>
-        • Utilizes techniques like few-shot prompting, chain-of-thought (CoT), and external memory (using DPR) to achieve long-term consistency and flexibility in open-domain dialogue.<br>
-        • Human evaluation results demonstrate that MPC is on par with or superior to fine-tuned models like Blenderbot3 in terms of sensibleness, consistency, and engagingness, particularly in maintaining long-term persona consistency.
-      </td>
-    </tr>
-    
-
+        <td colspan="3">
+          • 论文探讨了大语言模型（LLM）中的数字遗忘及相应的遗忘方法，重点是解决与隐私、版权和社会伦理相关的问题。<br>
+          • 它分析了不同类型的模型架构和训练过程，以及数字遗忘的实际方法，包括数据重新训练、机器遗忘和提示工程。<br>
+          • 通过引入“遗忘保证”的概念，论文强调了精确遗忘和近似遗忘的有效机制。
+        </td>
+    </tr>  
+  </table>
 
   </table>
 
@@ -2335,22 +1172,22 @@ To systematically organize the diverse research and practical resources in the f
 
   <table style="width: 100%;">
     <tr>
-      <td><strong>日期</strong></td>
-      <td><strong>论文与摘要</strong></td>
-      <td><strong>标签</strong></td>
-      <td><strong>链接</strong></td>
+      <td><strong>Date</strong></td>
+      <td><strong>Paper & Summary</strong></td>
+      <td><strong>Tags</strong></td>
+      <td><strong>Links</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-11</td>
       <td style="width: 55%;"><strong>O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-        <img src="https://img.shields.io/badge/个性化记忆-darkturquoise" alt="个性化记忆">
-        <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
-        <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.13593">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </a></td>
     </tr>
     <tr>
@@ -2364,13 +1201,13 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-10-21</td>
       <td style="width: 55%;"><strong>LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-      <img src="https://img.shields.io/badge/人类记忆-red" alt="人类记忆">
-      <img src="https://img.shields.io/badge/记忆压缩-chocolate" alt="记忆压缩">
-      <img src="https://img.shields.io/badge/更新机制-olive" alt="更新机制">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Human%20Memory-red" alt="Human Memory">
+      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2510.18866">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </a></td>
     </tr>
     <tr>
@@ -2384,13 +1221,13 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-10-10</td>
       <td style="width: 55%;"><strong>Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
-      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-      <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
-      <img src="https://img.shields.io/badge/基准测试-darkred" alt="基准测试">
+      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2508.09736">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章"></a>
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
       </td>
     </tr>
     <tr>
@@ -2403,12 +1240,12 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-10-08</td>
       <td style="width: 55%;"><strong>A-MEM: Agentic Memory for LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="记忆框架">
-      <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
-      <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.12110">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -2422,13 +1259,13 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-08-12</td>
       <td style="width: 55%;"><strong>Livia: An Emotion-Aware AR Companion Powered by Modular AI Agents and Progressive Memory Compression</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
-        <img src="https://img.shields.io/badge/记忆压缩-chocolate" alt="记忆压缩">
-        <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
-        <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+        <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+        <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2509.05298">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -2442,14 +1279,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-08-05</td>
       <td style="width: 55%;"><strong>NEMORI: SELF-ORGANIZING AGENT MEMORY INSPIRED BY COGNITIVE SCIENCE</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/模型架构-indigo" alt="模型架构">
-        <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
-        <img src="https://img.shields.io/badge/动态记忆组织-darkviolet" alt="动态记忆组织">
-        <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2508.03341">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a>
       </td>
     </tr>
@@ -2464,12 +1301,12 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-07-23</td>
       <td style="width: 55%;"><strong>H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-      <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
-      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2507.22925">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </a></td>
     </tr>
     <tr>
@@ -2483,14 +1320,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-07-10</td>
       <td style="width: 55%;"><strong>MIRIX: Multi-Agent Memory System for LLM-Based Agents</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-        <img src="https://img.shields.io/badge/长期记忆-darkgreen" alt="长期记忆">
-        <img src="https://img.shields.io/badge/记忆模块-orange" alt="记忆模块">
-        <img src="https://img.shields.io/badge/数据集-seagreen" alt="数据集">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/abs/2507.07957">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a>
       </td>
     </tr>
@@ -2505,14 +1342,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-06-30</td>
       <td style="width: 55%;"><strong>Ella: Embodied Social Agents with Lifelong Memory</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-        <img src="https://img.shields.io/badge/情景记忆-cadetblue" alt="情景记忆">
-        <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-        <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/pdf/2506.24019">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a>
       </td>
     </tr>
@@ -2526,13 +1363,13 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-05-30</td>
       <td style="width: 55%;"><strong>Memory OS of AI Agent</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆操作系统-midnightblue" alt="记忆操作系统">
-      <img src="https://img.shields.io/badge/人脑记忆-darkcyan" alt="人脑记忆">
-      <img src="https://img.shields.io/badge/记忆管理-darkorange" alt="记忆管理">
-      <img src="https://img.shields.io/badge/个性化记忆-darkturquoise" alt="个性化记忆">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
+      <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
       </td>
       <td style="width: 15%;"><a href="https://aclanthology.org/2025.emnlp-main.1318.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP 论文">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
       </a></td>
     </tr>
     <tr>
@@ -2547,12 +1384,12 @@ To systematically organize the diverse research and practical resources in the f
       <td style="width: 55%;"><strong>MemOS: A Memory OS for AI System</strong></td>
       <td style="width: 15%;">
         <img src="https://img.shields.io/badge/MemOS-darkorange" alt="MemOS">
-        <img src="https://img.shields.io/badge/记忆操作系统-midnightblue" alt="记忆操作系统">
-        <img src="https://img.shields.io/badge/参数记忆-pink" alt="参数记忆">
+        <img src="https://img.shields.io/badge/Memory%20Operating%20System-midnightblue" alt="Memory Operating System">
+        <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://arxiv.org/abs/2507.03724">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -2565,12 +1402,12 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="2" style="width: 15%;">2025-04-28</td>
       <td style="width: 55%;"><strong>Mem0 Building production-ready AI agents with Scalable Long-Term memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-      <img src="https://img.shields.io/badge/知识图谱-sepia" alt="知识图谱">
-      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2504.19413">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
@@ -2584,14 +1421,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-01-20</td>
       <td style="width: 55%;"><strong>ZEP: A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/记忆框架-darkslategrey" alt="记忆框架">
-      <img src="https://img.shields.io/badge/知识图谱-sepia" alt="知识图谱">
-      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
-      <img src="https://img.shields.io/badge/动态记忆管理-mediumseagreen" alt="动态记忆管理">
-      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.13956">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </a></td>
     </tr>
     <tr>
@@ -2605,13 +1442,13 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2025-01-09</td>
       <td style="width: 55%;"><strong>Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/模型架构-indigo" alt="模型架构">
-      <img src="https://img.shields.io/badge/记忆机制-yellowgreen" alt="记忆机制">
-      <img src="https://img.shields.io/badge/动态记忆管理-mediumseagreen" alt="动态记忆管理">
-      <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00358">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="论文徽章">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </a></td>
     </tr>
     <tr>
@@ -2625,14 +1462,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2024-06-16</td>
       <td style="width: 55%;"><strong>Towards Lifelong Dialogue Agents via Timeline-based Memory Management</strong></td>
       <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/记忆管理-darkorange" alt="记忆管理">
-      <img src="https://img.shields.io/badge/长期记忆-gold" alt="长期记忆">
-      <img src="https://img.shields.io/badge/图结构记忆-seagreen" alt="图结构记忆">
-      <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
-      <img src="https://img.shields.io/badge/基准测试-darkred" alt="基准测试">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
       </td>
       <td style="width: 15%;"><a href="https://aclanthology.org/2025.naacl-long.435.pdf">
-      <img src="https://img.shields.io/badge/NAACL-Paper-black?labelColor=cyan" alt="NAACL 论文">
+      <img src="https://img.shields.io/badge/NAACL-Paper-black?labelColor=cyan" alt="NAACL Paper">
       </td>
     </tr>
     <tr>
@@ -2646,14 +1483,14 @@ To systematically organize the diverse research and practical resources in the f
       <td rowspan="2" style="width: 15%;">2024-05-04</td>
       <td style="width: 55%;"><strong>Memoro: Using Large Language Models to Realize a Concise Interface for Real-Time Memory Augmentation</strong></td>
       <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/系统-darkblue" alt="系统">
-        <img src="https://img.shields.io/badge/人机交互-firebrick" alt="人机交互">
-        <img src="https://img.shields.io/badge/记忆检索-magenta" alt="记忆检索">
-        <img src="https://img.shields.io/badge/上下文记忆-cyan" alt="上下文记忆">
+        <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+        <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
       </td>
       <td style="width: 15%;">
         <a href="https://dl.acm.org/doi/10.1145/3613904.3642450">
-        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="ACM 论文">
+        <img src="https://img.shields.io/badge/ACM-Paper-black?labelColor=blue" alt="ACM Paper">
         </a>
       </td>
     </tr>
