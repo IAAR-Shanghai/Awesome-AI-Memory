@@ -556,6 +556,24 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-10-08</td>
+      <td style="width: 55%;"><strong>ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2510.06664">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TOOLMEM 让智能体把“使用不同工具后的表现经验”沉淀成可检索的记忆；做新任务时检索相关经验并注入上下文，从而更准地评估并选择工具。<br>
+        • TOOLMEM 把每个工具的能力总结成结构化条目，交互得到任务、工具输出和质量反馈后，先检索相似记忆再用 RAG 方式合并/修正，持续更新能力库；推理时同样检索并用于质量预测或工具选择。<br>
+        • 在文本生成和文生图上，对比无记忆与 few-shot 等基线；结果显示 TOOLMEM 在质量评分预测和多工具择优上整体更稳定、更好。 
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-10-07</td>
       <td style="width: 55%;"><strong>CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
@@ -593,6 +611,27 @@ To systematically organize the diverse research and practical resources in the f
           • 与依赖预定义指令的方法不同,Mem-α 将记忆构建视为序列决策问题,直接优化下游问答准确性。<br>
           • 实验结果表明,Mem-α 显著优于现有基线,并展示了卓越的泛化能力,尽管仅在 30k 令牌序列上训练,却能有效处理超过 400k 令牌的上下文。
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-09-29</td>
+      <td style="width: 55%;"><strong>ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+        <i<img src="https://img.shields.io/badge/Memory%20Addition-slateblue" alt="Memory Addition">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2509.25140">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ReasoningBank 把智能体在测试阶段做任务时产生的成功/失败轨迹“提炼成可复用的推理记忆”，新任务来时检索相关记忆来指导决策，并把新经验再写回形成闭环，从而在无真值反馈的 test-time learning 场景里持续变强。<br>
+        • 每条记忆被压缩成结构化 memory item，通过 embedding 相似度检索 top-k 注入系统指令；任务完成后用 LLM-as-a-judge 给轨迹打“成功/失败”代理信号：成功轨迹抽取可迁移策略，失败轨迹抽取陷阱与防错护栏，最后用“直接追加”的轻量方式写入库。同时提出 MaTTS：并行扩展用多条轨迹做 self-contrast 以筛掉伪解、提炼稳定规律；串行扩展用自我反思/自我修正把中间推理也转成记忆信号。<br>
+        • 在 WebArena、Mind2Web和 SWE-Bench-Verified上，对比 No Memory、Synapse、AWM 等基线；WebArena 用 BrowserGym 环境、每题最多 30 步，并用成功率与平均步数等衡量效果与效率。结果显示 ReasoningBank 在多种 backbone 上整体更好。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-09-29</td>
@@ -669,6 +708,26 @@ To systematically organize the diverse research and practical resources in the f
         • SGMem 是一个分层记忆管理框架,旨在通过将对话组织为句子级图谱来解决长期对话智能体中的记忆碎片化问题。<br>
         • 它显式地建模跨轮次、回合和会话的关联,并使用多跳检索机制将原始对话历史与生成的记忆(如摘要、事实和洞察)整合在一起。<br>
         • 在 LongMemEval 和 LoCoMo 基准测试上的大量实验表明,SGMem 持续改进检索连贯性,并在问答准确性方面优于强大的基线。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-09-22</td>
+      <td style="width: 55%;"><strong>PRINCIPLES: Synthetic Strategy Memory for Proactive Dialogue Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory%20Mechanisms-lime" alt="Long-Term Memory Mechanisms">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://aclanthology.org/2025.findings-emnlp.1164.pdf">
+        <img src="https://img.shields.io/badge/EMNLP%20Findings-Paper-black?labelColor=green" alt="EMNLP Findings Paper">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PRINCIPLES 用离线 self-play 自动“总结可检索的对话策略原则”，在推理时按当前情境检索并注入这些原则来指导策略选择与回复生成，无需额外训练。<br>
+        • 离线阶段：模拟多轮对话并用奖励判断“成功/失败”；成功则从对话中抽取原则，失败则生成并修订策略、回到失败前重试直到成功，再从“失败→成功”的对比中抽取形如 should… rather than… because… 的原则。在线阶段：用情境检索 top-k 原则，再做一次“重解释”让原则更贴合当前对话，最后据此规划策略并生成回复。<br>
+        • 在情感支持与劝服任务上评测，指标含成功率/轮次，以及策略预测 F1 与熵。结果整体提升成功率与策略匹配度，并提高策略分布熵；消融显示检索与重解释是关键，人评也在多个维度偏好 PRINCIPLES。
       </td>
     </tr>
     <tr>
@@ -831,6 +890,23 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-08-13</td>
+      <td style="width: 55%;"><strong>Memp: Exploring Agent Procedural Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Update%20Mechanisms-olive" alt="Update Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2508.06433">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Memp 把智能体的成功经验“程序化”存成可检索的程序性记忆，让LLM在新任务中直接复用做事套路，以提升成功率并减少无效步骤。<br>
+        • 框架是 Build–Retrieve–Update：把轨迹/脚本等经验构成记忆条目（Build），用任务语义构造 key 做向量检索取回相关记忆（Retrieve），并在在线执行中对记忆进行新增、筛选与纠错式更新以保证可靠性。<br>
+        • 在 TravelPlanner 与 ALFWorld 上，相比 ReAct 基线，Memp 整体更高分/更高成功率、步数更少；向量检索优于随机；在线更新随任务推进带来持续增益，并展示了强记忆对弱模型的迁移提升及检索数量的边际效应。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-08-12</td>
       <td style="width: 55%;"><strong>Context as Memory Scene-Consistent Interactive Long Video Generation with Memory Retrieval</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
@@ -910,6 +986,25 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-29</td>
+      <td style="width: 55%;"><strong>SynapticRAG:Enhancing temporal memory retrieval in large language models through synaptic mechanisms</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Addition-slateblue" alt="Memory Addition">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2507.21428">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 论文提出 MemTool，用于在多轮对话中管理不断变化的工具集合（MCP servers）的短期记忆框架，提供 Autonomous / Workflow / Hybrid 三种架构，以在自治性与可控性之间权衡。<br>
+        • Autonomous 模式下，智能体通过 Search_Tools 与 Remove_Tools 自主增删工具；Workflow 模式采用固定流程：先剪枝删工具，再检索加工具；Hybrid 模式将删工具独立出来，同时保留智能体通过 Search_Tools 加工具的能力，实现稳定与灵活的折中。<br>
+        • 基于 ScaleMCP 的 5000 个 MCP servers 构造 100 轮工具使用对话（约 5 次工具调用/轮），评测 13 个 LLM，并设定 128 工具上限。结果显示：Autonomous 在强推理模型上工具移除效率可达 90–94%，中等模型可降至 0–60%；Workflow 与 Hybrid 的工具移除更稳定，而任务完成度通常是 Autonomous 与 Hybrid 更好。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-07-27</td>
       <td style="width: 55%;"><strong>SynapticRAG:Enhancing temporal memory retrieval in large language models through synaptic mechanisms</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
@@ -958,6 +1053,26 @@ To systematically organize the diverse research and practical resources in the f
           • 该模型通过将记忆视为潜在变量并引入流处理和多会话策略,在处理无限长度的输入时可以保持线性时间复杂度。<br>
           • 实验结果表明,MemAgent 在超长文本任务中表现出色,具有高准确性,特别是在复杂的多跳推理任务中具有明显优势。
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-06-19</td>
+      <td style="width: 55%;"><strong>From RAG to Memory: Non-Parametric Continual Learning for Large Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2502.14802">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • HippoRAG 2，是一种“类人长期记忆”的结构化 RAG：把文本抽成三元组建图，用图上的扩散式检索（PPR）做多跳联想，同时补齐传统结构化RAG在“基础事实记忆”上的短板。<br>
+        • 离线用 LLM 做 OpenIE 抽取三元组建 KG，并把段落作为 passage node接入图，实现“概念—语境”融合；在线检索时先用向量召回 top-k 三元组，再让 LLM 做 triple filtering 去掉无关三元组，然后以过滤后的节点作为种子跑 PPR，输出最相关段落供生成器回答。<br>
+        • 在事实问答、多跳推理与叙事理解等数据集上评测，用 Recall@5 衡量检索、用 F1 衡量 QA；对比 BM25、Contriever/GTR 及多种结构化RAG基线，结果总体显示 HippoRAG 2 在检索与最终 QA 上更强，并通过消融与持续扩展语料设置验证关键模块有效。  
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-06-09</td>
@@ -1097,6 +1212,25 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
+        <td rowspan="2" style="width: 15%;">2025-04-20</td>
+        <td style="width: 55%;"><strong>SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+          <img src="https://img.shields.io/badge/Long--Text%20Processing-navy" alt="Long-Text Processing">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        </td>
+          <td style="width: 15%;"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225011427">
+          <img src="https://img.shields.io/badge/Elsevier-Paper-black?labelColor=orange" alt="Elsevier Paper">
+        </a> 
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SAGE 通过三个协作代理（用户、助手、检查员）解决大语言模型在动态环境中的长期记忆和多任务处理能力问题。SAGE结合反思机制和基于艾宾浩斯遗忘曲线的记忆优化，帮助模型有效筛选和存储重要信息，减少认知负担。<br>
+        • SAGE通过迭代反馈机制和反思功能，不断优化助手的决策。其MemorySyntax组件模拟人类记忆衰退，动态管理短期和长期记忆，确保重要信息得到保留，减少不必要的记忆负担。<br>
+        • 实验表明，SAGE在AgentBench和长文本任务（如HotpotQA）上大幅提升了模型表现，尤其在多跳问答和代码生成任务中，表现提高高达2.26倍，并有效解决了对话任务中的73.6%模糊引用问题，展现了其在实际应用中的潜力。  
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-04-14</td>
       <td style="width: 55%;"><strong>ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</strong></td>
       <td style="width: 15%;">
@@ -1117,6 +1251,47 @@ To systematically organize the diverse research and practical resources in the f
           • 该框架采用动态记忆工作空间和元认知调节循环(包括自我探测、记忆融合和记忆更新),以迭代方式将碎片化的证据融合为连贯的上下文。<br>
           • 实验结果表明,ComoRAG 在 NarrativeQA 和 ∞BENCH 等具有挑战性的基准测试中持续优于强大的基线,特别是在需要全局理解的复杂叙事查询中表现出色。
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-04-10</td>
+      <td style="width: 55%;"><strong>Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2504.07952">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 论文提出 Dynamic Cheatsheet（DC）——在推理阶段给黑盒大模型加一个可持续更新的“便签式外部记忆”，把已验证的解题套路沉淀下来并在后续复用，实现无需训练的测试时学习。<br>
+        • DC包含生成器 Gen 与 记忆策展 Cur：先用当前记忆生成答案，再由 Cur 提炼/筛选/压缩信息；检索式变体会按相似度取最相关历史样例及其解来辅助当前生成，同时控制记忆不膨胀。<br>
+        • 在 AIME、GPQA-Diamond、Game of 24、MMLU-Pro 等多任务、跨模型（GPT-4o、Claude 3.5 Sonnet 等）评测，使用 Soft Match / Functionally Correct 等指标；结果显示 DC 在多项任务上显著提升，如 Game of 24 的跃升主要来自可复用的 Python 求解代码被反复“写入—复用”。 
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-03-07</td>
+      <td style="width: 55%;"><strong>Memory-augmented Query Reconstruction for LLM-based Knowledge Graph Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Memory%20Modules-crimson" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://aclanthology.org/2025.findings-acl.1234.pdf">
+        <img src="https://img.shields.io/badge/ACL%20Findings-Paper-black?labelColor=pink" alt="ACL Findings Paper">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出 MemQ，把“推理（自然语言步骤）”和“生成/执行查询（SPARQL）”分开：LLM 负责写清楚推理计划，查询由“记忆库检索 + 规则重建”得到，减少混合工具调用带来的错误与幻觉。<br>
+        • 训练时把金标 SPARQL 规则拆成查询片段（含 CVT 等结构），再为每个片段生成自然语言解释，形成（解释→片段）的查询记忆库；推理时 LLM 生成逐步计划，重建时用语义检索（Sentence-BERT）从记忆库取 Top-N 片段并自适应选取，最后按规则拼接并填充实体得到完整查询。<br>
+        • 在 WebQSP 与 CWQ 上用 Hits@1、F1 评测，结果整体最优；并用结构一致性/边命中率等指标验证重建查询更接近 gold，同时消融实验证明“记忆库 + 解耦”是主要增益来源。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-02-25</td>
@@ -1606,7 +1781,26 @@ To systematically organize the diverse research and practical resources in the f
           • EUL 能够在不完全重新训练的情况下有效地从 LLM 中删除特定的敏感数据,同时保持整体预测性能。
         </td>
     </tr>
-       <tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2023-11-30</td>
+      <td style="width: 55%;"><strong>JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://ieeexplore.ieee.org/abstract/document/10778628">
+      <img src="https://img.shields.io/badge/IEEE-Journal-black?labelColor=00629B" alt="IEEE Journal">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • JARVIS-1是一款用于Minecraft的开放世界多任务代理，通过多模态语言模型（MLM）生成计划并执行任务。它能感知视觉信息和人类指令，并结合多模态记忆，利用过去的经验提升未来任务的执行能力。<br>
+        • JARVIS-1结合了MLM和多模态记忆，使用视觉观察和指令生成行动计划，并通过目标控制器执行。它具有自我改进机制，能通过自我指令生成任务并探索环境，积累经验以提升决策能力。<br>
+        • JARVIS-1在超过200个Minecraft任务中表现出色，特别是在长期任务（如获取钻石镐）中，成功率比现有最先进模型高出5倍。随着游戏进行，它通过不断学习和经验积累，表现逐渐提升。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2023-11-15</td>
       <td style="width: 55%;"><strong>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
@@ -1751,6 +1945,7 @@ To systematically organize the diverse research and practical resources in the f
 
 </details>
 
+
 <details>
   <summary><strong>数据集和评估基准类论文</strong></summary>
 
@@ -1774,9 +1969,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
         <td colspan="3">
-          • Introduces the IMPLEXCONV dataset and the TACITREE framework for studying implicit reasoning in personalized dialogue.<br>
-          • IMPLEXCONV consists of 2,500 examples focused on implicit reasoning scenarios, capturing subtle syntactic and semantic relationships within conversations.<br>
-          • TACITREE enhances large language models (LLMs)’ ability to perform implicit contextual reasoning in long dialogues by hierarchically organizing dialogue history.
+          • 介绍了 IMPLEXCONV 数据集以及 TACITREE 框架，用于研究个性化对话中的隐式推理能力。<br>
+          • IMPLEXCONV 包含 2500 个以隐式推理场景为核心的示例，能够捕捉对话中细微的句法与语义关系。<br>
+          • TACITREE 通过对对话历史进行分层式组织，增强了大型语言模型（LLMs）在长对话中进行隐式上下文推理的能力。
         </td>
     </tr>
     <tr>
@@ -1791,11 +1986,11 @@ To systematically organize the diverse research and practical resources in the f
       </a></td>
     </tr>
     <tr>
-        <td colspan="3">
-          • Introduces the PERSONAMEM benchmark, designed to evaluate the performance of large language models (LLMs) in dynamic user profiling and personalized response generation.<br>
-          • Although existing models achieve some success in recalling user preferences, they still exhibit significant performance gaps when handling novel scenarios.<br>
-          • The paper provides a detailed description of the benchmark’s structure, the process for generating user dialogues, the methods for evaluating model performance, and related work, highlighting the importance of personalized dialogue generation in enhancing user experience.
-        </td>
+      <td colspan="3">
+        • 介绍了 PERSONAMEM 基准测试，该基准旨在评估大型语言模型（LLMs）在动态用户画像建模与个性化回复生成方面的表现。<br>
+        • 尽管现有模型在回忆用户偏好方面取得了一定成效，但在应对全新场景时仍然存在显著的性能差距。<br>
+        • 论文详细阐述了该基准的结构、用户对话的生成流程、模型性能的评估方法以及相关研究，强调了个性化对话生成在提升用户体验中的重要性。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2023-09-26</td>
@@ -1808,11 +2003,11 @@ To systematically organize the diverse research and practical resources in the f
       </a></td>
     </tr>
     <tr>
-        <td colspan="3">
-          • MemoryAgentBench is a benchmark designed to evaluate four core capabilities of language models with memory mechanisms (Memory Agents): accurate retrieval, test-time learning, long-range understanding, and conflict resolution.<br>
-          • By integrating existing datasets with newly constructed data, MemoryAgentBench enables a systematic evaluation of these capabilities.<br>
-          • The benchmark reveals limitations of current approaches in memory updating and long-horizon dialogue processing, highlighting key challenges for future research.
-        </td>
+      <td colspan="3">
+        • MemoryAgentBench 是一个用于评估具备记忆机制的语言模型（记忆智能体，Memory Agents）四项核心能力的基准测试，包括精准检索、测试时学习、长程理解以及冲突消解。<br>
+        • 通过整合现有数据集与新构建的数据，MemoryAgentBench 实现了对上述能力的系统性评估。<br>
+        • 该基准揭示了当前方法在记忆更新与长时跨度对话处理方面的局限性，凸显了未来研究亟需解决的关键挑战。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
@@ -1825,11 +2020,11 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
-        <td colspan="3">
-          • PersonaBench is a benchmark designed to evaluate AI models’ ability to understand personal information.<br>
-          • The paper highlights the importance of personalization in AI assistants and emphasizes the challenge posed by the lack of publicly available datasets for assessing such capabilities.<br>
-          • The evaluation primarily focuses on retrieval-augmented generation (RAG) models, with results indicating that current models still struggle to effectively handle personal queries.
-        </td>
+      <td colspan="3">
+        • PersonaBench 是一个用于评估 AI 模型理解个人信息能力的基准测试。<br>
+        • 论文强调了个性化在 AI 助手中的重要性，并指出由于缺乏可公开获取的数据集，用于评估此类能力面临着显著挑战。<br>
+        • 评测主要聚焦于检索增强生成（RAG）模型，结果表明当前模型在有效处理个人化查询方面仍然存在困难。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
@@ -1841,11 +2036,11 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
-        <td colspan="3">
-          • MemBench is designed to comprehensively evaluate the memory capabilities of LLM-based agents.<br>
-          • By constructing datasets that cover both factual memory and reflective memory, the study addresses limitations of existing evaluation approaches.<br>
-          • The paper provides a detailed description of memory mechanism construction—including user relationship graphs and multi-layer memory designs—and emphasizes the importance of evaluation metrics such as accuracy, efficiency, and capacity.
-        </td>
+      <td colspan="3">
+        • MemBench 旨在对基于 LLM 的智能体记忆能力进行全面评估。<br>
+        • 通过构建同时涵盖事实记忆与反思记忆的数据集，该研究弥补了现有评测方法的局限性。<br>
+        • 论文详细介绍了记忆机制的构建方式——包括用户关系图与多层级记忆设计——并强调了准确率、效率与容量等评估指标的重要性。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
@@ -1858,11 +2053,11 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
-        <td colspan="3">
-          • This paper investigates the memory capabilities of large language models (LLMs) in long-term tasks, with a particular focus on dialogue systems.<br>
-          • By constructing the Long-Order Chronological Conversation (LOCCO) dataset, the study provides a quantitative evaluation of LLMs’ long-term memory performance.<br>
-          • Experimental results show that while LLMs can retain historical conversational information to some extent, their memory gradually degrades over time.
-        </td>
+      <td colspan="3">
+        • 本文探究了大型语言模型（LLMs）在长期任务中的记忆能力，重点聚焦于对话系统。<br>
+        • 通过构建 Long-Order Chronological Conversation（LOCCO）数据集，研究对 LLM 的长期记忆性能进行了定量评估。<br>
+        • 实验结果表明，尽管 LLM 在一定程度上能够保留历史对话信息，但其记忆能力会随着时间推移而逐步衰退。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-27</td>
@@ -1875,11 +2070,11 @@ To systematically organize the diverse research and practical resources in the f
       </a></td>
     </tr>
     <tr>
-        <td colspan="3">
-          • Introduces a user simulation framework, the Implicit User Profile User Simulator (USP), designed to enhance interactions between dialogue systems and human users by inferring implicit user attributes.<br>
-          • USP extracts implicit features from user dialogues and combines conditionally supervised fine-tuning with reinforcement learning under cycle consistency, improving the realism and coherence of generated conversations.<br>
-          • Experimental results show that USP achieves significant advantages across multiple metrics, particularly when compared with other dialogue generation models such as GPT-4o and PlatoLM.
-        </td>
+      <td colspan="3">
+        • 介绍了一种用户模拟框架——隐式用户画像用户模拟器（Implicit User Profile User Simulator，USP），该框架通过推断用户的隐式属性来增强对话系统与人类用户之间的交互效果。<br>
+        • USP 从用户对话中提取隐式特征，并将条件监督微调与循环一致性约束下的强化学习相结合，从而提升生成对话的真实感与连贯性。<br>
+        • 实验结果表明，USP 在多项评估指标上展现出显著优势，尤其是在与 GPT-4o、PlatoLM 等其他对话生成模型对比时表现更为突出。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-06-15</td>
@@ -1892,11 +2087,11 @@ To systematically organize the diverse research and practical resources in the f
         </a></td>
     </tr>
     <tr>
-        <td colspan="3">
-          • Proposes the PersonaFeedback benchmark for evaluating large language models (LLMs) in personalized response generation.<br>
-          • The study shows that while LLMs have made progress in producing personalized content, they still face limitations in complex scenarios.<br>
-          • By leveraging dynamic user attribute inference, personalized profiles, and reward models, the researchers aim to improve the effectiveness of personalized question answering.
-        </td>
+      <td colspan="3">
+        • 提出了 PersonaFeedback 基准测试，用于评估大型语言模型（LLMs）在个性化回复生成方面的能力。<br>
+        • 研究表明，尽管 LLM 在生成个性化内容方面已有一定进展，但在复杂场景下仍然存在明显局限。<br>
+        • 研究者通过引入动态用户属性推断、个性化画像以及奖励模型，旨在提升个性化问答的整体效果。
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-06-09</td>
@@ -1909,11 +2104,11 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
     <tr>
-        <td colspan="3">
-          • Minerva is a programmable memory testing benchmark designed to evaluate large language models (LLMs) across diverse memory tasks.<br>
-          • It quantitatively assesses models’ ability to use memory, with a particular focus on tasks such as information retrieval, reasoning, and state tracking.<br>
-          • Experimental results indicate that while some models perform well on simple tasks, there remain substantial gaps on more complex tasks.
-        </td>
+      <td colspan="3">
+        • Minerva 是一个可编程的记忆测试基准，用于在多样化的记忆任务上评估大型语言模型（LLMs）的表现。<br>
+        • 该基准对模型使用记忆的能力进行了定量评估，重点关注信息检索、推理以及状态跟踪等任务。<br>
+        • 实验结果表明，尽管部分模型在简单任务上表现良好，但在更复杂的任务中仍然存在显著差距。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2022-03-04</td>
@@ -1928,9 +2123,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • The paper introduces LONGMEMEVAL, a comprehensive benchmark for evaluating the long-term memory capabilities of chat assistants.<br>
-        • The benchmark assesses five core memory abilities, capturing key challenges faced by existing systems.<br>
-        • LONGMEMEVAL adopts a unified three-stage framework—indexing, retrieval, and reading—and proposes several design optimizations to improve memory recall and question-answering accuracy.
+        • 论文提出了 LONGMEMEVAL，这是一个用于评估聊天助手长期记忆能力的综合性基准测试。<br>
+        • 该基准评估了五项核心记忆能力，覆盖了现有系统面临的关键挑战。<br>
+        • LONGMEMEVAL 采用统一的三阶段框架——索引、检索与阅读，并提出了多项设计优化，以提升记忆召回效果与问答准确率。
       </td>
     </tr>
     <tr>
@@ -1945,9 +2140,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • Explores machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on eliminating unnecessary data memorization.<br>
-        • The study addresses two key challenges: the robustness of evaluation metrics and the trade-off between removing target knowledge and preserving other knowledge.<br>
-        • It recommends Extraction Strength (ES) as a primary evaluation metric to ensure accuracy and robustness in unlearning assessment.
+        • 探讨了大型语言模型（LLMs）中的机器遗忘问题及其评估的重要性，重点关注消除不必要的数据记忆。<br>
+        • 研究针对两个关键挑战展开：评估指标的稳健性，以及在移除目标知识与保留其他知识之间的权衡。<br>
+        • 研究建议将 提取强度（Extraction Strength，ES）作为主要评估指标，以确保遗忘评估的准确性与可靠性。
       </td>
     </tr>
     <tr>
@@ -1962,9 +2157,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • PREFEVAL is a benchmark designed to evaluate large language models (LLMs) in their ability to infer, remember, and follow user preferences over long conversations.<br>
-        • The benchmark includes 3,000 user preference–query pairs spanning 20 topics, revealing significant challenges for current LLMs in adhering to user preferences.<br>
-        • The study shows that explicit preferences are easier for models to infer than implicit preferences, and that task types and preference expression styles have a substantial impact on model performance.
+        • PREFEVAL 是一个用于评估大型语言模型（LLMs）在长对话中推断、记忆并遵循用户偏好能力的基准测试。<br>
+        • 该基准包含 3000 组用户偏好—查询对，涵盖 20 个主题，揭示了当前 LLM 在遵循用户偏好方面面临的显著挑战。<br>
+        • 研究表明，相较于隐式偏好，模型更容易推断显式偏好，同时任务类型与偏好表达方式都会对模型性能产生显著影响。
       </td>
     </tr>
     <tr>
@@ -1980,9 +2175,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • LongGenBench is a benchmark designed to evaluate large language models (LLMs) in generating high-quality long-form text, with a particular emphasis on following complex instructions.<br>
-        • Unlike existing benchmarks, LongGenBench focuses specifically on long-text generation scenarios, covering tasks such as diary writing and menu design.<br>
-        • Despite strong performance on other evaluations, LLMs face significant challenges on the LongGenBench benchmark.
+        • LongGenBench 是一个用于评估大型语言模型（LLMs）生成高质量长文本能力的基准测试，重点强调对复杂指令的遵循能力。<br>
+        • 不同于现有基准，LongGenBench 专门聚焦于长文本生成场景，涵盖日记写作、菜单设计等任务。<br>
+        • 尽管在其他评测中表现强劲，LLM 在 LongGenBench 基准上仍面临显著挑战。
       </td>
     </tr>
     <tr>
@@ -1997,9 +2192,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • MT-Eval is a benchmark designed to evaluate the performance of large language models (LLMs) in multi-turn conversations.<br>
-        • While existing evaluations primarily focus on single-turn dialogue, MT-Eval fills this gap by constructing 1,170 multi-turn queries.<br>
-        • The benchmark categorizes interaction patterns into recall, expansion, refinement, and follow-up, revealing that most models perform consistently worse in multi-turn settings than in single-turn scenarios.
+        • MT-Eval 是一个用于评估大型语言模型（LLMs）在多轮对话中表现的基准测试。<br>
+        • 现有评测多聚焦于单轮对话，MT-Eval 通过构建 1170 条多轮查询弥补了这一空白。<br>
+        • 该基准将交互模式划分为回忆、扩展、细化与跟进四类，结果显示大多数模型在多轮场景下的表现明显弱于单轮对话。
       </td>
     </tr>
     <tr>
@@ -2014,9 +2209,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • LongGenBench is a newly proposed long-context generation benchmark designed to evaluate the performance of large language models (LLMs) on long-form text generation tasks.<br>
-        • It complements existing benchmarks that primarily focus on retrieval skills by emphasizing coherence and logical consistency across multiple sub-questions.<br>
-        • The study shows that different models exhibit substantial performance disparities in long-text generation.
+        • LongGenBench 是新近提出的一项长上下文生成基准，用于评估大型语言模型（LLMs）在长文本生成任务中的表现。<br>
+        • 该基准补充了主要侧重检索能力的现有评测体系，转而强调在多个子问题之间保持连贯性与逻辑一致性。<br>
+        • 研究表明，不同模型在长文本生成方面存在显著的性能差异。
       </td>
     </tr>
     <tr>
@@ -2033,9 +2228,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • PerLTQA is a question-answering dataset designed to enhance long-term memory integration in dialogue systems.<br>
-        • PerLTQA combines semantic memory and episodic memory, containing 8,593 questions across 30 personas, with the goal of improving memory classification, retrieval, and synthesis.<br>
-        • Experiments show that BERT-based models outperform other large language models in memory classification tasks.
+        • PerLTQA 是一个问答数据集，旨在增强对话系统中的长期记忆整合能力。<br>
+        • PerLTQA 融合了语义记忆与情景记忆，涵盖 30 个角色下的 8593 个问题，目标在于提升记忆分类、检索与综合能力。<br>
+        • 实验结果表明，在记忆分类任务中，基于 BERT 的模型优于其他大型语言模型。
       </td>
     </tr>
     <tr>
@@ -2050,9 +2245,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • Evaluates the memory capabilities of large language models (LLMs) in long-duration conversations, with a particular focus on multimodal dialogue scenarios.<br>
-        • By developing the LOCOMO dataset, the researchers establish a comprehensive evaluation benchmark covering tasks such as question answering, event summarization, and multimodal dialogue generation.<br>
-        • Experimental results indicate that while some LLMs perform strongly, they still lag significantly behind humans in memory and reasoning, and the study outlines an evaluation framework and directions for future improvements.
+        • 评估了大型语言模型（LLMs）在长时对话中的记忆能力，尤其聚焦于多模态对话场景。<br>
+        • 研究者通过构建 LOCOMO 数据集，建立了一个覆盖问答、事件总结以及多模态对话生成等任务的综合评测基准。<br>
+        • 实验结果表明，尽管部分 LLM 表现出较强能力，但在记忆与推理方面仍显著落后于人类，同时论文还提出了相应的评测框架与未来改进方向。
       </td>
     </tr>
     <tr>
@@ -2068,9 +2263,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the importance of large language models (LLMs) in personalized response generation and introduces LaMP, a new benchmark specifically designed for training and evaluating personalized text generation and classification tasks.<br>
-        • LaMP comprises seven personalized subtasks, highlighting the effectiveness of leveraging user-specific inputs (e.g., historical data) and retrieval-augmented strategies to enhance language model performance.<br>
-        • Experimental results demonstrate that personalization methods significantly improve model performance, with the best results achieved through fine-tuning and the use of appropriate retrieval strategies.
+        • 探讨了大型语言模型（LLMs）在个性化回复生成中的重要性，并提出了 LaMP，这是一个专门用于训练与评估个性化文本生成和分类任务的新基准。<br>
+        • LaMP 包含七项个性化子任务，突出了利用用户特定输入（如历史数据）以及检索增强策略来提升语言模型性能的有效性。<br>
+        • 实验结果表明，个性化方法能够显著提升模型表现，其中通过微调并结合合适的检索策略可取得最佳效果。
       </td>
     </tr>
   </table>
