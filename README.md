@@ -3008,9 +3008,13 @@ Summary:
 - **GitHub Discussions**: 在我们的 <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/discussions" target="_blank">GitHub Discussions</a> 中提问或分享想法。
 - **WeChat**: 扫描下方二维码加入我们的讨论组，获取最新的Memory相关的研究信息，或推广您的相关研究成果。
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
   <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
-</div>
+</div> -->
+
+<center>
+  <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
+</center>
 
 ## 🌟 仓库关注量
 
