@@ -120,7 +120,6 @@ To systematically organize the diverse research and practical resources in the f
   - [Survey](#survey)
   - [Framework & Methods](#framework-methods)
   - [Benchmark & Datasets](#benchmark-datasets)
-  - [Memory Evaluation](#memory-evaluation)
   - [System & model](#system--model)
 - [Resource](#-resource)
   - [Benchmarks and tasks](#benchmarks-and-tasks)

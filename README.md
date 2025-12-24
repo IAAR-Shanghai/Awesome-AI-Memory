@@ -119,7 +119,6 @@ To systematically organize the diverse research and practical resources in the f
   - [综述](#综述)
   - [方法类与框架类论文](#方法类与框架类论文)
   - [数据集和评估基准类论文](#数据集与评估基准类论文)
-  - [记忆评估类论文](#记忆评估类论文)
   - [模型和系统类论文](#模型和系统类论文)
 - [仓库资源](#-仓库资源)
   - [测试基准](#测试基准)
@@ -1993,6 +1992,23 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-10-10</td>
+      <td style="width: 55%;"><strong>Human-inspired Episodic Memory for Infinite Context LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EM-LLM（事件记忆大语言模型）是一种新型大语言模型，旨在解决现有模型在长文本处理中的局限性。<br>
+        • EM-LLM 无需微调即可实现近乎无限的上下文处理能力，在多个基准测试中显著优于现有模型。<br>
+        • 该模型整合了基于突发性事件分割、图论边界优化和两阶段记忆检索机制，显著提升信息检索与问答任务的性能。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2023-09-26</td>
       <td style="width: 55%;"><strong>Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2007,6 +2023,41 @@ To systematically organize the diverse research and practical resources in the f
         • MemoryAgentBench 是一个用于评估具备记忆机制的语言模型（记忆智能体，Memory Agents）四项核心能力的基准测试，包括精准检索、测试时学习、长程理解以及冲突消解。<br>
         • 通过整合现有数据集与新构建的数据，MemoryAgentBench 实现了对上述能力的系统性评估。<br>
         • 该基准揭示了当前方法在记忆更新与长时跨度对话处理方面的局限性，凸显了未来研究亟需解决的关键挑战。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-27</td>
+      <td style="width: 55%;"><strong>Unveiling Privacy Risks in LLM Agent Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+      <img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1227.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • 研究大语言模型代理记忆中的隐私漏洞，特别关注从长期记忆中提取敏感用户-代理交互信息的风险。<br>
+          • 提出记忆提取攻击（MEXTRA），该黑盒攻击通过创新的提示设计（定位器+对齐器）和自动化提示生成技术，实现敏感用户查询的提取。<br>
+          • 在代表性代理系统（EHRAgent和RAP）上的实验表明存在显著漏洞，通过分析相似性评分函数、内存配置等影响泄露的关键因素，揭示了记忆系统安全性的薄弱环节。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-27</td>
+      <td style="width: 55%;"><strong>MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">        
+        • MiniLongBench是一个低成本的长文本理解基准，旨在提升大语言模型（LLMs）在长上下文理解（LCU）任务中的评估效率与经济可行性。<br>
+        • 通过应用数据压缩技术，MiniLongBench在保持评估结果一致性的前提下显著减少评估样本数量，并显示出与原始LongBench基准高度相关的结果。<br>
+        • 多任务类别的评估验证了MiniLongBench的有效性，尽管在总结生成和信息综合类任务上仍需进一步优化。
       </td>
     </tr>
     <tr>
@@ -2111,212 +2162,6 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2022-03-04</td>
-      <td style="width: 55%;"><strong>LongMemEval: Benchmarking chat assistants on long-term interactive memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
-      <img src="https://img.shields.io/badge/Evaluation%20Framework-darkgoldenrod" alt="Evaluation Framework">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • 论文提出了 LONGMEMEVAL，这是一个用于评估聊天助手长期记忆能力的综合性基准测试。<br>
-        • 该基准评估了五项核心记忆能力，覆盖了现有系统面临的关键挑战。<br>
-        • LONGMEMEVAL 采用统一的三阶段框架——索引、检索与阅读，并提出了多项设计优化，以提升记忆召回效果与问答准确率。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-02-25</td>
-      <td style="width: 55%;"><strong>Towards Effective Evaluations and Comparisons for LLM Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      <img src="https://img.shields.io/badge/Memory%20Erasure-darkcyan" alt="Memory Erasure">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • 探讨了大型语言模型（LLMs）中的机器遗忘问题及其评估的重要性，重点关注消除不必要的数据记忆。<br>
-        • 研究针对两个关键挑战展开：评估指标的稳健性，以及在移除目标知识与保留其他知识之间的权衡。<br>
-        • 研究建议将 提取强度（Extraction Strength，ES）作为主要评估指标，以确保遗忘评估的准确性与可靠性。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2022-02-13</td>
-      <td style="width: 55%;"><strong>DO LLMS RECOGNIZE YOUR PREFERENCES? EVAL-UATING PERSONALIZED PREFERENCE FOLLOWING IN LLMS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Long--Dialogue%20Reasoning-teal" alt="Long-Dialogue Reasoning">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • PREFEVAL 是一个用于评估大型语言模型（LLMs）在长对话中推断、记忆并遵循用户偏好能力的基准测试。<br>
-        • 该基准包含 3000 组用户偏好—查询对，涵盖 20 个主题，揭示了当前 LLM 在遵循用户偏好方面面临的显著挑战。<br>
-        • 研究表明，相较于隐式偏好，模型更容易推断显式偏好，同时任务类型与偏好表达方式都会对模型性能产生显著影响。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-01-23</td>
-      <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Complex%20Instruction%20Following-darkolivegreen" alt="Complex Instruction Following">
-      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • LongGenBench 是一个用于评估大型语言模型（LLMs）生成高质量长文本能力的基准测试，重点强调对复杂指令的遵循能力。<br>
-        • 不同于现有基准，LongGenBench 专门聚焦于长文本生成场景，涵盖日记写作、菜单设计等任务。<br>
-        • 尽管在其他评测中表现强劲，LLM 在 LongGenBench 基准上仍面临显著挑战。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-11-12</td>
-      <td style="width: 55%;"><strong>MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for  Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • MT-Eval 是一个用于评估大型语言模型（LLMs）在多轮对话中表现的基准测试。<br>
-        • 现有评测多聚焦于单轮对话，MT-Eval 通过构建 1170 条多轮查询弥补了这一空白。<br>
-        • 该基准将交互模式划分为回忆、扩展、细化与跟进四类，结果显示大多数模型在多轮场景下的表现明显弱于单轮对话。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-11-12</td>
-      <td style="width: 55%;"><strong>LONGGENBENCH: Long-context Generation Benchmark</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • LongGenBench 是新近提出的一项长上下文生成基准，用于评估大型语言模型（LLMs）在长文本生成任务中的表现。<br>
-        • 该基准补充了主要侧重检索能力的现有评测体系，转而强调在多个子问题之间保持连贯性与逻辑一致性。<br>
-        • 研究表明，不同模型在长文本生成方面存在显著的性能差异。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-16</td>
-      <td style="width: 55%;"><strong>A personal long-term memory dataset for memory classification,Retrieval, and Synthesis in question Answering</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Mid--Term%20Memory-saddlebrown" alt="Mid-Term Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf">
-      <img src="https://img.shields.io/badge/ACL%20Workshop-Paper-black?labelColor=purple" alt="ACL Workshop Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • PerLTQA 是一个问答数据集，旨在增强对话系统中的长期记忆整合能力。<br>
-        • PerLTQA 融合了语义记忆与情景记忆，涵盖 30 个角色下的 8593 个问题，目标在于提升记忆分类、检索与综合能力。<br>
-        • 实验结果表明，在记忆分类任务中，基于 BERT 的模型优于其他大型语言模型。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-11</td>
-      <td style="width: 55%;"><strong>Evaluating Very Long-Term Conversational Memory of LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • 评估了大型语言模型（LLMs）在长时对话中的记忆能力，尤其聚焦于多模态对话场景。<br>
-        • 研究者通过构建 LOCOMO 数据集，建立了一个覆盖问答、事件总结以及多模态对话生成等任务的综合评测基准。<br>
-        • 实验结果表明，尽管部分 LLM 表现出较强能力，但在记忆与推理方面仍显著落后于人类，同时论文还提出了相应的评测框架与未来改进方向。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-11</td>
-      <td style="width: 55%;"><strong>Lamp: When large language models meet personalization</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Personalized%20Tasks-darkkhaki" alt="Personalized Tasks">
-      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • 探讨了大型语言模型（LLMs）在个性化回复生成中的重要性，并提出了 LaMP，这是一个专门用于训练与评估个性化文本生成和分类任务的新基准。<br>
-        • LaMP 包含七项个性化子任务，突出了利用用户特定输入（如历史数据）以及检索增强策略来提升语言模型性能的有效性。<br>
-        • 实验结果表明，个性化方法能够显著提升模型表现，其中通过微调并结合合适的检索策略可取得最佳效果。
-      </td>
-    </tr>
-  </table>
-
-</details>
-
-<details>
-  <summary><strong>记忆评估类论文</strong></summary>
-
-  <table style="width: 100%;">
-    <tr>
-      <td><strong>时间</strong></td>
-      <td><strong>论文与摘要</strong></td>
-      <td><strong>标签</strong></td>
-      <td><strong>链接</strong></td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-10</td>
-      <td style="width: 55%;"><strong>Human-inspired Episodic Memory for Infinite Context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • EM-LLM（事件记忆大语言模型）是一种新型大语言模型，旨在解决现有模型在长文本处理中的局限性。<br>
-        • EM-LLM 无需微调即可实现近乎无限的上下文处理能力，在多个基准测试中显著优于现有模型。<br>
-        • 该模型整合了基于突发性事件分割、图论边界优化和两阶段记忆检索机制，显著提升信息检索与问答任务的性能。
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-07-27</td>
-      <td style="width: 55%;"><strong>MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">        
-        • MiniLongBench是一个低成本的长文本理解基准，旨在提升大语言模型（LLMs）在长上下文理解（LCU）任务中的评估效率与经济可行性。<br>
-        • 通过应用数据压缩技术，MiniLongBench在保持评估结果一致性的前提下显著减少评估样本数量，并显示出与原始LongBench基准高度相关的结果。<br>
-        • 多任务类别的评估验证了MiniLongBench的有效性，尽管在总结生成和信息综合类任务上仍需进一步优化。
-      </td>
-    </tr>
-    <tr>
       <td rowspan="2" style="width: 15%;">2025-05-28</td>
       <td style="width: 55%;"><strong>Self-Taught Agentic Long-Context Understanding</strong></td>
       <td style="width: 15%;">
@@ -2376,6 +2221,58 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2022-03-04</td>
+      <td style="width: 55%;"><strong>LongMemEval: Benchmarking chat assistants on long-term interactive memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      <img src="https://img.shields.io/badge/Evaluation%20Framework-darkgoldenrod" alt="Evaluation Framework">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 论文提出了 LONGMEMEVAL，这是一个用于评估聊天助手长期记忆能力的综合性基准测试。<br>
+        • 该基准评估了五项核心记忆能力，覆盖了现有系统面临的关键挑战。<br>
+        • LONGMEMEVAL 采用统一的三阶段框架——索引、检索与阅读，并提出了多项设计优化，以提升记忆召回效果与问答准确率。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-02-25</td>
+      <td style="width: 55%;"><strong>Towards Effective Evaluations and Comparisons for LLM Unlearning Methods</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <img src="https://img.shields.io/badge/Memory%20Erasure-darkcyan" alt="Memory Erasure">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 探讨了大型语言模型（LLMs）中的机器遗忘问题及其评估的重要性，重点关注消除不必要的数据记忆。<br>
+        • 研究针对两个关键挑战展开：评估指标的稳健性，以及在移除目标知识与保留其他知识之间的权衡。<br>
+        • 研究建议将 提取强度（Extraction Strength，ES）作为主要评估指标，以确保遗忘评估的准确性与可靠性。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2022-02-13</td>
+      <td style="width: 55%;"><strong>DO LLMS RECOGNIZE YOUR PREFERENCES? EVAL-UATING PERSONALIZED PREFERENCE FOLLOWING IN LLMS</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Dialogue%20Reasoning-teal" alt="Long-Dialogue Reasoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PREFEVAL 是一个用于评估大型语言模型（LLMs）在长对话中推断、记忆并遵循用户偏好能力的基准测试。<br>
+        • 该基准包含 3000 组用户偏好—查询对，涵盖 20 个主题，揭示了当前 LLM 在遵循用户偏好方面面临的显著挑战。<br>
+        • 研究表明，相较于隐式偏好，模型更容易推断显式偏好，同时任务类型与偏好表达方式都会对模型性能产生显著影响。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2015-01-25</td>
       <td style="width: 55%;"><strong>Episodic Memory Benchmark: Episodic Memories Generation and Evaluation Benchmark for Large Language Models</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2390,6 +2287,24 @@ To systematically organize the diverse research and practical resources in the f
         • 探讨情景记忆在大语言模型（LLMs）中的重要性，并提出构建新型基准测试框架以评估模型推理能力。<br>
         • 研究人员开发了包含全新设计任务与评估协议的综合性框架，强调需要创新训练策略以有效融合情景记忆机制。<br>
         • 该框架为评估大语言模型中的情景记忆提供了一种可行的技术路径。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-01-23</td>
+      <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Complex%20Instruction%20Following-darkolivegreen" alt="Complex Instruction Following">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LongGenBench 是一个用于评估大型语言模型（LLMs）生成高质量长文本能力的基准测试，重点强调对复杂指令的遵循能力。<br>
+        • 不同于现有基准，LongGenBench 专门聚焦于长文本生成场景，涵盖日记写作、菜单设计等任务。<br>
+        • 尽管在其他评测中表现强劲，LLM 在 LongGenBench 基准上仍面临显著挑战。
       </td>
     </tr>
     <tr>
@@ -2412,6 +2327,40 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-11-12</td>
+      <td style="width: 55%;"><strong>MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for  Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MT-Eval 是一个用于评估大型语言模型（LLMs）在多轮对话中表现的基准测试。<br>
+        • 现有评测多聚焦于单轮对话，MT-Eval 通过构建 1170 条多轮查询弥补了这一空白。<br>
+        • 该基准将交互模式划分为回忆、扩展、细化与跟进四类，结果显示大多数模型在多轮场景下的表现明显弱于单轮对话。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-11-12</td>
+      <td style="width: 55%;"><strong>LONGGENBENCH: Long-context Generation Benchmark</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LongGenBench 是新近提出的一项长上下文生成基准，用于评估大型语言模型（LLMs）在长文本生成任务中的表现。<br>
+        • 该基准补充了主要侧重检索能力的现有评测体系，转而强调在多个子问题之间保持连贯性与逻辑一致性。<br>
+        • 研究表明，不同模型在长文本生成方面存在显著的性能差异。
+      </td>
+    </tr>
+     <tr>
       <td rowspan="2" style="width: 15%;">2024-10-23</td>
       <td style="width: 55%;"><strong>MADial-Bench Towards real-world evaluation of memory-augmented diglogue generation</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2450,6 +2399,25 @@ To systematically organize the diverse research and practical resources in the f
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-16</td>
+      <td style="width: 55%;"><strong>A personal long-term memory dataset for memory classification,Retrieval, and Synthesis in question Answering</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Mid--Term%20Memory-saddlebrown" alt="Mid-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf">
+      <img src="https://img.shields.io/badge/ACL%20Workshop-Paper-black?labelColor=purple" alt="ACL Workshop Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PerLTQA 是一个问答数据集，旨在增强对话系统中的长期记忆整合能力。<br>
+        • PerLTQA 融合了语义记忆与情景记忆，涵盖 30 个角色下的 8593 个问题，目标在于提升记忆分类、检索与综合能力。<br>
+        • 实验结果表明，在记忆分类任务中，基于 BERT 的模型优于其他大型语言模型。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2024-08-11</td>
       <td style="width: 55%;"><strong>CAN LONG-CONTEXT LANGUAGE MODELS UNDER-STAND LONG CONTEXTS</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2464,6 +2432,41 @@ To systematically organize the diverse research and practical resources in the f
         • 探讨大语言模型在长文本处理中的能力与局限性，并提出GLE（长文本理解评估）基准测试以评估其在长上下文理解中的表现。<br>
         • 论文阐述了长依赖问答任务的构建过程与评估标准，并对比了不同模型的性能。<br>
         • 实验结果表明，GLE基准测试能够有效评估大语言模型对长文本的处理能力。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-11</td>
+      <td style="width: 55%;"><strong>Evaluating Very Long-Term Conversational Memory of LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 评估了大型语言模型（LLMs）在长时对话中的记忆能力，尤其聚焦于多模态对话场景。<br>
+        • 研究者通过构建 LOCOMO 数据集，建立了一个覆盖问答、事件总结以及多模态对话生成等任务的综合评测基准。<br>
+        • 实验结果表明，尽管部分 LLM 表现出较强能力，但在记忆与推理方面仍显著落后于人类，同时论文还提出了相应的评测框架与未来改进方向。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-11</td>
+      <td style="width: 55%;"><strong>Lamp: When large language models meet personalization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Personalized%20Tasks-darkkhaki" alt="Personalized Tasks">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 探讨了大型语言模型（LLMs）在个性化回复生成中的重要性，并提出了 LaMP，这是一个专门用于训练与评估个性化文本生成和分类任务的新基准。<br>
+        • LaMP 包含七项个性化子任务，突出了利用用户特定输入（如历史数据）以及检索增强策略来提升语言模型性能的有效性。<br>
+        • 实验结果表明，个性化方法能够显著提升模型表现，其中通过微调并结合合适的检索策略可取得最佳效果。
       </td>
     </tr>
     <tr>
@@ -2500,28 +2503,10 @@ To systematically organize the diverse research and practical resources in the f
         • 实验结果表明，HOMER在32K和64K上下文输入中表现出色，保持低困惑度与较低内存消耗。
       </td>
     </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-02-17</td>
-      <td style="width: 55%;"><strong>Unveiling Privacy Risks in LLM Agent Memory</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
-      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
-      <img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1227.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • 研究大语言模型代理记忆中的隐私漏洞，特别关注从长期记忆中提取敏感用户-代理交互信息的风险。<br>
-          • 提出记忆提取攻击（MEXTRA），该黑盒攻击通过创新的提示设计（定位器+对齐器）和自动化提示生成技术，实现敏感用户查询的提取。<br>
-          • 在代表性代理系统（EHRAgent和RAP）上的实验表明存在显著漏洞，通过分析相似性评分函数、内存配置等影响泄露的关键因素，揭示了记忆系统安全性的薄弱环节。
-        </td>
-    </tr>
-
   </table>
 
 </details>
+
 
 <details>
   <summary><strong>模型和系统类论文</strong></summary>
