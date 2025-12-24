@@ -1995,6 +1995,23 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-10-10</td>
+      <td style="width: 55%;"><strong>Human-inspired Episodic Memory for Infinite Context LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EM-LLM (Event Memory Large Language Model) is a novel large language model designed to address the limitations of existing models in handling long contexts.<br>
+        • EM-LLM achieves near-unlimited context processing without fine-tuning, delivering significant improvements over existing models across multiple benchmarks.<br>
+        • The model integrates surprise-based event segmentation, graph-theoretic boundary refinement, and a two-stage memory retrieval mechanism, substantially enhancing performance on information retrieval and question-answering tasks.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2023-09-26</td>
       <td style="width: 55%;"><strong>Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2010,6 +2027,23 @@ Papers below are ordered by **publication date**:
           • By integrating existing datasets with newly constructed data, MemoryAgentBench enables a systematic evaluation of these capabilities.<br>
           • The benchmark reveals limitations of current approaches in memory updating and long-horizon dialogue processing, highlighting key challenges for future research.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-27</td>
+      <td style="width: 55%;"><strong>MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MiniLongBench is a low-cost long-text understanding benchmark designed to improve the efficiency and affordability of evaluating large language models (LLMs) on long-context understanding (LCU).<br>
+        • By applying data compression techniques, MiniLongBench significantly reduces the number of evaluation samples while maintaining evaluation consistency, and shows a high correlation with results from the original LongBench benchmark.<br>
+        • Evaluations across multiple task categories demonstrate MiniLongBench’s effectiveness, although further improvements are still needed for summarization and synthesis tasks.
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-07-27</td>
@@ -2079,6 +2113,24 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-07-27</td>
+      <td style="width: 55%;"><strong>Unveiling Privacy Risks in LLM Agent Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+      <img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1227.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • Investigates privacy vulnerabilities in LLM agent memory, specifically the risk of extracting private user-agent interactions stored in long-term memory.<br>
+          • Proposes the Memory EXTRaction Attack (MEXTRA), a black-box attack leveraging a novel prompt design (Locator + Aligner) and automated prompt generation to extract sensitive user queries.<br>
+          • Experiments on representative agents (EHRAgent and RAP) demonstrate significant vulnerability, analyzing key factors like similarity scoring functions and memory configurations that influence leakage.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2025-06-15</td>
         <td style="width: 55%;"><strong>PersonaFeedback: A Large-scale Human-annotated Benchmark For Personalization</strong></td>
         <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2111,212 +2163,6 @@ Papers below are ordered by **publication date**:
           • It quantitatively assesses models’ ability to use memory, with a particular focus on tasks such as information retrieval, reasoning, and state tracking.<br>
           • Experimental results indicate that while some models perform well on simple tasks, there remain substantial gaps on more complex tasks.
         </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2022-03-04</td>
-      <td style="width: 55%;"><strong>LongMemEval: Benchmarking chat assistants on long-term interactive memory</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
-      <img src="https://img.shields.io/badge/Evaluation%20Framework-darkgoldenrod" alt="Evaluation Framework">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • The paper introduces LONGMEMEVAL, a comprehensive benchmark for evaluating the long-term memory capabilities of chat assistants.<br>
-        • The benchmark assesses five core memory abilities, capturing key challenges faced by existing systems.<br>
-        • LONGMEMEVAL adopts a unified three-stage framework—indexing, retrieval, and reading—and proposes several design optimizations to improve memory recall and question-answering accuracy.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-02-25</td>
-      <td style="width: 55%;"><strong>Towards Effective Evaluations and Comparisons for LLM Unlearning Methods</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
-      <img src="https://img.shields.io/badge/Memory%20Erasure-darkcyan" alt="Memory Erasure">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Explores machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on eliminating unnecessary data memorization.<br>
-        • The study addresses two key challenges: the robustness of evaluation metrics and the trade-off between removing target knowledge and preserving other knowledge.<br>
-        • It recommends Extraction Strength (ES) as a primary evaluation metric to ensure accuracy and robustness in unlearning assessment.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2022-02-13</td>
-      <td style="width: 55%;"><strong>DO LLMS RECOGNIZE YOUR PREFERENCES? EVAL-UATING PERSONALIZED PREFERENCE FOLLOWING IN LLMS</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Long--Dialogue%20Reasoning-teal" alt="Long-Dialogue Reasoning">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • PREFEVAL is a benchmark designed to evaluate large language models (LLMs) in their ability to infer, remember, and follow user preferences over long conversations.<br>
-        • The benchmark includes 3,000 user preference–query pairs spanning 20 topics, revealing significant challenges for current LLMs in adhering to user preferences.<br>
-        • The study shows that explicit preferences are easier for models to infer than implicit preferences, and that task types and preference expression styles have a substantial impact on model performance.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-01-23</td>
-      <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Complex%20Instruction%20Following-darkolivegreen" alt="Complex Instruction Following">
-      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • LongGenBench is a benchmark designed to evaluate large language models (LLMs) in generating high-quality long-form text, with a particular emphasis on following complex instructions.<br>
-        • Unlike existing benchmarks, LongGenBench focuses specifically on long-text generation scenarios, covering tasks such as diary writing and menu design.<br>
-        • Despite strong performance on other evaluations, LLMs face significant challenges on the LongGenBench benchmark.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-11-12</td>
-      <td style="width: 55%;"><strong>MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for  Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • MT-Eval is a benchmark designed to evaluate the performance of large language models (LLMs) in multi-turn conversations.<br>
-        • While existing evaluations primarily focus on single-turn dialogue, MT-Eval fills this gap by constructing 1,170 multi-turn queries.<br>
-        • The benchmark categorizes interaction patterns into recall, expansion, refinement, and follow-up, revealing that most models perform consistently worse in multi-turn settings than in single-turn scenarios.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-11-12</td>
-      <td style="width: 55%;"><strong>LONGGENBENCH: Long-context Generation Benchmark</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf">
-      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • LongGenBench is a newly proposed long-context generation benchmark designed to evaluate the performance of large language models (LLMs) on long-form text generation tasks.<br>
-        • It complements existing benchmarks that primarily focus on retrieval skills by emphasizing coherence and logical consistency across multiple sub-questions.<br>
-        • The study shows that different models exhibit substantial performance disparities in long-text generation.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-16</td>
-      <td style="width: 55%;"><strong>A personal long-term memory dataset for memory classification,Retrieval, and Synthesis in question Answering</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
-      <img src="https://img.shields.io/badge/Mid--Term%20Memory-saddlebrown" alt="Mid-Term Memory">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf">
-      <img src="https://img.shields.io/badge/ACL%20Workshop-Paper-black?labelColor=purple" alt="ACL Workshop Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • PerLTQA is a question-answering dataset designed to enhance long-term memory integration in dialogue systems.<br>
-        • PerLTQA combines semantic memory and episodic memory, containing 8,593 questions across 30 personas, with the goal of improving memory classification, retrieval, and synthesis.<br>
-        • Experiments show that BERT-based models outperform other large language models in memory classification tasks.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-11</td>
-      <td style="width: 55%;"><strong>Evaluating Very Long-Term Conversational Memory of LLM Agents</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Evaluates the memory capabilities of large language models (LLMs) in long-duration conversations, with a particular focus on multimodal dialogue scenarios.<br>
-        • By developing the LOCOMO dataset, the researchers establish a comprehensive evaluation benchmark covering tasks such as question answering, event summarization, and multimodal dialogue generation.<br>
-        • Experimental results indicate that while some LLMs perform strongly, they still lag significantly behind humans in memory and reasoning, and the study outlines an evaluation framework and directions for future improvements.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2024-08-11</td>
-      <td style="width: 55%;"><strong>Lamp: When large language models meet personalization</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      <img src="https://img.shields.io/badge/Personalized%20Tasks-darkkhaki" alt="Personalized Tasks">
-      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Explores the importance of large language models (LLMs) in personalized response generation and introduces LaMP, a new benchmark specifically designed for training and evaluating personalized text generation and classification tasks.<br>
-        • LaMP comprises seven personalized subtasks, highlighting the effectiveness of leveraging user-specific inputs (e.g., historical data) and retrieval-augmented strategies to enhance language model performance.<br>
-        • Experimental results demonstrate that personalization methods significantly improve model performance, with the best results achieved through fine-tuning and the use of appropriate retrieval strategies.
-      </td>
-    </tr>
-  </table>
-
-</details>
-
-<details>
-  <summary><strong>Memory Evaluation</strong></summary>
-
-  <table style="width: 100%;">
-    <tr>
-      <td><strong>Date</strong></td>
-      <td><strong>Paper & Summary</strong></td>
-      <td><strong>Tags</strong></td>
-      <td><strong>Links</strong></td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-10-10</td>
-      <td style="width: 55%;"><strong>Human-inspired Episodic Memory for Infinite Context LLMs</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-      <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2407.09450">
-      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • EM-LLM (Event Memory Large Language Model) is a novel large language model designed to address the limitations of existing models in handling long contexts.<br>
-        • EM-LLM achieves near-unlimited context processing without fine-tuning, delivering significant improvements over existing models across multiple benchmarks.<br>
-        • The model integrates surprise-based event segmentation, graph-theoretic boundary refinement, and a two-stage memory retrieval mechanism, substantially enhancing performance on information retrieval and question-answering tasks.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-07-27</td>
-      <td style="width: 55%;"><strong>MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models</strong></td>
-      <td style="width: 15%;"><img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.560.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • MiniLongBench is a low-cost long-text understanding benchmark designed to improve the efficiency and affordability of evaluating large language models (LLMs) on long-context understanding (LCU).<br>
-        • By applying data compression techniques, MiniLongBench significantly reduces the number of evaluation samples while maintaining evaluation consistency, and shows a high correlation with results from the original LongBench benchmark.<br>
-        • Evaluations across multiple task categories demonstrate MiniLongBench’s effectiveness, although further improvements are still needed for summarization and synthesis tasks.
-      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-05-28</td>
@@ -2378,6 +2224,58 @@ Papers below are ordered by **publication date**:
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2022-03-04</td>
+      <td style="width: 55%;"><strong>LongMemEval: Benchmarking chat assistants on long-term interactive memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      <img src="https://img.shields.io/badge/Evaluation%20Framework-darkgoldenrod" alt="Evaluation Framework">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2410.10813">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • The paper introduces LONGMEMEVAL, a comprehensive benchmark for evaluating the long-term memory capabilities of chat assistants.<br>
+        • The benchmark assesses five core memory abilities, capturing key challenges faced by existing systems.<br>
+        • LONGMEMEVAL adopts a unified three-stage framework—indexing, retrieval, and reading—and proposes several design optimizations to improve memory recall and question-answering accuracy.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-02-25</td>
+      <td style="width: 55%;"><strong>Towards Effective Evaluations and Comparisons for LLM Unlearning Methods</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      <img src="https://img.shields.io/badge/Memory%20Erasure-darkcyan" alt="Memory Erasure">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2406.09179">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Explores machine unlearning in large language models (LLMs) and the importance of its evaluation, with a particular focus on eliminating unnecessary data memorization.<br>
+        • The study addresses two key challenges: the robustness of evaluation metrics and the trade-off between removing target knowledge and preserving other knowledge.<br>
+        • It recommends Extraction Strength (ES) as a primary evaluation metric to ensure accuracy and robustness in unlearning assessment.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2022-02-13</td>
+      <td style="width: 55%;"><strong>DO LLMS RECOGNIZE YOUR PREFERENCES? EVAL-UATING PERSONALIZED PREFERENCE FOLLOWING IN LLMS</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Dialogue%20Reasoning-teal" alt="Long-Dialogue Reasoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.09597">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PREFEVAL is a benchmark designed to evaluate large language models (LLMs) in their ability to infer, remember, and follow user preferences over long conversations.<br>
+        • The benchmark includes 3,000 user preference–query pairs spanning 20 topics, revealing significant challenges for current LLMs in adhering to user preferences.<br>
+        • The study shows that explicit preferences are easier for models to infer than implicit preferences, and that task types and preference expression styles have a substantial impact on model performance.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2015-01-25</td>
       <td style="width: 55%;"><strong>Episodic Memory Benchmark: Episodic Memories Generation and Evaluation Benchmark for Large Language Models</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2392,6 +2290,24 @@ Papers below are ordered by **publication date**:
         • Explores the importance of episodic memory in large language models (LLMs) and proposes the construction of new benchmarks to evaluate models’ reasoning capabilities.<br>
         • The authors develop a comprehensive framework with newly designed tasks and evaluation protocols, emphasizing the need for novel training strategies to effectively integrate episodic memory.<br>
         • The framework provides a promising solution for evaluating episodic memory in LLMs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-01-23</td>
+      <td style="width: 55%;"><strong>LongGenBench: Benchmarking long-form generation in long context LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Complex%20Instruction%20Following-darkolivegreen" alt="Complex Instruction Following">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2409.02076">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LongGenBench is a benchmark designed to evaluate large language models (LLMs) in generating high-quality long-form text, with a particular emphasis on following complex instructions.<br>
+        • Unlike existing benchmarks, LongGenBench focuses specifically on long-text generation scenarios, covering tasks such as diary writing and menu design.<br>
+        • Despite strong performance on other evaluations, LLMs face significant challenges on the LongGenBench benchmark.
       </td>
     </tr>
     <tr>
@@ -2411,6 +2327,40 @@ Papers below are ordered by **publication date**:
         • LongBench v2 is a multi-task benchmark for evaluating large language models (LLMs) in long-context understanding and reasoning.<br>
         • It consists of 503 multiple-choice questions spanning diverse task types, with a focus on comprehending and answering long-form text.<br>
         • The study finds that the best-performing models surpass human experts in long-context tasks, highlighting the importance of enhanced reasoning and increased test-time computation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-11-12</td>
+      <td style="width: 55%;"><strong>MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for  Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.emnlp-main.1124.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MT-Eval is a benchmark designed to evaluate the performance of large language models (LLMs) in multi-turn conversations.<br>
+        • While existing evaluations primarily focus on single-turn dialogue, MT-Eval fills this gap by constructing 1,170 multi-turn queries.<br>
+        • The benchmark categorizes interaction patterns into recall, expansion, refinement, and follow-up, revealing that most models perform consistently worse in multi-turn settings than in single-turn scenarios.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-11-12</td>
+      <td style="width: 55%;"><strong>LONGGENBENCH: Long-context Generation Benchmark</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Text%20Generation-slategray" alt="Long-Text Generation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.findings-emnlp.48.pdf">
+      <img src="https://img.shields.io/badge/EMNLP-Paper-black?labelColor=green" alt="EMNLP Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LongGenBench is a newly proposed long-context generation benchmark designed to evaluate the performance of large language models (LLMs) on long-form text generation tasks.<br>
+        • It complements existing benchmarks that primarily focus on retrieval skills by emphasizing coherence and logical consistency across multiple sub-questions.<br>
+        • The study shows that different models exhibit substantial performance disparities in long-text generation.
       </td>
     </tr>
     <tr>
@@ -2452,6 +2402,25 @@ Papers below are ordered by **publication date**:
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-16</td>
+      <td style="width: 55%;"><strong>A personal long-term memory dataset for memory classification,Retrieval, and Synthesis in question Answering</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Memory%20Taxonomy-lightgrey" alt="Memory Taxonomy">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Mid--Term%20Memory-saddlebrown" alt="Mid-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.sighan-1.18.pdf">
+      <img src="https://img.shields.io/badge/ACL%20Workshop-Paper-black?labelColor=purple" alt="ACL Workshop Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PerLTQA is a question-answering dataset designed to enhance long-term memory integration in dialogue systems.<br>
+        • PerLTQA combines semantic memory and episodic memory, containing 8,593 questions across 30 personas, with the goal of improving memory classification, retrieval, and synthesis.<br>
+        • Experiments show that BERT-based models outperform other large language models in memory classification tasks.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2024-08-11</td>
       <td style="width: 55%;"><strong>CAN LONG-CONTEXT LANGUAGE MODELS UNDER-STAND LONG CONTEXTS</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2469,6 +2438,41 @@ Papers below are ordered by **publication date**:
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-11</td>
+      <td style="width: 55%;"><strong>Evaluating Very Long-Term Conversational Memory of LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.747.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Evaluates the memory capabilities of large language models (LLMs) in long-duration conversations, with a particular focus on multimodal dialogue scenarios.<br>
+        • By developing the LOCOMO dataset, the researchers establish a comprehensive evaluation benchmark covering tasks such as question answering, event summarization, and multimodal dialogue generation.<br>
+        • Experimental results indicate that while some LLMs perform strongly, they still lag significantly behind humans in memory and reasoning, and the study outlines an evaluation framework and directions for future improvements.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-11</td>
+      <td style="width: 55%;"><strong>Lamp: When large language models meet personalization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Personalized%20Tasks-darkkhaki" alt="Personalized Tasks">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      </td>
+      <td style="width: 15%;"><a href="https://aclanthology.org/2024.acl-long.399.pdf">
+      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Explores the importance of large language models (LLMs) in personalized response generation and introduces LaMP, a new benchmark specifically designed for training and evaluating personalized text generation and classification tasks.<br>
+        • LaMP comprises seven personalized subtasks, highlighting the effectiveness of leveraging user-specific inputs (e.g., historical data) and retrieval-augmented strategies to enhance language model performance.<br>
+        • Experimental results demonstrate that personalization methods significantly improve model performance, with the best results achieved through fine-tuning and the use of appropriate retrieval strategies.
+      </td>
+    </tr>
+     <tr>
       <td rowspan="2" style="width: 15%;">2024-06-19</td>
       <td style="width: 55%;"><strong>LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
@@ -2502,28 +2506,10 @@ Papers below are ordered by **publication date**:
         • Experimental results show that HOMER delivers strong performance with 32K and 64K context inputs, maintaining low perplexity and reduced memory consumption.
       </td>
     </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-02-17</td>
-      <td style="width: 55%;"><strong>Unveiling Privacy Risks in LLM Agent Memory</strong></td>
-      <td style="width: 15%;">
-      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
-      <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
-      <img src="https://img.shields.io/badge/LLM%20Evaluation-dodgerblue" alt="LLM Evaluation">
-      </td>
-      <td style="width: 15%;"><a href="https://aclanthology.org/2025.acl-long.1227.pdf">
-      <img src="https://img.shields.io/badge/ACL-Paper-black?labelColor=deepskyblue" alt="ACL Paper"></a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Investigates privacy vulnerabilities in LLM agent memory, specifically the risk of extracting private user-agent interactions stored in long-term memory.<br>
-          • Proposes the Memory EXTRaction Attack (MEXTRA), a black-box attack leveraging a novel prompt design (Locator + Aligner) and automated prompt generation to extract sensitive user queries.<br>
-          • Experiments on representative agents (EHRAgent and RAP) demonstrate significant vulnerability, analyzing key factors like similarity scoring functions and memory configurations that influence leakage.
-        </td>
-    </tr>
-
   </table>
 
 </details>
+
 
 <details>
   <summary><strong>Systems & Models</strong></summary>
