@@ -104,8 +104,9 @@ To systematically organize the diverse research and practical resources in the f
 
 --- -->
 
-## 🔔 News
+## 🔔 Recent hot research and news
 
++ 2025-12-24 – 🎉 Release Repository V(1.0)
 + 2025-12-10 – 🎉 Initial Repo
 
 ---
@@ -114,7 +115,7 @@ To systematically organize the diverse research and practical resources in the f
 - [Introduction](#-introduction)
 - [Goal of Repository](#-goal-of-repository)
 - [Project Scope](#-project-scope)
-- [News](#-news)
+- [Recent hot research and news](#-Recent-hot-research-and-news)
 - [Core Concepts](#-core-concepts)
 - [Paper List](#-paper-list)
   - [Survey](#Survey)
@@ -428,6 +429,24 @@ Papers below are ordered by **publication date**:
         • HINDSIGHT is a unified memory architecture that treats memory as a structured, first-class substrate for reasoning, organizing information into four logical networks: world facts, agent experiences, synthesized entity summaries, and evolving beliefs.<br>
         • The system introduces TEMPR (Temporal Entity Memory Priming Retrieval) for building temporal entity graphs and CARA (Coherent Adaptive Reasoning Agents) for preference-conditioned reasoning, enabling agents to epistemically distinguish evidence from inference.<br>
         • Experimental results on LongMemEval and LoCoMo benchmarks demonstrate that HINDSIGHT significantly outperforms existing memory systems and full-context frontier models in multi-session consistency and open-domain question answering.
+      </td>
+    </tr>
+    <td rowspan="2" style="width: 15%;">2025-12-10</td>
+      <td style="width: 55%;"><strong>LightSearcher: Efficient DeepSearch via Experiential Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Experiential%20Memory%20Framework-crimson" alt="Experiential Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Contrastive%20Trajectories%20Memory-dodgerblue" alt="Contrastive Trajectories Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://www.arxiv.org/pdf/2512.06653">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LightSearcher是基于经验记忆的RL高效搜索架构，在大模型强化推理过程中，不依赖额外数据，通过“对比经验记忆”将隐性推理轨迹转化为显性经验指导，实现Agent搜索工具调用的自主优化。<br>
+        • 在四个多跳QA基准数据集（NQ、HotpotQA、Musique、2WikiMultihopQA）上，保持与SOTA DeepSearch基线相当准确率，搜索工具调用和模型回复时间显著缩短。<br>
+        • 搜索工具调用次数减少 39.6%，推理时间缩短 48.6%，Token消耗降低 21.2%，在保持模型效果的同时显著提升了工具调用效率。
       </td>
     </tr>
     <tr>

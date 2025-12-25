@@ -103,9 +103,10 @@ To systematically organize the diverse research and practical resources in the f
 
 --- -->
 
-## 🔔 最新消息
+## 🔔 近期热点研究与新闻
 
-+ 2025-12-10 – 🎉 Initial Repo
++ 2025-12-24 – 🎉 发布仓库-V(1.0)
++ 2025-12-10 – 🎉 仓库初始化
 
 ---
 
@@ -113,7 +114,7 @@ To systematically organize the diverse research and practical resources in the f
 - [简介](#-简介)
 - [仓库目标](#-仓库目标)
 - [项目范围](#-项目范围)
-- [最新消息](#-最新消息)
+- [近期热点研究与新闻](#-近期热点研究与新闻)
 - [核心概念](#-核心概念)
 - [论文列表](#-论文列表)
   - [综述](#综述)
@@ -427,6 +428,24 @@ To systematically organize the diverse research and practical resources in the f
         • HINDSIGHT 是一种统一的记忆架构,将记忆视为结构化的、一流的推理基质,将信息组织为四个逻辑网络:世界事实、智能体经验、综合实体摘要和不断演化的信念。<br>
         • 该系统引入了 TEMPR(时序实体记忆启动检索)用于构建时序实体图,以及 CARA(连贯自适应推理智能体)用于基于偏好的条件推理,使智能体能够从认识论上区分证据和推理。<br>
         • 在 LongMemEval 和 LoCoMo 基准测试上的实验结果表明,HINDSIGHT 在多会话一致性和开放域问答方面显著优于现有记忆系统和全上下文前沿模型。
+      </td>
+    </tr>
+    <td rowspan="2" style="width: 15%;">2025-12-10</td>
+      <td style="width: 55%;"><strong>LightSearcher: Efficient DeepSearch via Experiential Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Experiential%20Memory%20Framework-crimson" alt="Experiential Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Contrastive%20Trajectories%20Memory-dodgerblue" alt="Contrastive Trajectories Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://www.arxiv.org/pdf/2512.06653">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LightSearcher是基于经验记忆的RL高效搜索架构，在大模型强化推理过程中，不依赖额外数据，通过“对比经验记忆”将隐性推理轨迹转化为显性经验指导，实现Agent搜索工具调用的自主优化。<br>
+        • 在四个多跳QA基准数据集（NQ、HotpotQA、Musique、2WikiMultihopQA）上，保持与SOTA DeepSearch基线相当准确率，搜索工具调用和模型回复时间显著缩短。<br>
+        • 搜索工具调用次数减少 39.6%，推理时间缩短 48.6%，Token消耗降低 21.2%，在保持模型效果的同时显著提升了工具调用效率。
       </td>
     </tr>
     <tr>
