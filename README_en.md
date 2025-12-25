@@ -444,10 +444,10 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td colspan="3">
-        • LightSearcher是基于经验记忆的RL高效搜索架构，在大模型强化推理过程中，不依赖额外数据，通过“对比经验记忆”将隐性推理轨迹转化为显性经验指导，实现Agent搜索工具调用的自主优化。<br>
-        • 在四个多跳QA基准数据集（NQ、HotpotQA、Musique、2WikiMultihopQA）上，保持与SOTA DeepSearch基线相当准确率，搜索工具调用和模型回复时间显著缩短。<br>
-        • 搜索工具调用次数减少 39.6%，推理时间缩短 48.6%，Token消耗降低 21.2%，在保持模型效果的同时显著提升了工具调用效率。
-      </td>
+        • LightSearcher is an efficient reinforcement learning (RL)-based search architecture grounded in experiential memory. During large language model (LLM)-driven reasoning, it autonomously optimizes agent tool invocation without relying on external data by transforming implicit reasoning trajectories into explicit experiential guidance through *contrastive experiential memory*.<br>
+        • Evaluated on four multi-hop question answering benchmarks—Natural Questions (NQ), HotpotQA, MuSiQue, and 2WikiMultihopQA—LightSearcher achieves accuracy comparable to the state-of-the-art DeepSearch baseline while significantly reducing both tool invocation latency and model response time.<br>
+        • The method reduces tool invocations by 39.6%, shortens reasoning time by 48.6%, and decreases token consumption by 21.2%, substantially improving tool-use efficiency without compromising task performance.
+    </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-12</td>
