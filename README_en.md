@@ -419,9 +419,6 @@ Papers below are ordered by **publication date**:
       <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
       <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
       </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00663">
-      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
-      </td>
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.24695">
       <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
