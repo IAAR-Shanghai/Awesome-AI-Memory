@@ -413,6 +413,100 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-31</td>
+      <td style="width: 55%;"><strong>Nested Learning: The Illusion of Deep Learning Architecture</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00663">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+      </td>
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.24695">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      • Full arXiv version including all appendices — not the previously released trimmed version.<br>
+      • Presents a Nested Learning paradigm that unifies a large portion of optimizer and TTT-layer modules.<br>
+      • Architectural innovation: HOPE — composed of modified Titans attention and self-modified FFNs. By controlling the chunksize of self-modification of FFN parameter, FFN layers operating at different frequencies implicitly retain memories at different hierarchical levels during runtime.<br>
+      • Empirical results are modest.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-25</td>
+      <td style="width: 55%;"><strong>Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory
+Management</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.21567">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Provides TeleAI background and introduces a decision-theoretic memory framework (DAM) that formulates the timing and content of memory read/write as an optimal decision problem, with relevance to RL-style formulations.<br>
+        • Contains minimal or no experimental validation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-21</td>
+      <td style="width: 55%;"><strong>MemEvolve: Meta-Evolution of Agent Memory Systems</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.18746">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      • An OPPO-affiliated paper proposes a two-layer framework that, in RL settings, separates learning to extract memories (level-1) from learning the memory-extraction method itself (level-2).<br>
+      • Experiments using Flash-Searcher and GPT-5-Mini achieve SOTA on benchmarks including GAIA.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-20</td>
+      <td style="width: 55%;"><strong>MemR³: Memory Retrieval via Reflective Reasoning for LLM Agents</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.20237">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemR³ closed-loop retrieval controller: designed for long-term conversational memory, it can dynamically choose among three actions—retrieve, reflect, and respond.<br>
+        • Evidence–gap state tracker: the system maintains a global (evidence, gap) state that explicitly tracks "what is known" and "what is missing," making the process interpretable.<br>
+        • Experiments show that on the LoCoMo benchmark, MemR³ significantly improves answer quality across different underlying memory systems (e.g., RAG, Zep).<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-18</td>
+      <td style="width: 55%;"><strong>Learning Hierarchical Procedural Memory for LLM Agents
+through Bayesian Selection and Contrastive Refinement</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.18950">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • A Bayesian procedural memory (experience) framework: MACLA.<br>
+        • Overall still a rule-based algorithm; operations include extraction, retrieval/storage, and refinement (Bayesian posterior calibration).<br>
+        • On unseen tasks in ALFWorld, performance (90.3%) exceeded that on seen tasks (87.2%), achieving +3.1% positive generalization.<br>
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-14</td>
       <td style="width: 55%;"><strong>HINDSIGHT IS 20/20: BUILDING AGENT MEMORY THAT RETAINS, RECALLS, AND REFLECTS</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
@@ -429,6 +523,27 @@ Papers below are ordered by **publication date**:
         • HINDSIGHT is a unified memory architecture that treats memory as a structured, first-class substrate for reasoning, organizing information into four logical networks: world facts, agent experiences, synthesized entity summaries, and evolving beliefs.<br>
         • The system introduces TEMPR (Temporal Entity Memory Priming Retrieval) for building temporal entity graphs and CARA (Coherent Adaptive Reasoning Agents) for preference-conditioned reasoning, enabling agents to epistemically distinguish evidence from inference.<br>
         • Experimental results on LongMemEval and LoCoMo benchmarks demonstrate that HINDSIGHT significantly outperforms existing memory systems and full-context frontier models in multi-session consistency and open-domain question answering.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-11</td>
+      <td style="width: 55%;"><strong>Remember Me, Refine Me: A Dynamic Procedural Memory
+Framework for Experience-Driven Agent Evolution</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.10696">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ReMe (paper version): an Alibaba-affiliated framework for enhancing LLM procedural memory (experience), including the ReMe algorithm and the reme.library dataset.<br>
+        • Core idea: maintain an experience pool with operations—Acquisition, Reuse, and Refinement.<br>
+        • Experiments on BFCL-V3 and AppWorld show dynamic experience pools > static pools > baseline, with scaling studies for both model and judge models.
       </td>
     </tr>
     <td rowspan="2" style="width: 15%;">2025-12-10</td>
@@ -448,6 +563,26 @@ Papers below are ordered by **publication date**:
         • Evaluated on four multi-hop question answering benchmarks—Natural Questions (NQ), HotpotQA, MuSiQue, and 2WikiMultihopQA—LightSearcher achieves accuracy comparable to the state-of-the-art DeepSearch baseline while significantly reducing both tool invocation latency and model response time.<br>
         • The method reduces tool invocations by 39.6%, shortens reasoning time by 48.6%, and decreases token consumption by 21.2%, substantially improving tool-use efficiency without compromising task performance.
     </td>
+    </tr>
+        <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-3</td>
+      <td style="width: 55%;"><strong>MemVerse: Multimodal Memory for Lifelong Learning Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.03627">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • A lifelong learning memory framework for multimodal agents.<br>
+        • Retrieval-based long-term memory + parameterized fast memory + periodic distillation.<br>
+        • Multimodal handling: unified conversion into textual descriptions.<br>
+        • Experiments show improvements over baselines on ScienceQA (text) and MSR-VTT (video); LoCoMo (text) results remain unpublished (in appendix).<br>
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-12</td>
