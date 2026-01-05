@@ -419,12 +419,12 @@ Papers below are ordered by **publication date**:
       <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
       <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
       </td>
-      </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.24695">
       <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
       </td>
     </tr>
     <tr>
+        <td colspan="3">
       • Full arXiv version including all appendices — not the previously released trimmed version.<br>
       • Presents a Nested Learning paradigm that unifies a large portion of optimizer and TTT-layer modules.<br>
       • Architectural innovation: HOPE — composed of modified Titans attention and self-modified FFNs. By controlling the chunksize of self-modification of FFN parameter, FFN layers operating at different frequencies implicitly retain memories at different hierarchical levels during runtime.<br>
@@ -461,6 +461,7 @@ Management</strong></td>
       </td>
     </tr>
     <tr>
+       <td colspan="3"> 
       • An OPPO-affiliated paper proposes a two-layer framework that, in RL settings, separates learning to extract memories (level-1) from learning the memory-extraction method itself (level-2).<br>
       • Experiments using Flash-Searcher and GPT-5-Mini achieve SOTA on benchmarks including GAIA.<br>
       </td>
