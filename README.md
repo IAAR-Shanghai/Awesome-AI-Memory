@@ -412,6 +412,102 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-31</td>
+      <td style="width: 55%;"><strong>Nested Learning: The Illusion of Deep Learning Architecture</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2501.00663">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
+      </td>
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.24695">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • arxiv 完整版， 包括所有附录内容. 非之前公布的残血版.<br>
+        • 梳理了一个Nested Leaning的学习范式, 统一了很大一部分的optimizer + TTT layer. <br>
+        • 结构创新:HOPE: 由 modified Titans attention + self modified FFN 组成, 通过控制FFN层参数self-modified的更新频率， 使得不同更新频率FFN层在运行时隐式记住中不同层级的记忆.<br>
+        • 试验偏弱.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-25</td>
+      <td style="width: 55%;"><strong>Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory
+Management</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.21567">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TeleAI背景， 一个理论框架(DAM)， 把记忆的读写的时机和内容的问题包装成一个决策论下的最优问题. 考虑类似RL问题的可以参考一下.<br>
+        • 基本无试验.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-21</td>
+      <td style="width: 55%;"><strong>MemEvolve: Meta-Evolution of Agent Memory Systems</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.18746">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • oppo背景的文章, 通过设计双层框架在RL问题中分离记忆抽取式的学习(一层学习)和记忆抽取方式本身的学习(二层学习).<br>
+        • 试验基于Flash-Searcher和GPT-5-Mini, 在包括GAIA上取得SOTA.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-20</td>
+      <td style="width: 55%;"><strong>MemR³: Memory Retrieval via Reflective Reasoning for LLM Agents</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+       <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.20237">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemR³ 闭环检索控制器：为长期对话记忆设计，能动态选择检索、反思、回答三种动作。<br>
+        • 证据-缺口状态追踪器：系统维护一个全局的 (证据, 缺口) 状态，明确追踪“已掌握什么”和“还缺什么”，使过程可解释。<br>
+        • 试验显示，在LoCoMo基准测试上，MemR³能显著提升不同底层记忆系统（如RAG、Zep）的回答质量。<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-18</td>
+      <td style="width: 55%;"><strong>Learning Hierarchical Procedural Memory for LLM Agents
+through Bayesian Selection and Contrastive Refinement</strong></td>
+      <td style="width: 15%;">
+       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.18950">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 基于贝叶斯的程序记忆(经验)框架:MACLA.<br>
+        • 整体仍然是一个基于规则的算法，操作包括提取，检索存储，精炼(贝叶斯后验概率校准).<br>
+        • 在ALFWorld的未见任务上，性能（90.3%）反而比已见任务（87.2%）更高，实现了+3.1%的正泛化。<br>
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-14</td>
       <td style="width: 55%;"><strong>HINDSIGHT IS 20/20: BUILDING AGENT MEMORY THAT RETAINS, RECALLS, AND REFLECTS</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
@@ -430,6 +526,27 @@ To systematically organize the diverse research and practical resources in the f
         • 在 LongMemEval 和 LoCoMo 基准测试上的实验结果表明,HINDSIGHT 在多会话一致性和开放域问答方面显著优于现有记忆系统和全上下文前沿模型。
       </td>
     </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-11</td>
+      <td style="width: 55%;"><strong>Remember Me, Refine Me: A Dynamic Procedural Memory
+Framework for Experience-Driven Agent Evolution</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.10696">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ReMe的文章版, 阿里背景的关于LLM程序记忆(经验)进行增强的框架. 包含框架算法ReMe和数据集reme.library。<br>
+        • 核心是维护一个经验池，操作包括获取（Acquisition）， 重用（Reuse），精炼（Refinement）。<br>
+        • BFCL-V3和AppWorld上的试验显示动态经验池好于静态经验池好于baseline, 有针对模型和judge模型的scale试验.<br>
+      </td>
+    </tr>
     <td rowspan="2" style="width: 15%;">2025-12-10</td>
       <td style="width: 55%;"><strong>LightSearcher: Efficient DeepSearch via Experiential Memory</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
@@ -446,6 +563,26 @@ To systematically organize the diverse research and practical resources in the f
         • LightSearcher是基于经验记忆的RL高效搜索架构，在大模型强化推理过程中，不依赖额外数据，通过“对比经验记忆”将隐性推理轨迹转化为显性经验指导，实现Agent搜索工具调用的自主优化。<br>
         • 在四个多跳QA基准数据集（NQ、HotpotQA、Musique、2WikiMultihopQA）上，保持与SOTA DeepSearch基线相当准确率，搜索工具调用和模型回复时间显著缩短。<br>
         • 搜索工具调用次数减少 39.6%，推理时间缩短 48.6%，Token消耗降低 21.2%，在保持模型效果的同时显著提升了工具调用效率。
+      </td>
+    </tr>
+      <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-3</td>
+      <td style="width: 55%;"><strong>MemVerse: Multimodal Memory for Lifelong Learning Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Parametric%20Memory-pink" alt="Parametric Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.03627">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 针对多模态agent的终身学习记忆框架.<br>
+        • 检索式长期记忆 + 参数化快速记忆 + 定期蒸馏机制.<br>
+        • 如何处理多模态: 统一转化为文本描述.<br>
+        • 试验主要在ScienceQA(文本), MSR-VTT(视频)上展示了超出基线的性能，LoCoMo(文本)试验在附录中尚未没有公开.<br>
       </td>
     </tr>
     <tr>
