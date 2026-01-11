@@ -413,6 +413,219 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-08</td>
+      <td style="width: 55%;"><strong>Beyond Static Summarization: Proactive Memory Extraction for LLM Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      <img src="https://img.shields.io/badge/Proactive%20Extraction-mediumseagreen" alt="Proactive Extraction">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.04463">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>ProMem Framework</strong>: Addresses the limitations of "one-off" static summarization by proposing a proactive memory extraction framework inspired by Recurrent Processing Theory (RPT).<br>
+        • <strong>Recurrent Feedback Loop</strong>: Introduces a self-questioning mechanism where the agent actively probes dialogue history to verify facts and recover missing details, ensuring memory completeness and accuracy.<br>
+        • <strong>Performance</strong>: Outperforms state-of-the-art baselines (e.g., Mem0) on HaluMem and LongMemEval benchmarks, demonstrating high robustness in token compression and cost-effectiveness with Small Language Models.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-08</td>
+      <td style="width: 55%;"><strong>Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.04726">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed <strong>CompassMem</strong>, an event-centric memory framework inspired by Event Segmentation Theory, organizing memory as an <strong>Event Graph</strong> with explicit logical relations (causal, temporal).<br>
+        • Transforms memory from passive storage into a <strong>Logic Map</strong>, enabling agents to actively navigate structured dependencies via a Planner-Explorer-Responder mechanism.<br>
+        • Features active multi-path memory search that dynamically expands or skips nodes based on subgoal satisfaction, avoiding redundant retrieval.<br>
+        • Demonstrates superior performance on LoCoMo and NarrativeQA benchmarks, significantly improving multi-hop and temporal reasoning compared to baselines like HippoRAG and Mem0.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-08</td>
+      <td style="width: 55%;"><strong>Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.05171">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>PersonaTree Framework</strong>: Introduces a globally maintained **PersonaTree** grounded in the Biopsychosocial model as a dynamic user profile. By constraining the trunk with a schema and iteratively updating branches, it enables controllable memory growth and compression.<br>
+        • <strong>MemListener Training</strong>: Trains a lightweight MemListener model via **Reinforcement Learning with process-based rewards** to generate structured, executable memory operations (ADD, UPDATE, DELETE), achieving performance comparable to large reasoning models.<br>
+        • <strong>Adaptive Response Generation</strong>: Implements a dual-mode strategy that utilizes PersonaTree directly for low-latency responses or triggers an agentic recall mode guided by the tree for complex queries, outperforming baselines in consistency and noise suppression.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-07</td>
+      <td style="width: 55%;"><strong>Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03785">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>Membox Architecture</strong>: Addresses the "fragmentation-compensation" flaw in existing systems by proposing a hierarchical architecture centered on **Topic Continuity** to preserve temporal and causal flow.<br>
+        • <strong>Topic Loom & Trace Weaver</strong>: Introduces a *Topic Loom* to group continuous dialogue into cohesive "memory boxes" and a *Trace Weaver* to link these boxes into long-range event timelines across discontinuities.<br>
+        • <strong>Performance</strong>: Achieves up to 68% F1 improvement on temporal reasoning tasks in the LoCoMo benchmark compared to baselines like Mem0, while using significantly fewer context tokens.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2601.02744">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SYNAPSE is a brain-inspired memory architecture that replaces static vector retrieval with a unified episodic–semantic graph, addressing the “context isolation” issue in traditional RAG systems, where semantically distant yet causally related memories cannot be effectively associated.<br>
+        • It introduces cognitive dynamics such as spreading activation, lateral inhibition, and temporal decay to dynamically propagate relevance and filter noise within the graph, rather than relying solely on precomputed links or vector similarity.<br>
+        • SYNAPSE achieves state-of-the-art performance on the LoCoMo benchmark, significantly improving multi-hop reasoning capabilities and robustness to adversarial queries through an uncertainty-aware gating mechanism.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>CODEMEM: AST-Guided Adaptive Memory for Repository-Level Iterative Code Generation</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.02868">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed CODEMEM, a memory management system tailored for repository-level iterative code generation.<br>
+        • Introduces <strong>Code Context Memory</strong>: Uses AST-guided selection to dynamically update and merge repository context, keeping it relevant while discarding noise.<br>
+        • Introduces <strong>Code Session Memory</strong>: Uses AST-based change analysis to detect conflicts and forgetting, organizing history into code-centric units (diffs) rather than just text.<br>
+        • Achieves SOTA on CodeIF-Bench and CoderEval, improving instruction following by ~12% and reducing interaction rounds by 2–3.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>Implicit Graph, Explicit Retrieval: Towards Efficient and Interpretable Long-horizon Memory for Large Language Models</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Explicit%20Memory-darkgreen" alt="Explicit Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03417">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>LatentGraphMem Framework</strong>: Proposes a memory framework combining implicit graph memory for stability and efficiency with explicit subgraph retrieval for interpretability, storing graph structures in latent space.<br>
+        • <strong>Three-Stage Training Strategy</strong>: Involves training a graph builder (global representation), a subgraph retriever (budgeted edge selection), and joint fine-tuning (coordination optimization) for effective end-to-end QA.<br>
+        • <strong>Performance</strong>: Consistently outperforms explicit-graph and latent-memory baselines on long-horizon benchmarks like HotpotQA, NarrativeQA, and WikiHop across multiple model scales, achieving up to 63.34% average accuracy.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03236">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>MAGMA Architecture</strong>: Proposes a multi-graph agentic memory architecture that explicitly models memory items across orthogonal semantic, temporal, causal, and entity graphs, overcoming the limitations of monolithic memory stores.<br>
+        • <strong>Adaptive Topological Retrieval</strong>: Introduces an intent-aware Adaptive Traversal Policy that dynamically routes retrieval through relevant relational views, decoupling memory representation from retrieval logic for transparent reasoning.<br>
+        • <strong>Performance</strong>: Consistently outperforms state-of-the-art agentic memory systems (e.g., Nemori, A-MEM) on long-horizon benchmarks like LoCoMo and LongMemEval, while reducing retrieval latency and token consumption.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.02845">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>TiMem Framework</strong>: Introduces a temporal-hierarchical memory framework using a Temporal Memory Tree (TMT) to progressively consolidate raw dialog into abstract persona representations, emphasizing temporal continuity.<br>
+        • <strong>Core Mechanisms</strong>: Features semantic-guided consolidation (fine-tuning free) and complexity-aware memory recall (Recall Planner + Gating) to balance precision and efficiency across query types.<br>
+        • <strong>Performance</strong>: Achieves SOTA accuracy on LoCoMo (75.30%) and LongMemEval-S (76.88%) benchmarks, while significantly reducing recalled context length (-52.20%) on LoCoMo.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03192">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>MemRL Framework</strong>: Proposes a non-parametric reinforcement learning framework that enables frozen LLM agents to self-evolve by optimizing episodic memory, avoiding the costs and forgetting issues of fine-tuning.<br>
+        • <strong>Intent-Experience-Utility Triplet</strong>: Introduces a Two-Phase Retrieval mechanism (semantic recall + value-aware selection) and a runtime utility update rule, using Q-values to distinguish high-utility strategies from noise.<br>
+        • <strong>Performance</strong>: Significantly outperforms MemP and RAG on benchmarks like HLE, BigCodeBench, and ALFWorld, demonstrating that agents can continuously improve via runtime trial-and-error without weight updates.<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-05</td>
+      <td style="width: 55%;"><strong>Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.01885">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • <strong>AgeMem Framework</strong>: Proposes a unified framework that integrates both Long-Term (LTM) and Short-Term (STM) memory management directly into the agent's policy via tool-based actions (e.g., Add, Update, Filter).<br>
+        • <strong>Three-Stage Progressive RL</strong>: Introduces a step-wise GRPO algorithm and a three-stage training strategy (LTM construction, STM control, integrated reasoning) to address sparse rewards and enable end-to-end optimization.<br>
+        • <strong>Performance</strong>: Outperforms strong baselines like LangMem and Mem0 across five long-horizon benchmarks (e.g., ALFWorld, HotpotQA), achieving higher task success rates, better memory quality, and more efficient context usage.<br>
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-31</td>
       <td style="width: 55%;"><strong>Nested Learning: The Illusion of Deep Learning Architecture</strong></td>
       <td style="width: 15%;">
@@ -2110,6 +2323,87 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-08</td>
+      <td style="width: 55%;"><strong>KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+        <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.04745">
+      <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • <strong>Introduction:</strong> Introduces KnowMe-Bench, a benchmark derived from long-form autobiographical narratives (4.7M tokens) designed to evaluate "person understanding"—inferring stable motivations and principles—in lifelong digital companions, moving beyond simple fact retrieval.<br>
+          • <strong>Methodology:</strong> Utilizes a "Cognitive-Stream Reconstruction" pipeline to transform raw narratives into flashback-aware, time-anchored streams rich in inner thoughts and sensory details. It employs a 3-tier hierarchical evaluation suite ranging from factual extraction to psychoanalytic depth.<br>
+          • <strong>Findings:</strong> Experiments with various memory architectures (RAG, Mem0, MemOS) reveal that while retrieval systems improve factual accuracy, they struggle with temporal grounding and deep reasoning (e.g., the "Update Paradox"), highlighting a critical gap in modeling the complex, non-linear nature of human memory.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-07</td>
+      <td style="width: 55%;"><strong>Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Multimodal-darkorchid" alt="Multimodal">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03515">
+      <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • <strong>Introduction:</strong> Introduces <strong>Mem-Gallery</strong>, a benchmark designed to evaluate multimodal long-term conversational memory in MLLM agents, bridging the gap between text-only long-context benchmarks and single-session multimodal tasks.<br>
+          • <strong>Methodology:</strong> Constructs a dataset of high-quality multi-session conversations grounded in both visual and textual information. It establishes an evaluation framework covering three functional dimensions: Memory Extraction & Adaptation, Memory Reasoning, and Memory Knowledge Management.<br>
+          • <strong>Findings:</strong> Extensive benchmarking across thirteen memory systems reveals that explicit multimodal information retention is crucial. However, current models struggle with memory reasoning, handling knowledge conflicts, and face significant efficiency bottlenecks.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-07</td>
+      <td style="width: 55%;"><strong>EvolMem: A Cognitive-Driven Benchmark for Multi-Session Dialogue Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+        <img src="https://img.shields.io/badge/Multi--Turn%20Dialogue-rosybrown" alt="Multi-Turn Dialogue">
+        <img src="https://img.shields.io/badge/Agentic%20Memory-darkturquoise" alt="Agentic Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.03543">
+      <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • <strong>Introduction:</strong> Introduces EvolMem, a cognitive-driven benchmark designed to evaluate the multi-session memory capabilities of LLMs and agent systems, addressing the gap in assessing non-declarative memory and long-term consistency.<br>
+          • <strong>Methodology:</strong> Grounded in cognitive psychology, it categorizes memory into declarative (e.g., Retrieval, Inference) and non-declarative (e.g., Habituation) types. The benchmark uses a hybrid data synthesis framework—combining topic-initiated generation and narrative-inspired transformations—to create diverse, controllable multi-session dialogues.<br>
+          • <strong>Findings:</strong> Evaluations reveal that no LLM consistently excels across all memory dimensions, with significant weaknesses in non-declarative tasks. Furthermore, existing agent memory mechanisms often fail to outperform strong base models and suffer from high latency.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-07</td>
+      <td style="width: 55%;"><strong>PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+        <img src="https://img.shields.io/badge/Agentic%20Memory-darkturquoise" alt="Agentic Memory">
+        <img src="https://img.shields.io/badge/Reinforcement Learning-orange" alt="Reinforcement Learning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.06688">
+      <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • Introduction: Introduces PersonaMem-v2, a state-of-the-art dataset featuring 1,000 realistic personas, 300+ scenarios, and 20,000+ implicit user preferences embedded in long-context interactions (up to 128k tokens).<br>
+          • Gap & Findings: Benchmarking reveals that frontier LLMs (including GPT-5) struggle with implicit personalization, achieving only 37-48% accuracy. However, Reinforcement Fine-Tuning (RFT) significantly improves reasoning capabilities for user understanding.<br>
+          • Methodology: Proposes an "Agentic Memory" framework that maintains a single, human-readable, and evolving memory. This approach outperforms GPT-5 with 55% accuracy while being 16× more token-efficient (using 2k memory vs. 32k history).
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
       <td style="width: 55%;"><strong>Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
@@ -2143,27 +2437,6 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • Introduces the PERSONAMEM benchmark, designed to evaluate the performance of large language models (LLMs) in dynamic user profiling and personalized response generation.<br>
           • Although existing models achieve some success in recalling user preferences, they still exhibit significant performance gaps when handling novel scenarios.<br>
           • The paper provides a detailed description of the benchmark’s structure, the process for generating user dialogues, the methods for evaluating model performance, and related work, highlighting the importance of personalized dialogue generation in enhancing user experience.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2025-12-07</td>
-      <td style="width: 55%;"><strong>PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
-        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
-        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
-        <img src="https://img.shields.io/badge/Agentic%20Memory-darkturquoise" alt="Agentic Memory">
-        <img src="https://img.shields.io/badge/Reinforcement Learning-orange" alt="Reinforcement Learning">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2512.06688">
-      <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv Paper">
-      </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • Introduction: Introduces PersonaMem-v2, a state-of-the-art dataset featuring 1,000 realistic personas, 300+ scenarios, and 20,000+ implicit user preferences embedded in long-context interactions (up to 128k tokens).<br>
-          • Gap & Findings: Benchmarking reveals that frontier LLMs (including GPT-5) struggle with implicit personalization, achieving only 37-48% accuracy. However, Reinforcement Fine-Tuning (RFT) significantly improves reasoning capabilities for user understanding.<br>
-          • Methodology: Proposes an "Agentic Memory" framework that maintains a single, human-readable, and evolving memory. This approach outperforms GPT-5 with 55% accuracy while being 16× more token-efficient (using 2k memory vs. 32k history).
         </td>
     </tr>
     <tr>
@@ -2694,6 +2967,26 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-12-17</td>
+      <td style="width: 55%;"><strong>Memory Bear AI: A Breakthrough from Memory to Cognition</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
+        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2512.20651">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Memory Bear constructs a human-like memory architecture grounded in cognitive science (ACT-R, Ebbinghaus), distinguishing between explicit and implicit memory to achieve a leap from "memory" to "cognition."<br>
+        • It features a three-layer architecture with an Intelligent Semantic Pruning Algorithm and a Self-Reflection Engine, significantly reducing token consumption (~90%) while actively suppressing hallucinations.<br>
+        • Experiments demonstrate it outperforms Mem0 and MemGPT in accuracy and latency, with validated effectiveness in healthcare (chronic disease management), enterprise operations, and personalized education.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-11</td>
       <td style="width: 55%;"><strong>O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents</strong></td>
       <td style="width: 15%;">
@@ -3047,10 +3340,10 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 
 |     Task Type      | Benchmarks \& Datasets                                                  |
 | :-----------------------: | ------------------------------------------------------------ |
-| **Personalized Task Evaluation**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PERSONAMEM-v2](https://www.arxiv.org/pdf/2512.06688), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250)  |
+| **Personalized Task Evaluation**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PERSONAMEM-v2](https://www.arxiv.org/pdf/2512.06688), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250), [KnowMe-Bench](https://arxiv.org/abs/2601.04745)  |
 |  **Comprehensive Evaluation**   | [MemoryAgentBench](https://arxiv.org/pdf/2507.05257), [LifelongAgentBench](https://arxiv.org/pdf/2505.11942), [StreamBench](https://arxiv.org/pdf/2406.08747) |
 |  **Memory Mechanism Evaluation**   | [MemBench](https://aclanthology.org/2025.findings-acl.989.pdf),  [Minerva](https://arxiv.org/pdf/2502.03358), [MemoryBench](https://arxiv.org/pdf/2510.17281) |
-|  **Long-Term Memory Evaluation**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144) |
+|  **Long-Term Memory Evaluation**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144), [Mem-Gallery](https://arxiv.org/pdf/2601.03515) |
 |  **Long-Dialogue Reasoning**   | [PREFEVAL](https://arxiv.org/pdf/2502.09597),  [MiniLongBench](https://aclanthology.org/2025.acl-long.560.pdf)|
 |  **Long-Context Understanding**   | [LongBench V2](https://arxiv.org/pdf/2412.15204), [LongBench](https://arxiv.org/abs/2308.14508), [BABILong](https://arxiv.org/pdf/2406.10149), [HotpotQA](https://aclanthology.org/D18-1259.pdf) |
 |  **Long-Context Evaluation** |[SCBENCH](https://arxiv.org/abs/2412.10319), [L-CiteEval](https://arxiv.org/pdf/2410.02115), [GLE](https://aclanthology.org/2024.acl-long.859/), [HOMER](https://arxiv.org/pdf/2404.10308), [RULER](https://arxiv.org/pdf/2404.06654), [MM-Needle](https://aclanthology.org/2025.naacl-long.166.pdf) |
@@ -3087,6 +3380,7 @@ Systems below are ordered by **publication date**:
 | MemMachine  | 2025-08-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemMachine/MemMachine?style=social) | https://github.com/MemMachine/MemMachine<br>https://memmachine.ai/ |
 | MineContext | 2025-09-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) | https://github.com/volcengine/MineContext<br>No official website |
 | EverMemOS   | 2025-10-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/EverMind-AI/EverMemOS?style=social) | https://github.com/EverMind-AI/EverMemOS<br>https://evermind.ai/ |
+| MemoryBear  | 2025-12-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/SuanmoSuanyangTechnology/MemoryBear?style=social) | https://github.com/SuanmoSuanyangTechnology/MemoryBear<br>https://www.memorybear.ai/ |
 
 ### 🎥 Multi-media resource
 
