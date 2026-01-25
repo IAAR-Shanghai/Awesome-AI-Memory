@@ -3675,6 +3675,7 @@ Systems below are ordered by **publication date**:
 | MineContext | 2025-09-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) | https://github.com/volcengine/MineContext<br>No official website |
 | EverMemOS   | 2025-10-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/EverMind-AI/EverMemOS?style=social) | https://github.com/EverMind-AI/EverMemOS<br>https://evermind.ai/ |
 | MemoryBear  | 2025-12-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/SuanmoSuanyangTechnology/MemoryBear?style=social) | https://github.com/SuanmoSuanyangTechnology/MemoryBear<br>https://www.memorybear.ai/ |
+| Cortex Memory  | 2026-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/sopaco/cortex-mem?style=social) | https://github.com/sopaco/cortex-mem<br>[WebSite](https://sopaco.github.io/cortex.github.com/) |
 
 ### 🎥 Multi-media resource
 
