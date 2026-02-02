@@ -413,7 +413,159 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
-        <tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-blue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+        <img src="https://img.shields.io/badge/Context%20Reconstruction-green" alt="Context Reconstruction">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.21714">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • 提出了 E-mem 框架，通过情景上下文重构（Episodic Context Reconstruction）取代传统的记忆预处理，解决了去语境化导致的信息丢失问题。<br>
+          • 采用了异构分层的主从智能体架构（Master-Assistant）：助手智能体作为记忆节点维护未压缩的完整上下文，而主智能体负责全局规划。<br>
+          • 引入了路由机制，使助手智能体能够在本地恢复的原始上下文中进行推理并提取精确证据，在 LoCoMo 和 HotpotQA 上取得了 SOTA 性能，同时显著降低了 Token 成本（降低 70% 以上）。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>ShardMemo: Masked MoE Routing for Sharded Agentic LLM Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Sharded%20Memory-purple" alt="Sharded Memory">
+        <img src="https://img.shields.io/badge/MoE%20Routing-red" alt="MoE Routing">
+        <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.21545">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 ShardMemo，一种分层记忆服务架构：Tier A（工作状态）、Tier B（分片证据存储）和 Tier C（版本化技能库）。<br>
+        • 在 Tier B 中实施了“路由前范围过滤”（scope-before-routing）策略，并将分片选择建模为受限预算下的 Masked MoE 路由问题，利用成本感知门控机制优化检索。<br>
+        • 在 LoCoMo 和 HotpotQA 上，ShardMemo 在固定预算下比余弦相似度路由提升了 +6.87 F1，同时减少了 20.5% 的检索工作量和延迟。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>MemCtrl: Using MLLMs as Active Memory Controllers on Embodied Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Embodied%20AI-yellow" alt="Embodied AI">
+        <img src="https://img.shields.io/badge/Active%20Filtering-blueviolet" alt="Active Filtering">
+        <img src="https://img.shields.io/badge/Memory%20Control-ff69b4" alt="Memory Control">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20831">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 MemCtrl，一种利用多模态大模型（MLLM）作为主动记忆控制器的框架，用于在线过滤具身智能体的冗余观察。<br>
+        • 引入了一个可训练的记忆头（$\mu$），它可以作为门控机制，在探索过程中动态决定是保留、更新还是丢弃当前的观察或反思。<br>
+        • 通过离线监督学习和在线强化学习训练记忆头，在 EmbodiedBench 上使小型 MLLM 的任务完成率平均提升了约 16%，在特定指令子集上提升超过 20%。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>AMA: Adaptive Memory via Multi-Agent Collaboration</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+        <img src="https://img.shields.io/badge/Adaptive%20Routing-teal" alt="Adaptive Routing">
+        <img src="https://img.shields.io/badge/Long--Term%20Consistency-darkblue" alt="Long-Term Consistency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20352">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 AMA（Adaptive Memory via Multi-Agent Collaboration）框架，通过 Constructor、Retriever、Judge 和 Refresher 四个协作智能体来管理多粒度记忆。<br>
+        • 采用了分层记忆设计（原始文本、事实知识、剧集记忆），Retriever 根据任务意图动态路由查询，Judge 负责逻辑审计和冲突检测。<br>
+        • Refresher 模块通过逻辑驱动的更新维护长期记忆的一致性。在 LoCoMo 和 LongMemEval 上，AMA 在减少 80% Token 消耗的同时显著优于现有基线。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-27</td>
+      <td style="width: 55%;"><strong>GLOVE: Global Verifier for LLM Memory-Environment Realignment</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Verification-crimson" alt="Memory Verification">
+        <img src="https://img.shields.io/badge/Environment%20Adaptation-forestgreen" alt="Environment Adaptation">
+        <img src="https://img.shields.io/badge/Active%20Probing-darkcyan" alt="Active Probing">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.19249">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 Global Verifier (GLOVE) 框架，旨在解决动态环境漂移导致的记忆-环境失准问题。<br>
+        • 通过主动探测（Active Probing）建立“相对真理”，通过对比检索到的记忆与新观察结果来检测认知失调，并在无真值监督的情况下重新对齐记忆。<br>
+        • 在 Web 导航、离散规划和连续控制任务中，GLOVE 显著提高了智能体在环境结构或逻辑发生显式/隐式漂移时的适应能力和成功率。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-26</td>
+      <td style="width: 55%;"><strong>MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Hybrid%20Memory-darkslateblue" alt="Hybrid Memory">
+        <img src="https://img.shields.io/badge/Knowledge%20Graph-teal" alt="Knowledge Graph">
+        <img src="https://img.shields.io/badge/Traceability-maroon" alt="Traceability">
+        <img src="https://img.shields.io/badge/Long--Horizon%20Agent-indigo" alt="Long-Horizon Agent">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2601.18204">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemWeaver 提出了一个三层混合记忆框架（图记忆、经验记忆、段落记忆），将长期交互整合为具备时间感知和证据可溯源的结构化信息。<br>
+        • 该模型采用双通道检索策略，将结构化的关系事实与原始文本证据“编织”在一起，有效支持复杂的多跳推理和时间推理任务。<br>
+        • LoCoMo 基准测试表明，相比长上下文基线模型，它在提升推理准确率的同时，将输入上下文长度减少了 95% 以上。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-26</td>
+      <td style="width: 55%;"><strong>FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Biologically--Inspired-lightgreen" alt="Biologically-Inspired">
+        <img src="https://img.shields.io/badge/Forgetting%20Mechanism-gray" alt="Forgetting Mechanism">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.18642">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 FadeMem，一种受艾宾浩斯遗忘曲线启发的智能体记忆架构，引入了主动遗忘机制以防止信息过载。<br>
+        • 采用了双层记忆层级（长期与短期），利用基于语义相关性、访问频率和时间模式的自适应指数衰减函数来管理记忆保留。<br>
+        • 结合 LLM 引导的冲突解决和记忆融合，FadeMem 在 Multi-Session Chat 和 LoCoMo 上以减少 45% 的存储空间实现了卓越的多跳推理和检索性能。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-24</td>
+      <td style="width: 55%;"><strong>Clustering-driven Memory Compression for On-device Large Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/On--Device-black" alt="On-Device">
+        <img src="https://img.shields.io/badge/Memory%20Compression-lightgrey" alt="Memory Compression">
+        <img src="https://img.shields.io/badge/Personalization-indigo" alt="Personalization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.17443">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了一种基于聚类的记忆压缩策略，专为端侧 LLM 的个性化设计，以应对有限的上下文窗口。<br>
+        • 方法将相似的记忆分组，并在簇内合并记忆（而非简单的拼接或平均），从而在减少冗余的同时保留语义连贯性。<br>
+        • 实验表明，该方法在严格的上下文限制下显著降低了 Token 使用量，并在个性化生成质量上优于简单的拼接或平均基线。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-15</td>
       <td style="width: 55%;"><strong>TeleMem: Building Long-Term and Multimodal Memory for Agentic AI</strong></td>
       <td style="width: 15%;">
@@ -469,6 +621,25 @@ To systematically organize the diverse research and practical resources in the f
         • 提出了 PersonalAlign，一项新任务，要求 GUI 智能体通过利用长期用户记录来对齐隐式用户意图——特别是解析模糊指令和预测用户习惯。<br>
         • 提出了 AndroidIntent，一个基于 2 万条长期记录构建的基准测试，包含分层标注的用户偏好和习惯，用于评估个性化能力。<br>
         • 提出了 HIM-Agent（层级意图记忆智能体），利用流式聚合模块和层级过滤器（基于执行和状态）持续更新和组织用户记忆，以提升响应式和主动式性能。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Lightweight-lightyellow" alt="Lightweight">
+        <img src="https://img.shields.io/badge/Dynamic%20Evolution-orange" alt="Dynamic Evolution">
+        <img src="https://img.shields.io/badge/Reasoning-blue" alt="Reasoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.14287">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 CoM (Chain-of-Memory) 框架，主张从昂贵的结构化记忆构建转向轻量级构建（Flat Index）与复杂的动态利用。<br>
+        • 引入了动态记忆链演化机制（Dynamic Memory Chain Evolution），将检索到的碎片组织成连贯的推理路径，并利用自适应截断修剪无关噪声。<br>
+        • 在 LongMemEval 和 LoCoMo 上，CoM 相比复杂记忆结构将 Token 消耗降低至约 2.7%，同时实现了 7.5%–10.4% 的准确率提升。
       </td>
     </tr>
     <tr>
@@ -2575,6 +2746,82 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents via Environment Rollouts</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Long--Context-gold" alt="Long-Context">
+      <img src="https://img.shields.io/badge/Environment%20Sim-darkgreen" alt="Environment Simulation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20730">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+      • 提出了 AgentLongBench，一个通过模拟环境推演（Environment Rollouts）来评估长上下文智能体的基准测试，包含 32K 到 4M 的上下文长度。<br>
+      • 基于横向思维谜题（Lateral Thinking Puzzles）构建动态交互轨迹，包含知识密集型和无知识型两种设定，以区分推理能力与参数化知识。<br>
+      • 揭示了现有模型在处理海量工具响应中的高信息密度时，比处理长对话中的记忆碎片化面临更大的挑战，提出了“最小 Token 需求”作为关键因素。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-24</td>
+      <td style="width: 55%;"><strong>MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Reward%20Model-purple" alt="Reward Model">
+        <img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.11969">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 MemoryRewardBench，这是第一个系统评估奖励模型（RM）对 LLM 长期记忆管理过程评价能力的基准测试。<br>
+        • 涵盖长上下文推理、多轮对话和长文本生成三大类任务，包含 10 种不同的记忆管理设置，上下文长度从 8K 到 128K。<br>
+        • 设计了基于结果（Outcome-based）和基于过程（Process-based）的评估标准，发现新一代模型在评估记忆管理方面表现出代际优势。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-23</td>
+      <td style="width: 55%;"><strong>How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Personalization-indigo" alt="Personalization">
+        <img src="https://img.shields.io/badge/Rationality-lightgrey" alt="Rationality">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.16621">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 LLM 理性个性化（Rational Personalization）的问题，并发布了 RPEval 基准测试，用于评估个性化助手在不同场景下对用户偏好的利用是否合理。<br>
+        • 包含个性化意图推理数据集和多粒度评估协议，揭示了现有 LLM 中广泛存在的“非理性个性化”（如 Filter Bubble）现象。<br>
+        • 提出了 RP-Reasoner，一种基于语用学推理的机制，通过推断用户潜在意图来选择性地整合个性化信息，显著减少了非理性个性化错误。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Tool%20Use-orange" alt="Tool Use">
+        <img src="https://img.shields.io/badge/Active%20Memory-green" alt="Active Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.19935">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 Mem2ActBench，用于评估智能体主动利用长期记忆执行基于工具的任务的能力，而非简单的被动事实检索。<br>
+        • 通过自动化流程构建了包含 2029 个会话的数据集，并采用逆向生成方法创建了 400 个必须依赖记忆才能完成的工具调用任务。<br>
+        • 实验表明，现有系统在“参数接地”（Parameter Grounding）方面表现不佳，即难以从记忆中提取正确参数来执行工具调用。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-11</td>
       <td style="width: 55%;"><strong>CloneMem: Benchmarking Long-Term Memory for AI Clones</strong></td>
       <td style="width: 15%;">
@@ -3257,6 +3504,63 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>Memory Retrieval in Transformers: Insights from The Encoding Specificity Principle</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Interpretability-pink" alt="Interpretability">
+      <img src="https://img.shields.io/badge/Psycholinguistics-brown" alt="Psycholinguistics">
+      <img src="https://img.shields.io/badge/Attention%20Mechanism-blue" alt="Attention Mechanism">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20282">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+      • 借鉴心理学中的“编码特异性原则”（Encoding Specificity Principle），研究了 Transformer 注意力层中的记忆机制。<br>
+      • 提出 Q 编码检索上下文，K 索引记忆痕迹，V 存储内容，并实证表明上下文线索被编码为关键词（Keywords）。<br>
+      • 识别出了特定的注意力神经元，其激活有助于上下文定义关键词的检索，为机器遗忘等下游任务提供了理论基础和提取方法。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>S3-Attention: Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Efficient%20Inference-success" alt="Efficient Inference">
+        <img src="https://img.shields.io/badge/Endogenous%20Retrieval-teal" alt="Endogenous Retrieval">
+        <img src="https://img.shields.io/badge/Sparse%20Autoencoders-violet" alt="Sparse Autoencoders">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.17702">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 S3-Attention（Sparse & Semantic Streaming Attention），一种针对内存受限长上下文推理的框架，实现了 O(1) 的 GPU 内存占用。<br>
+        • 利用稀疏自动编码器（SAE）将注意力状态解码为稀疏特征，在流式处理中构建 CPU 倒排索引并丢弃 KV 缓存。<br>
+        • 通过特征共激活进行内源性检索，在 LongBench 上保持了接近全上下文的性能（例如在 Llama-3-8B 上保留了 99.4% 的性能）。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-19</td>
+      <td style="width: 55%;"><strong>LLM-as-RNN: A Recurrent Language Model for Memory Updates and Sequence Prediction</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Recurrent%20Architecture-darkslategrey" alt="Recurrent Architecture">
+        <img src="https://img.shields.io/badge/Inference--Only-orange" alt="Inference-Only">
+        <img src="https://img.shields.io/badge/Time--Series-blue" alt="Time-Series">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.13352">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 LLM-as-RNN，一种仅推理的框架，将冻结的 LLM 转换为循环预测器，解决了标准 ICL 无法更新错误的问题。<br>
+        • 将隐藏状态表示为自然语言记忆（结构化系统提示摘要），并通过基于反馈的文本重写在每一步更新该状态，实现了在线学习。<br>
+        • 在医疗、气象和金融的时序预测任务中，LLM-as-RNN 在固定 Token 预算下显著优于 Zero-shot 和 MemPrompt 基线。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-17</td>

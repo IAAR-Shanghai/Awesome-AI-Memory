@@ -415,6 +415,178 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-blue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+        <img src="https://img.shields.io/badge/Context%20Reconstruction-green" alt="Context Reconstruction">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.21714">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed the E-mem framework, shifting from traditional memory preprocessing to Episodic Context Reconstruction to prevent information loss caused by de-contextualization.<br>
+        • Adopted a heterogeneous Master-Assistant architecture where assistant agents maintain uncompressed context as memory nodes while the master agent handles global planning.<br>
+        • Introduced a routing mechanism allowing assistants to reason within locally restored original contexts, achieving SOTA performance on LoCoMo and HotpotQA while reducing token costs by over 70%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>ShardMemo: Masked MoE Routing for Sharded Agentic LLM Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Sharded%20Memory-purple" alt="Sharded Memory">
+        <img src="https://img.shields.io/badge/MoE%20Routing-red" alt="MoE Routing">
+        <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.21545">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed ShardMemo, a tiered memory architecture: Tier A (working state), Tier B (sharded evidence), and Tier C (versioned skill library).<br>
+        • Enforced a "scope-before-routing" strategy in Tier B and modeled shard selection as a Masked MoE routing problem under fixed budgets, using cost-aware gating.<br>
+        • Improved F1 by +6.87 on LoCoMo and HotpotQA compared to cosine similarity routing, while reducing retrieval work and latency by 20.5%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>MemCtrl: Using MLLMs as Active Memory Controllers on Embodied Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Embodied%20AI-yellow" alt="Embodied AI">
+        <img src="https://img.shields.io/badge/Active%20Filtering-blueviolet" alt="Active Filtering">
+        <img src="https://img.shields.io/badge/Memory%20Control-ff69b4" alt="Memory Control">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20831">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed MemCtrl, a framework using MLLMs as active memory controllers to filter redundant observations online for embodied agents.<br>
+        • Introduced a trainable memory head ($\mu$) acting as a gate to dynamically determine whether to retain, update, or discard observations during exploration.<br>
+        • Trained via offline supervision and online RL, MemCtrl improved task completion rates by ~16% for small MLLMs on EmbodiedBench, with >20% gains on specific instruction subsets.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>AMA: Adaptive Memory via Multi-Agent Collaboration</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+        <img src="https://img.shields.io/badge/Adaptive%20Routing-teal" alt="Adaptive Routing">
+        <img src="https://img.shields.io/badge/Long--Term%20Consistency-darkblue" alt="Long-Term Consistency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20352">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed AMA (Adaptive Memory via Multi-Agent Collaboration), leveraging Constructor, Retriever, Judge, and Refresher agents to manage multi-granularity memory.<br>
+        • Utilized a hierarchical memory design (Raw Text, Fact Knowledge, Episode), where the Retriever dynamically routes queries and the Judge detects conflicts.<br>
+        • The Refresher maintains long-term consistency via logic-driven updates. AMA significantly outperformed baselines on LoCoMo and LongMemEval while reducing token consumption by 80%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-27</td>
+      <td style="width: 55%;"><strong>GLOVE: Global Verifier for LLM Memory-Environment Realignment</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Verification-crimson" alt="Memory Verification">
+        <img src="https://img.shields.io/badge/Environment%20Adaptation-forestgreen" alt="Environment Adaptation">
+        <img src="https://img.shields.io/badge/Active%20Probing-darkcyan" alt="Active Probing">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.19249">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed the Global Verifier (GLOVE) framework to address memory-environment misalignment caused by dynamic environmental drifts.<br>
+        • Established "relative truth" via active probing to detect cognitive dissonance by comparing retrieved memories with fresh observations, realigning memory without ground truth.<br>
+        • Significantly improved agent adaptability and success rates in web navigation, discrete planning, and continuous control tasks under explicit and implicit environment drifts.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-26</td>
+      <td style="width: 55%;"><strong>FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Biologically--Inspired-lightgreen" alt="Biologically-Inspired">
+        <img src="https://img.shields.io/badge/Forgetting%20Mechanism-gray" alt="Forgetting Mechanism">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.18642">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed FadeMem, a memory architecture inspired by the Ebbinghaus forgetting curve, introducing active forgetting mechanisms to prevent information overload.<br>
+        • Implemented a dual-layer hierarchy with adaptive exponential decay governed by semantic relevance, access frequency, and temporal patterns.<br>
+        • Combined with LLM-guided conflict resolution, FadeMem achieved superior multi-hop reasoning on Multi-Session Chat and LoCoMo while reducing storage by 45%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-26</td>
+      <td style="width: 55%;"><strong>MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Hybrid%20Memory-darkslateblue" alt="Hybrid Memory">
+        <img src="https://img.shields.io/badge/Knowledge%20Graph-teal" alt="Knowledge Graph">
+        <img src="https://img.shields.io/badge/Traceability-maroon" alt="Traceability">
+        <img src="https://img.shields.io/badge/Long--Horizon%20Agent-indigo" alt="Long-Horizon Agent">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2601.18204">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemWeaver proposes a tri-layer memory framework (Graph, Experience, Passage) that consolidates long-term interactions into temporally grounded structures, ensuring evidence traceability.<br>
+        • It employs a dual-channel retrieval strategy to "weave" structured relational facts with original textual evidence, supporting complex multi-hop and temporal reasoning tasks.<br>
+        • Experiments on the LoCoMo benchmark show it improves reasoning accuracy while actively reducing input context length by over 95% compared to long-context baselines.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-24</td>
+      <td style="width: 55%;"><strong>Clustering-driven Memory Compression for On-device Large Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/On--Device-black" alt="On-Device">
+        <img src="https://img.shields.io/badge/Memory%20Compression-lightgrey" alt="Memory Compression">
+        <img src="https://img.shields.io/badge/Personalization-indigo" alt="Personalization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.17443">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed a clustering-based memory compression strategy designed for on-device personalization under limited context windows.<br>
+        • Groups similar memories and merges them within clusters (instead of simple concatenation), reducing redundancy while preserving semantic coherence.<br>
+        • Demonstrated significant reduction in token usage and improved personalized generation quality compared to naive concatenation baselines.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Lightweight-lightyellow" alt="Lightweight">
+        <img src="https://img.shields.io/badge/Dynamic%20Evolution-orange" alt="Dynamic Evolution">
+        <img src="https://img.shields.io/badge/Reasoning-blue" alt="Reasoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.14287">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed CoM (Chain-of-Memory), advocating a shift from expensive structured construction to lightweight construction with dynamic utilization.<br>
+        • Introduced Dynamic Memory Chain Evolution to organize retrieved fragments into coherent inference paths with adaptive truncation to prune noise.<br>
+        • Achieved 7.5%–10.4% accuracy gains on LoCoMo and LongMemEval while reducing token consumption to ~2.7% compared to complex memory structures.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-15</td>
       <td style="width: 55%;"><strong>TeleMem: Building Long-Term and Multimodal Memory for Agentic AI</strong></td>
       <td style="width: 15%;">
@@ -2577,6 +2749,82 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-29</td>
+      <td style="width: 55%;"><strong>AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents via Environment Rollouts</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Long--Context-gold" alt="Long-Context">
+        <img src="https://img.shields.io/badge/Environment%20Sim-darkgreen" alt="Environment Simulation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20730">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed AgentLongBench, evaluating long-context agents via simulated environment rollouts with context lengths ranging from 32K to 4M tokens.<br>
+        • Constructed dynamic interaction trajectories based on Lateral Thinking Puzzles, featuring both Knowledge-Intensive and Knowledge-Free settings.<br>
+        • Revealed that high information density in tool responses poses a greater challenge than memory fragmentation, identifying "minimum token requirement" as a key factor.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-24</td>
+      <td style="width: 55%;"><strong>MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Reward%20Model-purple" alt="Reward Model">
+        <img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.11969">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed MemoryRewardBench, the first benchmark to systematically evaluate the ability of Reward Models (RMs) to assess long-term memory management.<br>
+        • Covers 10 settings across reasoning, dialogue, and generation tasks with contexts from 8K to 128K tokens.<br>
+        • Designed Outcome-based and Process-based evaluation criteria, revealing a generational advantage in newer models for evaluating memory capabilities.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-23</td>
+      <td style="width: 55%;"><strong>How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Personalization-indigo" alt="Personalization">
+        <img src="https://img.shields.io/badge/Rationality-lightgrey" alt="Rationality">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.16621">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed the problem of Rational Personalization and introduced the RPEval benchmark to evaluate appropriate user preference utilization.<br>
+        • Included a dataset for intent reasoning and a multi-granularity evaluation protocol, revealing widespread "irrational personalization" (e.g., Filter Bubbles).<br>
+        • Proposed RP-Reasoner, a pragmatics-based mechanism to infer latent user intent and selectively integrate personalized information, reducing errors significantly.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Tool%20Use-orange" alt="Tool Use">
+        <img src="https://img.shields.io/badge/Active%20Memory-green" alt="Active Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.19935">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed Mem2ActBench to evaluate agents' ability to actively leverage long-term memory for executing tool-based tasks, beyond passive retrieval.<br>
+        • Constructed a dataset of 2,029 sessions via automation and reverse-generated 400 memory-dependent tool-use tasks.<br>
+        • Experiments revealed that existing systems struggle with "Parameter Grounding," failing to extract correct parameters from memory for tool execution.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-11</td>
       <td style="width: 55%;"><strong>CloneMem: Benchmarking Long-Term Memory for AI Clones</strong></td>
       <td style="width: 15%;">
@@ -3261,6 +3509,63 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>Memory Retrieval in Transformers: Insights from The Encoding Specificity Principle</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Interpretability-pink" alt="Interpretability">
+        <img src="https://img.shields.io/badge/Psycholinguistics-brown" alt="Psycholinguistics">
+        <img src="https://img.shields.io/badge/Attention%20Mechanism-blue" alt="Attention Mechanism">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.20282">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Investigated memory mechanisms in Transformer attention layers drawing on the "Encoding Specificity Principle" from psychology.<br>
+        • Proposed that Q encodes retrieval context, K indexes memory traces, and V stores content, identifying that contextual cues are encoded as keywords.<br>
+        • Identified specific attention neurons whose activations facilitate keyword retrieval, providing a theoretical basis and extraction method for downstream tasks like unlearning.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-28</td>
+      <td style="width: 55%;"><strong>S3-Attention: Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Efficient%20Inference-success" alt="Efficient Inference">
+        <img src="https://img.shields.io/badge/Endogenous%20Retrieval-teal" alt="Endogenous Retrieval">
+        <img src="https://img.shields.io/badge/Sparse%20Autoencoders-violet" alt="Sparse Autoencoders">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.17702">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed S3-Attention (Sparse & Semantic Streaming Attention), achieving O(1) GPU memory for long-context inference.<br>
+        • Uses Sparse Autoencoders (SAE) to decode attention states into sparse features, building a CPU-based inverted index and discarding the KV cache.<br>
+        • Retained near-full-context performance (e.g., 99.4% on Llama-3-8B) on LongBench via endogenous retrieval based on feature co-activation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-19</td>
+      <td style="width: 55%;"><strong>LLM-as-RNN: A Recurrent Language Model for Memory Updates and Sequence Prediction</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Recurrent%20Architecture-darkslategrey" alt="Recurrent Architecture">
+        <img src="https://img.shields.io/badge/Inference--Only-orange" alt="Inference-Only">
+        <img src="https://img.shields.io/badge/Time--Series-blue" alt="Time-Series">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.13352">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed LLM-as-RNN, an inference-only framework converting frozen LLMs into recurrent predictors to address immutable context history.<br>
+        • Represents the hidden state as a natural language memory (structured system prompt) updated via feedback-driven text rewriting at each step.<br>
+        • Significantly outperformed Zero-shot and MemPrompt baselines in healthcare, meteorology, and finance time-series tasks under fixed token budgets.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-17</td>
       <td style="width: 55%;"><strong>Memory Bear AI: A Breakthrough from Memory to Cognition</strong></td>
       <td style="width: 15%;">
@@ -3675,7 +3980,6 @@ Systems below are ordered by **publication date**:
 | MineContext | 2025-09-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) | https://github.com/volcengine/MineContext<br>No official website |
 | EverMemOS   | 2025-10-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/EverMind-AI/EverMemOS?style=social) | https://github.com/EverMind-AI/EverMemOS<br>https://evermind.ai/ |
 | MemoryBear  | 2025-12-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/SuanmoSuanyangTechnology/MemoryBear?style=social) | https://github.com/SuanmoSuanyangTechnology/MemoryBear<br>https://www.memorybear.ai/ |
-| Cortex Memory  | 2026-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/sopaco/cortex-mem?style=social) | https://github.com/sopaco/cortex-mem<br>[WebSite](https://sopaco.github.io/cortex.github.com/) |
 
 ### 🎥 Multi-media resource
 
