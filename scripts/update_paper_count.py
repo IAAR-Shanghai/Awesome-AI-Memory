@@ -43,7 +43,7 @@ def main():
     
     readme_files = [
         project_root / 'README.md',
-        project_root / 'README_en.md',
+        project_root / 'README_cn.md',
     ]
     
     print("📊 正在统计论文数量...")
