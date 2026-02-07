@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-191-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-206-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-84-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -3678,25 +3678,6 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="width: 15%;">2026-01-29</td>
-      <td style="width: 55%;"><strong>ShardMemo: Masked MoE Routing for Sharded Agentic LLM Memory</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Sharded%20Memory-purple" alt="Sharded Memory">
-        <img src="https://img.shields.io/badge/MoE%20Routing-red" alt="MoE Routing">
-        <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
-      </td>
-      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.21545">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-      </a></td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Proposed ShardMemo, a tiered memory architecture: Tier A (working state), Tier B (sharded evidence), and Tier C (versioned skill library).<br>
-        • Enforced a "scope-before-routing" strategy in Tier B and modeled shard selection as a Masked MoE routing problem under fixed budgets, using cost-aware gating.<br>
-        • Reported improved F1 on LoCoMo/HotpotQA while reducing retrieval work and tail latency under budgeted probing.
-      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-28</td>
