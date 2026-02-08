@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-191-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-206-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-84-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -415,6 +415,63 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-05</td>
+      <td style="width: 55%;"><strong>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Shared%20Memory-purple" alt="Shared Memory">
+        <img src="https://img.shields.io/badge/Parallel%20Agents-red" alt="Parallel Agents">
+        <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.05965">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studied how to share memory selectively across parallel agents to reduce redundancy and coordination overhead.<br>
+        • Proposed a selective sharing mechanism/policy to decide what to broadcast vs keep private per agent.<br>
+        • Evaluated on multi-agent settings, showing improved efficiency while maintaining (or improving) task performance.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-02</td>
+      <td style="width: 55%;"><strong>Live-Evo: Online Evolution of Agentic Memory from Continuous Feedback</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Online%20Update-purple" alt="Online Update">
+        <img src="https://img.shields.io/badge/Continuous%20Feedback-red" alt="Continuous Feedback">
+        <img src="https://img.shields.io/badge/Memory%20Evolution-success" alt="Memory Evolution">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.02369">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Formulated memory as an evolving object updated online from dense/continuous feedback signals rather than sparse endpoints.<br>
+        • Proposed an update/evolution loop that revises stored memories based on feedback to improve future behavior.<br>
+        • Demonstrated online improvement over time in agent tasks under continuous supervision.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-02</td>
+      <td style="width: 55%;"><strong>Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Beyond%20RAG-purple" alt="Beyond RAG">
+        <img src="https://img.shields.io/badge/Decoupled%20Retrieval-red" alt="Decoupled Retrieval">
+        <img src="https://img.shields.io/badge/Aggregation-success" alt="Aggregation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.02007">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Revisited agent memory retrieval as a two-stage process: decouple candidate fetching from evidence aggregation.<br>
+        • Proposed an aggregation mechanism to combine multi-source/multi-hop evidence for downstream reasoning.<br>
+        • Showed gains vs vanilla RAG-style retrieval pipelines in agent memory usage and answer quality.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-29</td>
       <td style="width: 55%;"><strong>E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory</strong></td>
       <td style="width: 15%;">
@@ -682,6 +739,25 @@ Papers below are ordered by **publication date**:
           • It addresses reward sparsity through Chunk-level Step Reward (CSR), which provides immediate supervision via constructed QA tasks, and solves credit assignment issues with Evidence-Anchored Reward Attribution (EARA) by linking global rewards to specific memory operations.<br>
           • Experimental results demonstrate that Fine-Mem consistently outperforms strong baselines on benchmarks like Memalpha and MemoryAgentBench, showing superior adaptability and generalization across different models.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-12</td>
+      <td style="width: 55%;"><strong>Active Context Compression: Autonomous Memory Management in LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Context%20Compression-purple" alt="Context Compression">
+        <img src="https://img.shields.io/badge/Memory%20Management-red" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Autonomous-success" alt="Autonomous">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.07190">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed an autonomous strategy to compress/retain context so agents can operate under tight context budgets.<br>
+        • Treated memory management as an active decision problem: what to keep, summarize, discard, or externalize.<br>
+        • Demonstrated improved long-horizon performance vs passive truncation or naive summarization baselines.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-12</td>
@@ -1446,6 +1522,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-09-27</td>
+      <td style="width: 55%;"><strong>Look Back to Reason Forward: Revisitable Memory for Long-Context LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Revisitable%20Memory-purple" alt="Revisitable Memory">
+        <img src="https://img.shields.io/badge/Long%20Context-red" alt="Long Context">
+        <img src="https://img.shields.io/badge/Recall-success" alt="Recall">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2509.23040">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Addressed long-context reasoning where relevant evidence is dispersed across very long inputs.<br>
+        • Proposed a “revisitable” memory design that allows the agent to look back and selectively retrieve from the broader history.<br>
+        • Evaluated on long-context QA settings to show improved evidence recovery and reasoning accuracy.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-09-26</td>
       <td style="width: 55%;"><strong>Conflict-Aware Soft Prompting for Retrieval-Augmented Generation</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
@@ -1639,6 +1734,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • This framework adopts an architecture similar to the human dual memory system, enhancing the robot's ability to handle long-sequence tasks.<br>
           • MemoryVLA introduces perception-cognitive memory banks (PCMB), which can effectively integrate historical information with current decisions, thereby enhancing the success rate of robots in responding to complex scenarios.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-08-22</td>
+      <td style="width: 55%;"><strong>Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Agent%20Tuning-purple" alt="Agent Tuning">
+        <img src="https://img.shields.io/badge/No%20LLM%20FT-red" alt="No LLM FT">
+        <img src="https://img.shields.io/badge/Adaptation-success" alt="Adaptation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2508.16153">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed a paradigm to improve agent behavior via “agent-side” learning while keeping the base LLM frozen.<br>
+        • Focused on adapting the agent’s components (e.g., memory/reasoning/routing) rather than model weights.<br>
+        • Reported performance gains across agent tasks without conventional LLM fine-tuning.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-08-21</td>
@@ -2064,6 +2178,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-03-27</td>
+      <td style="width: 55%;"><strong>MemInsight: Autonomous Memory Augmentation for LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Augmentation-purple" alt="Memory Augmentation">
+        <img src="https://img.shields.io/badge/Autonomous%20Write-red" alt="Autonomous Write">
+        <img src="https://img.shields.io/badge/Retrieval-success" alt="Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2503.21760">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed an autonomous memory augmentation pipeline to improve how agents store and later retrieve historical interactions.<br>
+        • Emphasized filtering/structuring memory to keep salient information and reduce irrelevant recall.<br>
+        • Validated on multiple agent scenarios (e.g., QA / recommendation / summarization) to show improved contextual responses.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-03-07</td>
       <td style="width: 55%;"><strong>Memory-augmented Query Reconstruction for LLM-based Knowledge Graph Reasoning</strong></td>
       <td style="width: 15%;">
@@ -2116,6 +2249,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • The LM2 integrates an auxiliary memory module, which utilizes cross-attention mechanisms and gating technology to enhance information storage and update capabilities.<br>
           • In multiple benchmark tests, LM2 has demonstrated significantly superior performance, particularly excelling in long context reasoning tasks, effectively enhancing the ability to process and remember complex information.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-02-03</td>
+      <td style="width: 55%;"><strong>TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Temporal%20Reasoning-purple" alt="Temporal Reasoning">
+        <img src="https://img.shields.io/badge/Multi--Session%20Dialogue-red" alt="Multi-Session Dialogue">
+        <img src="https://img.shields.io/badge/Benchmark-success" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.01630">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduced an evaluation task/benchmark targeting temporal reasoning over noisy, multi-session dialogues with memory.<br>
+        • Proposed a neuro-symbolic framework (TReMu) to improve temporal reasoning using memory-aware representations.<br>
+        • Constructed multi-choice QA style evaluations (augmented from existing dialogue sources) and reported improved performance.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-01-23</td>
@@ -2249,6 +2401,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • The framework integrates a router network with a guided loss function to align LoRA allocations with edit knowledge and utilizes a deferral mechanism to preserve the model's general capabilities.<br>
           • Extensive experiments on GPT-2 XL and LLaMA2-7B demonstrate that ELDER outperforms existing baselines in reliability, generalization, and scalability while maintaining performance on downstream tasks.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-08-16</td>
+      <td style="width: 55%;"><strong>MemLong: Memory-Augmented Retrieval for Long Text Modeling</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Long%20Text-purple" alt="Long Text">
+        <img src="https://img.shields.io/badge/Memory--Aug%20Retrieval-red" alt="Memory-Aug Retrieval">
+        <img src="https://img.shields.io/badge/Long--Context-success" alt="Long-Context">
+      </td>
+      <td style="width: 15%;"><a href="https://openreview.net/pdf?id=AxBgIF4Xva">
+        <img src="https://img.shields.io/badge/OpenReview-Paper-1f6feb?logo=openreview" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed MemLong, a memory-augmented retrieval approach for long-context language modeling by fetching historical chunks externally.<br>
+        • Combined a retrieval/memory module with a partially trainable decoder-only LM, plus controllable retrieval attention over retrieved chunks.<br>
+        • Evaluated on long-context language modeling benchmarks to show improved generation quality and longer effective context.
+      </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2024-08-11</td>
@@ -3566,6 +3737,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-14</td>
+      <td style="width: 55%;"><strong>Continuum Memory Architectures for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Architecture-purple" alt="Memory Architecture">
+        <img src="https://img.shields.io/badge/Long--Horizon-red" alt="Long-Horizon">
+        <img src="https://img.shields.io/badge/Continuum-success" alt="Continuum">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.09913">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduced a continuum-style memory architecture to support long-horizon agent behavior beyond a single context window.<br>
+        • Described how different memory stores (e.g., working/episodic/semantic) interact over time for planning and recall.<br>
+        • Provided empirical evidence that architectural choices improve long-horizon task stability and retrieval quality.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-12-17</td>
       <td style="width: 55%;"><strong>Memory Bear AI: A Breakthrough from Memory to Cognition</strong></td>
       <td style="width: 15%;">
@@ -3603,6 +3793,44 @@ Framework for Experience-Driven Agent Evolution</strong></td>
         • O-Mem is a novel memory framework based on active user profiling that dynamically extracts and updates user characteristics and event records from proactive interactions.<br>
         • Unlike systems relying on semantic grouping, O-Mem supports hierarchical retrieval of persona attributes and topic-related context to enable adaptive and coherent personalized responses.<br>
         • The system achieves state-of-the-art performance on LoCoMo and PERSONAMEM benchmarks while significantly improving token efficiency and interaction response time compared to previous frameworks like LangMem and MemoryOS.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-11-21</td>
+      <td style="width: 55%;"><strong>Episodic Memory in Agentic Frameworks: Suggesting Next Steps in Workflow Creation</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Workflow%20Memory-purple" alt="Workflow Memory">
+        <img src="https://img.shields.io/badge/Next--Step%20Suggestion-red" alt="Next-Step Suggestion">
+        <img src="https://img.shields.io/badge/Episodic-success" alt="Episodic">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.17775">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposed an episodic memory store for workflow traces, enabling retrieval of similar historical workflows.<br>
+        • Used retrieved workflow episodes to suggest plausible “next steps” during workflow creation, reducing hallucination pressure on the LLM.<br>
+        • Evaluated next-step recommendation quality in agentic workflow settings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-11-11</td>
+      <td style="width: 55%;"><strong>From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Graph%20Memory-purple" alt="Graph Memory">
+        <img src="https://img.shields.io/badge/Trainable%20Module-red" alt="Trainable Module">
+        <img src="https://img.shields.io/badge/Strategy%20Learning-success" alt="Strategy Learning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.07800">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduced a trainable graph-structured memory to store experiences and support strategy formation over time.<br>
+        • Learned how to weight/route experiences in the memory graph to inform future decisions and planning.<br>
+        • Reported improvements on agent tasks requiring multi-step reuse of prior experience.
       </td>
     </tr>
     <tr>
@@ -3661,6 +3889,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
         • A-Mem introduces a Zettelkasten-inspired dynamic memory organization that equips LLM agents with genuine long-term memory.<br>
         • Beyond simple storage, A-Mem enables self-linking and self-evolution, allowing agents to achieve significant advantages in complex reasoning tasks.<br>
         • Experimental results demonstrate that A-Mem outperforms existing methods in performance, efficiency, and scalability, laying a strong foundation for building more intelligent and autonomous LLM agents.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-10-01</td>
+      <td style="width: 55%;"><strong>Improving Code Localization with Repository Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Repository%20Memory-purple" alt="Repository Memory">
+        <img src="https://img.shields.io/badge/Code%20Localization-red" alt="Code Localization">
+        <img src="https://img.shields.io/badge/SWE--bench-success" alt="SWE-bench">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2510.01003">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Modeled long-term “repository memory” from commit history, linked issues, and evolving code regions.<br>
+        • Added tools to retrieve historical changes and summarize active code areas to support localization decisions.<br>
+        • Demonstrated improved localization performance for software engineering agents on SWE-bench-style benchmarks.
       </td>
     </tr>
     <tr>
@@ -3826,6 +4073,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2025-02-22</td>
+      <td style="width: 55%;"><strong>Echo: A Large Language Model with Temporal Episodic Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-purple" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Temporal-red" alt="Temporal">
+        <img src="https://img.shields.io/badge/LLM%20Model-success" alt="LLM Model">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2502.16090">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduced an LLM design that explicitly incorporates temporal episodic memory to store time-indexed events.<br>
+        • Targeted improved recall of event sequences and time-sensitive dependencies for downstream reasoning.<br>
+        • Evaluated on episodic-memory-focused tests to demonstrate gains over baselines without explicit episodic memory.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2025-01-20</td>
       <td style="width: 55%;"><strong>ZEP: A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY</strong></td>
       <td style="width: 15%;">
@@ -3864,6 +4130,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
         • Proposes Embodied VideoAgent, a multimodal agent that constructs persistent scene memory by fusing egocentric video with embodied sensory inputs like depth and pose to address dynamic scene understanding.<br>
         • Features a VLM-driven memory update mechanism that dynamically tracks object state changes and relations during actions, ensuring the memory remains accurate over long-form interactions.<br>
         • The agent achieves state-of-the-art performance on benchmarks such as Ego4D-VQ3D and OpenEQA, and demonstrates practical utility in generating synthetic embodied user-assistant interaction data.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-12-12</td>
+      <td style="width: 55%;"><strong>Memory Layers at Scale</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Layers-purple" alt="Memory Layers">
+        <img src="https://img.shields.io/badge/KV%20Lookup-red" alt="KV Lookup">
+        <img src="https://img.shields.io/badge/Scaling-success" alt="Scaling">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2412.09764">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studied trainable key–value “memory layers” as a sparse lookup module to add capacity without proportionally increasing FLOPs.<br>
+        • Presented a fully parallelizable implementation and explored scaling behavior with very large memory parameter counts.<br>
+        • Reported downstream improvements (notably on factual tasks) compared to dense and MoE baselines under matched budgets.
       </td>
     </tr>
     <tr>
