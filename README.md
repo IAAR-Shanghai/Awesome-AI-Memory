@@ -108,7 +108,7 @@ To systematically organize the diverse research and practical resources in the f
 
 ## 🔔 Recent hot research and news
 
-+ 2026-02-01 - 🎉 Updated 15 papers
++ 2026-02-09 - 🎉 Updated 15 papers
 + 2026-02-01 - 🎉 Updated 16 papers, including 9 on methods, 4 on benchmarks, and 3 on systems and models
 + 2025-12-24 – 🎉 Release Repository V(1.0)
 + 2025-12-10 – 🎉 Initial Repo
