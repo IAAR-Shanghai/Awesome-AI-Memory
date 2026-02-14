@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 
 ## 🔔 近期热点研究与新闻
 
++ 2026-02-14 - 🎉 更新15篇论文, 综述类1篇, 方法类12篇, benchmark类1篇, 系统与模型类1篇
 + 2026-02-09 - 🎉 更新15篇论文
 + 2026-02-01 - 🎉 更新16篇论文，方法类9篇，benchmark类4篇，系统与模型类3篇
 + 2025-12-24 – 🎉 发布仓库-V(1.0)
@@ -226,6 +227,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-14</td>
+      <td style="width: 55%;">
+      <strong>Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2602.06052">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • 从存储介质、认知机制和服务主体三个维度构建了统一的分类框架，系统化地定义了基础智能体记忆的分类学。<br>
+          • 深入剖析了记忆在单智能体与多智能体系统中的动态操作机制，并归纳了提示词学习、参数微调和强化学习三种主流的学习策略。<br>
+          • 全面梳理了现有的评价指标与基准测试体系，并结合多领域应用现状，提出了提升记忆效率、安全性及多模态能力的未来研究方向。
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-15</td>
@@ -401,8 +424,10 @@ To systematically organize the diverse research and practical resources in the f
         </td>
     </tr>
   </table>
-
 </details>
+
+
+
 
 
 <details>
@@ -414,6 +439,233 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.12204">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 通过分析发现，预训练模型中 88% 的注意力操作所提取的信息是可预测的冗余信息，且这种计算浪费在标准训练过程中并不会自动减少。<br>
+        • 受生物学启发，设计了 CRAM 机制，利用路由模块将频繁访问的“情节性”注意力检索逐渐固化为“语义性”的参数化记忆，从而实现计算量的动态缩减。<br>
+        • 实验证明 CRAM 在保持高准确率的同时实现了 37.8 倍的注意力计算缩减，且其记忆转化动态在定量上与人类认知的幂律曲线高度匹配。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Scene-Aware Memory Discrimination: Deciding Which Personal Knowledge Stays</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11607">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 针对智能设备产生的大量冗余信息，提出了在记忆构建过程中过滤无关交互、仅保留高价值个人知识的任务，以提升个性化服务的准确性。<br>
+        • 该框架通过门控单元（GUM）在词级别高效过滤非记忆性内容，并利用聚类提示模块（CPM）根据用户意图自适应地制定记忆标准。<br>
+        • 实验证明 SAMD 能够成功召回绝大部分重要数据，在显著降低计算成本的同时，增强了 AI 智能体在动态场景下的个性化响应能力。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11605">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 该框架将超长用户交互历史压缩为少量紧凑的“偏好记忆” Token，并与近期“工作记忆”结合，解决了生成式推荐在处理长序列时的计算瓶颈。<br>
+        • 通过利用全局历史视图生成“参考记忆”作为监督目标，该策略解决了传统循环模型难以并行训练的问题，实现了高效的参数优化。<br>
+        • 实验证明 Rec2PM 在大幅降低存储和推理延迟的同时，利用信息瓶颈原理有效过滤了用户行为中的随机噪声，推荐精度优于全序列模型。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      TS-Memory: Plug-and-Play Memory for Time Series Foundation Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11550">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出一种即插即用的轻量级内存适配器，通过“参数化记忆蒸馏”技术，解决了时间序列基础模型（TSFM）在下游领域分布偏移下的适应性问题。<br>
+        • 首先利用线下 kNN 检索构建包含未来信息的特权监督信号，随后通过置信度门控机制将这种检索诱导的分布修正内化到参数化模块中。<br>
+        • 该框架在显著提升点预测和概率预测精度的同时，实现了“零在线检索”部署，保持了与原始模型相当的推理效率且避免了灾难性遗忘。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10560">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 针对大语言模型（LLM）在长上下文推理中的性能下降问题，该研究采用类似 RNN 的分块递归处理方式，通过维护动态更新的文本记忆来跨越上下文窗口限制。<br>
+        • 在递归循环中设计了“更新门”以过滤无用信息防止记忆爆炸，以及“退出门”以在收集到足够证据后提前终止计算，从而显著提升了系统的稳定性与效率。<br>
+        • 通过端到端的强化学习（RL）训练门控策略，实验证明 GRU-Mem 在多项长文本推理任务中均优于基准模型，且推理速度最高提升了 400%。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      Towards Compressive and Scalable Recurrent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11212">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 Elastic Memory 架构，一种基于 HiPPO 框架的新型递归记忆架构，通过在线函数逼近将长程历史信息压缩为固定大小的记忆状态，解决了 Transformer 处理长文本时的计算瓶颈。<br>
+        • 开发了可并行的块级更新算法以及灵活的“多项式采样”检索机制，能够从压缩状态中精准重建历史摘要，且无需引入额外的可训练参数。<br>
+        • 实验证明该模型在 32k+ 长文本任务上显著优于 Memorizing Transformer 和 Melodi 等基准，且支持在推理阶段通过调整采样策略灵活注入归纳偏置。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      UMEM: Uniffed Memory Extraction and Management Framework for Generalizable Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Evolution-success" alt="Memory Evolution">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10652">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 该框架改变了以往将“记忆提取”视为静态过程的传统模式，通过联合优化大语言模型的记忆提取与管理能力，解决了记忆内容与管理策略不匹配的问题。<br>
+        • 通过语义邻域建模（针对相似查询簇进行评估）和基于 GRPO 算法的边际效用奖励机制，促使模型从经验中提炼普适性的规律，而非仅仅记住特定实例的噪声。<br>
+        • 实现了卓越的泛化与持续进化能力：实验证明 UMEM 在数学推理和具身交互等多个基准测试中显著优于现有基准，且在长期持续交互中展现出稳定的性能单调增长。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-10</td>
+      <td style="width: 55%;"><strong>
+      TraceMem: Weaving Narrative Memory Schemata from User Conversational Traces</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory%20Mechanisms-lime" alt="Long-Term Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.09712">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 该框架通过三阶段流水线（短期处理、突触整合、系统整合），将零散的用户对话轨迹编织成结构化且具有叙事连贯性的记忆图谱。<br>
+        • 系统利用话题分割和两级分层聚类技术，将即时对话片段转化为反映用户个人特质的、随时间演进的叙事线索与记忆卡片。<br>
+        • 引入了代理搜索机制以支持类人的溯源推理，在 LoCoMo 基准测试中显著提升了模型在多跳推理和时间顺序理解方面的性能。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      AMEM4Rec: Leveraging Cross-User Similarity for Memory Evolution in Agentic LLM Recommenders</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Shared%20Memory-purple" alt="Shared Memory">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08837">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 该框架通过引入可进化的记忆模块，在不依赖预训练协同过滤模型的情况下，实现了端到端的协同过滤信号建模。<br>
+        • 系统将不同用户的抽象行为模式聚合在全局记忆池中，通过相似性与语义双重验证进行链接与迭代演化，从而强化跨用户的共享行为规律。<br>
+        • 实验证明 AMEM4Rec 在多个真实数据集上显著优于现有基准，尤其在交互数据稀疏的冷启动场景下展现出极强的泛化能力。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08563v1">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 揭示了LLM即便在无状态部署下，也能通过将其输出作为后续输入（再摄入机制）来传递和保存状态，从而形成一个跨会话的隐蔽信息信道。<br>
+        • 展示了一种新型时间后门攻击，它利用隐性记忆在多次看似无害的交互中累积隐藏条件，只有当特定序列完成后才会触发恶意负载。<br>
+        • 分析了隐性记忆在隐蔽通信、基准污染和目标操纵等方面的广泛风险，并指出了未来在跨会话检测、取证分析及模型安全测试方面的研究必要性。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      MemAdapter: Fast Alignment across Agent Memory Paradigms via Generative Subgraph Retrieval</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08369">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 针对显式、参数化和潜在记忆范式相互孤立的问题，提出了 MemAdapter 框架，首次通过生成式子图检索实现了在单一系统内对异构记忆范式的统一。<br>
+        • 该框架先通过模型蒸馏训练生成式检索器，再利用对比学习训练轻量化对齐模块，仅需极少量数据即可将检索器快速适配至未见的记忆范式。<br>
+        • 实验证明 MemAdapter 在多个基准测试中均优于主流记忆系统，且仅需 13 分钟即可完成范式对齐，并支持跨范式的零样本记忆融合。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-07</td>
+      <td style="width: 55%;"><strong>
+      MemPot: Defending Against Memory Extraction Attack with Optimized Honeypots </strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.07517">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了首个针对基础智能体记忆提取攻击的防御框架MemPot，通过在智能体记忆存储中植入优化后的“蜜罐”文档来诱导并拦截恶意行为。<br>
+        • 采用两阶段优化策略，先通过对比学习最大化攻击者与正常用户在检索轨迹上的区分度，再利用反转技术生成对用户无害且隐蔽的干扰文本。<br>
+        • 基于序贯概率比检验（SPRT）构建了高效的动态检测机制，在实现高准确率检测的同时保持了零在线推理延迟，且不影响智能体原有的记忆功能。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-05</td>
@@ -2902,10 +3154,10 @@ Framework for Experience-Driven Agent Evolution</strong></td>
         • 人类评估结果表明,MPC 在合理性、一致性和吸引力方面与 Blenderbot3 等微调模型相当或更优,特别是在维持长期人物一致性方面。
       </td>
     </tr>
-    
   </table>
-
 </details>
+
+
 
 
 <details>
@@ -2917,6 +3169,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>Locomo-Plus: Beyond-Factual Cognitive Memory Evaluation Framework for LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Long--Context-gold" alt="Long-Context">
+        <img src="https://img.shields.io/badge/Environment%20Sim-darkgreen" alt="Environment Simulation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10715">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 LoCoMo-Plus 基准测试，该测试旨在评估 LLM 智能体在长对话中保留和应用隐含约束（如用户目标、状态和价值观）的“认知记忆”能力，而非传统的表面事实召回。<br>
+        • 该基准构造了复杂的对话实例，要求模型在后续查询与原始记忆线索缺乏表面语义相似度的情况下，仍能准确应用潜在的上下文约束。<br>
+        • 论文提出了一种统一的评估框架，通过实验揭示了现有 LLM 和记忆系统在处理此类非事实性、认知驱动的记忆任务时面临的严峻挑战。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-29</td>
@@ -3677,6 +3948,24 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-07</td>
+      <td style="width: 55%;"><strong>M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-pink" alt="Multimodal Memory">
+        <img src="https://img.shields.io/badge/Memory%20Architecture-purple" alt="Memory Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.07624">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 该框架通过 ChatAgent（负责交互）和 MemoryManager（负责记忆操作）的协作，将静态的多模态个性化转变为能够随对话进程不断更新和演进的记忆机制。<br>
+        • 系统由存储原始日志的底层和存储高层观察的语义层组成，利用证据 ID 链接两层记忆，并通过结合文本、关键词和图像的三路径检索实现精准的上下文召回。<br>
+        • 论文开发了一套可扩展的流水线用于生成长程多模态对话数据集，实验证明 M2A 在处理复杂的个性化问题时显著优于现有的 RAG 和文本记忆基准。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-28</td>
