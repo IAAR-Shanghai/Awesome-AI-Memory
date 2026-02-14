@@ -108,6 +108,7 @@ To systematically organize the diverse research and practical resources in the f
 
 ## 🔔 Recent hot research and news
 
++ 2026-02-14 - 🎉 Updated 15 papers, including 1 on survey, 12 on methods, 1 on benchmarks, and 1 on systems and models
 + 2026-02-09 - 🎉 Updated 15 papers
 + 2026-02-01 - 🎉 Updated 16 papers, including 9 on methods, 4 on benchmarks, and 3 on systems and models
 + 2025-12-24 – 🎉 Release Repository V(1.0)
@@ -227,6 +228,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-14</td>
+      <td style="width: 55%;">
+      <strong>Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms Badge">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2602.06052">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • This paper proposes a unified taxonomy for foundation agent memory across three dimensions: memory substrate, cognitive mechanism, and memory subject.<br>
+          • It analyzes memory operation mechanisms in single-agent and multi-agent systems while categorizing memory learning policies into prompting, fine-tuning, and reinforcement learning paradigms.<br>
+          • It provides a comprehensive review of evaluation metrics and benchmarks across various applications, outlining critical future directions such as memory efficiency, life-long personalization, and multimodal integration.
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-15</td>
@@ -402,8 +425,10 @@ Papers below are ordered by **publication date**:
         </td>
     </tr>
   </table>
-
 </details>
+
+
+
 
 
 <details>
@@ -415,6 +440,233 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.12204">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • The paper finds that 88% of attention operations in LLMs retrieve predictable information, a redundancy that persists throughout standard training without being eliminated.<br>
+        • It proposes CRAM, an architecture that adaptively reduces compute by gradually distilling frequently accessed episodic retrievals into efficient parametric semantic memory via a consolidation-aware router.<br>
+        • CRAM achieves a 37.8x reduction in attention compute while its learned consolidation dynamics quantitatively match the power-law transition curves observed in human cognitive psychology.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Scene-Aware Memory Discrimination: Deciding Which Personal Knowledge Stays</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11607">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It introduces the "memory discrimination" task, which acts as a filter during memory construction to identify and store only valuable personal knowledge from vast daily interactions.<br>
+        • It proposes the Scene-Aware Memory Discrimination (SAMD) framework, combining a Gating Unit Module (GUM) for efficient noise filtering and a Cluster Prompting Module (CPM) for adaptive memory standards.<br>
+        • Evaluations demonstrate that SAMD significantly enhances the efficiency and quality of memory construction, successfully recalling critical data while reducing computational costs for personalized AI agents.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11605">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes the Rec2PM framework with a tripartite memory mechanism that compresses long user histories into compact Preference Memory tokens, overcoming the computational bottlenecks of long-sequence modeling.<br>
+        • It introduces a self-referential teacher-forcing strategy that leverages a global view of history to generate reference targets, enabling fully parallelized training for recurrent memory updates.<br>
+        • It demonstrates superior storage and inference efficiency while acting as a denoising Information Bottleneck to filter interaction noise, achieving higher accuracy than full-sequence models.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-12</td>
+      <td style="width: 55%;"><strong>
+      TS-Memory: Plug-and-Play Memory for Time Series Foundation Models</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Modules-orange" alt="Memory Modules">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11550">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes TS-Memory, a plug-and-play lightweight memory adapter that uses Parametric Memory Distillation to adapt frozen Time Series Foundation Models (TSFMs) to downstream domain shifts.<br>
+        • It employs a two-stage training strategy: first constructing an offline kNN teacher to generate privileged supervision signals, then distilling retrieval-induced distributional corrections into a parametric module via confidence-gated supervision.<br>
+        • It enables retrieval-free inference with constant-time complexity, consistently improving forecasting accuracy across benchmarks while maintaining the efficiency of the frozen backbone and avoiding catastrophic forgetting.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10560">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes GRU-Mem, a gated recurrent memory framework that processes long context chunk-by-chunk to overcome performance degradation and context window limits in LLMs.<br>
+        • It introduces two text-controlled gates, an update gate and an exit gate, to selectively update memory and enable early termination, effectively preventing memory explosion and reducing redundant computation.<br>
+        • Optimized via end-to-end reinforcement learning, GRU-Mem significantly outperforms existing methods in reasoning tasks and achieves up to 400% inference speed acceleration compared to vanilla recurrent memory agents.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      Towards Compressive and Scalable Recurrent Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.11212">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes Elastic Memory, a novel recurrent memory architecture grounded in the HiPPO framework that encodes long-range history into fixed-size states via optimal online function approximation.<br>
+        • It develops a parallelized block-level update and a flexible "polynomial sampling" mechanism for efficient retrieval, enabling the reconstruction of history summaries from compressed states without extra trainable parameters.<br>
+        • Experiments demonstrate that it outperforms SOTA baselines on 32k+ context tasks with superior efficiency, while its decoupled design allows for injecting inductive biases at test-time without retraining.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>
+      UMEM: Uniffed Memory Extraction and Management Framework for Generalizable Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Evolution-success" alt="Memory Evolution">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10652">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • The paper proposes UMEM, a framework that jointly optimizes memory extraction and management to resolve the policy misalignment and poor generalization found in traditional static extraction methods.<br>
+        • It introduces Semantic Neighborhood Modeling and a Marginal Utility Reward via GRPO, forcing the agent to distill generalizable principles across clusters of related tasks instead of memorizing instance-specific noise.<br>
+        • Experiments show that UMEM significantly outperforms state-of-the-art baselines across multiple benchmarks and maintains a stable, monotonic performance growth curve during continuous self-evolution.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-10</td>
+      <td style="width: 55%;"><strong>
+      TraceMem: Weaving Narrative Memory Schemata from User Conversational Traces</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory%20Mechanisms-lime" alt="Long-Term Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.09712">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes TraceMem, a cognitively-inspired framework that weaves disjointed conversational traces into structured narrative memory schemata through a three-stage pipeline of processing and consolidation.<br>
+        • It mimics human memory consolidation by using topic segmentation and hierarchical clustering to transform episodic snippets into coherent, time-evolving narrative threads and structured user memory cards.<br>
+        • It implements an agentic search mechanism to enable human-like source attribution, achieving state-of-the-art performance in multi-hop and temporal reasoning for long-term dialogues.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      AMEM4Rec: Leveraging Cross-User Similarity for Memory Evolution in Agentic LLM Recommenders</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Shared%20Memory-purple" alt="Shared Memory">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08837">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes AMEM4Rec, an agentic framework that models collaborative filtering signals end-to-end by introducing an evolving memory module without relying on pre-trained CF models.<br>
+        • It designs a cross-user memory evolution mechanism that aggregates abstract behavior patterns into a global pool, using dual validation to link and iteratively evolve shared memory entries across users.<br>
+        • Extensive experiments demonstrate that AMEM4Rec significantly outperforms existing baselines, particularly showing superior performance and generalization in sparse interaction scenarios.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08563v1">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces the concept of "Implicit Memory," demonstrating that LLMs can bypass their stateless nature by encoding state information in their own outputs to create a persistent hidden channel across independent sessions.<br>
+        • Implements and validates "Time Bombs," a new class of temporal backdoors that use implicit memory to accumulate hidden states over multiple interactions, activating only after a specific sequence of conditions is met.<br>
+        • Systematically analyzes risks such as covert communication and benchmark contamination, while outlining future research directions for detecting, evaluating, and controlling unintended persistence in LLMs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-09</td>
+      <td style="width: 55%;"><strong>
+      MemAdapter: Fast Alignment across Agent Memory Paradigms via Generative Subgraph Retrieval</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-steelblue" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Integration-purple" alt="Memory Integration">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.08369">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes MemAdapter, a framework that unifies heterogeneous agent memory paradigms (explicit, parametric, and latent) using a paradigm-agnostic generative subgraph retrieval approach.<br>
+        • It employs a two-stage training strategy: distilling a generative retriever from a unified memory space and then efficiently adapting it to new paradigms via lightweight alignment modules and contrastive learning.<br>
+        • MemAdapter consistently outperforms existing baselines, completing paradigm alignment in just 13 minutes and enabling effective zero-shot fusion across different memory types.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-07</td>
+      <td style="width: 55%;"><strong>
+      MemPot: Defending Against Memory Extraction Attack with Optimized Honeypots </strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.07517">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This paper proposes MemPot, the first defense framework against memory extraction attacks that proactively injects optimized honeypots (trap documents) into the agent's memory systems.<br>
+        • It utilizes a two-stage optimization strategy to maximize the statistical separability between attacker and user retrieval patterns, generating safe and inconspicuous trap texts through safety-constrained embedding inversion.<br>
+        • Based on Wald’s Sequential Probability Ratio Test (SPRT), MemPot achieves near-perfect detection accuracy with zero online inference latency while preserving the agent's core utility and performance.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-05</td>
@@ -1150,8 +1402,7 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-25</td>
-      <td style="width: 55%;"><strong>Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory
-Management</strong></td>
+      <td style="width: 55%;"><strong>Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory Management</strong></td>
       <td style="width: 15%;">
        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
        <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
@@ -1203,8 +1454,7 @@ Management</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-18</td>
-      <td style="width: 55%;"><strong>Learning Hierarchical Procedural Memory for LLM Agents
-through Bayesian Selection and Contrastive Refinement</strong></td>
+      <td style="width: 55%;"><strong>Learning Hierarchical Procedural Memory for LLM Agents through Bayesian Selection and Contrastive Refinement</strong></td>
       <td style="width: 15%;">
        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
       <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
@@ -1242,8 +1492,7 @@ through Bayesian Selection and Contrastive Refinement</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-12-11</td>
-      <td style="width: 55%;"><strong>Remember Me, Refine Me: A Dynamic Procedural Memory
-Framework for Experience-Driven Agent Evolution</strong></td>
+      <td style="width: 55%;"><strong>Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution</strong></td>
       <td style="width: 15%;">
       <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
@@ -2904,12 +3153,15 @@ Framework for Experience-Driven Agent Evolution</strong></td>
         • Human evaluation results demonstrate that MPC is on par with or superior to fine-tuned models like Blenderbot3 in terms of sensibleness, consistency, and engagingness, particularly in maintaining long-term persona consistency.
       </td>
     </tr>
-    
-
-
   </table>
-
 </details>
+
+
+
+
+
+
+
 
 <details>
   <summary><strong>Datasets & Benchmark</strong></summary>
@@ -2920,6 +3172,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>Locomo-Plus: Beyond-Factual Cognitive Memory Evaluation Framework for LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-red" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Long--Context-gold" alt="Long-Context">
+        <img src="https://img.shields.io/badge/Environment%20Sim-darkgreen" alt="Environment Simulation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.10715">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It introduces the LoCoMo-Plus benchmark to evaluate "cognitive memory" in LLM agents, focusing on their ability to retain and apply implicit constraints like user goals and values across long conversational contexts.<br>
+        • It constructs scenarios with "cue–trigger semantic disconnect," requiring models to apply latent information even when downstream queries lack surface-level similarity to the original memory cues.<br>
+        • It establishes an evaluation framework based on "constraint consistency," revealing through extensive experiments that current LLMs and memory systems struggle significantly with complex cognitive memory tasks.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-29</td>
@@ -3667,8 +3938,10 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
   </table>
-
 </details>
+
+
+
 
 
 <details>
@@ -3680,6 +3953,24 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-07</td>
+      <td style="width: 55%;"><strong>M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-pink" alt="Multimodal Memory">
+        <img src="https://img.shields.io/badge/Memory%20Architecture-purple" alt="Memory Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.07624">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • It proposes the M2A framework, which utilizes collaborative agents (ChatAgent and MemoryManager) to transform static multimodal personalization into a co-evolving memory mechanism that updates during interactions.<br>
+        • It introduces a dual-layer hybrid memory architecture linking raw message logs with high-level semantic observations via evidence IDs, employing tri-path retrieval to ensure precise and efficient context recall.<br>
+        • It develops a scalable multimodal data synthesis pipeline for long conversations, with experiments demonstrating that M2A significantly outperforms existing RAG and text-only memory baselines in personalized reasoning.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-28</td>
