@@ -5339,3 +5339,11 @@ Join our community to ask questions, share your projects, and connect with other
  </picture>
 </a>
 
+
+
+### Adam Framework
+- **Description:** 5-layer persistent memory and coherence architecture for local AI assistants built on OpenClaw. Solves AI amnesia (cross-session) and within-session coherence degradation.
+- **Layers:** Vault injection, mid-session memory search, neural graph (7219+ neurons), nightly Gemini reconciliation, coherence monitor with scratchpad dropout detection.
+- **Validated:** 353 sessions, 6619 message turns, 8 months production use on a live business by a non-developer.
+- **Platform:** Windows/macOS/Linux, OpenClaw, local-first, model-agnostic.
+- **Links:** [GitHub](https://github.com/strangeadvancedmarketing/Adam) | [Live Demo](https://strangeadvancedmarketing.github.io/Adam/) | [Interactive Proof](https://strangeadvancedmarketing.github.io/Adam/showcase/ai-amnesia-solved.html)
