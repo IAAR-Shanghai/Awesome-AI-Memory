@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-255-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-270-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-85-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -230,6 +230,60 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-05</td>
+        <td style="width: 55%;"><strong>Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Long%20Context-blue" alt="Long Context">
+            <img src="https://img.shields.io/badge/Cost%20Analysis-brightgreen" alt="Cost Analysis">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04814">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 解决业界关于长上下文模型与外部记忆系统在构建持久化代理时的效能与成本优劣之争。<br>
+            • 在三大主流记忆基准上，从准确率与累计 API 推理成本双重维度，系统交叉评测长上下文与事实型外部记忆方案。<br>
+            • 长上下文在事实召回上具有优势，但成本随轮次递增；在 100k 上下文长度下，记忆系统在约 10 轮交互后即可实现成本反超，为实际工程选型提供了量化依据。
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>Modular Memory is the Key to Continual Learning Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Continual%20Learning-blue" alt="Continual Learning">
+            <img src="https://img.shields.io/badge/Architecture-brightgreen" alt="Architecture">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01761">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 传统基础模型在持续学习时依赖权重更新，极易导致灾难性遗忘，难以实现大规模经验积累。<br>
+            • 提出一种结合上下文学习与权重内学习的模块化记忆架构路线图。<br>
+            • 该架构利用上下文学习实现快速适应，通过权重更新实现能力固化，为构建真正意义上的终身学习智能体提供了理论指引。
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Cognitive%20Alignment-blue" alt="Cognitive Alignment">
+            <img src="https://img.shields.io/badge/Interpretability-brightgreen" alt="Interpretability">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01822">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 旨在探究大语言模型内部在处理海量语义记忆时，是否具备类似人类的高效策略性访问机制。<br>
+            • 借助机械可解释性技术分析语义流畅性任务，严密剖析模型内部收敛性与发散性的记忆搜索模式。<br>
+            • 证实 LLM 不同层级中存在类人的策略性记忆搜寻行为，为认知对齐研究及强化人机协作奠定了可解释性基础。
+        </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-02-26</td>
@@ -461,6 +515,96 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-04</td>
+          <td style="width: 55%;"><strong>Adaptive Memory Admission Control for LLM Agents</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Admission%20Control-teal" alt="Admission Control">
+              <img src="https://img.shields.io/badge/Memory%20Management-orange" alt="Memory Management">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04549v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 缺乏记忆准入控制会导致长程记忆库迅速被低质、冗余或无效的垃圾特征污染，拖垮多轮推理。<br>
+              • 引入结构化自适应准入控制（A-MAC），通过轻量化提取未来效用、置信度、新颖度等五大可解释因子，对写入动作进行严格前置拦截。<br>
+              • 确立了准入控制作为记忆设计的核心工程原则，从源头净化记忆库，在 LoCoMo 基准上实现了延迟与性能的双重优化。
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Offloading-teal" alt="Offloading">
+              <img src="https://img.shields.io/badge/Proxy%20Model-orange" alt="Proxy Model">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.03379">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 大模型在执行长周期任务时，频繁调用主网络进行复杂记忆检索的成本极高，算力与准确性难以两全。<br>
+              • 构建 MemSifter 框架，利用结果驱动的强化学习范式，将重度检索计算直接卸载给轻量级代理模型。<br>
+              • 实现了检索架构的低成本解耦，极少推理开销即达到先进的检索命中率，是一种极具扩展性的工业级长程记忆解法。
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/RAG-teal" alt="RAG">
+              <img src="https://img.shields.io/badge/Adaptive-orange" alt="Adaptive">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01783">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 传统 RAG 系统采用静态索引结构，在面对高频复现查询时存在严重的遍历冗余与计算浪费。<br>
+              • 受认知科学启发提出无训练 GAM-RAG 框架，利用卡尔曼滤波增益规则，基于查询反馈动态强化重复检索的记忆状态。<br>
+              • 成功在索引稳定性与适应性间取得平衡，有效避免了无效检索，在保证准确率的同时大幅削减推理算力开销。
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Diagnosis-teal" alt="Diagnosis">
+              <img src="https://img.shields.io/badge/Retrieval-orange" alt="Retrieval">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.02473v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 明确指出当前记忆系统的优化误区，需量化诊断写入、检索与利用三阶段各自对整体性能的真实影响。<br>
+              • 设计诊断框架对主流写入与检索策略进行严格的交叉消融实验，剥离并解耦各阶段的贡献度。<br>
+              • 证实检索阶段是压倒性的性能瓶颈（影响权重达 20%），且原始分块存储效能优越，指导业界将算力重仓于检索增强而非复杂压缩。
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-02-28</td>
+        <td style="width: 55%;"><strong>MemPO: Self-Memory Policy Optimization for Long-Horizon Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Policy%20Optimization-teal" alt="Policy Optimization">
+            <img src="https://img.shields.io/badge/Self-Memory-orange" alt="Self-Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.00680">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 长程智能体被动依赖外部 RAG 检索，缺乏对历史信息有效性的自主判断与留存管理机制。<br>
+            • 提出自记忆策略优化算法（MemPO），引入改进后的信用分配机制，赋予模型主动归纳和筛选高价值记忆的权限。<br>
+            • 该算法通过精准剔除冗余信息，在显著压缩 Token 消耗的同时，实现了 F1 分数与任务性能的全面反超。
+        </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-02-26</td>
@@ -3728,6 +3872,97 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
      <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-04</td>
+        <td style="width: 55%;"><strong>Towards Realistic Personalization: Evaluating Long-Horizon Preference Following in Personalized User-LLM Interactions</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Personalized-yellow" alt="Personalized">
+            <img src="https://img.shields.io/badge/Interaction-blue" alt="Interaction">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04191">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 评估大型语言模型在真实且极度长程的交互场景下，持续遵循用户多样化偏好的能力盲区。<br>
+            • 构建覆盖 100 个用户画像及海量交互数据的 RealPref 基准，专门考察从显式到隐式偏好表达的泛化理解。<br>
+            • 明确量化了“偏好表达隐式化”与“上下文过度拉长”会导致 LLM 遵循性能出现断崖式下跌，界定了个人感知助手的发展瓶颈。
+        </td>
+    </tr>  
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-04</td>
+        <td style="width: 55%;"><strong>LifeBench: A Benchmark for Long-Horizon Multi-Source Memory</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Multi-Source-yellow" alt="Multi-Source">
+            <img src="https://img.shields.io/badge/Real%20World-blue" alt="Real World">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.03781">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 长期个人助手的演进要求模型具备基于非声明性记忆（如通过数字痕迹推断习惯）的复杂推理能力，而现有基准对此完全空白。<br>
+            • 推出 LifeBench 基准，利用真实世界先验与认知科学层级结构，模拟跨时间大跨度的多源密集事件以考察智能体整合能力。<br>
+            • 当前顶尖记忆系统在该基准下准确率仅勉强过半（55.2%），凸显了从零散数字痕迹中进行长程推理的极高难度。
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Interactive-yellow" alt="Interactive">
+            <img src="https://img.shields.io/badge/Long-Horizon-blue" alt="Long-Horizon">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01966">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 静态离线评估数据难以真实反映智能体在动态长周期交互中记忆管理策略的可扩展性与可靠性。<br>
+            • 构建支持在线策略评估的交互式环境 AMemGym，利用结构化采样低成本生成高保真用户画像与状态演化轨迹。<br>
+            • 动态环境客观暴露了 RAG 等现有系统的长程性能衰减，并验证了该框架在驱动策略自我进化方面的有效性。
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>According to Me: Long-Term Personalized Referential Memory QA</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Multi-Modal-yellow" alt="Multi-Modal">
+            <img src="https://img.shields.io/badge/Privacy%20Data-blue" alt="Privacy Data">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01990">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 传统基准多基于单文本对话历史，无法有效评估智能体在真实生活、多模态及长周期下的个性化指代推理能力。<br>
+            • 构建包含四年隐私数据的多模态多源基准 ATM-Bench，并提出模式引导记忆用于异构数据的结构化表示。<br>
+            • 揭露现有系统在复杂真实经验集上的性能缺陷，并证明结构化的 SGM 在多源场景中优于传统描述性方法。
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-02-27</td>
+        <td style="width: 55%;"><strong>MemEmo: Evaluating Emotion in Memory Systems of Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Emotion-yellow" alt="Emotion">
+            <img src="https://img.shields.io/badge/Benchmark-blue" alt="Benchmark">
+            <img src="https://img.shields.io/badge/Multi--Session-orange" alt="Multi-Session">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.23944">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 现有记忆系统评测多侧重于事实召回，缺乏对长程交互中情感信息处理效能的衡量。<br>
+            • 推出首个情感增强型评估基准及 HLME 数据集，涵盖情感信息提取、情感记忆更新与情感问答三大维度。<br>
+            • 实验暴露出当前最先进的记忆系统在情感处理任务上均存在显著的不稳定性，为后续情感连贯性优化指明了方向。
+        </td>
+    </tr>    
+     <tr>
         <td rowspan="2" style="width: 15%;">2026-02-18</td>
         <td style="width: 55%;"><strong>MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks</strong></td>
         <td style="width: 15%;">
@@ -4544,7 +4779,43 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
-         <tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-05</td>
+        <td style="width: 55%;"><strong>Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Ontology-red" alt="Ontology">
+            <img src="https://img.shields.io/badge/Digital%20Citizens-teal" alt="Digital Citizens">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04740v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 批判当前将记忆视作短期工具模块的局限性，旨在解决 AI 模型跨代更迭时的身份连续性危机。<br>
+            • 确立记忆即本体的哲学与系统范式，设计了包含四层治理层级与多层语义存储的宪法式记忆架构。<br>
+            • 该架构将底层计算模型降级为可替换载体，优先保障数字实体的身份持久化与治理，为下一代数字公民提供了系统底座。
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-04</td>
+        <td style="width: 55%;"><strong>Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/RL-red" alt="RL">
+            <img src="https://img.shields.io/badge/Experience%20Memory-teal" alt="Experience Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04257v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 现有通过截断或摘要处理长上下文窗口限制的方法，容易导致关键交互证据丢失。<br>
+            • 提出索引经验记忆机制 Memex 实现无损压缩，并引入强化学习框架 MemexRL 优化智能体的读写归档策略。<br>
+            • 该系统使得智能体能够自主决策归档与检索时机，在显著压缩工作上下文的同时大幅提升了长程任务成功率。
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2026-02-25</td>
         <td style="width: 55%;"><strong>MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection</strong></td>
         <td style="width: 15%;">

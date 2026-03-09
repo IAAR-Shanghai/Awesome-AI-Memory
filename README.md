@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-255-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-270-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-85-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -231,6 +231,60 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+        <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-05</td>
+        <td style="width: 55%;"><strong>Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Long%20Context-blue" alt="Long Context">
+            <img src="https://img.shields.io/badge/Cost%20Analysis-brightgreen" alt="Cost Analysis">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04814">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Addresses the ongoing industry debate over the performance and cost trade-offs between long-context models and external memory systems for building persistent agents.<br>
+            • Conducts a systematic cross-benchmark evaluation of long-context approaches and fact-based external memory solutions across three major memory benchmarks, assessing both accuracy and cumulative API inference cost.<br>
+            • Long-context models demonstrate advantages in factual recall, but their costs increase with each interaction turn; at a 100k context length, memory systems surpass them in cost efficiency after approximately 10 turns, providing a quantitative basis for real-world engineering decisions.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>Modular Memory is the Key to Continual Learning Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Continual%20Learning-blue" alt="Continual Learning">
+            <img src="https://img.shields.io/badge/Architecture-brightgreen" alt="Architecture">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01761">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Traditional foundation models rely on weight updates for continual learning, which can easily lead to catastrophic forgetting and makes large-scale experience accumulation difficult.<br>
+            • Proposes a roadmap for a modular memory architecture that integrates in-context learning with learning encoded in model weights.<br>
+            • This architecture leverages in-context learning for rapid adaptation and weight updates for capability consolidation, offering theoretical guidance for building truly lifelong learning agents.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Cognitive%20Alignment-blue" alt="Cognitive Alignment">
+            <img src="https://img.shields.io/badge/Interpretability-brightgreen" alt="Interpretability">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01822">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Investigates whether large language models possess human-like, efficient strategic access mechanisms when processing vast amounts of semantic memory.<br>
+            • Uses mechanistic interpretability techniques to analyze semantic fluency tasks, rigorously examining convergent and divergent memory search patterns within the model.<br>
+            • Confirms the presence of human-like strategic memory search behavior across different layers of LLMs, laying an interpretability foundation for research on cognitive alignment and enhanced human-AI collaboration.
+        </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-02-26</td>
@@ -462,6 +516,96 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+          <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-04</td>
+          <td style="width: 55%;"><strong>Adaptive Memory Admission Control for LLM Agents</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Admission%20Control-teal" alt="Admission Control">
+              <img src="https://img.shields.io/badge/Memory%20Management-orange" alt="Memory Management">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04549v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • The absence of memory admission control allows long-term memory stores to be rapidly polluted by low-quality, redundant, or ineffective noise features, ultimately undermining multi-turn reasoning.<br>
+              • Introduces Adaptive Memory Admission Control (A-MAC), a structured admission mechanism that uses lightweight estimation of five interpretable factors—such as future utility, confidence, and novelty—to rigorously intercept write operations before they occur.<br>
+              • Establishes admission control as a core engineering principle in memory system design, cleansing the memory store at the source and delivering simultaneous latency and performance gains on the LoCoMo benchmark.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Offloading-teal" alt="Offloading">
+              <img src="https://img.shields.io/badge/Proxy%20Model-orange" alt="Proxy Model">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.03379">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • When executing long-horizon tasks, repeatedly invoking the primary model for complex memory retrieval is prohibitively expensive, making it difficult to balance computational efficiency and accuracy.<br>
+              • Proposes the MemSifter framework, which leverages an outcome-driven reinforcement learning paradigm to offload retrieval-intensive computation directly to a lightweight proxy model.<br>
+              • Achieves low-cost decoupling of the retrieval architecture, attaining state-of-the-art retrieval hit rates with minimal inference overhead, and offering a highly scalable industrial solution for long-term memory.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/RAG-teal" alt="RAG">
+              <img src="https://img.shields.io/badge/Adaptive-orange" alt="Adaptive">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01783">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Traditional RAG systems rely on static indexing structures, which introduce substantial traversal redundancy and computational waste when handling frequently recurring queries.<br>
+              • Inspired by cognitive science, the paper proposes the training-free GAM-RAG framework, which uses Kalman gain rules to dynamically strengthen memory states for repeated retrieval based on query feedback.<br>
+              • Successfully balances index stability and adaptability, effectively avoiding unproductive retrieval while substantially reducing inference compute overhead without sacrificing accuracy.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-02</td>
+          <td style="width: 55%;"><strong>Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Diagnosis-teal" alt="Diagnosis">
+              <img src="https://img.shields.io/badge/Retrieval-orange" alt="Retrieval">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.02473v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Clearly identifies a prevailing optimization misconception in current memory systems: the true impact of the writing, retrieval, and utilization stages on overall performance must be quantitatively diagnosed.<br>
+              • Develops a diagnostic framework that performs rigorous cross-ablation studies of mainstream writing and retrieval strategies, isolating and disentangling the contribution of each stage.<br>
+              • Demonstrates that retrieval is the dominant performance bottleneck by a wide margin (with an impact weight of up to 20%), and that raw chunk-based storage remains highly effective, guiding the industry to prioritize retrieval enhancement over complex compression schemes.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-02-28</td>
+        <td style="width: 55%;"><strong>MemPO: Self-Memory Policy Optimization for Long-Horizon Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Policy%20Optimization-teal" alt="Policy Optimization">
+            <img src="https://img.shields.io/badge/Self-Memory-orange" alt="Self-Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.00680">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Long-horizon agents passively depend on external RAG retrieval and lack autonomous mechanisms for assessing the value of historical information and managing what should be retained.<br>
+            • Proposes the Self-Memory Policy Optimization algorithm (MemPO), which introduces an improved credit assignment mechanism to grant the model the ability to proactively summarize and filter high-value memories.<br>
+            • By precisely removing redundant information, the method significantly reduces token consumption while comprehensively outperforming prior approaches in both F1 score and overall task performance.
+        </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-02-26</td>
@@ -3730,6 +3874,97 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-04</td>
+        <td style="width: 55%;"><strong>Towards Realistic Personalization: Evaluating Long-Horizon Preference Following in Personalized User-LLM Interactions</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Personalized-yellow" alt="Personalized">
+            <img src="https://img.shields.io/badge/Interaction-blue" alt="Interaction">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04191">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Evaluates the blind spots of large language models in consistently following diverse user preferences under realistic and extremely long-horizon interaction settings.<br>
+            • Introduces the RealPref benchmark, covering 100 user profiles and large-scale interaction data, specifically designed to assess generalized understanding of preference expressions ranging from explicit to implicit.<br>
+            • Quantitatively demonstrates that increasingly implicit preference expression and excessively long contexts can cause cliff-like drops in LLM preference-following performance, thereby identifying a key bottleneck in the development of personalized perceptive assistants.
+        </td>
+    </tr>  
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-04</td>
+        <td style="width: 55%;"><strong>LifeBench: A Benchmark for Long-Horizon Multi-Source Memory</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Multi-Source-yellow" alt="Multi-Source">
+            <img src="https://img.shields.io/badge/Real%20World-blue" alt="Real World">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.03781">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • The evolution of long-term personal assistants requires models to perform complex reasoning based on non-declarative memory, such as inferring habits from digital traces, yet existing benchmarks offer virtually no coverage of this capability.<br>
+            • Introduces the LifeBench benchmark, which leverages real-world priors and hierarchical structures from cognitive science to simulate densely distributed multi-source events spanning long time horizons, in order to evaluate agents' integrative reasoning abilities.<br>
+            • Even state-of-the-art memory systems achieve only slightly above 50% accuracy (55.2%) on this benchmark, highlighting the extreme difficulty of long-horizon reasoning over fragmented digital traces.
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Interactive-yellow" alt="Interactive">
+            <img src="https://img.shields.io/badge/Long-Horizon-blue" alt="Long-Horizon">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01966">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Static offline evaluation data cannot faithfully capture the scalability and reliability of memory management strategies in dynamic, long-horizon interactions.<br>
+            • Builds AMemGym, an interactive environment that supports online policy evaluation, using structured sampling to generate high-fidelity user profiles and state-evolution trajectories at low cost.<br>
+            • The dynamic environment objectively reveals the long-horizon performance degradation of existing systems such as RAG, and validates the framework’s effectiveness in driving self-evolution of memory strategies.
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-02</td>
+        <td style="width: 55%;"><strong>According to Me: Long-Term Personalized Referential Memory QA</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Multi-Modal-yellow" alt="Multi-Modal">
+            <img src="https://img.shields.io/badge/Privacy%20Data-blue" alt="Privacy Data">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.01990">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Traditional benchmarks are mostly based on single-text dialogue histories and therefore cannot effectively evaluate agents' personalized referential reasoning ability in real-life, multimodal, and long-horizon settings.<br>
+            • Introduces ATM-Bench, a multimodal and multi-source benchmark built from four years of private data, and proposes schema-guided memory for structured representation of heterogeneous data.<br>
+            • Reveals the performance limitations of existing systems on complex real-world experience collections, and shows that structured SGM outperforms traditional descriptive methods in multi-source scenarios.
+        </td>
+    </tr>   
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-02-27</td>
+        <td style="width: 55%;"><strong>MemEmo: Evaluating Emotion in Memory Systems of Agents</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Emotion-yellow" alt="Emotion">
+            <img src="https://img.shields.io/badge/Benchmark-blue" alt="Benchmark">
+            <img src="https://img.shields.io/badge/Multi--Session-orange" alt="Multi-Session">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.23944">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Existing evaluations of memory systems focus primarily on factual recall, while lacking measurement of how effectively emotional information is handled in long-horizon interactions.<br>
+            • Introduces the first emotion-enhanced evaluation benchmark and the HLME dataset, covering three dimensions: emotional information extraction, emotional memory updating, and emotion-aware question answering.<br>
+            • Experiments reveal significant instability across current state-of-the-art memory systems on emotion-related tasks, pointing the way toward future optimization of emotional coherence.
+        </td>
+    </tr> 
      <tr>
         <td rowspan="2" style="width: 15%;">2026-02-18</td>
         <td style="width: 55%;"><strong>MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks</strong></td>
@@ -4549,7 +4784,43 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
-         <tr>
+        <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-05</td>
+        <td style="width: 55%;"><strong>Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Ontology-red" alt="Ontology">
+            <img src="https://img.shields.io/badge/Digital%20Citizens-teal" alt="Digital Citizens">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04740v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Critiques the limitations of treating memory as a short-term utility module, aiming to address the crisis of identity continuity across successive generations of AI models.<br>
+              • Establishes the philosophical and system-level paradigm of memory as ontology, and designs a constitutional memory architecture featuring four layers of governance hierarchy and multi-layer semantic storage.<br>
+              • This architecture demotes the underlying computational model to a replaceable substrate, prioritizing the persistence of identity and governance for digital entities, and providing a foundational infrastructure for the next generation of digital citizens.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-03-04</td>
+          <td style="width: 55%;"><strong>Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/RL-red" alt="RL">
+              <img src="https://img.shields.io/badge/Experience%20Memory-teal" alt="Experience Memory">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.04257v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Existing approaches that handle long-context window limitations through truncation or summarization are prone to losing critical interaction evidence.<br>
+              • Proposes Memex, an indexed experience memory mechanism for lossless compression, and introduces the MemexRL reinforcement learning framework to optimize agents' read-write archiving strategies.<br>
+              • The system enables agents to autonomously decide when to archive and retrieve information, substantially improving long-horizon task success rates while significantly compressing the working context.
+          </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-02-25</td>
         <td style="width: 55%;"><strong>MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection</strong></td>
         <td style="width: 15%;">
