@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 [![Papers](https://img.shields.io/badge/Papers-270-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
-[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-85-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
+[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-88-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
 ## 👋 简介
@@ -5543,7 +5543,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 ### 🧠 Adam 框架
 
 * **描述（Description）：** 基于 OpenClaw 构建的面向本地 AI 助手的五层持久化记忆与一致性架构。该框架旨在解决人工智能系统中的“记忆失效”（AI amnesia）问题，包括跨会话记忆丢失以及单次会话内部一致性逐渐退化的问题。
-* **层级结构（Layers）：** 包括 Vault 注入机制、中途会话记忆检索（mid-session memory search）、神经图结构（包含 7219+ 个神经元）、基于 Gemini 的夜间一致性重整（nightly reconciliation），以及带有 scratchpad dropout 检测功能的一致性监控模块。
+* **层级结构（Layers）：** 包括 Vault 注入机制、中期记忆检索（mid-session memory search）、神经图结构（包含 7219+ 个神经元）、基于 Gemini 每日核对（nightly reconciliation），以及带有 scratchpad dropout 检测功能的一致性监控模块。
 * **验证情况（Validated）：** 已在真实业务环境中运行并验证，共计 353 个会话、6619 轮消息交互，持续生产环境运行 8 个月，由一名非开发人员完成部署与使用。
 * **平台（Platform）：** 支持 Windows / macOS / Linux 平台，基于 OpenClaw 架构，采用本地优先（local-first）设计，并具有模型无关性（model-agnostic）。
 * **相关链接（Links）：** [GitHub](https://github.com/strangeadvancedmarketing/Adam) | [Live Demo](https://strangeadvancedmarketing.github.io/Adam/) | [Interactive Proof](https://strangeadvancedmarketing.github.io/Adam/showcase/ai-amnesia-solved.html)
