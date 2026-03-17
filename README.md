@@ -107,7 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
-
++ 2026-03-15 - 🎉 Updated 14 papers，including 14 on methods
 + 2026-03-08 - 🎉 Updated 15 papers, including 3 on survey, 2 on systems and models, 5 on benchmarks, and 5 on methods
 + 2026-03-02 - 🎉 Add a new code agent to this repo
 + 2026-02-27 - 🎉 Updated 20 papers, including 1 on survey, 2 on systems and models, 2 on benchmarks, and 15 on methods
