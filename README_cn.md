@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-284-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-285-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-85-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -5041,6 +5041,25 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-15</td>
+        <td style="width: 55%;"><strong>SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Information%20Geometry-red" alt="Information Geometry">
+            <img src="https://img.shields.io/badge/Agent%20Memory-teal" alt="Agent Memory">
+            <img src="https://img.shields.io/badge/Data%20Sovereignty-blue" alt="Data Sovereignty">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.14588">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 面向企业级代理持久记忆，提出检索、生命周期与一致性验证三位一体的数学化方案，突破传统记忆系统高度依赖工程启发式的问题。 <br>
+            • 在 LoCoMo 基准上，相比工程基线平均提升 12.7%，最难样本提升 19.9%，验证了信息几何方法在复杂记忆检索中的有效性。<br>
+            • 该工作将代理记忆从工程组件堆叠推进到可证明、可治理、可合规的系统设计范式，对高隐私、高主权场景具有代表意义。
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2026-03-05</td>
         <td style="width: 55%;"><strong>Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens</strong></td>
         <td style="width: 15%;">
@@ -5053,9 +5072,9 @@ Framework for Experience-Driven Agent Evolution</strong></td>
     </tr>
     <tr>
         <td colspan="3">
-            • 批判当前将记忆视作短期工具模块的局限性，旨在解决 AI 模型跨代更迭时的身份连续性危机。<br>
-            • 确立记忆即本体的哲学与系统范式，设计了包含四层治理层级与多层语义存储的宪法式记忆架构。<br>
-            • 该架构将底层计算模型降级为可替换载体，优先保障数字实体的身份持久化与治理，为下一代数字公民提供了系统底座。
+            • 提出记忆即本体的新范式，面向持续性数字主体，解决 AI 模型跨代演进中的身份连续性问题。<br>
+            • 建立宪法式记忆架构，通过四层治理层级、多层语义存储与完整生命周期设计，支撑数字公民的长期存在与演化。<br>
+            • 将底层计算模型降级为可替换载体，优先保障数字实体的身份与治理持久性，而非仅优化短期记忆调用与检索效率。
         </td>
     </tr>
     <tr>
@@ -5702,6 +5721,8 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Autohand Code CLI | 2025-12-20 | ![GitHub Repo stars](https://img.shields.io/github/stars/autohandai/code-cli?style=social) | https://github.com/autohandai/code-cli<br>https://www.autohand.ai/code/ |
 | widemem-ai | 2026-02-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/remete618/widemem-ai?style=social) | https://github.com/remete618/widemem-ai<br>https://widemem.ai |
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
+| SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
+| NeverOnce | 2026-03-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/WeberG619/neveronce?style=social) | https://github.com/WeberG619/neveronce<br>https://pypi.org/project/neveronce/ |
 
 ### 🎥 多媒体资源
 
