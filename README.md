@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-285-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-284-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-85-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -5044,25 +5044,6 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
-      <tr>
-        <td rowspan="2" style="width: 15%;">2026-03-15</td>
-        <td style="width: 55%;"><strong>SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory</strong></td>
-        <td style="width: 15%;">
-            <img src="https://img.shields.io/badge/Information%20Geometry-red" alt="Information Geometry">
-            <img src="https://img.shields.io/badge/Agent%20Memory-teal" alt="Agent Memory">
-            <img src="https://img.shields.io/badge/Data%20Sovereignty-blue" alt="Data Sovereignty">
-        </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.14588">
-            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a></td>
-    </tr>
-    <tr>
-        <td colspan="3">
-            • For persistent memory in enterprise-grade agents, it proposes a mathematically grounded framework that unifies retrieval, lifecycle management, and consistency verification, overcoming the heavy reliance of traditional memory systems on engineering heuristics. <br>
-            • On the LoCoMo benchmark, it achieves an average improvement of 12.7% over engineering baselines, with gains of 19.9% on the most challenging samples, validating the effectiveness of information-geometric methods for complex memory retrieval.<br>
-            • This work advances agent memory beyond the stacking of engineering components toward a system design paradigm that is provable, governable, and compliant, with particular significance for high-privacy and high-sovereignty scenarios.
-        </td>
-    </tr>
         <tr>
         <td rowspan="2" style="width: 15%;">2026-03-05</td>
         <td style="width: 55%;"><strong>Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens</strong></td>
@@ -5076,9 +5057,9 @@ Papers below are ordered by **publication date**:
       </tr>
       <tr>
           <td colspan="3">
-              • Proposes a new Memory-as-Ontology paradigm for persistent digital agents, addressing the problem of identity continuity across successive generations of AI models.<br>
-              • Establishes a constitutional memory architecture that supports the long-term existence and evolution of digital citizens through a four-layer governance hierarchy, multi-layer semantic storage, and full lifecycle design.<br>
-              • Relegates the underlying computational model to a replaceable substrate, prioritizing the persistence of digital identity and governance over the optimization of short-term memory access and retrieval efficiency.
+              • Critiques the limitations of treating memory as a short-term utility module, aiming to address the crisis of identity continuity across successive generations of AI models.<br>
+              • Establishes the philosophical and system-level paradigm of memory as ontology, and designs a constitutional memory architecture featuring four layers of governance hierarchy and multi-layer semantic storage.<br>
+              • This architecture demotes the underlying computational model to a replaceable substrate, prioritizing the persistence of identity and governance for digital entities, and providing a foundational infrastructure for the next generation of digital citizens.
           </td>
       </tr>
       <tr>
@@ -5737,6 +5718,7 @@ Systems below are ordered by **publication date**:
 | Nemori      | 2025-06-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/nemori-ai/nemori?style=social) | https://github.com/nemori-ai/nemori <br>No official website |
 | Memori      | 2025-07-24 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemoriLabs/Memori?style=social) | https://github.com/MemoriLabs/Memori<br>https://memorilabs.ai/ |
 | MemU        | 2025-08-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/NevaMind-AI/memU?style=social) | https://github.com/NevaMind-AI/memU<br>https://memu.pro/ |
+| SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
 | MemMachine  | 2025-08-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemMachine/MemMachine?style=social) | https://github.com/MemMachine/MemMachine<br>https://memmachine.ai/ |
 | MineContext | 2025-09-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/volcengine/MineContext?style=social) | https://github.com/volcengine/MineContext<br>No official website |
 | EverMemOS   | 2025-10-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/EverMind-AI/EverMemOS?style=social) | https://github.com/EverMind-AI/EverMemOS<br>https://evermind.ai/ |
@@ -5745,7 +5727,6 @@ Systems below are ordered by **publication date**:
 | Autohand Code CLI | 2025-12-20 | ![GitHub Repo stars](https://img.shields.io/github/stars/autohandai/code-cli?style=social) | https://github.com/autohandai/code-cli<br>https://www.autohand.ai/code/ |
 | widemem-ai | 2026-02-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/remete618/widemem-ai?style=social) | https://github.com/remete618/widemem-ai<br>https://widemem.ai |
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
-| NeverOnce | 2026-03-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/WeberG619/neveronce?style=social) | https://github.com/WeberG619/neveronce<br>https://pypi.org/project/neveronce/ |
 
 ### 🎥 Multi-media resource
 
