@@ -2821,8 +2821,8 @@ Papers below are ordered by **publication date**:
         <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
       </td>
       <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.10419">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/40644">                                               
+        <img src="https://img.shields.io/badge/AAAI-Paper-%23003087?logo=aaai" alt="Paper Badge">               
         </a>
       </td>
     </tr>
