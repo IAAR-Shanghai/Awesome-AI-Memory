@@ -3650,28 +3650,6 @@ Papers below are ordered by **publication date**:
       </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-04-14</td>
-      <td style="width: 55%;"><strong>ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.10419">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        • Introduces ComoRAG, a retrieval-augmented generation framework inspired by the human Prefrontal Cortex, designed to achieve stateful reasoning in long narrative contexts.<br>
-        • The framework employs a dynamic memory workspace and a metacognitive regulation loop (including Self-Probe, Mem-Fuse, and Mem-Update) to iteratively fuse fragmented evidence into coherent context.<br>
-        • Experimental results demonstrate that ComoRAG consistently outperforms strong baselines on challenging benchmarks like NarrativeQA and ∞BENCH, particularly excelling in complex narrative queries requiring global understanding.
-      </td>
-    </tr>
-    <tr>
       <td rowspan="2" style="width: 15%;">2025-04-10</td>
       <td style="width: 55%;"><strong>Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory</strong></td>
       <td style="width: 15%;">

@@ -3650,28 +3650,6 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       </td>
     </tr>
     <tr>
-      <td rowspan="2" style="width: 15%;">2025-04-14</td>
-      <td style="width: 55%;"><strong>ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</strong></td>
-      <td style="width: 15%;">
-        <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
-        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
-        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
-        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
-      </td>
-      <td style="width: 15%;">
-        <a href="https://arxiv.org/pdf/2508.10419">
-        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-          • 介绍了 ComoRAG,这是一个受人类前额叶皮层启发的检索增强生成框架,旨在实现长叙事上下文中的有状态推理。<br>
-          • 该框架采用动态记忆工作空间和元认知调节循环(包括自我探测、记忆融合和记忆更新),以迭代方式将碎片化的证据融合为连贯的上下文。<br>
-          • 实验结果表明,ComoRAG 在 NarrativeQA 和 ∞BENCH 等具有挑战性的基准测试中持续优于强大的基线,特别是在需要全局理解的复杂叙事查询中表现出色。
-        </td>
-    </tr>
-    <tr>
       <td rowspan="2" style="width: 15%;">2025-04-10</td>
       <td style="width: 55%;"><strong>Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory</strong></td>
       <td style="width: 15%;">
