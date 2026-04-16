@@ -6053,6 +6053,7 @@ Systems below are ordered by **publication date**:
 | MHN AI Agent Memory | 2026-03-21 | ![GitHub Repo stars](https://img.shields.io/github/stars/shahzebqazi/mhn-ai-agent-memory?style=social) | https://github.com/shahzebqazi/mhn-ai-agent-memory<br>No official website |
 | LycheeMem | 2026-03-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social) | https://github.com/LycheeMem/LycheeMem<br>No official website |
 | PackRat | 2026-04-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/kevdogg102396-afk/packrat?style=social) | https://github.com/kevdogg102396-afk/packrat<br>https://www.npmjs.com/package/packrat-compress |
+| SwarmVault | 2026-04-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/swarmclawai/swarmvault?style=social) | https://github.com/swarmclawai/swarmvault<br>https://swarmvault.ai |
 
 ### 🎥 Multi-media resource
 
