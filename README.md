@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-303-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-349-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-93-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-04-17 - 🎉 Updated 46 papers, including 1 on survey, 5 on systems and models, 3 on benchmarks, and 37 on methods
 + 2026-04-07 - 🎉 Updated 16 papers, including 15 on methods, and 1 on benchmarks
 + 2026-03-15 - 🎉 Updated 14 papers, including 14 on methods
 + 2026-03-08 - 🎉 Updated 15 papers, including 3 on survey, 2 on systems and models, 5 on benchmarks, and 5 on methods
@@ -232,6 +233,24 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Survey-red" alt="Survey">
+            <img src="https://img.shields.io/badge/Externalization-teal" alt="Externalization">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08224">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Surveys LLM agent externalization from the perspective of memory, skills, protocols, and harness engineering.<br>
+            • Argues that memory externalizes cross-time state, skills externalize procedural capability, protocols externalize interaction structure, and harnesses orchestrate these components together.<br>
+            • Maps the evolution from model parameters to context and then to external infrastructure, while discussing the key trade-offs and open challenges across these layers.
+        </td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-03-05</td>
@@ -518,6 +537,672 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>MemCoT: Test-Time Scaling through Memory-Driven Chain-of-Thought</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Reasoning-blue" alt="Memory Reasoning">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08216">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes MemCoT, a test-time memory scaling framework that recasts long-context reasoning as iterative, stateful information search.<br>
+              • Uses multi-view long-term memory perception to surface evidence and a task-conditioned short-term memory module to track search history and refine subsequent queries.<br>
+              • Achieves state-of-the-art results across several long-memory reasoning benchmarks.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>SinkTrack: Attention Sink based Context Anchoring for Large Language Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Context%20Anchoring-blue" alt="Context Anchoring">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10027">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces SinkTrack, a training-free context anchoring method that exploits the model's attention sink at &lt;BOS&gt; to preserve critical context.<br>
+              • Injects key information into the &lt;BOS&gt; representation so the model can retain initial context throughout generation instead of gradually forgetting it.<br>
+              • Delivers consistent gains on text and multimodal tasks while reducing hallucination and context forgetting.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Recommender%20RL-blue" alt="Recommender RL">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10029">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes CoARS, a self-distilled reinforcement learning framework for co-evolving agentic recommender systems.<br>
+              • Replaces reliance on external text memory with interaction rewards and self-distilled credit assignment that convert multi-turn supervision into parameter updates.<br>
+              • Improves recommendation quality and user alignment over memory-only baselines.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>CodeComp: Structural KV Cache Compression for Agentic Coding</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/KV%20Compression-blue" alt="KV Compression">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10235">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces CodeComp, a structural KV-cache compression method for agentic coding tasks.<br>
+              • Combines static program analysis with code property graphs to preserve structurally critical tokens that attention-only pruning often removes.<br>
+              • Outperforms attention-based compression under the same memory budget and integrates into the SGLang pipeline without changing the model.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Virtual%20Memory-blue" alt="Virtual Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10352">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes ClawVM, a harness-managed virtual memory layer for stateful tool-using LLM agents.<br>
+              • Organizes agent state as typed pages with multi-resolution representations and validates writeback at lifecycle boundaries to avoid stale or destructive state updates.<br>
+              • Significantly reduces controllable failures while adding very little policy-engine overhead.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>CodaRAG: Connecting the Dots with Associativity Inspired by Complementary Learning</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Associative%20RAG-blue" alt="Associative RAG">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10426">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Presents CodaRAG, an associative retrieval framework inspired by complementary learning for RAG systems.<br>
+              • Consolidates fragmented knowledge, navigates semantic and functional links to recover evidence chains, and suppresses distractors during retrieval.<br>
+              • Improves both retrieval recall and generation accuracy over prior methods.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>Astrolabe: A Content-Addressable Hypergraph for Semantic Knowledge Management</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Hypergraph%20Memory-blue" alt="Hypergraph Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10435">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces Astrolabe, a content-addressable hypergraph for semantic knowledge management.<br>
+              • Uses content hashes and ordered reference lists to store structured knowledge, while a plugin system interprets records and decomposes structures by width or depth.<br>
+              • Demonstrates the extensibility of the design through plugins that bridge informal and formal mathematics.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>MemReader: From Passive to Active Extraction for Long-Term Agent Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Extraction-blue" alt="Memory Extraction">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.07877">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes the MemReader family for long-term agent memory extraction, covering both passive structured extraction and active write decisions.<br>
+              • MemReader-4B uses GRPO and a ReAct-style process to decide whether information should be written, deferred, retrieved, or discarded.<br>
+              • Outperforms prior methods on knowledge updating, temporal reasoning, and hallucination reduction, and has been integrated into MemOS.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>HyperMem: Hypergraph Memory for Long-Term Conversations</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Hypergraph%20Memory-blue" alt="Hypergraph Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08256">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces HyperMem, a hypergraph-based memory architecture for long-term conversation.<br>
+              • Models higher-order relations through hyperedges, organizes memory into topic, event, and fact layers, and couples lexical-semantic indexing with coarse-to-fine retrieval.<br>
+              • Improves recall and consistency on long-conversation tasks and achieves the best results on LoCoMo.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Compression-blue" alt="Memory Compression">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09000">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes StreamMeCo for long-term memory compression in streaming video understanding.<br>
+              • Compresses memory graphs through edge-aware pruning and isolated-node sampling, and adds time-decayed retrieval to offset compression loss.<br>
+              • Delivers large memory savings and faster retrieval while maintaining or improving accuracy on multiple benchmarks.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>Towards Lifelong Aerial Autonomy: Geometric Memory Management for Continual Visual Place Recognition in Dynamic Environments</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Management-blue" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09038">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces a geometric memory management framework for continual visual place recognition in dynamic environments.<br>
+              • Decomposes knowledge into static satellite anchors and a dynamic replay buffer, then allocates limited storage with spatially constrained sampling.<br>
+              • Improves long-term retention and spatial generalization, and establishes a 21-task benchmark for evaluation.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>SPASM: Stable Persona-driven Agent Simulation for Multi-turn Dialogue Generation</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Persona%20Memory-blue" alt="Persona Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09212">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes SPASM, a stable persona-driven framework for multi-turn dialogue generation.<br>
+              • Uses persona creation, client-responder simulation, and an ECP representation that stores dialogue history in a viewpoint-invariant form before projecting it back to each agent.<br>
+              • Reduces persona drift, role confusion, and echoing across long conversations and releases a large-scale dialogue dataset.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>SkillMOO: Multi-Objective Optimization of Agent Skills for Software Engineering</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Skill%20Optimization-blue" alt="Skill Optimization">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09297">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces SkillMOO, a multi-objective optimization framework for software engineering agent skills.<br>
+              • Combines LLM-generated edits with NSGA-II selection to evolve skill bundles based on task failures and cost-performance trade-offs.<br>
+              • Improves pass rates while lowering cost, and shows that replacing or pruning instructions can outperform simply accumulating them.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>RecaLLM: Addressing the Lost-in-Thought Phenomenon with Explicit In-Context Retrieval</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/In%2Dcontext%20Retrieval-blue" alt="In-context Retrieval">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09494">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes RecaLLM, which interleaves explicit in-context retrieval with reasoning to address the lost-in-thought problem.<br>
+              • Uses constrained decoding to copy evidence spans and trains on both lexical and semantic retrieval tasks.<br>
+              • Outperforms baselines on long-context benchmarks such as RULER and HELMET and scales to 128K contexts with relatively modest training data.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Corrective%20Memory-blue" alt="Corrective Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09308">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces a constraint-aware corrective memory framework for language-based drug discovery agents.<br>
+              • Audits protocols and diagnoses constraint violations, then writes compact corrective feedback into static, dynamic, and correction memory channels.<br>
+              • Significantly improves task success rates by keeping planning context compact and actionable.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Security-blue" alt="Memory Security">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09747">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Presents ADAM, a systematic data extraction attack on agent memory via adaptive querying.<br>
+              • Estimates the memory distribution of the victim and uses entropy-guided queries to maximize leakage.<br>
+              • Achieves much higher attack success than prior methods, reaching up to 100% in some settings and highlighting major privacy risks in agent memory.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>EE-MCP: Self-Evolving MCP-GUI Agents via Automated Environment Generation and Experience Learning</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Experience%20Bank-blue" alt="Experience Bank">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09815">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes EE-MCP, a self-evolving framework for MCP-GUI agents.<br>
+              • Builds a closed loop of environment generation, trajectory collection, task synthesis, and quality filtering, then stores distilled rules in an experience bank for inference-time improvement.<br>
+              • Shows that experience-enhanced agents outperform pure distillation in GUI-intensive settings without requiring model fine-tuning.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>MEMENTO: Teaching LLMs to Manage Their Own Context</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Context%20Compression-blue" alt="Context Compression">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09852">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces MEMENTO, which teaches LLMs to manage their own context by summarizing long reasoning traces into dense intermediate mementos.<br>
+              • Splits reasoning into blocks, generates compact summaries for each block, and continues reasoning from the summaries instead of the full trace.<br>
+              • Reduces context length, KV cache usage, and compute cost while preserving reasoning quality, and releases the OpenMementos dataset.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-10</td>
+        <td style="width: 55%;"><strong>Formal Architecture Descriptors as Navigation Primitives for AI Coding Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Structured%20Context-blue" alt="Structured Context">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.13108">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Studies formal architecture descriptors as navigation primitives for AI coding agents.<br>
+              • Shows that structured architecture context can reduce aimless repository exploration and improve behavioral consistency across agent runs.<br>
+              • Compares JSON, YAML, and S-expression formats, and introduces <code>intent.lisp</code> and the Forge toolchain.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Task-Adaptive Retrieval over Agentic Multi-Modal Web Histories via Learned Graph Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Graph%20Memory-blue" alt="Graph Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.07863">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces ACGM, a learned graph memory retriever for task-adaptive retrieval over long multimodal web histories.<br>
+              • Optimizes sparse relevance graphs with policy gradients and models different temporal decay patterns across visual and textual observations.<br>
+              • Outperforms multiple baselines on WebShop, VisualWebArena, and Mind2Web.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Personalization-blue" alt="Personalization">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.07894">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes TSUBASA for long-horizon personalization with evolving memory and self-learning.<br>
+              • Improves memory writing through dynamic memory evolution and strengthens memory reading through context-distilled self-learning that internalizes user experience.<br>
+              • Outperforms systems such as Mem0 on long-horizon personalization benchmarks while achieving a better quality-efficiency trade-off.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Dynamic Attentional Context Scoping: Agent-Triggered Focus Sessions for Isolated Per-Agent Steering in Multi-Agent LLM Orchestration</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Context%20Isolation-blue" alt="Context Isolation">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.07911">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces DACS, a dynamic attentional context scoping mechanism for multi-agent LLM orchestration.<br>
+              • Keeps only lightweight state summaries in registry mode and switches into a focus mode that injects full context for the selected agent while compressing others.<br>
+              • Improves steering accuracy and reduces interference from irrelevant agents.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>LogAct: Enabling Agentic Reliability via Shared Logs</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Shared%20Logs-blue" alt="Shared Logs">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.07988">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes LogAct, a shared-log execution framework that turns agents into state machines over an explicit log.<br>
+              • Makes planned actions visible before execution, enabling intervention, recovery, semantic replay, and LLM-based introspection from historical traces.<br>
+              • Improves reliability, fault recovery, and debugging for agentic systems.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Proactive%20Memory-blue" alt="Proactive Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08000">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces the DD-MM-PAS paradigm and the Pask system for intent-aware proactive agents with long-term memory.<br>
+              • Combines IntentFlow for latent-need detection, a hybrid workspace-user-global memory design, and a full perception-memory-action infrastructure.<br>
+              • Achieves deeper user-intent recognition under low-latency constraints and releases LatentNeeds-Bench.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Experience%20Learning-blue" alt="Experience Learning">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08124">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes HiExp, a framework that extracts reusable experience knowledge from raw agentic search trajectories.<br>
+              • Uses comparative analysis and hierarchical clustering to organize trajectories into layered experience representations and trains agents with experience alignment.<br>
+              • Turns stochastic exploration into more strategic search and improves stability, task performance, and cross-task generalization.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>"Theater of Mind" for LLMs: A Cognitive Architecture Based on Global Workspace Theory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Cognitive%20Architecture-blue" alt="Cognitive Architecture">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08206">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces Global Workspace Agents, a cognitive architecture for LLM agents inspired by global workspace theory.<br>
+              • Combines a central broadcast hub with heterogeneous agents, plus entropy-driven intrinsic motivation and a two-tier memory branching strategy.<br>
+              • Improves semantic diversity and long-term cognitive continuity in multi-agent execution.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>ACF: A Collaborative Framework for Agent Covert Communication under Cognitive Asymmetry</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Covert%20Communication-blue" alt="Covert Communication">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08276">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes ACF, a collaborative framework for covert communication among memory-augmented agents under cognitive asymmetry.<br>
+              • Decouples covert signaling from semantic reasoning and uses prefix-independent decoding with shared steganographic configurations to avoid symmetry assumptions.<br>
+              • Maintains semantic consistency and covert communication quality even under severe asymmetry, with theoretical error and capacity guarantees.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Distributed Multi-Layer Editing for Rule-Level Knowledge in Large Language Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Knowledge%20Editing-blue" alt="Knowledge Editing">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08284">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Studies rule-level knowledge editing in LLMs and shows that rule knowledge is distributed across layers rather than concentrated locally.<br>
+              • Extends the RuleEdit benchmark and uses causal tracing to distinguish how formulas, descriptions, and instances are represented in different layers.<br>
+              • Proposes DMLE, which improves rule transfer and understanding while remaining competitive on standard editing metrics.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>SkillClaw: Let Skills Evolve Collectively with Agentic Evolver</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Skill%20Evolution-blue" alt="Skill Evolution">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08377">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes SkillClaw for collective skill evolution in multi-user LLM agent environments.<br>
+              • Continuously aggregates user trajectories, detects repeated behaviors and failure modes, and converts them into skill revisions or new skills for a shared repository.<br>
+              • Enables cross-user experience transfer and improves performance in real agent settings.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Self%2DAuditing-blue" alt="Self-Auditing">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08401">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Introduces SAVeR, a self-auditing framework for faithful reasoning in LLM agents.<br>
+              • Generates diverse candidate beliefs, audits them adversarially to locate violations, and applies minimal constrained edits before the agent commits to action.<br>
+              • Reduces behavior drift caused by unfaithful reasoning while preserving task performance.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Domain%20Skills-blue" alt="Domain Skills">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08618">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes SkillForge, a framework for building and self-evolving domain-specific agent skills in cloud technical support.<br>
+              • Combines domain-context skill creation with a closed loop of failure analysis, skill diagnosis, and skill rewriting driven by deployment feedback.<br>
+              • Improves initial skill quality and continues to raise performance over repeated deployment cycles.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Efficient RL Training for LLMs with Experience Replay</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Experience%20Replay-blue" alt="Experience Replay">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08706">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Revisits experience replay for LLM post-training and questions the assumption that only fresh on-policy data is useful.<br>
+              • Analyzes the trade-off between staleness, diversity, and generation cost in replay buffer design.<br>
+              • Shows that well-designed replay buffers can cut inference cost substantially without hurting and sometimes even improving performance.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Artifacts as Memory Beyond the Agent Boundary</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/External%20Memory-blue" alt="External Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08756">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Formalizes the idea that the environment itself can serve as external memory for an agent.<br>
+              • Introduces artifacts as observations that reduce the information needed to represent history and connects the idea to reinforcement learning theory.<br>
+              • Shows that observing spatial paths can lower the internal memory needed to learn strong policies and motivates future environment-backed memory designs.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>MT-OSC: Path for LLMs that Get Lost in Multi-Turn Conversation</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/History%20Compression-blue" alt="History Compression">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08782">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes MT-OSC, a framework that condenses multi-turn chat history in the background to preserve salient information.<br>
+              • Uses a few-shot condenser and a lightweight decision module to retain key facts while compressing irrelevant content.<br>
+              • Cuts token usage by up to 72% while maintaining or improving multi-turn dialogue accuracy and latency.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>M^\star: Every Task Deserves Its Own Memory Harness</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Harness-blue" alt="Memory Harness">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.11811">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes M^\star, which represents agent memory as executable Python memory programs rather than fixed schemas.<br>
+              • Evolves task-specific memory data structures, storage logic, and interaction workflows through reflective code evolution guided by population search and failure analysis.<br>
+              • Outperforms fixed memory baselines across dialogue, embodied planning, and expert reasoning benchmarks while discovering markedly different memory designs per task.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-08</td>
+        <td style="width: 55%;"><strong>From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Ontology%20Memory-blue" alt="Ontology Memory">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08603">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes LOM-action, an ontology-governed graph simulation framework for auditable enterprise AI decisions.<br>
+              • Triggers scenario conditions from business events, performs deterministic graph transformations in isolated sandboxes, and bases decisions only on the resulting scenario-valid graph.<br>
+              • Improves accuracy and tool-chain F1 over baselines while generating fully traceable audit logs.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-08</td>
+        <td style="width: 55%;"><strong>LAST: Leveraging Tools as Hints to Enhance Spatial Reasoning for Multimodal Large Language Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Tool%20Hints-blue" alt="Tool Hints">
+          <img src="https://img.shields.io/badge/Memory%20Systems-brightgreen" alt="Memory Systems">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09712">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes LAST, a tool-as-hints framework for improving multimodal spatial reasoning.<br>
+              • Packages heterogeneous tool invocations into reusable spatial skills through LAST-Box and returns multimodal prompts that can be consumed directly by the model.<br>
+              • Uses a three-stage curriculum to teach adaptive tool use and significantly improves performance on four spatial reasoning datasets.
+          </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-04-04</td>
         <td style="width: 55%;"><strong>LightThinker++: From Reasoning Compression to Memory Management</strong></td>
@@ -4415,6 +5100,60 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-11</td>
+        <td style="width: 55%;"><strong>Trust Your Memory: Verifiable Control of Smart Homes through Reinforcement Learning with Multi-dimensional Rewards</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Smart%20Home-yellow" alt="Smart Home">
+            <img src="https://img.shields.io/badge/Benchmark-blue" alt="Benchmark">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10110">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Introduces MemHomeLife and MemHome, a benchmark suite for memory-driven smart home control grounded in long-term real interaction logs.<br>
+            • Evaluates fine-grained memory operations including adding, updating, deleting, and using memories in device control.<br>
+            • Addresses a major gap in prior benchmarks by measuring both long-term memory utilization and feedback on memory management quality.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Behavior%20Benchmark-yellow" alt="Behavior Benchmark">
+            <img src="https://img.shields.io/badge/User%20Simulation-blue" alt="User Simulation">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08362">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Introduces OmniBehavior, the first benchmark built entirely from real-world data for long-horizon, cross-scenario, heterogeneous behavior simulation.<br>
+            • Highlights that real user decisions depend on cross-scenario causal chains that are largely missing from prior datasets.<br>
+            • Shows that current LLMs remain weak on complex behavior simulation even with longer contexts, and exhibit homogenized personalities and optimistic bias.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-09</td>
+        <td style="width: 55%;"><strong>KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation</strong></td>
+        <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Personalized%20Agent-yellow" alt="Personalized Agent">
+            <img src="https://img.shields.io/badge/Benchmark-blue" alt="Benchmark">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08455">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • Introduces KnowU-Bench, an online benchmark for interactive, proactive, and personalized mobile agents in Android simulation.<br>
+            • Hides user profiles and provides only behavioral traces, requiring agents to infer preferences through interaction and decide when to intervene, ask consent, or stay silent.<br>
+            • Reveals large performance drops for frontier models when preference inference and intervention calibration are required.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2026-04-02</td>
         <td style="width: 55%;"><strong>Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework</strong></td>
         <td style="width: 15%;">
@@ -5342,6 +6081,96 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
+          <td rowspan="2" style="width: 15%;">2026-04-11</td>
+          <td style="width: 55%;"><strong>Mosaic: Cross-Modal Clustering for Efficient Video Understanding</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Video%20Memory-red" alt="Video Memory">
+              <img src="https://img.shields.io/badge/Systems%20Design-teal" alt="Systems Design">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.10060">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes Mosaic, a cross-modal clustering system for efficient long-video understanding.<br>
+              • Finds implicit clustering structure in VLM KV caches and uses clusters as the unit for cache organization, maintenance, and retrieval.<br>
+              • Reduces fragmented transfers and management cost, achieving up to 1.38x speedups in streaming video inference.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-04-10</td>
+          <td style="width: 55%;"><strong>EpiAgent: An Agent-Centric System for Ancient Inscription Restoration</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Agent%20System-red" alt="Agent System">
+              <img src="https://img.shields.io/badge/Multimodal%20Restoration-teal" alt="Multimodal Restoration">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09367">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes EpiAgent, an agent-centric system for ancient inscription restoration.<br>
+              • Uses an Observe-Conceive-Execute-Reevaluate loop in which a central LLM planner coordinates multimodal analysis, historical experience, tools, and self-reflection.<br>
+              • Outperforms prior methods on real restoration tasks and improves both quality and generalization.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-04-10</td>
+          <td style="width: 55%;"><strong>Building an Internal Coding Agent at Zup: Lessons and Open Questions</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Coding%20Agent-red" alt="Coding Agent">
+              <img src="https://img.shields.io/badge/State%20Management-teal" alt="State Management">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.09805">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Reports the lessons from taking Zup's internal coding agent CodeGen from prototype to production.<br>
+              • Shows that reliability depends not just on the base model but also on tool design, safety guardrails, state management, and human oversight.<br>
+              • Uses string-replacement editing, layered safety constraints, and progressive supervision to raise adoption and reliability while outlining open questions.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-04-09</td>
+          <td style="width: 55%;"><strong>PSI: Shared State as the Missing Layer for Coherent AI-Generated Instruments in Personal AI Agents</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Shared%20State-red" alt="Shared State">
+              <img src="https://img.shields.io/badge/Personal%20AI-teal" alt="Personal AI">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08529">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes PSI, a shared-state architecture that connects separately generated personal AI modules into a coherent tool ecosystem.<br>
+              • Exposes current state through a personal context bus and supports writeback so modules can reason across each other and stay synchronized.<br>
+              • Demonstrates that the system can automatically integrate later-generated tools in a three-week personal AI deployment.
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="width: 15%;">2026-04-09</td>
+          <td style="width: 55%;"><strong>Omakase: proactive assistance with actionable suggestions for evolving scientific research projects</strong></td>
+          <td style="width: 15%;">
+              <img src="https://img.shields.io/badge/Proactive%20Assistant-red" alt="Proactive Assistant">
+              <img src="https://img.shields.io/badge/Long%20Term%20Memory-teal" alt="Long Term Memory">
+          </td>
+          <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.08898">
+              <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Proposes Omakase, a proactive research assistant for evolving scientific projects.<br>
+              • Monitors project documents, identifies timely deep-research queries, and distills long reports into project-grounded actionable suggestions.<br>
+              • User studies show that its suggestions are more timely and actionable than raw reports.
+          </td>
+      </tr>
+      <tr>
           <td rowspan="2" style="width: 15%;">2026-03-15</td>
           <td style="width: 55%;"><strong>SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory</strong></td>
           <td style="width: 15%;">
@@ -6206,4 +7035,3 @@ Join our community to ask questions, share your projects, and connect with other
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=IAAR-Shanghai/Awesome-AI-Memory&type=date&legend=top-left" />
  </picture>
 </a>
-
