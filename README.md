@@ -103,6 +103,8 @@ To systematically organize the diverse research and practical resources in the f
 - Continuous interaction and long-term task benchmarks
 - Memory recall and utilization efficiency metrics
 - Personalization and user preference retention evaluation
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 
 --- -->
 
@@ -7012,30 +7014,4 @@ Join our community to ask questions, share your projects, and connect with other
 - **GitHub Issues**: Report bugs or request features in our <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/issues" target="_blank">GitHub Issues</a>.
 - **GitHub Pull Requests**: Contribute code improvements via <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pulls" target="_blank">Pull Requests</a>.
 - **GitHub Discussions**: Participate in our <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/discussions" target="_blank">GitHub Discussions</a> to ask questions or share ideas.
-- **WeChat**: Scan the QR code below to join our discussion group, get the latest research information related to Memory, or promote your related research results.
-
-<!-- <div style="text-align: center;">
-  <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
-</div> -->
-
-<!-- <center>
-  <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
-</center> -->
-
-<table style="width:100%">
-  <tr>
-    <td align="center">
-      <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
-    </td>
-  </tr>
-</table>
-
-## 🌟 Star Trends
-
-<a href="https://www.star-history.com/#IAAR-Shanghai/Awesome-AI-Memory&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=IAAR-Shanghai/Awesome-AI-Memory&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=IAAR-Shanghai/Awesome-AI-Memory&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=IAAR-Shanghai/Awesome-AI-Memory&type=date&legend=top-left" />
- </picture>
-</a>
+- **We
