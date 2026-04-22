@@ -6828,6 +6828,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Mem0        | 2024-07-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) | https://github.com/mem0ai/mem0<br>https://mem0.ai/ |
 | Memobase    | 2024-10-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) | https://github.com/memodb-io/memobase<br>https://www.memobase.io/ |
 | Agent Brain | 2024-12-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/kaderosio/agent-brain?style=social) | https://github.com/kaderosio/agent-brain<br>No official website |
+| Puppyone    | 2024-12-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/puppyone-ai/puppyone?style=social) | https://github.com/puppyone-ai/puppyone<br>https://www.puppyone.ai/ |
 | LangMem     | 2025-01-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=social) | https://github.com/langchain-ai/langmem<br>https://langchain-ai.github.io/langmem/ |
 | A-Mem       | 2025-02-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) | https://github.com/agiresearch/A-mem <br>No official website |
 | Mirix       | 2025-04-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/Mirix-AI/MIRIX?style=social) | https://github.com/Mirix-AI/MIRIX<br>https://mirix.io/ |
