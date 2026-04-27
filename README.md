@@ -6851,6 +6851,7 @@ Systems below are ordered by **publication date**:
 | Supermemory | 2024-02-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/supermemoryai/supermemory?style=social) | https://github.com/supermemoryai/supermemory<br>https://supermemory.ai/ |
 | Memary      | 2024-04-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/kingjulio8238/Memary?style=social) | https://github.com/kingjulio8238/Memary <br>No official website |
 | Second-Me   | 2024-06-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/mindverse/Second-Me?style=social) | https://github.com/mindverse/Second-Me<br>https://home.second.me/ |
+| Screenpipe  | 2024-06-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=social) | https://github.com/screenpipe/screenpipe<br>https://screenpi.pe/ |
 | Mem0        | 2024-07-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) | https://github.com/mem0ai/mem0<br>https://mem0.ai/ |
 | Memobase    | 2024-10-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) | https://github.com/memodb-io/memobase<br>https://www.memobase.io/ |
 | Agent Brain | 2024-12-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/kaderosio/agent-brain?style=social) | https://github.com/kaderosio/agent-brain<br>No official website |
