@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-349-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-363-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-100-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -657,7 +657,6 @@ To systematically organize the diverse research and practical resources in the f
           • 系统包含自我演化记忆、错误模式知识库、语义导入分析器和 Python2 启发式检测器，用于提升依赖解析成功率。
         </td>
       </tr>
-
       <tr>
         <td rowspan="2" style="width: 15%;">2026-04-18</td>
         <td style="width: 55%;"><strong>Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning</strong></td>
