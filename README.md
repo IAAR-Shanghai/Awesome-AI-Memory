@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-363-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-364-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-100-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -596,6 +596,27 @@ Papers below are ordered by **publication date**:
         <td colspan="3">
           • Studies belief inertia in embodied agents, where agents ignore new observations and remain anchored to prior beliefs.<br>
           • Proposes Estimate-Verify-Update, which predicts, verifies, and evidence-updates textual belief states to actively manage beliefs and improve success rates across embodied benchmarks.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-22</td>
+        <td style="width: 55%;"><strong>Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Semantic%20Memory-blue" alt="Semantic Memory">
+          <img src="https://img.shields.io/badge/Information--Theoretic%20Retrieval-brightgreen" alt="Information-Theoretic Retrieval">
+          <img src="https://img.shields.io/badge/Long--term%20Agents-yellow" alt="Long-term Agents">
+          <img src="https://img.shields.io/badge/Conflict%20Resolution-teal" alt="Conflict Resolution">
+          <img src="https://img.shields.io/badge/Typed%20Memory-orange" alt="Typed Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.22085">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes Memanto with 13-class typed semantic memory schema, achieving 89.8% on LongMemEval and 87.1% on LoCoMo without knowledge graphs.<br>
+          • Introduces Moorcheh Information-Theoretic Search for index-free, deterministic retrieval under 90ms with zero write latency.<br>
+          • Addresses constraint drift through built-in conflict resolution and temporal versioning with supersede mechanism.
         </td>
       </tr>
       <tr>

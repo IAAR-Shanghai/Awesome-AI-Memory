@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-363-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-364-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-100-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -595,6 +595,27 @@ To systematically organize the diverse research and practical resources in the f
         <td colspan="3">
           • 研究具身智能体在交互中忽视新观察、固守先验信念的 belief inertia 问题。<br>
           • 提出 Estimate-Verify-Update 机制，通过预测、验证和基于证据更新文本化信念状态，主动管理智能体信念并提升多个具身基准成功率。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-22</td>
+        <td style="width: 55%;"><strong>Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Semantic%20Memory-blue" alt="Semantic Memory">
+          <img src="https://img.shields.io/badge/Information--Theoretic%20Retrieval-brightgreen" alt="Information-Theoretic Retrieval">
+          <img src="https://img.shields.io/badge/Long--term%20Agents-yellow" alt="Long-term Agents">
+          <img src="https://img.shields.io/badge/Conflict%20Resolution-teal" alt="Conflict Resolution">
+          <img src="https://img.shields.io/badge/Typed%20Memory-orange" alt="Typed Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.22085">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 Memanto 系统，采用 13 类 typed semantic memory schema，在 LongMemEval 和 LoCoMo 上分别达到 89.8% 和 87.1%，且无需知识图谱。<br>
+          • 引入 Moorcheh Information-Theoretic Search，实现无索引、确定性检索，延迟低于 90ms，写入延迟为零。<br>
+          • 通过内置冲突解决和时间版本控制机制应对 constraint drift，支持 supersede 机制保留历史状态。
         </td>
       </tr>
       <tr>
