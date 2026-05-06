@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-363-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-379-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-100-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-05-06 - 🎉 Updated 16 papers, including 2 on systems and models, 2 on benchmarks, and 12 on methods
 + 2026-04-27 - 🎉 Updated 15 papers, including 2 on survey, 3 on systems and models, and 10 on methods
 + 2026-04-17 - 🎉 Updated 46 papers, including 1 on survey, 5 on systems and models, 3 on benchmarks, and 37 on methods
 + 2026-04-07 - 🎉 Updated 16 papers, including 15 on methods, and 1 on benchmarks
@@ -578,6 +579,246 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>Learning to Forget -- Hierarchical Episodic Memory for Lifelong Robot Deployment</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Episodic%20Memory-brightgreen" alt="Episodic Memory">
+          <img src="https://img.shields.io/badge/Selective%20Forgetting-yellow" alt="Selective Forgetting">
+          <img src="https://img.shields.io/badge/Memory%20Management-teal" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Lifelong%20Learning-orange" alt="Lifelong Learning">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.11306">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes H²-EMV, a hierarchical episodic memory framework for lifelong robot deployment that uses LLM-based relevance judgment and selective forgetting to manage memory scale.<br>
+          • Integrates user feedback to update natural-language forgetting rules, achieving personalized memory management while maintaining QA accuracy and reducing query overhead.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Poisoning-brightgreen" alt="Memory Poisoning">
+          <img src="https://img.shields.io/badge/Retrieval--Augmented%20Agents-yellow" alt="Retrieval-Augmented Agents">
+          <img src="https://img.shields.io/badge/Anomaly%20Detection-teal" alt="Anomaly Detection">
+          <img src="https://img.shields.io/badge/Memory%20Security-orange" alt="Memory Security">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03482">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Formalizes multiple attack scenarios for persistent external memory poisoning in retrieval-augmented agents and proposes MEMSAD, a semantic anomaly detection defense.<br>
+          • Proves via gradient-coupling theorem that anomaly score gradients align with retrieval objective gradients, enabling certifiable detection radii and optimal calibration sample complexity.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Agent%20Memory-blue" alt="LLM Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Compression-brightgreen" alt="Memory Compression">
+          <img src="https://img.shields.io/badge/Personalized%20Memory-yellow" alt="Personalized Memory">
+          <img src="https://img.shields.io/badge/Episodic%20Memory%20Graph-teal" alt="Episodic Memory Graph">
+          <img src="https://img.shields.io/badge/On--device%20AI-orange" alt="On-device AI">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03804">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces ScrapMem, a bio-inspired on-device agent memory framework that uses optical forgetting to progressively reduce old memory resolution for storage efficiency.<br>
+          • Constructs an Episodic Memory Graph with causal-temporal event links to maintain semantic consistency, achieving superior retrieval performance on ATM-Bench with significantly lower storage cost.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-04</td>
+        <td style="width: 55%;"><strong>MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Shadow%20Memory-brightgreen" alt="Shadow Memory">
+          <img src="https://img.shields.io/badge/LLM%20Agents-yellow" alt="LLM Agents">
+          <img src="https://img.shields.io/badge/Long--horizon%20Threats-teal" alt="Long-horizon Threats">
+          <img src="https://img.shields.io/badge/Safety%20Guardrail-orange" alt="Safety Guardrail">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03228">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MAGE, inspired by shadow stack in system security, maintaining an independent safety memory that distills and preserves critical security context across long task trajectories.<br>
+          • Evaluates pending actions against the safety memory before execution, enabling earlier detection of long-horizon attacks with minimal impact on agent utility.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-04</td>
+        <td style="width: 55%;"><strong>Symmetry-Protected Lyapunov Neutral Modes in Equivariant Recurrent Networks</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Equivariant%20RNN-blue" alt="Equivariant RNN">
+          <img src="https://img.shields.io/badge/Memory%20Retention-brightgreen" alt="Memory Retention">
+          <img src="https://img.shields.io/badge/Lyapunov%20Exponents-yellow" alt="Lyapunov Exponents">
+          <img src="https://img.shields.io/badge/Symmetry%20Protection-teal" alt="Symmetry Protection">
+          <img src="https://img.shields.io/badge/Recurrent%20Networks-orange" alt="Recurrent Networks">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03338">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proves that group-orbit tangent directions in equivariant recurrent networks produce symmetry-protected zero Lyapunov exponents, forming long-lived neutral memory modes.<br>
+          • Demonstrates through S¹, T^q, SO(n), U(m) systems and equivariant RNN experiments that strict equivariance enhances long-range memory retention, generalization, and stability.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-03</td>
+        <td style="width: 55%;"><strong>Planner Matters! An Efficient and Unbalanced Multi-agent Collaboration Framework for Long-horizon Planning</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Multi--agent%20Collaboration-blue" alt="Multi-agent Collaboration">
+          <img src="https://img.shields.io/badge/Agent%20Memory-brightgreen" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Long--horizon%20Planning-yellow" alt="Long-horizon Planning">
+          <img src="https://img.shields.io/badge/Reinforcement%20Learning-teal" alt="Reinforcement Learning">
+          <img src="https://img.shields.io/badge/Memory%20Manager-orange" alt="Memory Manager">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.02168">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes an unbalanced multi-agent collaboration framework with planner, actor, and memory manager roles, showing that planning contributes most to task performance.<br>
+          • Introduces planner-only RL optimization with trajectory-level rewards, validated on web navigation, system control, and tool-use benchmarks for efficient long-horizon automation.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-01</td>
+        <td style="width: 55%;"><strong>From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/AI%20Memory-blue" alt="AI Memory">
+          <img src="https://img.shields.io/badge/Schema--grounded%20Memory-brightgreen" alt="Schema-grounded Memory">
+          <img src="https://img.shields.io/badge/Structured%20Extraction-yellow" alt="Structured Extraction">
+          <img src="https://img.shields.io/badge/Memory%20Update-teal" alt="Memory Update">
+          <img src="https://img.shields.io/badge/External%20Memory-orange" alt="External Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.27906">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Argues AI memory should be schema-constrained rather than retrieval-based recall, proposing an iterative schema-aware write pipeline with object detection, field detection, and value extraction.<br>
+          • Adds verification, retry, and state control to the ingestion process, outperforming baselines on structured extraction and end-to-end memory tasks requiring stable facts and state updates.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-01</td>
+        <td style="width: 55%;"><strong>Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Agent%20Memory-blue" alt="LLM Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Update-brightgreen" alt="Memory Update">
+          <img src="https://img.shields.io/badge/Reinforcement%20Learning-yellow" alt="Reinforcement Learning">
+          <img src="https://img.shields.io/badge/Personalization-teal" alt="Personalization">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-orange" alt="Long-term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.00702">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MemCoE, a cognition-inspired two-stage optimization framework: stage one induces global memory criteria via contrastive feedback, stage two uses multi-round RL to learn criteria-compliant memory evolution strategies.<br>
+          • Validates on three personalized memory benchmarks, demonstrating improvements in preference memory, robustness, transferability, and efficiency.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-30</td>
+        <td style="width: 55%;"><strong>Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Observability-brightgreen" alt="Observability">
+          <img src="https://img.shields.io/badge/Automatic%20Evolution-yellow" alt="Automatic Evolution">
+          <img src="https://img.shields.io/badge/Coding%20Agents-teal" alt="Coding Agents">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-orange" alt="Long-term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.25850">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes AHE, an observability-driven closed-loop mechanism that automatically evolves coding-agent harnesses across component, experience, and decision layers.<br>
+          • Compresses large trajectory volumes into usable evidence via self-prediction and outcome verification, significantly improving coding-agent performance with cross-model transferability.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-30</td>
+        <td style="width: 55%;"><strong>EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-blue" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/Conversational%20Memory-brightgreen" alt="Conversational Memory">
+          <img src="https://img.shields.io/badge/Iterative%20Retrieval-yellow" alt="Iterative Retrieval">
+          <img src="https://img.shields.io/badge/Evidence%20Gap-teal" alt="Evidence Gap">
+          <img src="https://img.shields.io/badge/Memory%20Architecture-orange" alt="Memory Architecture">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.27695">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces EviMem with IRIS closed-loop iterative retrieval that detects evidence gaps via sufficiency assessment and rewrites queries directionally for scattered multi-turn evidence.<br>
+          • Proposes LaceMem hierarchical memory architecture for coarse-to-fine evidence diagnosis, significantly improving temporal and multi-hop accuracy on LoCoMo while reducing retrieval latency.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-30</td>
+        <td style="width: 55%;"><strong>MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-blue" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Routing-brightgreen" alt="Memory Routing">
+          <img src="https://img.shields.io/badge/Conversational%20Agents-yellow" alt="Conversational Agents">
+          <img src="https://img.shields.io/badge/Memory%20Management-teal" alt="Memory Management">
+          <img src="https://img.shields.io/badge/Embedding--based%20Classification-orange" alt="Embedding-based Classification">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.00356">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MemRouter, replacing per-turn LLM-based memory management with embedding routing to decide which turns should be written to external memory, training only ~12M parameters.<br>
+          • Outperforms LLM-style memory managers on LoCoMo while significantly reducing memory management latency, with retrieval pipeline, prompts, and QA backbone held constant.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-29</td>
+        <td style="width: 55%;"><strong>Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Agent%20Memory-blue" alt="LLM Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Extraction-brightgreen" alt="Memory Extraction">
+          <img src="https://img.shields.io/badge/Memory%20Reconciliation-yellow" alt="Memory Reconciliation">
+          <img src="https://img.shields.io/badge/Clinical%20Discrepancy-teal" alt="Clinical Discrepancy">
+          <img src="https://img.shields.io/badge/Longitudinal%20Agents-orange" alt="Longitudinal Agents">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.27045">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes a dual-stream memory architecture for health coaching LLM agents that separates patient self-reports from structured EHR/FHIR records with a reconciliation engine.<br>
+          • Quantifies error cascades from memory extraction and identifies discrepancy types and severity, emphasizing the necessity of memory verification in clinical longitudinal agents.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-04-19</td>
         <td style="width: 55%;"><strong>Seeing Isn't Believing: Mitigating Belief Inertia via Active Intervention in Embodied Agents</strong></td>
@@ -5340,6 +5581,46 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-03</td>
+        <td style="width: 55%;"><strong>MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory">
+          <img src="https://img.shields.io/badge/Memory%20Writing-brightgreen" alt="Memory Writing">
+          <img src="https://img.shields.io/badge/Evaluation%20Protocol-yellow" alt="Evaluation Protocol">
+          <img src="https://img.shields.io/badge/Budgeted%20Storage-teal" alt="Budgeted Storage">
+          <img src="https://img.shields.io/badge/Long--term%20Agents-orange" alt="Long-term Agents">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.02199">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MEMAUDIT, an exact evaluation protocol that fixes experience streams, candidate memory representations, storage costs, evidence units, future queries, and budgets as an auditable optimization problem solvable by branch-and-bound and MILP.<br>
+          • Distinguishes memory representation quality, validity retention, and budget allocation effects, outperforming end-to-end QA accuracy as an evaluation approach.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-28</td>
+        <td style="width: 55%;"><strong>StratMem-Bench: Evaluating Strategic Memory Use in Virtual Character Conversation Beyond Factual Recall</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory--Augmented%20Generation-blue" alt="Memory-Augmented Generation">
+          <img src="https://img.shields.io/badge/Long--Term%20Dialogue-brightgreen" alt="Long-Term Dialogue">
+          <img src="https://img.shields.io/badge/Benchmark-yellow" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Virtual%20Characters-teal" alt="Virtual Characters">
+          <img src="https://img.shields.io/badge/Strategic%20Memory%20Use-orange" alt="Strategic Memory Use">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.26243">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces StratMem-Bench with 657 dialogue instances and mandatory/auxiliary/irrelevant memory pools to evaluate strategic memory use beyond factual recall in virtual character conversations.<br>
+          • Designs metrics for strict memory compliance, memory integration quality, proactive enrichment, and conditional irrelevance rate, systematically assessing memory decision-making in role-play.
+        </td>
+      </tr>
 <tr>
         <td rowspan="2" style="width: 15%;">2026-04-11</td>
         <td style="width: 55%;"><strong>Trust Your Memory: Verifiable Control of Smart Homes through Reinforcement Learning with Multi-dimensional Rewards</strong></td>
@@ -6321,6 +6602,46 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Circuits-brightgreen" alt="Memory Circuits">
+          <img src="https://img.shields.io/badge/Memory%20Extraction-yellow" alt="Memory Extraction">
+          <img src="https://img.shields.io/badge/Retrieval-teal" alt="Retrieval">
+          <img src="https://img.shields.io/badge/Failure%20Diagnosis-orange" alt="Failure Diagnosis">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03354">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Analyzes functional circuits inside LLM agent memory systems across Qwen-3 scales with mem0 and A-MEM frameworks, tracing write, manage, and read circuits.<br>
+          • Discovers that routing-control circuits can emerge before content circuits in small models, and leverages feature-space separation for unsupervised stage-wise fault localization of silent memory failures.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-05</td>
+        <td style="width: 55%;"><strong>Deco: Extending Personal Physical Objects into Pervasive AI Companion through a Dual-Embodiment Framework</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Reciprocal%20Memory-brightgreen" alt="Reciprocal Memory">
+          <img src="https://img.shields.io/badge/AI%20Companion-yellow" alt="AI Companion">
+          <img src="https://img.shields.io/badge/Multimodal%20LLM-teal" alt="Multimodal LLM">
+          <img src="https://img.shields.io/badge/Augmented%20Reality-orange" alt="Augmented Reality">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.03882">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes Deco, a dual-embodiment framework extending personal physical objects into pervasive AI companions using multimodal LLMs and augmented reality with synchronized digital-physical interaction.<br>
+          • Introduces Reciprocal Memory as a design principle for sustaining emotional bonds, with a 7-day deployment study showing improvements in companionship, emotional connection, and sustained engagement.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-04-18</td>
         <td style="width: 55%;"><strong>Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution</strong></td>
