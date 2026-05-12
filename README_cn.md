@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-301-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-302-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-89-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -532,6 +532,25 @@ To systematically organize the diverse research and practical resources in the f
               • 该论文提出了 LightThinker，一种通过将冗长的推理链压缩为基于 gist tokens 的紧凑隐藏状态表示，从而实现表示层级推理压缩的方法 。<br>
               • 该论文进一步提出了 LightThinker++，一种显式自适应记忆管理框架，通过 commit、expand 和 fold 等行为原语动态调节上下文分辨率，并缓解复杂场景下的信息丢失 。<br>
               • 该工作构建了专门的轨迹合成流水线来训练有目的的记忆调度，证明了该方法在标准推理和长程智能体任务中能显著降低峰值 Token 使用量并提升性能 。
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-18</td>
+        <td style="width: 55%;"><strong>Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20System-blue" alt="Memory System">
+          <img src="https://img.shields.io/badge/Compression-brightgreen" alt="Compression">
+          <img src="https://img.shields.io/badge/Skill%20Discovery-red" alt="Skill Discovery">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.15877v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 将 agent memory、skill discovery 和 rule learning 统一为经验压缩的不同层级，定义压缩函数 C_L 将轨迹映射到 L0-L3 层级的知识（原始轨迹 → 情景记忆 → 程序性技能 → 陈述性规则）。<br>
+              • 揭示 memory 和 skill 社区深度割裂，22 篇核心论文中交叉引用率低于 1%（共 1136 条引用），提出全谱 agent 学习系统自适应选择压缩粒度。<br>
+              • 优化目标包括减少 context 消耗、降低 retrieval latency、提高跨任务/跨模型/跨场景迁移能力；工作流遵循新问题→memory、重复模式→skill、跨场景原则→rule 的循环模式。
           </td>
       </tr>
       <tr>

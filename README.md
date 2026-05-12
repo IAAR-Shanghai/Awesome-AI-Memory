@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-301-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-302-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-89-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -533,6 +533,25 @@ Papers below are ordered by **publication date**:
               • The paper introduces LightThinker, a method that achieves efficiency through representation-level thought compression by condensing lengthy reasoning chains into compact hidden states via gist tokens. <br>
               • It proposes LightThinker++, an Explicit Adaptive Memory Management framework that utilizes behavioral primitives such as commit, expand, and fold to dynamically regulate context resolution and mitigate information loss in complex scenarios. <br>
               • The work establishes a specialized trajectory synthesis pipeline to train purposeful memory scheduling, enabling significant reductions in peak token usage and performance gains in both standard reasoning and long-horizon agentic tasks.
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-18</td>
+        <td style="width: 55%;"><strong>Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20System-blue" alt="Memory System">
+          <img src="https://img.shields.io/badge/Compression-brightgreen" alt="Compression">
+          <img src="https://img.shields.io/badge/Skill%20Discovery-red" alt="Skill Discovery">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.15877v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • Unifies agent memory, skill discovery, and rule learning as different levels of experience compression, defining a compression function C_L mapping traces to knowledge at levels L0-L3 (raw trace → episodic memory → procedural skill → declarative rule). <br>
+              • Reveals that the memory and skill communities are deeply fragmented with only <1% cross-citation rate among 22 core papers (1136 citations), and proposes a full-spectrum agent learning system that adaptively selects compression granularity across levels. <br>
+              • Optimization targets include reducing context consumption, lowering retrieval latency, and improving cross-task/model/scenario migration ability; the workflow follows a cyclic pattern where new problems go to memory, repeated patterns compress to skills, and cross-scenario principles become rules.
           </td>
       </tr>
       <tr>
