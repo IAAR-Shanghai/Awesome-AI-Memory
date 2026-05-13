@@ -6888,6 +6888,27 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-12</td>
+        <td style="width: 55%;"><strong>Beyond Similarity Search: Tenure and the Case for Structured Belief State in LLM Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+          <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+          <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.11325">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Argues cross-session LLM memory is a state management problem, not a search problem, and introduces a typed belief schema with five belief types, epistemic status, versioned supersession, and a `why_it_matters` field that converts extracted facts into imperative instructions rather than declarative facts.<br>
+          • Demonstrates that cosine similarity over dense embeddings achieves mean precision of 0.12 on a 72-case retrieval suite, while alias-weighted BM25 with hard scope isolation achieves 1.0, passing 72/72 cases; under multi-turn topic drift, vector search produces drift scores of 0.43–0.50 on noise-critical turns while BM25 maintains 0.0.<br>
+          • Ships as a local-first OpenAI-compatible proxy that injects curated belief context into every LLM session transparently; includes a reusable 72-case benchmark covering alias resolution, scope disambiguation, supersession chain exclusion, and session-level noise isolation.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-06</td>
         <td style="width: 55%;"><strong>Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics</strong></td>
