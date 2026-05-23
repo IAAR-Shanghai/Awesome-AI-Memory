@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-400-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-401-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -236,6 +236,26 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-23</td>
+        <td style="width: 55%;"><strong>MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/多模态记忆-blue" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/视觉Benchmark-red" alt="Visual Benchmark">
+          <img src="https://img.shields.io/badge/评估框架-green" alt="Evaluation Framework">
+          <img src="https://img.shields.io/badge/长期记忆-orange" alt="Long-term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.15128">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 提出 MemEye，一个以视觉为中心的基准测试，用于评估多模态 Agent 的长期记忆能力，避免文本主导的"捷径"问题。<br>
+          • 设计了二维评估矩阵（X轴：场景/区域/实例/像素粒度；Y轴：原子检索/关系关联/演化合成推理深度）。<br>
+          • 引入三阶段验证闸门，确保问题无法通过文本上下文、简短字幕或超出 VLM 能力的方式被解决。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-19</td>
         <td style="width: 55%;"><strong>An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration</strong></td>

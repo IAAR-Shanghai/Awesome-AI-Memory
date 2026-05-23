@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-400-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-401-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -237,6 +237,26 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-05-23</td>
+        <td style="width: 55%;"><strong>MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/Visual%20Benchmark-red" alt="Visual Benchmark">
+          <img src="https://img.shields.io/badge/Evaluation%20Framework-green" alt="Evaluation Framework">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-orange" alt="Long-term Memory">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2605.15128">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Proposes MemEye, a visual-centric benchmark evaluating multimodal agents' long-term memory beyond text-dominated shortcuts.<br>
+          • Designs a 2D evaluation matrix (X-axis: Scene/Region/Instance/Pixel granularity; Y-axis: Atomic/Relational/Evolutionary reasoning depth).<br>
+          • Introduces three-stage validation gates ensuring questions cannot be solved via textual context, captions, or beyond VLM capabilities.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-05-19</td>
         <td style="width: 55%;"><strong>An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration</strong></td>
