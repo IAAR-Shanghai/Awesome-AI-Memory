@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-402-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-403-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-104-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -6761,6 +6761,26 @@ Papers below are ordered by **publication date**:
         • Explores the importance of episodic memory in large language models (LLMs) and proposes the construction of new benchmarks to evaluate models’ reasoning capabilities.<br>
         • The authors develop a comprehensive framework with newly designed tasks and evaluation protocols, emphasizing the need for novel training strategies to effectively integrate episodic memory.<br>
         • The framework provides a promising solution for evaluating episodic memory in LLMs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2024-12-24</td>
+      <td style="width: 55%;"><strong>Muse: A Multimodal Conversational Recommendation Dataset with Scenario-Grounded User Profiles</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Multimodal-darkorchid" alt="Multimodal">
+        <img src="https://img.shields.io/badge/Conversational%20Recommendation-mediumvioletred" alt="Conversational Recommendation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/abs/2412.18416">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces Muse, the first multimodal conversational recommendation dataset, containing 83,148 utterances across 7,000 conversations in the Clothing domain with scenario-grounded user profiles.<br>
+        • Proposes a three-stage multi-agent generation pipeline (User Profile Generator → Simulated Dialogue Generator → Dialogue Optimizer) powered by multimodal LLMs, where user profiles are derived from real-world scenarios rather than manual design, improving scalability.<br>
+        • Validates quality against four baselines (MMCONV, Redial, Inspired, PEARL) across five dimensions (naturalness, coherence, informativeness, product-context relevance, image-text consistency) and demonstrates utility by fine-tuning three MLLMs for recommendation and response generation.
       </td>
     </tr>
     <tr>
