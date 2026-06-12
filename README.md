@@ -8934,6 +8934,7 @@ Systems below are ordered by **publication date**:
 | Mnemory | 2026-05-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/fpytloun/mnemory?style=social) | https://github.com/fpytloun/mnemory<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
+| OWASP Agent Memory Guard | 2026-05-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/OWASP/www-project-agent-memory-guard?style=social) | https://github.com/OWASP/www-project-agent-memory-guard<br>https://pypi.org/project/agent-memory-guard/ |
 
 ### 🎥 Multi-media resource
 
