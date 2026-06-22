@@ -9456,6 +9456,7 @@ Systems below are ordered by **publication date**:
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
 | OWASP Agent Memory Guard | 2026-05-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/OWASP/www-project-agent-memory-guard?style=social) | https://github.com/OWASP/www-project-agent-memory-guard<br>https://pypi.org/project/agent-memory-guard/ |
 | Mimir | 2026-06-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/mimir?style=social) | https://github.com/tcconnally/mimir<br>https://perseus.observer/mimir |
+| AccInt | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=social) | https://github.com/maxbaluev/accreted-intelligence<br>https://accint.xyz/ |
 
 ### 🎥 Multi-media resource
 
