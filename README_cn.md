@@ -10031,6 +10031,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Autohand Code CLI | 2025-12-20 | ![GitHub Repo stars](https://img.shields.io/github/stars/autohandai/code-cli?style=social) | https://github.com/autohandai/code-cli<br>https://www.autohand.ai/code/ |
 | Hindsight   | 2025-12-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/vectorize-io/hindsight?style=social) | https://github.com/vectorize-io/hindsight<br>https://hindsight.vectorize.io/ |
 | MAGMA       | 2026-01-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/FredJiang0324/MAMGA?style=social) | https://github.com/FredJiang0324/MAMGA<br>No official website |
+| Vestige     | 2026-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social) | https://github.com/samvallad33/vestige<br>https://glama.ai/mcp/servers/samvallad33/vestige |
 | widemem-ai | 2026-02-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/remete618/widemem-ai?style=social) | https://github.com/remete618/widemem-ai<br>https://widemem.ai |
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
 | SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
