@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8688,6 +8688,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 本文提出AtomMem，以高价值原子事实作为长期记忆的基本表示单位，试图在保存完整对话造成的冗余开销与过度摘要导致的细节损失之间取得平衡，并降低无约束记忆更新带来的内容漂移和不稳定性。<br>
           • 系统首先由Fact Executor从长篇交互中选择性提取独立、可验证且信息密度较高的事实，再将其组织为分层事件结构和时间画像：前者保留事件级情景关系，后者跟踪用户偏好、目标及属性随时间发生的动态变化。<br>
           • 检索阶段通过关联记忆图连接分散在不同事件与时间点的事实，以支持跨会话、多跳和时间推理；LoCoMo实验显示AtomMem在多类推理任务上取得领先结果，表明原子化表示需要与事件层次、时间演化和关联检索共同使用，单纯将记忆切分为更短文本并不足以形成稳定的长期记忆。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-17</td>
+        <td style="width: 55%;"><strong>OpenRath: Session-Centered Runtime State for Agent Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Runtime-4A90E2" alt="Agent Runtime">
+          <img src="https://img.shields.io/badge/Session%20State-F5A623" alt="Session State">
+          <img src="https://img.shields.io/badge/Replay-7ED321" alt="Replay">
+          <img src="https://img.shields.io/badge/Memory%20Events-D0021B" alt="Memory Events">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.19409v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文针对现代 Agent 系统中的运行时状态碎片化问题展开研究：对话记录、工具效果、记忆事件、工作区位置、分支来源与重放证据往往分散记录，导致系统难以检查和复现。<br>
+          • OpenRath 提出类似 PyTorch 的编程模型，其核心抽象是在线程、代理和工作流之间传递的一等公民 Session 值；Session 支持分支、检查、重放、后端感知与组合，并携带对话片段、沙箱位置、血缘元数据、token 用量、待处理任务、工具证据以及记忆交互的运行时记录。<br>
+          • 通过将 fork、merge 和 replay 显式建模为运行时操作，并定义 Sandbox、Tool、Agent、Memory、Workflow 与 Selector 等组件，OpenRath 为多代理、多会话系统提供了可审计的组合模型；论文主要验证受控运行时属性，开放服务质量和记忆质量评估留待后续工作。
         </td>
       </tr>
       <tr>
