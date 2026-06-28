@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7169,6 +7169,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-19</td>
+        <td style="width: 55%;"><strong>DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Multimodal%20Data-F5A623" alt="Multimodal Data">
+          <img src="https://img.shields.io/badge/Data%20Refinement-7ED321" alt="Data Refinement">
+          <img src="https://img.shields.io/badge/Post--Training-D0021B" alt="Post-Training">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.21337v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 Agentic Data Tailoring，将多模态数据处理视为一种可学习的智能体能力，用于根据用户和下游任务意图主动精炼并结构化高熵原始数据流。<br>
+          • 为训练这种能力，作者设计了两阶段流水线，将生成式语义合成锚定在确定性的 factual anchors 上，构建覆盖五类物理与数字领域的大规模数据集，并结合监督微调与 Group Relative Policy Optimization 训练 DataClaw0-9B。<br>
+          • 论文提出 DataClaw0-val 作为数据精炼基准，并以下游 post-training 作为最终验证信号；在视频生成、真实世界 VQA 和 GUI 导航上的评估表明，高信息密度的定制数据可以在训练数据有限时提升模型适配效率。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>

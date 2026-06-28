@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7167,6 +7167,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-19</td>
+        <td style="width: 55%;"><strong>DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Multimodal%20Data-F5A623" alt="Multimodal Data">
+          <img src="https://img.shields.io/badge/Data%20Refinement-7ED321" alt="Data Refinement">
+          <img src="https://img.shields.io/badge/Post--Training-D0021B" alt="Post-Training">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.21337v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper proposes Agentic Data Tailoring, treating multimodal data processing as a learnable agentic capability that actively refines and structures high-entropy raw streams according to user and downstream-task intents.<br>
+          • To train this capability, the authors design a two-stage pipeline that grounds generative semantic synthesis in deterministic factual anchors, producing a large-scale dataset across five physical and digital domains. They train DataClaw0-9B with supervised fine-tuning and Group Relative Policy Optimization.<br>
+          • The paper introduces DataClaw0-val, a benchmark for data refinement, and uses downstream post-training as the final validation signal. Evaluations on video generation, real-world VQA, and GUI navigation show that tailored high-information-density data can improve adaptation under limited training data.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>
