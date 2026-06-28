@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7167,6 +7167,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Data%20Recipe-F5A623" alt="Data Recipe">
+          <img src="https://img.shields.io/badge/Open%20Dataset-7ED321" alt="Open Dataset">
+          <img src="https://img.shields.io/badge/Agent%20Training-D0021B" alt="Agent Training">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24855v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies how to curate training data for broadly capable agentic language models, addressing the gap left by open efforts that usually target a single benchmark and do not reveal generalizable data recipes.<br>
+          • The OpenThoughts-Agent project provides a fully open data curation pipeline and reports more than 100 controlled ablation experiments over pipeline stages, task sources, and data diversity. The resulting dataset contains 100K examples assembled for agentic model training.<br>
+          • Fine-tuning Qwen3-32B on this dataset yields 44.8% average accuracy across seven agentic benchmarks, improving by 3.9 percentage points over Nemotron-Terminal-32B. The training data also shows strong scaling behavior in compute-controlled comparisons, providing an open resource for studying how reusable agentic experience traces and task diversity shape agent training.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>

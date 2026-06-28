@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7169,6 +7169,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Data%20Recipe-F5A623" alt="Data Recipe">
+          <img src="https://img.shields.io/badge/Open%20Dataset-7ED321" alt="Open Dataset">
+          <img src="https://img.shields.io/badge/Agent%20Training-D0021B" alt="Agent Training">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24855v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究如何为具备广泛能力的 agentic language model 构造训练数据，弥补现有开放工作通常只面向单一基准、缺少可泛化数据配方的问题。<br>
+          • OpenThoughts-Agent 项目提供完全开放的数据整理流水线，并围绕流水线阶段、任务来源和数据多样性进行了 100 多组受控消融实验，最终构建出包含 100K 样本的 agentic 模型训练数据集。<br>
+          • 在该数据集上微调 Qwen3-32B 后，模型在七个 agentic benchmark 上达到 44.8% 平均准确率，相比 Nemotron-Terminal-32B 提升 3.9 个百分点；训练数据在计算受控对比中也表现出良好 scaling 特性，为研究可复用 agentic 经验轨迹与任务多样性如何影响智能体训练提供了开放资源。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>
