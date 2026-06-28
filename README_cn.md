@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8668,6 +8668,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>ShutterMuse: Capture-Time Photography Guidance with MLLMs</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/MLLM-4A90E2" alt="MLLM">
+          <img src="https://img.shields.io/badge/Photography%20Guidance-F5A623" alt="Photography Guidance">
+          <img src="https://img.shields.io/badge/Composition-7ED321" alt="Composition">
+          <img src="https://img.shields.io/badge/Pose%20Recommendation-D0021B" alt="Pose Recommendation">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25763v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究拍摄时摄影指导，同时覆盖摄影师侧的构图决策与细化，以及被摄主体侧的场景条件姿态推荐。<br>
+          • 论文提出 CaptureGuide-Bench 来评估这两类任务，并发现通用 MLLM 能做构图决策但缺乏精确的细化定位能力，而专门的美学裁剪模型虽能定位裁剪区域，却无法给出可执行的姿态指导。<br>
+          • 作者构建了包含 130K 样本、文本理由和结构化视觉标注的 CaptureGuide-Dataset，并通过监督微调和强化微调训练 ShutterMuse；实验显示其在摄影师侧表现最佳，并以较低推理成本取得有竞争力的主体侧姿态推荐效果。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>

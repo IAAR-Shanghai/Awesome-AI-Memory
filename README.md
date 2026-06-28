@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8666,6 +8666,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>ShutterMuse: Capture-Time Photography Guidance with MLLMs</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/MLLM-4A90E2" alt="MLLM">
+          <img src="https://img.shields.io/badge/Photography%20Guidance-F5A623" alt="Photography Guidance">
+          <img src="https://img.shields.io/badge/Composition-7ED321" alt="Composition">
+          <img src="https://img.shields.io/badge/Pose%20Recommendation-D0021B" alt="Pose Recommendation">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25763v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies capture-time photography guidance, covering both photographer-side composition decisions and refinement, and subject-side scene-conditioned pose recommendations.<br>
+          • It introduces CaptureGuide-Bench to evaluate these two tasks and finds that general-purpose MLLMs can make composition decisions but struggle with precise refinement localization, while specialized cropping models cannot provide actionable pose guidance.<br>
+          • The authors construct CaptureGuide-Dataset with 130K samples, textual rationales, and structured visual annotations, and train ShutterMuse with supervised and reinforcement fine-tuning. Experiments show strong photographer-side performance and competitive subject-side recommendations at lower inference cost.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>
