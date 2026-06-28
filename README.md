@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -704,6 +704,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+        <tr>
+          <td rowspan="2" style="width: 15%;">2026-06-22</td>
+          <td style="width: 55%;"><strong>KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking</strong></td>
+          <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Reranking-4A90E2" alt="Reranking">
+            <img src="https://img.shields.io/badge/Retrieval-F5A623" alt="Retrieval">
+            <img src="https://img.shields.io/badge/Cross--Attention-7ED321" alt="Cross-Attention">
+            <img src="https://img.shields.io/badge/Efficient%20Inference-D0021B" alt="Efficient Inference">
+          </td>
+          <td style="width: 15%;">
+            <a href="https://arxiv.org/pdf/2606.22807v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            • This paper presents KaLM-Reranker-V1, a fast-but-not-late-interaction reranker that decouples query and passage computation while retaining expressive relevance modeling for large-scale retrieval systems.<br>
+            • Built on an encoder-decoder architecture, the model pre-encodes passages with Matryoshka embedding pooling in the encoder, while the decoder models system instruction, user instruction, and query intent. Cross-attention then connects query context with passage representations.<br>
+            • The authors release Nano, Small, and Large variants with 0.27B, 1B, and 4B activated parameters. Experiments on BEIR, MIRACL, and LMEB show strong reranking quality and efficiency, with BEIR performance on par with strong industrial rerankers and the Nano model remaining competitive with much larger embedding models.
+          </td>
+        </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-18</td>
           <td style="width: 55%;"><strong>Multi-Agent Transactive Memory</strong></td>

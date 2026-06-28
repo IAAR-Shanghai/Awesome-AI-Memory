@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -703,6 +703,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-22</td>
+      <td style="width: 55%;"><strong>KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Reranking-4A90E2" alt="Reranking">
+        <img src="https://img.shields.io/badge/Retrieval-F5A623" alt="Retrieval">
+        <img src="https://img.shields.io/badge/Cross--Attention-7ED321" alt="Cross-Attention">
+        <img src="https://img.shields.io/badge/Efficient%20Inference-D0021B" alt="Efficient Inference">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2606.22807v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 本文提出 KaLM-Reranker-V1，一种 fast-but-not-late-interaction 重排模型，用于在大规模检索系统中解耦 query 与 passage 计算，同时保留较强的相关性建模能力。<br>
+        • 模型基于 encoder-decoder 架构：encoder 使用 Matryoshka embedding pooling 预编码 passage，decoder 建模系统指令、用户指令与 query 意图，再通过 cross-attention 连接 query 上下文和 passage 表示。<br>
+        • 作者发布 Nano、Small 和 Large 三个版本，激活参数量分别为 0.27B、1B 和 4B；在 BEIR、MIRACL 与 LMEB 上的实验显示其兼具重排质量和效率，在 BEIR 上达到与强工业 reranker 相当的表现，Nano 模型也能与大得多的 embedding 模型竞争。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-18</td>
