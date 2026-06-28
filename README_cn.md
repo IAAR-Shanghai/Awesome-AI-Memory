@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8688,6 +8688,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 本文提出AtomMem，以高价值原子事实作为长期记忆的基本表示单位，试图在保存完整对话造成的冗余开销与过度摘要导致的细节损失之间取得平衡，并降低无约束记忆更新带来的内容漂移和不稳定性。<br>
           • 系统首先由Fact Executor从长篇交互中选择性提取独立、可验证且信息密度较高的事实，再将其组织为分层事件结构和时间画像：前者保留事件级情景关系，后者跟踪用户偏好、目标及属性随时间发生的动态变化。<br>
           • 检索阶段通过关联记忆图连接分散在不同事件与时间点的事实，以支持跨会话、多跳和时间推理；LoCoMo实验显示AtomMem在多类推理任务上取得领先结果，表明原子化表示需要与事件层次、时间演化和关联检索共同使用，单纯将记忆切分为更短文本并不足以形成稳定的长期记忆。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-17</td>
+        <td style="width: 55%;"><strong>PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Multimodal%20DLM-4A90E2" alt="Multimodal DLM">
+          <img src="https://img.shields.io/badge/Parallel%20Perception-F5A623" alt="Parallel Perception">
+          <img src="https://img.shields.io/badge/Region%20Captioning-7ED321" alt="Region Captioning">
+          <img src="https://img.shields.io/badge/Visual%20Understanding-D0021B" alt="Visual Understanding">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.19534v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 PerceptionDLM，一个面向高效并行区域感知的多模态 diffusion language model，用于缓解自回归 MLLM 在多区域逐一描述时的效率瓶颈。<br>
+          • 方法通过高效提示和结构化 attention mask 同时描述多个被遮挡区域，在序列级和 token 级利用 diffusion language model 的并行解码特性。<br>
+          • 作者构建了 ParaDLC-Bench，一个每张图像包含多个区域 mask 的并行详细局部描述基准；实验表明 PerceptionDLM 在保持有竞争力的区域描述质量的同时，显著提升了多区域感知任务的推理速度。
         </td>
       </tr>
       <tr>

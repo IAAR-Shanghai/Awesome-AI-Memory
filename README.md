@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8686,6 +8686,28 @@ Papers below are ordered by **publication date**:
           • This paper introduces AtomMem, which adopts high-value atomic facts as the fundamental representational units of long-term memory. It seeks to balance the redundancy and overhead associated with preserving complete conversations against the loss of detail caused by excessive summarization, while mitigating the content drift and instability introduced by unconstrained memory updates.<br>
           • The system first employs a Fact Executor to selectively extract independent, verifiable, and information-dense facts from extended interactions, subsequently organizing them into hierarchical event structures and temporal profiles. The former preserve event-level episodic relationships, while the latter track dynamic changes in user preferences, goals, and attributes over time.<br>
           • During retrieval, an associative memory graph connects facts distributed across different events and time points to support cross-session, multi-hop, and temporal reasoning. Experiments on LoCoMo show that AtomMem achieves leading results across multiple reasoning categories, demonstrating that atomic representations must be integrated with event hierarchies, temporal evolution, and associative retrieval; merely partitioning memory into shorter text segments is insufficient to establish stable long-term memory.
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-17</td>
+        <td style="width: 55%;"><strong>PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Multimodal%20DLM-4A90E2" alt="Multimodal DLM">
+          <img src="https://img.shields.io/badge/Parallel%20Perception-F5A623" alt="Parallel Perception">
+          <img src="https://img.shields.io/badge/Region%20Captioning-7ED321" alt="Region Captioning">
+          <img src="https://img.shields.io/badge/Visual%20Understanding-D0021B" alt="Visual Understanding">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.19534v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper introduces PerceptionDLM, a multimodal diffusion language model designed for efficient parallel region perception, addressing the inefficiency of autoregressive MLLMs when captioning multiple regions sequentially.<br>
+          • The method uses efficient prompting and structured attention masking to describe multiple masked regions simultaneously, exploiting the parallel decoding property of diffusion language models at both sequence and token levels.<br>
+          • The authors build ParaDLC-Bench, a parallel detailed localized captioning benchmark with multiple region masks per image, and show that PerceptionDLM preserves competitive region-caption quality while substantially improving inference speed for multi-region perception.
         </td>
       </tr>
       <tr>
