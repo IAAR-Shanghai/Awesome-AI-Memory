@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -239,6 +239,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-18</td>
+        <td style="width: 55%;"><strong>World Action Models: A Survey</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/World%20Action%20Models-4A90E2" alt="World Action Models">
+          <img src="https://img.shields.io/badge/Survey-F5A623" alt="Survey">
+          <img src="https://img.shields.io/badge/Predictive%20Action-7ED321" alt="Predictive Action">
+          <img src="https://img.shields.io/badge/Embodied%20Agents-D0021B" alt="Embodied Agents">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.20781v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This survey defines World Action Models as embodied predictive-action models that make forecasts of the future available to action, clarifying their relationship to broader world models, video generation models, action-grounded video world models, and vision-language-action policies.<br>
+          • It organizes existing work through two views: what each method must generate, from rendered futures to latent futures and video-generation-free action reasoning; and how each method is decomposed by predictive substrate, backbone, action coupling, and deployment regime.<br>
+          • The survey analyzes interactability, causality, persistence, physical plausibility, generalization, data, and evaluation, concluding that WAMs trade representational richness against compute, memory, latency, and action-label cost as the field moves toward generating less of the future while preserving what control requires.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>

@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -239,6 +239,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+    <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-18</td>
+        <td style="width: 55%;"><strong>World Action Models: A Survey</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/World%20Action%20Models-4A90E2" alt="World Action Models">
+          <img src="https://img.shields.io/badge/Survey-F5A623" alt="Survey">
+          <img src="https://img.shields.io/badge/Predictive%20Action-7ED321" alt="Predictive Action">
+          <img src="https://img.shields.io/badge/Embodied%20Agents-D0021B" alt="Embodied Agents">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.20781v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本综述将 World Action Models 定义为面向具身场景的预测-行动模型，即让未来预测直接服务于行动，并澄清其与广义世界模型、视频生成模型、动作条件视频世界模型以及视觉-语言-动作策略之间的边界。<br>
+          • 论文从两个视角组织已有工作：一是方法需要生成什么，涵盖渲染未来、潜变量未来以及不依赖视频生成的动作推理；二是按预测基座、主干模型、动作耦合方式和部署形态拆解各类方法。<br>
+          • 综述进一步讨论可交互性、因果性、持久性、物理合理性、泛化、数据与评估，指出 WAM 的设计需要在表示丰富度、计算、记忆、延迟和动作标签成本之间权衡，领域趋势是减少对未来的显式生成，同时保留控制所需的信息。
+        </td>
+      </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>
