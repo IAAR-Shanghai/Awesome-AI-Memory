@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7169,6 +7169,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-21</td>
+        <td style="width: 55%;"><strong>PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Benchmark-4A90E2" alt="Agent Benchmark">
+          <img src="https://img.shields.io/badge/Long--Horizon%20Planning-F5A623" alt="Long-Horizon Planning">
+          <img src="https://img.shields.io/badge/Tool%20Use-7ED321" alt="Tool Use">
+          <img src="https://img.shields.io/badge/Retrieval--Limited-D0021B" alt="Retrieval-Limited">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.22388v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 PlanBench-XL，一个用于评估 LLM 工具调用智能体在大规模工具生态中进行长程规划的交互式基准，重点考察相关工具并非一开始完全可见的真实约束。<br>
+          • 该基准包含 327 个零售任务和 1,665 个工具，要求智能体迭代检索可用工具、调用工具，并利用前序调用得到的中间证据指导后续搜索和执行；同时还提供可选阻塞机制，用缺失、失败或干扰性工具函数模拟真实环境的不确定性。<br>
+          • 对十个领先 LLM 的实验表明，大规模工具规划仍然困难：GPT-5.4 在无阻塞设置下达到 51.90% 准确率，但在最严重阻塞条件下下降到 11.36%；分析显示智能体尤其容易受到隐式工具中断、缺少显式错误信号以及需要更长替代路径恢复的影响。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>

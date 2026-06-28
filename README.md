@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7167,6 +7167,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-21</td>
+        <td style="width: 55%;"><strong>PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Benchmark-4A90E2" alt="Agent Benchmark">
+          <img src="https://img.shields.io/badge/Long--Horizon%20Planning-F5A623" alt="Long-Horizon Planning">
+          <img src="https://img.shields.io/badge/Tool%20Use-7ED321" alt="Tool Use">
+          <img src="https://img.shields.io/badge/Retrieval--Limited-D0021B" alt="Retrieval-Limited">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.22388v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper introduces PlanBench-XL, an interactive benchmark for evaluating long-horizon planning by LLM tool-use agents in large tool ecosystems where the relevant tools are not fully visible upfront.<br>
+          • The benchmark contains 327 retail tasks over 1,665 tools and requires agents to iteratively retrieve usable tools, invoke them, and use intermediate evidence from earlier calls to guide subsequent search and execution. It also includes an optional blocking mechanism with missing, failing, or distracting tool functions.<br>
+          • Experiments on ten leading LLMs show that massive-tool planning remains difficult: GPT-5.4 reaches 51.90% accuracy without blocking but drops to 11.36% under the most severe blocking condition. The analysis highlights failures caused by implicit tool disruptions, missing error signals, and recovery paths that require longer alternative plans.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>
