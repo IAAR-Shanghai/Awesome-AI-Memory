@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7167,6 +7167,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-22</td>
+        <td style="width: 55%;"><strong>EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Enterprise%20Agents-4A90E2" alt="Enterprise Agents">
+          <img src="https://img.shields.io/badge/Workplace%20Sessions-F5A623" alt="Workplace Sessions">
+          <img src="https://img.shields.io/badge/Agent%20Benchmark-7ED321" alt="Agent Benchmark">
+          <img src="https://img.shields.io/badge/Semantic%20Rubrics-D0021B" alt="Semantic Rubrics">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.23654v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper introduces EnterpriseClawBench, an enterprise agent benchmark derived from proprietary real-world workplace sessions where agents read heterogeneous files, invoke tools, and deliver business artifacts.<br>
+          • Starting from a large archive of workplace sessions, the benchmark construction process produces 852 reproducible tasks, each paired with recovered fixtures, rewritten prompts, role classes, skill subclasses, hard rules, and semantic rubrics. Because the original sessions contain internal enterprise content, the paper releases the construction and evaluation protocol rather than the raw benchmark data.<br>
+          • Experiments show that the best reported configuration reaches only 0.663, demonstrating that enterprise agent evaluation must report harness-model combinations, artifact delivery, visual quality, cost, runtime, and skill-transfer behavior instead of reducing performance to a single aggregate score.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>

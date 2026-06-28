@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7169,6 +7169,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-22</td>
+        <td style="width: 55%;"><strong>EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Enterprise%20Agents-4A90E2" alt="Enterprise Agents">
+          <img src="https://img.shields.io/badge/Workplace%20Sessions-F5A623" alt="Workplace Sessions">
+          <img src="https://img.shields.io/badge/Agent%20Benchmark-7ED321" alt="Agent Benchmark">
+          <img src="https://img.shields.io/badge/Semantic%20Rubrics-D0021B" alt="Semantic Rubrics">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.23654v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 EnterpriseClawBench，一个来自企业真实工作会话的企业智能体基准，覆盖智能体读取异构文件、调用工具并交付业务产物的工作场景。<br>
+          • 该基准从大规模 workplace session 档案出发，构建 852 个可复现任务，每个任务配套恢复后的 fixtures、重写提示、角色类别、技能子类、硬规则和语义评分标准；由于原始会话包含企业内部内容，论文开放的是构建与评估协议，而非原始基准数据。<br>
+          • 实验显示最佳配置得分也仅为 0.663，说明企业智能体评估不能压缩成单一分数，而应同时报告 harness-model 组合、产物交付、视觉质量、成本、运行时间和技能迁移行为。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-17</td>
         <td style="width: 55%;"><strong>LegalWorld: A Life-Cycle Interactive Environment for Legal Agents</strong></td>
