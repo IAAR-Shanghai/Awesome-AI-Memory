@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8666,6 +8666,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Interactive%20Foundation%20Model-4A90E2" alt="Interactive Foundation Model">
+          <img src="https://img.shields.io/badge/Streaming-F5A623" alt="Streaming">
+          <img src="https://img.shields.io/badge/Audio--Visual%20Interaction-7ED321" alt="Audio-Visual Interaction">
+          <img src="https://img.shields.io/badge/Full--Duplex-D0021B" alt="Full-Duplex">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25041v2">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper presents Wan-Streamer, an end-to-end interactive foundation model for real-time, low-latency, full-duplex audio-visual interaction that models language, audio, and video as both input and output in a single Transformer.<br>
+          • The model represents streams as interleaved visual, audio, and text input tokens together with visual, audio, and text output tokens, coordinated by block-causal attention for incremental streaming. It replaces cascaded VAD, ASR, language, TTS, animation, and video-generation modules with one jointly trained model.<br>
+          • The system is redesigned around streamability with causal encoders, causal decoders, block-causal attention, and low-latency multimodal token scheduling. It supports streaming units as short as 160 ms at 25 fps and reports approximately 200 ms model-side response latency for sub-second duplex interaction.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>

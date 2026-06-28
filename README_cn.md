@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8668,6 +8668,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Interactive%20Foundation%20Model-4A90E2" alt="Interactive Foundation Model">
+          <img src="https://img.shields.io/badge/Streaming-F5A623" alt="Streaming">
+          <img src="https://img.shields.io/badge/Audio--Visual%20Interaction-7ED321" alt="Audio-Visual Interaction">
+          <img src="https://img.shields.io/badge/Full--Duplex-D0021B" alt="Full-Duplex">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25041v2">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 Wan-Streamer，一个面向实时、低延迟、全双工音视频交互的端到端交互式基础模型，在单个 Transformer 中同时把语言、音频和视频建模为输入与输出。<br>
+          • 模型将流表示为交错的视觉、音频、文本输入 token 以及视觉、音频、文本输出 token，并通过 block-causal attention 协调增量流式处理；它用联合训练的单一模型替代级联式 VAD、ASR、语言模型、TTS、动画和视频生成模块。<br>
+          • 系统围绕可流式处理重新设计，包括因果编码器、因果解码器、block-causal attention 和低延迟多模态 token 调度；其最短流式单元可达 25 fps 下 160 ms，并报告约 200 ms 的模型侧响应延迟，支持亚秒级双工交互。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>
