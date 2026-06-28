@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -704,6 +704,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+        <tr>
+          <td rowspan="2" style="width: 15%;">2026-06-23</td>
+          <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
+          <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Experience%20Learning-4A90E2" alt="Experience Learning">
+            <img src="https://img.shields.io/badge/Agent%20Memory-F5A623" alt="Agent Memory">
+            <img src="https://img.shields.io/badge/Verification-7ED321" alt="Verification">
+            <img src="https://img.shields.io/badge/Self--Evolution-D0021B" alt="Self-Evolution">
+          </td>
+          <td style="width: 15%;">
+            <a href="https://arxiv.org/pdf/2606.24428v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            • This paper studies experience-driven self-evolution for LLM agents and identifies a Self-Confirmation Trap: single-agent loops may treat wrong-but-self-consistent trajectories as successful experience, causing erroneous memories to be retrieved and reused later.<br>
+            • It proposes EDV, an Execute-Distill-Verify framework in which multiple heterogeneous agents first explore the same task space, a third-party distillation agent compares candidate trajectories to produce experience candidates, and an execution group verifies them through consensus before memory insertion.<br>
+            • By decoupling execution, experience distillation, and verification, EDV turns isolated self-reflection into collaborative experience construction and filters noisy or erroneous content before it enters shared or private memory. Experiments on tau2-bench, Mind2Web, and MMTB show consistent improvements over strong baselines, highlighting the importance of reliable memory construction for agent self-evolution.
+          </td>
+        </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-18</td>
           <td style="width: 55%;"><strong>Multi-Agent Transactive Memory</strong></td>

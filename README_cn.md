@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-501-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-502-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -703,6 +703,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Experience%20Learning-4A90E2" alt="Experience Learning">
+        <img src="https://img.shields.io/badge/Agent%20Memory-F5A623" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Verification-7ED321" alt="Verification">
+        <img src="https://img.shields.io/badge/Self--Evolution-D0021B" alt="Self-Evolution">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2606.24428v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 本文研究 LLM Agent 的经验驱动自我演化，并指出一种“自我确认陷阱”：单代理循环可能把错误但自洽的轨迹误判为成功经验，导致错误记忆在后续检索和复用中持续累积。<br>
+        • 论文提出 EDV（Execute-Distill-Verify）框架：多个异构代理先并行探索同一任务空间，第三方蒸馏代理再比较候选轨迹并生成经验候选，最后由执行组通过共识机制验证，只有通过验证的经验才会写入共享或私有记忆。<br>
+        • 通过解耦执行、经验蒸馏与验证，EDV 将孤立自反思转化为协作式经验构建，并在记忆写入前过滤噪声和错误内容；在 tau2-bench、Mind2Web 与 MMTB 上的实验显示其稳定优于强基线，强调可靠记忆构建对于 Agent 自我演化的重要性。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-18</td>
