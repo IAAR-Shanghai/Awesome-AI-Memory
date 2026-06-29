@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7235,6 +7235,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/多模态记忆-4A90E2" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/视觉基准-F5A623" alt="Visual Benchmark">
+          <img src="https://img.shields.io/badge/Agent%20Memory-7ED321" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/双重编码-D0021B" alt="Dual Coding">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.27499v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文针对 Agent Memory 评测中的多模态缺口：现有基准多测试文本回忆，而真实多模态智能体常需要记住首次观察时并未被显式标注的重要视觉细节。<br>
+          • DMV-Bench 构建了一个交互式家居电商环境，包含 1,000 个商品变体、文本泄漏控制、多会话购物链以及预先嵌入图像的视觉线索，用于之后定位曾经见过的商品。<br>
+          • 论文提出 DualMem 架构并行维护视觉与文本两类记忆编码，在 Gemini 2.5 Flash 和 Qwen2.5-VL-7B 上跨不同链长均优于纯 caption 记忆和近期多模态记忆基线。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
