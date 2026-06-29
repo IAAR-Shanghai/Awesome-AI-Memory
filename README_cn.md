@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -726,6 +726,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents over Evolving Knowledge</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/检索记忆-4A90E2" alt="Retrieval Memory">
+          <img src="https://img.shields.io/badge/时间有效性-F5A623" alt="Temporal Validity">
+          <img src="https://img.shields.io/badge/记忆更新-7ED321" alt="Memory Update">
+          <img src="https://img.shields.io/badge/RAG-D0021B" alt="RAG">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26511v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文指出 RAG 式智能体记忆存在结构性陈旧事实问题：当事实随时间变化时，向量相似度往往同时检索旧值和新值，却无法判断哪一个仍然有效。<br>
+          • MemStrata 将检索记忆维护为双时间账本，并通过确定性的主语-关系-宾语 supersession 规则淘汰过期值，而不是依赖相似度阈值。<br>
+          • 在校准的时间有效性数据集上，论文显示余弦相似度区分矛盾事实与重复事实接近随机水平，说明显式有效期追踪应成为记忆系统的基础能力。
+        </td>
+      </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-23</td>
       <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>

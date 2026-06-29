@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -726,6 +726,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents over Evolving Knowledge</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Retrieval%20Memory-4A90E2" alt="Retrieval Memory">
+          <img src="https://img.shields.io/badge/Temporal%20Validity-F5A623" alt="Temporal Validity">
+          <img src="https://img.shields.io/badge/Memory%20Update-7ED321" alt="Memory Update">
+          <img src="https://img.shields.io/badge/RAG-D0021B" alt="RAG">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26511v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper identifies stale-fact retrieval as a structural failure in RAG-style agent memory: when facts evolve, embedding similarity often retrieves both superseded and current values without knowing which remains valid.<br>
+          • MemStrata maintains retrieval memory as a bi-temporal ledger and retires stale values through deterministic subject-relation-object supersession rules instead of relying on similarity thresholds.<br>
+          • On a calibrated temporal-validity dataset, the paper shows that cosine similarity is near chance at distinguishing contradictions from duplicates, motivating explicit validity tracking as a memory-system primitive.
+        </td>
+      </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-23</td>
           <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
