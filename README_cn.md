@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8756,6 +8756,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>RAVEN: Long-Horizon Reasoning & Navigation with a Visuo-Spatio-Temporal Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/机器人记忆-4A90E2" alt="Robotic Memory">
+          <img src="https://img.shields.io/badge/视觉记忆-F5A623" alt="Visual Memory">
+          <img src="https://img.shields.io/badge/空间记忆-7ED321" alt="Spatial Memory">
+          <img src="https://img.shields.io/badge/长程任务-D0021B" alt="Long-Horizon">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25206v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究长程机器人问答与导航任务，其中记忆需要在长期部署中同时保留视觉语义、空间位置和时间线索。<br>
+          • RAVEN 将视觉 embedding 连同位姿和时间写入向量数据库，并把检索结果锚定到空间地图上，从而避免将视觉细节压缩成文本 caption 所造成的信息损失。<br>
+          • 在模拟与真实视频问答、导航设置中，RAVEN 达到或超过 caption 式记忆系统并降低检索成本，同时还在 Unitree Go1 机器人上进行了实例化。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
