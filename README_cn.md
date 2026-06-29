@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7235,7 +7235,29 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆基准-F5A623" alt="Memory Benchmark">
+          <img src="https://img.shields.io/badge/用户状态-7ED321" alt="User State">
+          <img src="https://img.shields.io/badge/记忆审计-D0021B" alt="Audit">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24595v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
       <tr>
+        <td colspan="3">
+          • 本文主张长期记忆应被评估为交互结束后可审计的记忆产物，而不只是通过后续回答准确率、个性化质量或任务成功率间接衡量。<br>
+          • MEMPROBE 为带有隐藏用户状态库的模拟用户生成辅助轨迹，在经过受控泄漏任务后，从智能体留下的 memory store 中重建这些隐藏状态，从而直接检查记忆实际保留了什么。<br>
+          • 发布的基准覆盖 50 个模拟用户、1,550 个隐藏用户状态目标和五类代表性记忆系统，揭示了在任务完成率接近饱和时仍会被掩盖的长期记忆失效。
+        </td>
+      </tr>
+     <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
