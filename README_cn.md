@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8756,6 +8756,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆整合-F5A623" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/可信记忆-7ED321" alt="Trustworthy Memory">
+          <img src="https://img.shields.io/badge/偏好学习-D0021B" alt="Preference Learning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25161v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究长期记忆 LLM Agent 的记忆整合问题：写入、修订和删除操作一旦遗漏关键信息、破坏已有记忆或写入幻觉内容，就会成为影响未来推理的持久系统状态错误。<br>
+          • TrustMem 引入 Memory Transition Verifier，从覆盖度、保留性和忠实性三个维度评估每次记忆状态转移，并在同一记忆状态下构造候选更新的偏好对，用于训练偏好引导的记忆整合策略。<br>
+          • 在 MemoryAgentBench、HaluMem 和 Mem-α 上的实验显示，TrustMem 同时提升记忆效用与可靠性，说明记忆智能体在把生成式更新提交到长期存储前，需要对状态转移本身进行验证。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>

@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8754,6 +8754,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Consolidation-F5A623" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/Trustworthy%20Memory-7ED321" alt="Trustworthy Memory">
+          <img src="https://img.shields.io/badge/Preference%20Learning-D0021B" alt="Preference Learning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25161v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies memory consolidation for long-term LLM agents, where write, revise, and delete operations can omit important evidence, corrupt existing memories, or persist hallucinated content as future system state.<br>
+          • TrustMem introduces a Memory Transition Verifier that judges each memory update by coverage, preservation, and faithfulness, then constructs preference pairs among candidate transitions under the same memory state to train a preference-guided consolidation policy.<br>
+          • Experiments on MemoryAgentBench, HaluMem, and Mem-α show that TrustMem improves both memory utility and reliability, indicating that memory agents need transition-level verification before generated updates are committed to persistent memory.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
