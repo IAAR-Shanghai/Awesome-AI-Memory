@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7233,6 +7233,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory%20Evaluation-4A90E2" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/Brittle%20Memory-F5A623" alt="Brittle Memory">
+          <img src="https://img.shields.io/badge/Correctability-7ED321" alt="Correctability">
+          <img src="https://img.shields.io/badge/Compression-D0021B" alt="Compression">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25449v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies brittle memory: a compressed memory can retain a wrong conclusion while dropping the evidence needed to correct it, making the model more confidently wrong than if memory were empty.<br>
+          • Reclaim evaluation compresses a drifted interaction under a fixed budget, then tests whether later correction can recover the known answer without using a judge-based metric.<br>
+          • Across seven models, the observed direction does not reverse; the results motivate source-first memory policies that preserve recomputable evidence before derived conclusions.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>

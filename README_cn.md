@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7235,6 +7235,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆评估-4A90E2" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/脆弱记忆-F5A623" alt="Brittle Memory">
+          <img src="https://img.shields.io/badge/可纠正性-7ED321" alt="Correctability">
+          <img src="https://img.shields.io/badge/压缩-D0021B" alt="Compression">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25449v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究 brittle memory：压缩后的记忆可能保留错误结论，却丢弃纠正该结论所需的来源证据，使模型比空记忆状态下更自信地出错。<br>
+          • Reclaim evaluation 在固定预算下压缩发生漂移的交互，再测试后续纠正能否恢复已知答案，并避免依赖模型裁判指标。<br>
+          • 在七个模型上的实验中，这一失效方向没有反转；结果支持 source-first 记忆策略，即优先保留可重新推导答案的来源证据，而不是只保留派生结论。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
