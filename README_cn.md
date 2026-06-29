@@ -240,6 +240,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20System-green" alt="Memory System">
+          <img src="https://img.shields.io/badge/Evaluation-orange" alt="Evaluation">
+          <img src="https://img.shields.io/badge/Data%20Management-purple" alt="Data Management">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24775v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文从数据管理视角研究 Agent Memory，指出面向 LLM Agent 的记忆不应只被视作检索增强组件，而应作为支持持久化存储、检索、更新、整合与生命周期治理的系统来评估。<br>
+          • 论文将 Agent 原生记忆系统拆解为四个模块：表示与存储、提取、检索与路由、维护，并在这一框架下评估了 12 个代表性记忆系统和 2 个基线，覆盖 5 类基准工作负载与 11 个数据集。<br>
+          • 实验表明不存在一种在所有场景下都占优的记忆架构，效果高度依赖记忆结构与工作负载瓶颈的匹配；细粒度消融进一步量化了表示保真度、检索精度、更新正确性和长程稳定性等因素，成本分析也显示局部维护通常比全局重组更高效。
+        </td>
+      </tr>
+    <tr>
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>
         <td style="width: 15%;">
@@ -703,6 +725,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Experience%20Learning-4A90E2" alt="Experience Learning">
+        <img src="https://img.shields.io/badge/Agent%20Memory-F5A623" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Verification-7ED321" alt="Verification">
+        <img src="https://img.shields.io/badge/Self--Evolution-D0021B" alt="Self-Evolution">
+      </td>
+      <td style="width: 15%;">
+        <a href="https://arxiv.org/pdf/2606.24428v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 本文研究 LLM Agent 的经验驱动自我演化，并指出一种“自我确认陷阱”：单代理循环可能把错误但自洽的轨迹误判为成功经验，导致错误记忆在后续检索和复用中持续累积。<br>
+        • 论文提出 EDV（Execute-Distill-Verify）框架：多个异构代理先并行探索同一任务空间，第三方蒸馏代理再比较候选轨迹并生成经验候选，最后由执行组通过共识机制验证，只有通过验证的经验才会写入共享或私有记忆。<br>
+        • 通过解耦执行、经验蒸馏与验证，EDV 将孤立自反思转化为协作式经验构建，并在记忆写入前过滤噪声和错误内容；在 tau2-bench、Mind2Web 与 MMTB 上的实验显示其稳定优于强基线，强调可靠记忆构建对于 Agent 自我演化的重要性。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-18</td>
@@ -7171,24 +7215,24 @@ Framework for Experience-Driven Agent Evolution</strong></td>
     </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
-        <td style="width: 55%;"><strong>NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?</strong></td>
+        <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Coding%20Agents-4A90E2" alt="Coding Agents">
-          <img src="https://img.shields.io/badge/Scientific%20Benchmark-F5A623" alt="Scientific Benchmark">
-          <img src="https://img.shields.io/badge/NatureGym-7ED321" alt="NatureGym">
-          <img src="https://img.shields.io/badge/Reproduction-D0021B" alt="Reproduction">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Data%20Recipe-F5A623" alt="Data Recipe">
+          <img src="https://img.shields.io/badge/Open%20Dataset-7ED321" alt="Open Dataset">
+          <img src="https://img.shields.io/badge/Agent%20Training-D0021B" alt="Agent Training">
         </td>
         <td style="width: 15%;">
-          <a href="https://arxiv.org/pdf/2606.24530v1">
+          <a href="https://arxiv.org/pdf/2606.24855v1">
             <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          • 本文提出 NatureBench，一个从 Nature 系列同行评审论文中提炼出的跨学科基准，包含 90 个任务，用于评估 coding agent 是否能够在真实科学问题上从复现走向发现。<br>
-          • NatureBench 基于 NatureGym 构建，后者能够从源论文自动生成标准化的逐任务容器化环境，缓解以往科研智能体基准中环境碎片化导致的可信度问题。<br>
-          • 在严格禁用网页搜索的协议下，论文评估了十种前沿 agent 配置；最强模型在 g&gt;0.1 标准下仅有 17.8% 的任务超过论文 SOTA，失败主要来自方法选择错误和计算预算不足，而不是任务理解失败。
+          • 本文研究如何为具备广泛能力的 agentic language model 构造训练数据，弥补现有开放工作通常只面向单一基准、缺少可泛化数据配方的问题。<br>
+          • OpenThoughts-Agent 项目提供完全开放的数据整理流水线，并围绕流水线阶段、任务来源和数据多样性进行了 100 多组受控消融实验，最终构建出包含 100K 样本的 agentic 模型训练数据集。<br>
+          • 在该数据集上微调 Qwen3-32B 后，模型在七个 agentic benchmark 上达到 44.8% 平均准确率，相比 Nemotron-Terminal-32B 提升 3.9 个百分点；训练数据在计算受控对比中也表现出良好 scaling 特性，为研究可复用 agentic 经验轨迹与任务多样性如何影响智能体训练提供了开放资源。
         </td>
       </tr>
       <tr>
@@ -8691,6 +8735,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Language%20World%20Model-4A90E2" alt="Language World Model">
+          <img src="https://img.shields.io/badge/General%20Agents-F5A623" alt="General Agents">
+          <img src="https://img.shields.io/badge/Environment%20Simulation-7ED321" alt="Environment Simulation">
+          <img src="https://img.shields.io/badge/Agentic%20RL-D0021B" alt="Agentic RL">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24597v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 Qwen-AgentWorld，一组根据观测和动作预测智能体环境动态的语言世界模型，将世界建模定位为推理、规划与可扩展智能体训练的核心机制。<br>
+          • 模型使用来自七个智能体领域、超过 1000 万条真实环境交互轨迹训练；训练流程结合持续预训练以注入世界建模能力、监督微调以激活下一状态预测，以及带混合 rubric 和规则奖励的强化学习以提升模拟保真度。<br>
+          • Qwen-AgentWorld 支持两类互补用法：作为解耦环境模拟器支撑大规模 agentic reinforcement learning，以及作为统一智能体基础模型，通过世界模型训练提升七个下游 agentic benchmark 的表现；论文还提出 AgentWorldBench，用真实交互评估语言世界模型。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>
         <td style="width: 15%;">
@@ -8710,6 +8776,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 本文提出AtomMem，以高价值原子事实作为长期记忆的基本表示单位，试图在保存完整对话造成的冗余开销与过度摘要导致的细节损失之间取得平衡，并降低无约束记忆更新带来的内容漂移和不稳定性。<br>
           • 系统首先由Fact Executor从长篇交互中选择性提取独立、可验证且信息密度较高的事实，再将其组织为分层事件结构和时间画像：前者保留事件级情景关系，后者跟踪用户偏好、目标及属性随时间发生的动态变化。<br>
           • 检索阶段通过关联记忆图连接分散在不同事件与时间点的事实，以支持跨会话、多跳和时间推理；LoCoMo实验显示AtomMem在多类推理任务上取得领先结果，表明原子化表示需要与事件层次、时间演化和关联检索共同使用，单纯将记忆切分为更短文本并不足以形成稳定的长期记忆。
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-17</td>
+        <td style="width: 55%;"><strong>OpenRath: Session-Centered Runtime State for Agent Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Runtime-4A90E2" alt="Agent Runtime">
+          <img src="https://img.shields.io/badge/Session%20State-F5A623" alt="Session State">
+          <img src="https://img.shields.io/badge/Replay-7ED321" alt="Replay">
+          <img src="https://img.shields.io/badge/Memory%20Events-D0021B" alt="Memory Events">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.19409v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文针对现代 Agent 系统中的运行时状态碎片化问题展开研究：对话记录、工具效果、记忆事件、工作区位置、分支来源与重放证据往往分散记录，导致系统难以检查和复现。<br>
+          • OpenRath 提出类似 PyTorch 的编程模型，其核心抽象是在线程、代理和工作流之间传递的一等公民 Session 值；Session 支持分支、检查、重放、后端感知与组合，并携带对话片段、沙箱位置、血缘元数据、token 用量、待处理任务、工具证据以及记忆交互的运行时记录。<br>
+          • 通过将 fork、merge 和 replay 显式建模为运行时操作，并定义 Sandbox、Tool、Agent、Memory、Workflow 与 Selector 等组件，OpenRath 为多代理、多会话系统提供了可审计的组合模型；论文主要验证受控运行时属性，开放服务质量和记忆质量评估留待后续工作。
         </td>
       </tr>
       <tr>
@@ -10035,6 +10123,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Agent Brain | 2024-12-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/kaderosio/agent-brain?style=social) | https://github.com/kaderosio/agent-brain<br>No official website |
 | Puppyone    | 2024-12-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/puppyone-ai/puppyone?style=social) | https://github.com/puppyone-ai/puppyone<br>https://www.puppyone.ai/ |
 | LangMem     | 2025-01-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=social) | https://github.com/langchain-ai/langmem<br>https://langchain-ai.github.io/langmem/ |
+| Vestige     | 2025-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social) | https://github.com/samvallad33/vestige<br>https://samvallad33.github.io/vestige/ |
 | A-Mem       | 2025-02-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) | https://github.com/agiresearch/A-mem <br>No official website |
 | Mirix       | 2025-04-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/Mirix-AI/MIRIX?style=social) | https://github.com/Mirix-AI/MIRIX<br>https://mirix.io/ |
 | MemEngine   | 2025-05-04 | ![GitHub Repo stars](https://img.shields.io/github/stars/nuster1128/MemEngine?style=social) | https://github.com/nuster1128/MemEngine<br>No official website |
@@ -10072,6 +10161,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Origin | 2026-04-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/7xuanlu/origin?style=social) | https://github.com/7xuanlu/origin<br>https://useorigin.app |
 | Omnigraph | 2026-04-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/ModernRelay/omnigraph?style=social) | https://github.com/ModernRelay/omnigraph<br>No official website |
 | Mnemory | 2026-05-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/fpytloun/mnemory?style=social) | https://github.com/fpytloun/mnemory<br>No official website |
+| kaeru | 2026-05-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/LamantinAI/kaeru?style=social) | https://github.com/LamantinAI/kaeru<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
 | Perseus | 2026-05-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/perseus?style=social) | https://github.com/tcconnally/perseus<br>https://perseus.observer/ |
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
