@@ -8733,6 +8733,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Language%20World%20Model-4A90E2" alt="Language World Model">
+          <img src="https://img.shields.io/badge/General%20Agents-F5A623" alt="General Agents">
+          <img src="https://img.shields.io/badge/Environment%20Simulation-7ED321" alt="Environment Simulation">
+          <img src="https://img.shields.io/badge/Agentic%20RL-D0021B" alt="Agentic RL">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24597v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper introduces Qwen-AgentWorld, a family of language world models that predict agentic environment dynamics from observations and actions, positioning world modeling as a core mechanism for reasoning, planning, and scalable agent training.<br>
+          • The models are trained from more than 10 million real environment interaction trajectories across seven agentic domains. The training pipeline combines continued pretraining for world-modeling capabilities, supervised fine-tuning for next-state prediction, and reinforcement learning with hybrid rubric-and-rule rewards to improve simulation fidelity.<br>
+          • Qwen-AgentWorld supports two complementary uses: as a decoupled simulator for scalable agentic reinforcement learning, and as a unified agent foundation model whose world-model training improves downstream performance across seven agentic benchmarks. The paper also introduces AgentWorldBench for evaluating language world models from real-world interactions.
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>
         <td style="width: 15%;">

@@ -8735,6 +8735,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Language%20World%20Model-4A90E2" alt="Language World Model">
+          <img src="https://img.shields.io/badge/General%20Agents-F5A623" alt="General Agents">
+          <img src="https://img.shields.io/badge/Environment%20Simulation-7ED321" alt="Environment Simulation">
+          <img src="https://img.shields.io/badge/Agentic%20RL-D0021B" alt="Agentic RL">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24597v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文提出 Qwen-AgentWorld，一组根据观测和动作预测智能体环境动态的语言世界模型，将世界建模定位为推理、规划与可扩展智能体训练的核心机制。<br>
+          • 模型使用来自七个智能体领域、超过 1000 万条真实环境交互轨迹训练；训练流程结合持续预训练以注入世界建模能力、监督微调以激活下一状态预测，以及带混合 rubric 和规则奖励的强化学习以提升模拟保真度。<br>
+          • Qwen-AgentWorld 支持两类互补用法：作为解耦环境模拟器支撑大规模 agentic reinforcement learning，以及作为统一智能体基础模型，通过世界模型训练提升七个下游 agentic benchmark 的表现；论文还提出 AgentWorldBench，用真实交互评估语言世界模型。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-18</td>
         <td style="width: 55%;"><strong>AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts</strong></td>
         <td style="width: 15%;">
