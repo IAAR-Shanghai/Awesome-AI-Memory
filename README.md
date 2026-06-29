@@ -240,6 +240,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20System-green" alt="Memory System">
+          <img src="https://img.shields.io/badge/Evaluation-orange" alt="Evaluation">
+          <img src="https://img.shields.io/badge/Data%20Management-purple" alt="Data Management">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24775v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies agent memory from a data-management perspective, arguing that memory for LLM agents should be evaluated as a system supporting persistent storage, retrieval, update, consolidation, and lifecycle governance rather than as a monolithic retrieval add-on.<br>
+          • It decomposes an agent-native memory system into four modules: representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, the authors evaluate 12 representative memory systems and two baselines across five benchmark workloads spanning 11 datasets.<br>
+          • The experiments show that no single memory architecture dominates across all settings; effectiveness depends on the alignment between memory structure and workload bottlenecks. Fine-grained ablations quantify effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability, while cost analysis shows that localized maintenance can be more efficient than global reorganization.
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-10</td>
         <td style="width: 55%;"><strong>Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application</strong></td>
         <td style="width: 15%;">
@@ -704,6 +726,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+        <tr>
+          <td rowspan="2" style="width: 15%;">2026-06-23</td>
+          <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
+          <td style="width: 15%;">
+            <img src="https://img.shields.io/badge/Experience%20Learning-4A90E2" alt="Experience Learning">
+            <img src="https://img.shields.io/badge/Agent%20Memory-F5A623" alt="Agent Memory">
+            <img src="https://img.shields.io/badge/Verification-7ED321" alt="Verification">
+            <img src="https://img.shields.io/badge/Self--Evolution-D0021B" alt="Self-Evolution">
+          </td>
+          <td style="width: 15%;">
+            <a href="https://arxiv.org/pdf/2606.24428v1">
+              <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            • This paper studies experience-driven self-evolution for LLM agents and identifies a Self-Confirmation Trap: single-agent loops may treat wrong-but-self-consistent trajectories as successful experience, causing erroneous memories to be retrieved and reused later.<br>
+            • It proposes EDV, an Execute-Distill-Verify framework in which multiple heterogeneous agents first explore the same task space, a third-party distillation agent compares candidate trajectories to produce experience candidates, and an execution group verifies them through consensus before memory insertion.<br>
+            • By decoupling execution, experience distillation, and verification, EDV turns isolated self-reflection into collaborative experience construction and filters noisy or erroneous content before it enters shared or private memory. Experiments on tau2-bench, Mind2Web, and MMTB show consistent improvements over strong baselines, highlighting the importance of reliable memory construction for agent self-evolution.
+          </td>
+        </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-18</td>
           <td style="width: 55%;"><strong>Multi-Agent Transactive Memory</strong></td>
@@ -7168,25 +7212,25 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
      <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-21</td>
-        <td style="width: 55%;"><strong>PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems</strong></td>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Agent%20Benchmark-4A90E2" alt="Agent Benchmark">
-          <img src="https://img.shields.io/badge/Long--Horizon%20Planning-F5A623" alt="Long-Horizon Planning">
-          <img src="https://img.shields.io/badge/Tool%20Use-7ED321" alt="Tool Use">
-          <img src="https://img.shields.io/badge/Retrieval--Limited-D0021B" alt="Retrieval-Limited">
+          <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
+          <img src="https://img.shields.io/badge/Data%20Recipe-F5A623" alt="Data Recipe">
+          <img src="https://img.shields.io/badge/Open%20Dataset-7ED321" alt="Open Dataset">
+          <img src="https://img.shields.io/badge/Agent%20Training-D0021B" alt="Agent Training">
         </td>
         <td style="width: 15%;">
-          <a href="https://arxiv.org/pdf/2606.22388v1">
+          <a href="https://arxiv.org/pdf/2606.24855v1">
             <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          • This paper introduces PlanBench-XL, an interactive benchmark for evaluating long-horizon planning by LLM tool-use agents in large tool ecosystems where the relevant tools are not fully visible upfront.<br>
-          • The benchmark contains 327 retail tasks over 1,665 tools and requires agents to iteratively retrieve usable tools, invoke them, and use intermediate evidence from earlier calls to guide subsequent search and execution. It also includes an optional blocking mechanism with missing, failing, or distracting tool functions.<br>
-          • Experiments on ten leading LLMs show that massive-tool planning remains difficult: GPT-5.4 reaches 51.90% accuracy without blocking but drops to 11.36% under the most severe blocking condition. The analysis highlights failures caused by implicit tool disruptions, missing error signals, and recovery paths that require longer alternative plans.
+          • This paper studies how to curate training data for broadly capable agentic language models, addressing the gap left by open efforts that usually target a single benchmark and do not reveal generalizable data recipes.<br>
+          • The OpenThoughts-Agent project provides a fully open data curation pipeline and reports more than 100 controlled ablation experiments over pipeline stages, task sources, and data diversity. The resulting dataset contains 100K examples assembled for agentic model training.<br>
+          • Fine-tuning Qwen3-32B on this dataset yields 44.8% average accuracy across seven agentic benchmarks, improving by 3.9 percentage points over Nemotron-Terminal-32B. The training data also shows strong scaling behavior in compute-controlled comparisons, providing an open resource for studying how reusable agentic experience traces and task diversity shape agent training.
         </td>
       </tr>
      <tr>
@@ -8711,6 +8755,28 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-17</td>
+        <td style="width: 55%;"><strong>OpenRath: Session-Centered Runtime State for Agent Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Runtime-4A90E2" alt="Agent Runtime">
+          <img src="https://img.shields.io/badge/Session%20State-F5A623" alt="Session State">
+          <img src="https://img.shields.io/badge/Replay-7ED321" alt="Replay">
+          <img src="https://img.shields.io/badge/Memory%20Events-D0021B" alt="Memory Events">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.19409v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper addresses fragmented runtime state in modern agent systems, where transcripts, tool effects, memory events, workspace placement, branch provenance, and replay evidence are often recorded separately and become difficult to inspect or reproduce.<br>
+          • OpenRath introduces a PyTorch-like programming model whose central abstraction is a first-class Session value passed between agents and workflows. A Session is branchable, inspectable, replayable, backend-aware, and composable, carrying conversation chunks, sandbox placement, lineage metadata, token usage, pending work, tool evidence, and the runtime record of memory interactions.<br>
+          • By making fork, merge, and replay explicit runtime operations, and by defining Sandbox, Tool, Agent, Memory, Workflow, and Selector components, OpenRath provides an auditable composition model for multi-agent, multi-session systems. The report focuses on controlled runtime properties, leaving broader live-provider quality and memory-quality evaluation to follow-on work.
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-16</td>
         <td style="width: 55%;"><strong>FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness</strong></td>
         <td style="width: 15%;">
@@ -10053,6 +10119,7 @@ Systems below are ordered by **publication date**:
 | Agent Brain | 2024-12-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/kaderosio/agent-brain?style=social) | https://github.com/kaderosio/agent-brain<br>No official website |
 | Puppyone    | 2024-12-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/puppyone-ai/puppyone?style=social) | https://github.com/puppyone-ai/puppyone<br>https://www.puppyone.ai/ |
 | LangMem     | 2025-01-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=social) | https://github.com/langchain-ai/langmem<br>https://langchain-ai.github.io/langmem/ |
+| Vestige     | 2025-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social) | https://github.com/samvallad33/vestige<br>https://samvallad33.github.io/vestige/ |
 | A-Mem       | 2025-02-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) | https://github.com/agiresearch/A-mem <br>No official website |
 | Mirix       | 2025-04-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/Mirix-AI/MIRIX?style=social) | https://github.com/Mirix-AI/MIRIX<br>https://mirix.io/ |
 | MemEngine   | 2025-05-04 | ![GitHub Repo stars](https://img.shields.io/github/stars/nuster1128/MemEngine?style=social) | https://github.com/nuster1128/MemEngine<br>No official website |
@@ -10090,6 +10157,7 @@ Systems below are ordered by **publication date**:
 | Origin | 2026-04-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/7xuanlu/origin?style=social) | https://github.com/7xuanlu/origin<br>https://useorigin.app |
 | Omnigraph | 2026-04-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/ModernRelay/omnigraph?style=social) | https://github.com/ModernRelay/omnigraph<br>No official website |
 | Mnemory | 2026-05-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/fpytloun/mnemory?style=social) | https://github.com/fpytloun/mnemory<br>No official website |
+| kaeru | 2026-05-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/LamantinAI/kaeru?style=social) | https://github.com/LamantinAI/kaeru<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
 | Perseus | 2026-05-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/perseus?style=social) | https://github.com/tcconnally/perseus<br>https://perseus.observer/ |
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
