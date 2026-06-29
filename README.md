@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8754,6 +8754,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>RAVEN: Long-Horizon Reasoning & Navigation with a Visuo-Spatio-Temporal Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Robotic%20Memory-4A90E2" alt="Robotic Memory">
+          <img src="https://img.shields.io/badge/Visual%20Memory-F5A623" alt="Visual Memory">
+          <img src="https://img.shields.io/badge/Spatial%20Memory-7ED321" alt="Spatial Memory">
+          <img src="https://img.shields.io/badge/Long-Horizon-D0021B" alt="Long-Horizon">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25206v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies long-horizon robotic question answering and navigation, where memory must preserve visual semantics together with spatial and temporal grounding across extended deployment.<br>
+          • RAVEN stores visual embeddings with pose and time in a vector database and grounds retrieval in a spatial map, avoiding lossy image-to-text captioning for visually specific memories.<br>
+          • Across simulated and real-world video QA and navigation settings, RAVEN matches or exceeds caption-based memory systems while reducing retrieval cost, and is instantiated on a Unitree Go1 robot.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
