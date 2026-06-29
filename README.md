@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -239,6 +239,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Survey-4A90E2" alt="Survey">
+          <img src="https://img.shields.io/badge/Agent%20Privacy-F5A623" alt="Agent Privacy">
+          <img src="https://img.shields.io/badge/Data%20Governance-7ED321" alt="Data Governance">
+          <img src="https://img.shields.io/badge/Memory%20Risk-D0021B" alt="Memory Risk">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26627v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This survey frames privacy in LLM agents from a data-centric perspective, focusing on the data an agent queries, stores, remembers, exchanges, and acts upon rather than only on attack categories.<br>
+          • It organizes risks across databases, document collections, APIs, cross-session memory, intermediate workflow state, and multi-agent communication, showing how sensitive information can leak before the final response is produced.<br>
+          • The paper highlights that agent privacy requires lifecycle-level controls over memory writes, retrieval, delegation, logging, and tool use, making persistent state and data governance central to safe agent deployment.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
