@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -726,6 +726,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆安全-4A90E2" alt="Memory Security">
+          <img src="https://img.shields.io/badge/记忆投毒-F5A623" alt="Memory Poisoning">
+          <img src="https://img.shields.io/badge/形式化验证-7ED321" alt="Formal Verification">
+          <img src="https://img.shields.io/badge/权限控制-D0021B" alt="Authority Control">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24322v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究 LLM Agent 的长期记忆投毒问题：攻击者可在一个会话中写入不可信内容，并在未来会话中诱导支付、设置修改或数据外传等关键动作。<br>
+          • TMA-NM 将记忆权限绑定到写入时的真实来源，并使该权限在自我摘要、可信工具回声和伪造佐证等洗白通道中不可被降低，同时提供机器检查的 TLA+ 模型。<br>
+          • 跨防御、跨攻击和跨模型基准显示，现有基于内容或 lineage 的防御会在洗白攻击下失效，而 TMA-NM 能阻断直接与洗白攻击，并保持合法记忆使用能力。
+        </td>
+      </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-23</td>
       <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
