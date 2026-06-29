@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -7233,6 +7233,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Multimodal%20Memory-4A90E2" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/Visual%20Benchmark-F5A623" alt="Visual Benchmark">
+          <img src="https://img.shields.io/badge/Agent%20Memory-7ED321" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Dual%20Coding-D0021B" alt="Dual Coding">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.27499v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper targets a gap in agent-memory evaluation: most benchmarks test textual recall, while multimodal agents often need to remember visual details that were incidental when first observed.<br>
+          • DMV-Bench builds an interactive home-furnishing e-commerce environment with 1,000 product variants, text-leakage controls, multi-session shopping chains, and baked-in visual cues that later identify a previously seen product.<br>
+          • The proposed DualMem architecture keeps visual and verbal memory codes in parallel and outperforms caption-only and recent multimodal memory baselines across chain lengths on Gemini 2.5 Flash and Qwen2.5-VL-7B.
+        </td>
+      </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
