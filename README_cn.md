@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -726,6 +726,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/端侧智能体-4A90E2" alt="On-Device Agents">
+          <img src="https://img.shields.io/badge/记忆治理-F5A623" alt="Memory Governance">
+          <img src="https://img.shields.io/badge/持续学习-7ED321" alt="Continual Learning">
+          <img src="https://img.shields.io/badge/遗忘机制-D0021B" alt="Forgetting">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25115v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究端侧 LLM Agent 的经验记忆问题：记忆受到 RAM、能耗、上行带宽和投毒风险约束，因此不能无界累积。<br>
+          • 该方法把记忆预算视为策展器：为每条经验计算单位字节净价值，将预期效用与危害、存储和共享成本合并，用同一准则决定保留、共享和信任。<br>
+          • 通过把淘汰、节点间共享和安全过滤统一到预算感知规则下，论文将遗忘重新定义为持续学习中的主动治理机制，而不是记忆能力缺陷。
+        </td>
+      </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-23</td>
       <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>

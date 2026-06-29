@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -726,6 +726,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/On-Device%20Agents-4A90E2" alt="On-Device Agents">
+          <img src="https://img.shields.io/badge/Memory%20Governance-F5A623" alt="Memory Governance">
+          <img src="https://img.shields.io/badge/Continual%20Learning-7ED321" alt="Continual Learning">
+          <img src="https://img.shields.io/badge/Forgetting-D0021B" alt="Forgetting">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25115v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies on-device LLM agents whose experience memory is constrained by RAM, energy, uplink bandwidth, and poisoning risk, making unbounded accumulation impractical.<br>
+          • The method treats the memory budget as a curator: each experience is scored by net value per byte, combining expected utility with harm, storage, and sharing costs to decide what to keep, share, and trust.<br>
+          • By unifying eviction, peer sharing, and safety filtering under one budget-aware rule, the work reframes forgetting as an active governance mechanism for continual learning rather than a failure of memory.
+        </td>
+      </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-23</td>
           <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
