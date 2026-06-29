@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8754,6 +8754,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Governed Shared Memory for Multi-Agent LLM Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Shared%20Memory-4A90E2" alt="Shared Memory">
+          <img src="https://img.shields.io/badge/Multi-Agent%20Systems-F5A623" alt="Multi-Agent Systems">
+          <img src="https://img.shields.io/badge/Memory%20Governance-7ED321" alt="Memory Governance">
+          <img src="https://img.shields.io/badge/Provenance-D0021B" alt="Provenance">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24535v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper frames shared memory for fleets of LLM agents as a governed distributed-systems problem involving scoped access, temporal correctness, provenance, synchronization, and policy-controlled propagation.<br>
+          • The proposed architecture defines primitives for scoped retrieval, temporal supersession, provenance tracking, and policy-governed memory propagation, and instantiates them in the production multi-tenant service MemClaw.<br>
+          • ArgusFleet live evaluation reconstructs all tested depth-four provenance chains and surfaces practical enforcement issues, showing why long-context retrieval alone is insufficient for production multi-agent memory.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>

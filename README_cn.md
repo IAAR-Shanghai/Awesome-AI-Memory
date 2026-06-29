@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-507-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-508-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-107-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -8756,6 +8756,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>Governed Shared Memory for Multi-Agent LLM Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/共享记忆-4A90E2" alt="Shared Memory">
+          <img src="https://img.shields.io/badge/多智能体系统-F5A623" alt="Multi-Agent Systems">
+          <img src="https://img.shields.io/badge/记忆治理-7ED321" alt="Memory Governance">
+          <img src="https://img.shields.io/badge/来源追踪-D0021B" alt="Provenance">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24535v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文将 LLM Agent 集群中的共享记忆定义为受治理的分布式系统问题，核心涉及范围化访问、时间正确性、来源追踪、同步和策略控制传播。<br>
+          • 论文提出范围化检索、时间 supersession、来源追踪和策略治理传播等系统原语，并在生产级多租户记忆服务 MemClaw 中实现这些机制。<br>
+          • ArgusFleet 现场评估重建了全部测试的四跳来源链，同时暴露了实际权限路径和管线顺序问题，说明仅依赖长上下文检索不足以支撑生产级多智能体记忆。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
