@@ -8843,6 +8843,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>Bridging the Post-discharge Gap: A Traceable Multi-agent Framework for Safe and Continuous Care</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Medical%20Agents-4A90E2" alt="Medical Agents">
+          <img src="https://img.shields.io/badge/Multi-Agent%20Systems-F5A623" alt="Multi-Agent Systems">
+          <img src="https://img.shields.io/badge/Memory%20Enhanced-7ED321" alt="Memory Enhanced">
+          <img src="https://img.shields.io/badge/Traceability-D0021B" alt="Traceability">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25334v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper addresses post-discharge follow-up, where safe continuous care requires agents to reason over longitudinal patient-specific constraints rather than answer isolated medical questions.<br>
+          • Healink is a memory-enhanced multi-agent framework with triage routing, unified memory, and prescription-grounded response generation, designed to keep follow-up advice traceable to patient history and care instructions.<br>
+          • Retrospective and physician-blinded evaluations report improved completeness and perceived clinical utility, making the work relevant as a domain-specific example of memory-governed agent deployment.
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
         <td style="width: 15%;">

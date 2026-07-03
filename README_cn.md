@@ -8823,6 +8823,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-24</td>
+        <td style="width: 55%;"><strong>Bridging the Post-discharge Gap: A Traceable Multi-agent Framework for Safe and Continuous Care</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/医疗智能体-4A90E2" alt="Medical Agents">
+          <img src="https://img.shields.io/badge/多智能体系统-F5A623" alt="Multi-Agent Systems">
+          <img src="https://img.shields.io/badge/记忆增强-7ED321" alt="Memory Enhanced">
+          <img src="https://img.shields.io/badge/可追溯性-D0021B" alt="Traceability">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25334v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文面向出院后随访场景，强调安全连续护理要求智能体基于纵向患者约束进行推理，而不是回答孤立医学问题。<br>
+          • Healink 是一个记忆增强的多智能体框架，包含分诊路由、统一记忆和基于处方证据的回复生成，使随访建议能够追溯到患者历史与护理指令。<br>
+          • 回顾性和医生盲评实验显示，该系统提升了回复完整性和感知临床效用，因此可作为记忆治理型智能体在垂直医疗场景中的系统案例。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
         <td style="width: 15%;">
