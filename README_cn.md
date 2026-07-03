@@ -726,6 +726,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20RAG-4A90E2" alt="Agentic RAG">
+          <img src="https://img.shields.io/badge/红队测试-F5A623" alt="Red Teaming">
+          <img src="https://img.shields.io/badge/记忆引导搜索-7ED321" alt="Memory Guided Search">
+          <img src="https://img.shields.io/badge/安全-D0021B" alt="Security">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26793v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究多模态 agentic RAG 系统的红队测试问题，其攻击面同时包含检索文本、图像注入、直接用户查询以及编排器层面的工具操纵。<br>
+          • MIRROR 将成功攻击轨迹组成的情景记忆库与蒙特卡洛树搜索结合：检索到的记忆提供搜索先验，而确定性的 novelty gate 阻止复用已知或已检索攻击模板。<br>
+          • 在四类攻击面上，该框架通过确定性 replay 或结构化工具调用解析来验证候选攻击，使记忆引导的对抗搜索更有效，同时减少对重复模板的依赖。
+        </td>
+      </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-23</td>
       <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>

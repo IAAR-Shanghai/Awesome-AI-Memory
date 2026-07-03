@@ -726,6 +726,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20RAG-4A90E2" alt="Agentic RAG">
+          <img src="https://img.shields.io/badge/Red%20Teaming-F5A623" alt="Red Teaming">
+          <img src="https://img.shields.io/badge/Memory%20Guided%20Search-7ED321" alt="Memory Guided Search">
+          <img src="https://img.shields.io/badge/Security-D0021B" alt="Security">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26793v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies red-teaming for multimodal agentic RAG systems whose attack surface spans retrieved text, images, direct user queries, and orchestrator-level tool manipulation.<br>
+          • MIRROR combines an episodic memory bank of successful attack traces with Monte Carlo tree search; retrieved memories provide search priors, while a deterministic novelty gate blocks copying from known or retrieved attacks.<br>
+          • Across four attack surfaces, the framework validates candidates through deterministic replay or structured tool-call parsing, aiming to make memory-guided adversarial search both more effective and less dependent on recycled templates.
+        </td>
+      </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-23</td>
           <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
