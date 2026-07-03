@@ -239,6 +239,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/综述-4A90E2" alt="Survey">
+          <img src="https://img.shields.io/badge/Agent%20隐私-F5A623" alt="Agent Privacy">
+          <img src="https://img.shields.io/badge/数据治理-7ED321" alt="Data Governance">
+          <img src="https://img.shields.io/badge/记忆风险-D0021B" alt="Memory Risk">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26627v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文从数据中心视角综述 LLM Agent 的隐私问题，关注智能体查询、存储、记忆、交换并据此行动的数据，而不只是按攻击类型分类。<br>
+          • 论文围绕数据库、文档集合、API、跨会话记忆、中间工作流状态和多智能体通信组织风险，指出敏感信息可能在最终回答生成前就通过多种路径泄露。<br>
+          • 该综述强调 Agent 隐私需要覆盖记忆写入、检索、委托、日志和工具调用的全生命周期控制，因此持久状态与数据治理是安全部署的核心问题。
+        </td>
+      </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
@@ -726,6 +748,28 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20RAG-4A90E2" alt="Agentic RAG">
+          <img src="https://img.shields.io/badge/红队测试-F5A623" alt="Red Teaming">
+          <img src="https://img.shields.io/badge/记忆引导搜索-7ED321" alt="Memory Guided Search">
+          <img src="https://img.shields.io/badge/安全-D0021B" alt="Security">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26793v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究多模态 agentic RAG 系统的红队测试问题，其攻击面同时包含检索文本、图像注入、直接用户查询以及编排器层面的工具操纵。<br>
+          • MIRROR 将成功攻击轨迹组成的情景记忆库与蒙特卡洛树搜索结合：检索到的记忆提供搜索先验，而确定性的 novelty gate 阻止复用已知或已检索攻击模板。<br>
+          • 在四类攻击面上，该框架通过确定性 replay 或结构化工具调用解析来验证候选攻击，使记忆引导的对抗搜索更有效，同时减少对重复模板的依赖。
+        </td>
+      </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-06-23</td>
       <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
@@ -7235,29 +7279,29 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
-      <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-24</td>
-        <td style="width: 55%;"><strong>Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One</strong></td>
+       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/记忆评估-4A90E2" alt="Memory Evaluation">
-          <img src="https://img.shields.io/badge/脆弱记忆-F5A623" alt="Brittle Memory">
-          <img src="https://img.shields.io/badge/可纠正性-7ED321" alt="Correctability">
-          <img src="https://img.shields.io/badge/压缩-D0021B" alt="Compression">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆基准-F5A623" alt="Memory Benchmark">
+          <img src="https://img.shields.io/badge/用户状态-7ED321" alt="User State">
+          <img src="https://img.shields.io/badge/记忆审计-D0021B" alt="Audit">
         </td>
         <td style="width: 15%;">
-          <a href="https://arxiv.org/pdf/2606.25449v1">
+          <a href="https://arxiv.org/pdf/2606.24595v1">
             <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          • 本文研究 brittle memory：压缩后的记忆可能保留错误结论，却丢弃纠正该结论所需的来源证据，使模型比空记忆状态下更自信地出错。<br>
-          • Reclaim evaluation 在固定预算下压缩发生漂移的交互，再测试后续纠正能否恢复已知答案，并避免依赖模型裁判指标。<br>
-          • 在七个模型上的实验中，这一失效方向没有反转；结果支持 source-first 记忆策略，即优先保留可重新推导答案的来源证据，而不是只保留派生结论。
+          • 本文主张长期记忆应被评估为交互结束后可审计的记忆产物，而不只是通过后续回答准确率、个性化质量或任务成功率间接衡量。<br>
+          • MEMPROBE 为带有隐藏用户状态库的模拟用户生成辅助轨迹，在经过受控泄漏任务后，从智能体留下的 memory store 中重建这些隐藏状态，从而直接检查记忆实际保留了什么。<br>
+          • 发布的基准覆盖 50 个模拟用户、1,550 个隐藏用户状态目标和五类代表性记忆系统，揭示了在任务完成率接近饱和时仍会被掩盖的长期记忆失效。
         </td>
       </tr>
-      <tr>
+     <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
@@ -8778,6 +8822,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆整合-F5A623" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/可信记忆-7ED321" alt="Trustworthy Memory">
+          <img src="https://img.shields.io/badge/偏好学习-D0021B" alt="Preference Learning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25161v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究长期记忆 LLM Agent 的记忆整合问题：写入、修订和删除操作一旦遗漏关键信息、破坏已有记忆或写入幻觉内容，就会成为影响未来推理的持久系统状态错误。<br>
+          • TrustMem 引入 Memory Transition Verifier，从覆盖度、保留性和忠实性三个维度评估每次记忆状态转移，并在同一记忆状态下构造候选更新的偏好对，用于训练偏好引导的记忆整合策略。<br>
+          • 在 MemoryAgentBench、HaluMem 和 Mem-α 上的实验显示，TrustMem 同时提升记忆效用与可靠性，说明记忆智能体在把生成式更新提交到长期存储前，需要对状态转移本身进行验证。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>

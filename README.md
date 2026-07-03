@@ -240,6 +240,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Survey-4A90E2" alt="Survey">
+          <img src="https://img.shields.io/badge/Agent%20Privacy-F5A623" alt="Agent Privacy">
+          <img src="https://img.shields.io/badge/Data%20Governance-7ED321" alt="Data Governance">
+          <img src="https://img.shields.io/badge/Memory%20Risk-D0021B" alt="Memory Risk">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26627v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This survey frames privacy in LLM agents from a data-centric perspective, focusing on the data an agent queries, stores, remembers, exchanges, and acts upon rather than only on attack categories.<br>
+          • It organizes risks across databases, document collections, APIs, cross-session memory, intermediate workflow state, and multi-agent communication, showing how sensitive information can leak before the final response is produced.<br>
+          • The paper highlights that agent privacy requires lifecycle-level controls over memory writes, retrieval, delegation, logging, and tool use, making persistent state and data governance central to safe agent deployment.
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
         <td style="width: 15%;">
@@ -726,6 +748,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agentic%20RAG-4A90E2" alt="Agentic RAG">
+          <img src="https://img.shields.io/badge/Red%20Teaming-F5A623" alt="Red Teaming">
+          <img src="https://img.shields.io/badge/Memory%20Guided%20Search-7ED321" alt="Memory Guided Search">
+          <img src="https://img.shields.io/badge/Security-D0021B" alt="Security">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.26793v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies red-teaming for multimodal agentic RAG systems whose attack surface spans retrieved text, images, direct user queries, and orchestrator-level tool manipulation.<br>
+          • MIRROR combines an episodic memory bank of successful attack traces with Monte Carlo tree search; retrieved memories provide search priors, while a deterministic novelty gate blocks copying from known or retrieved attacks.<br>
+          • Across four attack surfaces, the framework validates candidates through deterministic replay or structured tool-call parsing, aiming to make memory-guided adversarial search both more effective and less dependent on recycled templates.
+        </td>
+      </tr>
         <tr>
           <td rowspan="2" style="width: 15%;">2026-06-23</td>
           <td style="width: 55%;"><strong>Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning</strong></td>
@@ -7234,25 +7278,47 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-24</td>
-        <td style="width: 55%;"><strong>Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One</strong></td>
+        <td rowspan="2" style="width: 15%;">2026-06-25</td>
+        <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Memory%20Evaluation-4A90E2" alt="Memory Evaluation">
-          <img src="https://img.shields.io/badge/Brittle%20Memory-F5A623" alt="Brittle Memory">
-          <img src="https://img.shields.io/badge/Correctability-7ED321" alt="Correctability">
-          <img src="https://img.shields.io/badge/Compression-D0021B" alt="Compression">
+          <img src="https://img.shields.io/badge/Multimodal%20Memory-4A90E2" alt="Multimodal Memory">
+          <img src="https://img.shields.io/badge/Visual%20Benchmark-F5A623" alt="Visual Benchmark">
+          <img src="https://img.shields.io/badge/Agent%20Memory-7ED321" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Dual%20Coding-D0021B" alt="Dual Coding">
         </td>
         <td style="width: 15%;">
-          <a href="https://arxiv.org/pdf/2606.25449v1">
+          <a href="https://arxiv.org/pdf/2606.27499v1">
             <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          • This paper studies brittle memory: a compressed memory can retain a wrong conclusion while dropping the evidence needed to correct it, making the model more confidently wrong than if memory were empty.<br>
-          • Reclaim evaluation compresses a drifted interaction under a fixed budget, then tests whether later correction can recover the known answer without using a judge-based metric.<br>
-          • Across seven models, the observed direction does not reverse; the results motivate source-first memory policies that preserve recomputable evidence before derived conclusions.
+          • This paper targets a gap in agent-memory evaluation: most benchmarks test textual recall, while multimodal agents often need to remember visual details that were incidental when first observed.<br>
+          • DMV-Bench builds an interactive home-furnishing e-commerce environment with 1,000 product variants, text-leakage controls, multi-session shopping chains, and baked-in visual cues that later identify a previously seen product.<br>
+          • The proposed DualMem architecture keeps visual and verbal memory codes in parallel and outperforms caption-only and recent multimodal memory baselines across chain lengths on Gemini 2.5 Flash and Qwen2.5-VL-7B.
+        </td>
+      </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Benchmark-F5A623" alt="Memory Benchmark">
+          <img src="https://img.shields.io/badge/User%20State-7ED321" alt="User State">
+          <img src="https://img.shields.io/badge/Audit-D0021B" alt="Audit">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24595v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper argues that long-term memory should be evaluated as an auditable post-interaction artifact, not only through downstream personalization quality, task success, or later answer accuracy.<br>
+          • MEMPROBE simulates assistance trajectories for users with hidden taxonomy-anchored state banks, then reconstructs those hidden states from the memory left by an agent after leak-controlled tasks.<br>
+          • The released benchmark covers 50 simulated users and 1,550 hidden user-state targets across five representative memory systems, revealing failures that remain invisible when task completion is already near saturation.
         </td>
       </tr>
      <tr>
@@ -8776,6 +8842,28 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Consolidation-F5A623" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/Trustworthy%20Memory-7ED321" alt="Trustworthy Memory">
+          <img src="https://img.shields.io/badge/Preference%20Learning-D0021B" alt="Preference Learning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25161v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper studies memory consolidation for long-term LLM agents, where write, revise, and delete operations can omit important evidence, corrupt existing memories, or persist hallucinated content as future system state.<br>
+          • TrustMem introduces a Memory Transition Verifier that judges each memory update by coverage, preservation, and faithfulness, then constructs preference pairs among candidate transitions under the same memory state to train a preference-guided consolidation policy.<br>
+          • Experiments on MemoryAgentBench, HaluMem, and Mem-α show that TrustMem improves both memory utility and reliability, indicating that memory agents need transition-level verification before generated updates are committed to persistent memory.
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
