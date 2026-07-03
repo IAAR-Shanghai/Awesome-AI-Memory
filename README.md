@@ -7235,6 +7235,28 @@ Papers below are ordered by **publication date**:
     </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--Term%20Memory-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/Memory%20Benchmark-F5A623" alt="Memory Benchmark">
+          <img src="https://img.shields.io/badge/User%20State-7ED321" alt="User State">
+          <img src="https://img.shields.io/badge/Audit-D0021B" alt="Audit">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.24595v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • This paper argues that long-term memory should be evaluated as an auditable post-interaction artifact, not only through downstream personalization quality, task success, or later answer accuracy.<br>
+          • MEMPROBE simulates assistance trajectories for users with hidden taxonomy-anchored state banks, then reconstructs those hidden states from the memory left by an agent after leak-controlled tasks.<br>
+          • The released benchmark covers 50 simulated users and 1,550 hidden user-state targets across five representative memory systems, revealing failures that remain invisible when task completion is already near saturation.
+        </td>
+      </tr>
+     <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Agentic%20Data-4A90E2" alt="Agentic Data">
