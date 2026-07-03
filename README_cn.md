@@ -7235,29 +7235,29 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
-      <tr>
-        <td rowspan="2" style="width: 15%;">2026-06-25</td>
-        <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
+       <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/多模态记忆-4A90E2" alt="Multimodal Memory">
-          <img src="https://img.shields.io/badge/视觉基准-F5A623" alt="Visual Benchmark">
-          <img src="https://img.shields.io/badge/Agent%20Memory-7ED321" alt="Agent Memory">
-          <img src="https://img.shields.io/badge/双重编码-D0021B" alt="Dual Coding">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆基准-F5A623" alt="Memory Benchmark">
+          <img src="https://img.shields.io/badge/用户状态-7ED321" alt="User State">
+          <img src="https://img.shields.io/badge/记忆审计-D0021B" alt="Audit">
         </td>
         <td style="width: 15%;">
-          <a href="https://arxiv.org/pdf/2606.27499v1">
+          <a href="https://arxiv.org/pdf/2606.24595v1">
             <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
           </a>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          • 本文针对 Agent Memory 评测中的多模态缺口：现有基准多测试文本回忆，而真实多模态智能体常需要记住首次观察时并未被显式标注的重要视觉细节。<br>
-          • DMV-Bench 构建了一个交互式家居电商环境，包含 1,000 个商品变体、文本泄漏控制、多会话购物链以及预先嵌入图像的视觉线索，用于之后定位曾经见过的商品。<br>
-          • 论文提出 DualMem 架构并行维护视觉与文本两类记忆编码，在 Gemini 2.5 Flash 和 Qwen2.5-VL-7B 上跨不同链长均优于纯 caption 记忆和近期多模态记忆基线。
+          • 本文主张长期记忆应被评估为交互结束后可审计的记忆产物，而不只是通过后续回答准确率、个性化质量或任务成功率间接衡量。<br>
+          • MEMPROBE 为带有隐藏用户状态库的模拟用户生成辅助轨迹，在经过受控泄漏任务后，从智能体留下的 memory store 中重建这些隐藏状态，从而直接检查记忆实际保留了什么。<br>
+          • 发布的基准覆盖 50 个模拟用户、1,550 个隐藏用户状态目标和五类代表性记忆系统，揭示了在任务完成率接近饱和时仍会被掩盖的长期记忆失效。
         </td>
       </tr>
-      <tr>
+     <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>OpenThoughts-Agent: Data Recipes for Agentic Models</strong></td>
         <td style="width: 15%;">
@@ -8778,6 +8778,28 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-06-23</td>
+        <td style="width: 55%;"><strong>TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-4A90E2" alt="Long-Term Memory">
+          <img src="https://img.shields.io/badge/记忆整合-F5A623" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/可信记忆-7ED321" alt="Trustworthy Memory">
+          <img src="https://img.shields.io/badge/偏好学习-D0021B" alt="Preference Learning">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2606.25161v1">
+            <img src="https://img.shields.io/badge/arXiv-Paper-D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文研究长期记忆 LLM Agent 的记忆整合问题：写入、修订和删除操作一旦遗漏关键信息、破坏已有记忆或写入幻觉内容，就会成为影响未来推理的持久系统状态错误。<br>
+          • TrustMem 引入 Memory Transition Verifier，从覆盖度、保留性和忠实性三个维度评估每次记忆状态转移，并在同一记忆状态下构造候选更新的偏好对，用于训练偏好引导的记忆整合策略。<br>
+          • 在 MemoryAgentBench、HaluMem 和 Mem-α 上的实验显示，TrustMem 同时提升记忆效用与可靠性，说明记忆智能体在把生成式更新提交到长期存储前，需要对状态转移本身进行验证。
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>Qwen-AgentWorld: Language World Models for General Agents</strong></td>
