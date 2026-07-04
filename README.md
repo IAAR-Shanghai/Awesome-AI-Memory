@@ -10489,6 +10489,7 @@ Join our community to ask questions, share your projects, and connect with other
 - **GitHub Pull Requests**: Contribute code improvements via <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pulls" target="_blank">Pull Requests</a>.
 - **GitHub Discussions**: Participate in our <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/discussions" target="_blank">GitHub Discussions</a> to ask questions or share ideas.
 - **WeChat**: Scan the QR code below to join our discussion group, get the latest research information related to Memory, or promote your related research results.
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: static context templates (wiki, mental-models, voice, protocols) for giving AI agents persistent personal context. Complements dynamic memory systems. MIT.
 
 <!-- <div style="text-align: center;">
   <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
