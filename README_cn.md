@@ -106,6 +106,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 近期热点研究与新闻
++ 2026-07-06 - 🎉 更新25篇论文，数据集和评估基准类5篇，方法类与框架类23篇
 + 2026-06-21 - 🎉 更新27篇论文，模型和系统类9篇，数据集和评估基准类5篇，方法类与框架类13篇
 + 2026-06-14 - 🎉 更新24篇论文，综述类2篇，模型和系统类4篇，数据集和评估基准类2篇，方法类与框架类16篇
 + 2026-06-06 - 🎉 更新45篇论文，综述类1篇，模型和系统类6篇，数据集和评估基准类12篇，方法类与框架类26篇
@@ -748,6 +749,420 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆漂移-blue" alt="记忆漂移">
+          <img src="https://img.shields.io/badge/个性化-brightgreen" alt="个性化">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02374v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • DRIFTLENS 是一个无需真值标签的框架，将每个表达出的推理步骤映射到一个价值本体符号，并测量问题在"无记忆"轨迹与"注入用户属性记忆"轨迹之间的偏离，揭示出个性化记忆会悄然重塑模型的推理方式（"符号漂移"），而不仅仅是其答案。<br>
+          • 使用价值本体和两个漂移指标（DTW 和 SRI），在一个不可验证、与人设无关的问题基准上测量个性化 LLM 在记忆扰动下的逐实例推理稳定性，并评估基于 GRPO 和 DPO 的后训练作为缓解手段。<br>
+          • 在四个 LLM 和 10 个用户属性类别上，无关的人设记忆引起中到大的推理漂移（Cohen's d ≈ 0.35–0.98）；GRPO 和 DPO 都能减少漂移但均不占绝对优势（例如在 Gemma2-2B 上 GRPO 将 DTW 降至 0.186 vs. 0.309；DPO 在 Qwen3-4B 上达到 0.204）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/KV记忆-blue" alt="KV记忆">
+          <img src="https://img.shields.io/badge/持续学习-brightgreen" alt="持续学习">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02010v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将持续的多模态 LLM 适应重构为预算受限的在线诱导集选择：任务增量被存储为与注意力兼容的外部 KV 记忆（一个冻结的检索键加上紧凑的逐层 KV 载荷），注入自注意力，在严格固定的记忆预算下保持骨干冻结。<br>
+          • 固定占用的 MLLM 持续适应（任务增量微调、持续 VQA、领域增量、终身微调）；提取可直接用于注意力的记忆条目，并通过双层优化（内层检索校准；外层权重选择）构建紧凑的诱导集。<br>
+          • 在预算相当的条件下持续超越 PEFT、MoE、回放和提示检索基线；在 UCIT 上相较 HiDe-LLaVA 提升 0.88 Avg/1.12 Last，在 COIN 上提升 1.35/1.43，并将持续 VQA 的 AP 从 51.34 提升至 52.64（优于 CL-MoE），在 VQACL 上超越 QUAD。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-blue" alt="长期记忆">
+          <img src="https://img.shields.io/badge/状态感知-brightgreen" alt="状态感知">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01935v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 识别出"幽灵记忆"——一种状态协调失败，其中旧的、当前的和过渡态的事实共存并误导答案——并提出 A-TMA（自适应真值维护审计），一个状态感知的叠加层，将记忆解耦为三个可诊断的层级（记忆库维护、检索、回答时消解）。<br>
+          • 用户事实变化下的长期智能体记忆；A-TMA 用带类型的链接保留被取代/过渡记录（一个轻量的 Sentry 门控加上一个 Qwen2.5-3B 评判器），构建状态对齐的证据包，并将问答以显式标签为条件，同时提出一个冲突密集的新基准 LTP（LoCoMo Temporal Plus）。<br>
+          • 在 LTP 上，Graphiti/Zep +A-TMA 将冲突准确率绝对提升 0.240（0.480→0.720），InsideOut+A-TMA 将准确率从 0.117 提升至 0.662；在 LoCoMo 上，Graphiti/Zep +A-TMA 将时间 F1 从 0.0295 提升至 0.1705。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-blue" alt="长期记忆">
+          <img src="https://img.shields.io/badge/个性化检索-brightgreen" alt="个性化检索">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00017v2">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 画像引导的个性化检索优化（PPRO）通过将派生的用户画像嵌入作为显式的个性化先验注入检索排序分数，使长期对话记忆检索既具用户感知又可优化。<br>
+          • 个性化长期对话问答；PPRO 离线构建情景与语义记忆库以及用户画像，执行画像引导的双路检索，并用 GRPO 以证据检索与答案质量为奖励训练一个查询改写器，同时保持记忆库和回答模型冻结。<br>
+          • 在 LoCoMo 上，PPRO 在三个骨干模型上均取得最佳总体 F1，以 7–19 个百分点胜过此前最佳的 SimpleMem（例如 GPT-4o 总体 F1 48.16 vs. 40.87）；在 LongMemEval-S 上达到 81.5 的总体准确率，而最佳基线为 75.9。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>ISM: Self-Improving Strategy Memory for Continual Mathematical Reasoning</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/策略记忆-blue" alt="策略记忆">
+          <img src="https://img.shields.io/badge/持续学习-brightgreen" alt="持续学习">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.31191v3">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 智能图式记忆（ISM）是一种自演化的外部记忆，通过维护一个紧凑、有界的策略图式库（双重表示：稳定内容 + 在线自适应特征钩子），让冻结的 LLM 在硬性回合重置下提升数学推理能力，其中每次更新都由符号验证把关。<br>
+          • 在参数冻结的流式回合协议下进行持续数学推理；ISM 采用两阶段检索（算子过滤 + 软打分）、对称的成功/失败学习，以及七种自我改进机制加上条件化的图式合成。<br>
+          • 在 300 回合的流上，MATH-Hard 达 80.67%、OlympiadBench 达 61.67%，各以 +2.00 个百分点胜过最强基线，同时存储的图式分别减少 64% 和 86%（条目最多减少 23×），并在 OlympiadBench 上取得正向后向迁移（+0.03）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>Multi-Head Recurrent Memory Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/循环记忆-blue" alt="循环记忆">
+          <img src="https://img.shields.io/badge/长上下文-brightgreen" alt="长上下文">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01523v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将循环记忆性能分解为"捕获"与"保持"，诊断出保持是主导瓶颈（由单块整体记忆造成），并提出多头循环记忆（MHM）——一个免训练框架，将记忆划分为独立的头，采用分阶段的"先选择再更新"策略，从结构上保护未选中的头不被覆写。<br>
+          • 在 100K–1M token 上进行可靠的长上下文推理；MHM-LRU 是一个轻量实例，每步选择最近最少更新的头，保证各头利用均匀，零额外 token 开销且无需重训。<br>
+          • 在 896K token 的 RULER-HQA 上，MHM-LRU 将保持率从小于30% 提升至 73.96%、准确率提升至 49.74%（vs. MemAgent 21.62%、原生 LLM 0.00%）；在 1M token 的 BABILong 上达到 41.41% vs. MemAgent 的 25.26%，在基线崩溃之处仍保持稳定。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>AUTOMEM: Automated Learning of Memory as a Cognitive Skill</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/元记忆-brightgreen" alt="元记忆">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01224v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 通过将文件系统操作（读/写/搜索/追加/创建）提升为与任务动作并列的一等记忆动作，将记忆管理重构为一项可独立训练的"元记忆"技能，然后经由元-LLM 驱动的外层循环，沿脚手架结构与模型熟练度两个维度自动化地改进它。<br>
+          • 长程程序化生成游戏（Crafter、MiniHack、NetHack）；循环 1（元-LLM 修订智能体脚手架/文件模式）和循环 2（元-LLM 甄选优质记忆决策，对一个专门的"记忆专家"进行 LoRA 微调，同时游戏模型保持冻结）。<br>
+          • 仅优化记忆就在 Qwen2.5-32B 基座上带来约 2×–4× 的提升——Crafter 25.0→51.36%、MiniHack 7.5→30.0%、NetHack 0.42→1.85%——使该 32B 模型达到 Claude Opus 4.5 和 Gemini 3.1 Pro Thinking 等前沿系统的水平。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>Imprint: Online Memory Compression for Long-Horizon Egocentric QA</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆压缩-blue" alt="记忆压缩">
+          <img src="https://img.shields.io/badge/第一人称问答-brightgreen" alt="第一人称问答">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00696v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Imprint 将长程第一人称记忆重构为一个在线记忆压缩问题（而非分层文本摘要），将观测表示为结构化的交互记录，并用受认知启发的重现性、近因性和独特性信号对其进行整合。<br>
+          • 长程第一人称问答；通过 Qwen2.5-7B-Instruct 将字幕解析为（人物、动作、物体、时间戳）记录，将其归组为事件原型，为重要性打分，并在线整合为紧凑的面向检索的记忆。<br>
+          • 在 EgoLifeQA 7 天基准上，将问答准确率从 31.0% 提升至 35.8%，将有据可依的准确率从 10.8% 提升至 64.8%（比 EgoRAG 多 6× 的证据支撑答案），同时将记忆占用降低 2.3×（109 MB vs. 254 MB）、检索延迟降低 11.8×（1.7 秒 vs. 20.1 秒/查询）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-30</td>
+      <td style="width: 55%;"><strong>From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆架构-blue" alt="记忆架构">
+          <img src="https://img.shields.io/badge/语言涌现-brightgreen" alt="语言涌现">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00233v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 证明在使用冻结 LLM 智能体的 Lewis 信号博弈中，对语言涌现而言记忆架构比信道容量更重要——一个持久的私有笔记本让智能体能够外化习得的约定，从而避免无状态智能体中出现的高容量崩溃。<br>
+          • 一个双智能体指称信号博弈（发送方/接收方从零协调一套编码），用 gpt-5.4-mini 运行；在从 4 到 125 的信道容量下比较五种记忆架构（仅记忆、环境板、便签本、码本、码本元）。<br>
+          • 便签本笔记实现了最可靠的协调（容量=25 时为 0.867 ± 0.023），而无状态的"仅记忆"在 cap=25 达到峰值后崩溃（cap=64 时冲突为 1.0）；信息瓶颈点（cap=8）是一个双峰脆弱点，而非组合性最优点。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-30</td>
+      <td style="width: 55%;"><strong>The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/记忆更新-brightgreen" alt="记忆更新">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.31121v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Janus 是一个与方法无关的插件式记忆控制器，把每次候选记忆更新都视为"接受/拒绝"的部署决策，将"记忆动量触发器"（何时比较新旧记忆）与由覆盖、边界和新鲜任务构成的紧凑混合评估集（在什么上比较）结合起来。<br>
+          • 面向任务求解智能体的顺序演化 LLM 记忆；Janus 包裹现有的记忆更新器（如 DC-RS、ExpeL）而不改变其更新规则，利用记忆更新轨迹的方向性偏离来触发成本有界的新旧对比验证。<br>
+          • 在六个数据集、两个 LLM（Qwen3-8B、DeepSeek-V4-Flash）和两个更新器上，Janus 将平均准确率提升 +2.7 至 +4.6 个百分点（例如在 Qwen3-8B 上 DC-RS 79.5→83.2、ExpeL 78.3→81.5）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Forensic Trajectory Signatures for Agent Memory Poisoning Detection</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆投毒-blue" alt="记忆投毒">
+          <img src="https://img.shields.io/badge/智能体安全-brightgreen" alt="智能体安全">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.30566v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 发现一个由机制强制产生的行为不变量（"发送邮件前先回忆事实"），持久性记忆投毒攻击会将其印刻在 LLM 智能体的工具调用轨迹上，从而无需访问记忆内容、模型权重或激活值，仅凭操作级工具日志即可检测。<br>
+          • 通过从触发会话工具日志中提取 19 个轨迹特征并训练 LR/RF/GBM 分类器来检测记忆通道（延迟触发）投毒，在跨 9 个模型（7B–120B）的 2,520 次运行上，经 5 折交叉验证、BCa 自助法和留一模型验证进行评估。<br>
+          • 单条不变量规则本身即达到 AUC=0.9563；完整的随机森林达到 AUC=0.9904（Recall 0.984），在 6/9 的跨模型留出上 AUC=1.000，并可零重训迁移到 GPT-4.1/GPT-4o；仅用前缀的变体达到 AUC=0.934，可用于在线拦截。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/程序性记忆-blue" alt="程序性记忆">
+          <img src="https://img.shields.io/badge/激活引导-brightgreen" alt="激活引导">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29824v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • NPM 是一个免训练框架，将智能体的程序性记忆表示为残差流中的隐式激活引导向量，而非显式文本指令，这些向量从双粒度对比经验中蒸馏而来，以克服 RAG 注入指南的"文本-动作脱节"问题。<br>
+          • 面向 LLM 智能体的程序性记忆；从对比的成功/失败轨迹预先计算引导向量，然后检索并动态合成一个任务特定向量，在推理时注入以调制推理与动作选择，无需参数更新或上下文扩展。<br>
+          • 在四个基准（ALFWorld、WebShop、ScienceWorld、BabyAI）上，NPM 匹敌/超越显式文本基线（例如 MiniCPM3-4B 均值 22.60→28.87；Qwen3-8B 30.63→36.32），而混合的 NPM+Workflows 设置总体最佳（Qwen3-8B 均值 41.89，ALFWorld 66.42%）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Mandol: An Agglomerative Agent Memory System for Long-Term Conversations</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/长期对话-brightgreen" alt="长期对话">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29778v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Mandol 将碎片化的向量/图记忆整合为统一的记忆原生架构，结合了分层记忆模型、原生融合键值/向量/图存储的凝聚式 SemanticMap/SemanticGraph 结构，以及一种无需调用 LLM 即可运行的定量检索机制。<br>
+          • 长期跨会话对话记忆；用查询自适应路由、基于 MAD 的去噪/冲突消解，以及在内存统一存储（配合 DuckDB 持久化）上的 MMR token 受限上下文生成，取代 RAG 式的"先召回再排序"。<br>
+          • 在 LoCoMo（92.21%）和 LongMemEval（88.40%）上取得最佳总体准确率，在 10 QPS 负载下平均检索加速约 5.4×、平均插入加速约 4.8×，相较 EverMemOS 削减 token 17.4–20.0%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-28</td>
+      <td style="width: 55%;"><strong>Manufactured Confidence: How Memory Consolidation Turns Hearsay into Confident Facts</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆整合-blue" alt="记忆整合">
+          <img src="https://img.shields.io/badge/记忆投毒-brightgreen" alt="记忆投毒">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29279v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 诊断出"人为制造的自信"——记忆整合产品（mem0、LangMem）会把含糊、随口的言论改写成自信、带日期的独立"事实"，智能体随后照单全收；表明智能体依据措辞的自信程度而非来源，且无需攻击者。<br>
+          • 使用无需评判的访问控制与预算审批智能体，跨五个模型/四个供应商隔离该失败，对 mem0、LangMem 及逐字存储对照运行相同的投毒协议，并测试措辞方式、来源归属、不确定性标签以及一个保留含糊语气的抽取提示。<br>
+          • mem0 和 LangMem 以 100% 的比例将含糊注入"洗白"为自信事实（逐字对照为 0%）；自信措辞授予未授权访问约 0.81，而含糊语气则坍缩至约 0.00；冗余目录可将错误授予恢复为 0.00，保留含糊语气的抽取将错误授予从 0.45 降至 0.10。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-28</td>
+      <td style="width: 55%;"><strong>Selective Memory Retention for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆保留-blue" alt="记忆保留">
+          <img src="https://img.shields.io/badge/长程智能体-brightgreen" alt="长程智能体">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29178v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • TraceRetain 是面向冻结 LLM 智能体的轻量级容量受限记忆保留框架，通过可解释特征（成功度、年龄、访问频率、冗余度、特异性、相似度、下游效用）为记忆条目打分，并驱逐得分最低者。<br>
+          • 将外部记忆管理表述为 ALFWorld 上的容量受限保留问题（gpt-5-mini，ReAct 风格），在 75% 干扰项的噪声写入压力下，将 TraceRetain-Linear/CEM 与缓存启发式（FIFO/LRU/LFU/Random/Ebbinghaus）及无界记忆进行比较。<br>
+          • 在干净的 ALFWorld 上各方法趋于饱和（47–49/50 vs. 无记忆 39/50）；在噪声写入下，无界与 FIFO 的 Precision@5 崩溃，而 TraceRetain-CEM 保持稳定（16.9%→16.6%）并保住 97/100 的任务成功率，且有界 K=50 可媲美无界 K=100。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-27</td>
+      <td style="width: 55%;"><strong>Memory as an Attack Surface in LLM Agents: A Study on Multiple-Choice Question Answering</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆攻击-blue" alt="记忆攻击">
+          <img src="https://img.shields.io/badge/智能体安全-brightgreen" alt="智能体安全">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29030v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将 LLM 智能体的外部记忆视为攻击面，表明通过普通自然语言交互插入的误导性或被污染的记忆，即使在当前查询是干净的情况下，也能悄然改变智能体的答案。<br>
+          • 构建一个由规划器引导、带外部记忆的 LLM 问答智能体用于四选一多选题，然后施加两种攻击——虚假信息记忆注入和基于交互的答案选项引导——覆盖机器学习、网络安全和网络领域，在 GPT-5.4/GPT-4o mini、Gemma2-9B 和 Phi3-14B 上进行。<br>
+          • 干净基线平均为 91.85%（闭卷）vs. 77.10%（开卷）；虚假记忆注入导致 82/1064 个答案改变（7.80% 攻击成功率），Phi3-14B 最脆弱（网络安全领域偏移 34.48%）；反馈强化对答案的偏置作用大于示例暴露。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/记忆更新-blue" alt="记忆更新">
+          <img src="https://img.shields.io/badge/强化学习环境-brightgreen" alt="强化学习环境">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.27472v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将"取代"（保持已变更事实的当前值）确立为一种独立、可训练的失败模式，并发布 Supersede——首个奖励直接针对事实时效性而非代理指标的强化学习环境，将 FAMA 指标重构为稠密训练信号。<br>
+          • 在有界、自维护的记忆下处理长多会话对话中的被取代事实；在 LongMemEval 知识更新子集上诊断该差距，并通过对 Qwen2.5-3B 进行 GRPO 微调、配以程序化的取代感知奖励来将其训练缩小。<br>
+          • 有界记忆使前沿 gpt-5.4 的知识更新准确率从 92% 降至 77%（p=0.0033）；随对话增长 24×，准确率进一步从 68% 降至 28%；GRPO 训练在真实未见对话上将留出的取代准确率几乎翻倍（9.0%→16.7%）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents over Evolving Knowledge</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/时效性-blue" alt="时效性">
+          <img src="https://img.shields.io/badge/检索记忆-brightgreen" alt="检索记忆">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.26511v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • MemStrata 通过在双时态账本中的确定性（主语、关系、宾语）取代规则来维护时效性——无需相似度阈值、读取路径上无需调用 LLM 即可淘汰陈旧事实——并有一个证明支撑：余弦相似度无法区分矛盾与重复（AUROC 0.59）。<br>
+          • 在演化知识（代码重命名、配置/依赖/API 变更）下保持智能体记忆最新；像 RAG 一样存储事实以实现完整的静态召回，但对被矛盾的值进行取代，在本地 7B 模型上跨 6 个基准完全确定性地评估。<br>
+          • 在静态知识上与 RAG 打平，但在演化知识上达到 0.95–1.00 准确率，而 RAG 仅为 0.20–0.47（2–5× 提升），将陈旧事实错误率从 15–40% 降至约 0%，并比 LLM 重排基线快约 8×（约 2.1 秒 vs. 约 16–18 秒）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-24</td>
+      <td style="width: 55%;"><strong>Memory Makes the Difference: Evaluating How Different Memory Roles Shape Conversational Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/会话记忆-blue" alt="会话记忆">
+          <img src="https://img.shields.io/badge/记忆分类法-brightgreen" alt="记忆分类法">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.25361v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 提出首个按功能角色划分的细粒度会话记忆分类法（回答型、澄清型、丰富型、干扰型、无关型），并配以以用户为中心、上下文感知的"LLM 作为评判者"评估框架，涵盖准确性、相关性与信息量。<br>
+          • 在两个长期多会话数据集（LongMemEval-m、Long-MT-Bench+）上对会话式 RAG 进行受控对比实验，使用三种前沿 LLM 和三种检索器，改变上下文规模与记忆类型组成。<br>
+          • 澄清型记忆可靠地提升事实准确性；干扰型记忆显著损害准确性/相关性；无关型记忆降低主题相关性；随上下文增长性能先升后降（信息过载），且回答型记忆始终不可或缺。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Reasoning as Attractor Dynamics: Latent Memory Retrieval via Gibbs-Weighted Energy Minimization</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/联想记忆-blue" alt="联想记忆">
+          <img src="https://img.shields.io/badge/测试时计算-brightgreen" alt="测试时计算">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24543v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将 LLM 推理重新表述为从稠密联想记忆中的检索——正确推理链为平坦极小值的吸引子盆地，幻觉为尖锐极小值——并引入"Gibbs 加权盆地选择"算子，按谱熵的平方反比（W ∝ E⁻²）对采样路径重新加权。<br>
+          • 数学推理（GSM8K）；采样 K 条高温轨迹，将每条路径的轨迹能量计算为长度归一化的 NLL，然后通过事后 Gibbs 测度重新加权，以"弛豫"进入主导吸引子盆地。<br>
+          • 在 GSM8K 上用 Phi-3.5-mini（3.8B），Gibbs 加权检索（K=12）达到 90.07%，而标准采样/多数投票为 84.69%、贪心解码为 78.4%——相较自洽性提升 +5.38%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/推理记忆-blue" alt="推理记忆">
+          <img src="https://img.shields.io/badge/混合智能体-brightgreen" alt="混合智能体">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24437v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 一个记忆增强的混合智能体框架，构建于"排序推理记忆"之上，通过一个比较式的评审智能体持久地存储/排序跨层推理轨迹，并搭配"精选多样化记忆路由"以同时保持推理质量与探索多样性。<br>
+          • 可扩展的多智能体 LLM 推理；每一层由评审智能体带理由地比较打分轨迹，后续智能体接收不同的高/低/对比轨迹子集，并可选地用前沿模型（GPT-5.5）LoRA 蒸馏流水线来升级评审智能体。<br>
+          • 在五个推理基准（MATH、MMLU-redux、Formal Logic、CRUX、HellaSwag）上持续超越以往 MoA 变体，且差距随深度加大——例如 MATH 在 L=9 时：ReM-MoA* 84.0% vs. AttentionMoA 76.9% vs. 标准 MoA 61.0%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-19</td>
+      <td style="width: 55%;"><strong>When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/轨迹检索-brightgreen" alt="轨迹检索">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.28376v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • OSU-Mem 将智能体轨迹记忆组织为重叠的语义单元，并进行预算受限的由粗到细检索；通过单元格条件分析表明，仅当证据步骤共享工具调用或实体（T+E+）时重叠才有帮助，而当二者都不共享（T−E−）时重叠反而有害。<br>
+          • 在严格 token 预算下从长程 LLM 智能体轨迹中进行预算受限检索；从实体/工具/子目标/相似度视图构建 OSU，再进行查询自适应的质心打分扩展，在合成基准、τ-bench 和 ToolBench 上以 2×2（工具/实体）交叉列联表进行评估。<br>
+          • 在合成基准上，B=256 时相较最强基线 Recall +39.9%、Hit@2 +61.5%；在 τ-bench 上于 T+E+ 取胜但在 T−E− 落败；在 ToolBench 上重叠构建以单调的剂量-响应关系胜过不相交构建。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-05-30</td>
+      <td style="width: 55%;"><strong>Memory Shot for Long-Term Dialogue</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/对话记忆-blue" alt="对话记忆">
+          <img src="https://img.shields.io/badge/视觉记忆-brightgreen" alt="视觉记忆">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.28338v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • MemShot 将原始对话片段直接渲染为结构化的视觉"记忆快照"（保留说话者轮次、时间戳和轮次边界的图像），并利用 MLLM 的内部视觉推理能力，避免了脆弱、笨重的基于文本的记忆构建。<br>
+          • 长期对话记忆增强问答；将对话切分为连续片段，把每个片段渲染为分层的"标题+聊天"视觉单元，检索 top-k 单元（Qwen3-VL-Embedding-8B），并用 Qwen3-VL-Instruct MLLM（2B/8B/32B）生成答案。<br>
+          • 在 LoCoMo（32B 时总体准确率 79.61）和 LongMemEval（32B 时总体准确率 74.80）上表现从有竞争力到更优，同时记忆构建速度快约 70×（≈9.56 秒），并以超过 10% 的优势击败视觉记忆基线 MemOCR。
+      </td>
+  </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-25</td>
         <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
@@ -7279,6 +7694,78 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>MemSyco-Bench: Benchmarking Sycophancy in Agent Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/基准测试-blue" alt="基准测试">
+          <img src="https://img.shields.io/badge/谄媚-brightgreen" alt="谄媚">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01071v2">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 识别并形式化"记忆诱发的谄媚"（智能体以牺牲事实准确性为代价过度迎合检索到的历史用户记忆），并推出 MemSyco-Bench，将评估从检索成功转向检索后的决策校准。<br>
+          • 一个包含五类任务的基准——客观事实判断、上下文范围控制、记忆-证据冲突、有效记忆选择、个性化记忆使用——由模拟的多轮对话构建；跨多个骨干模型评估记忆系统（Mem0、A-Mem、MemGPT、MemoryBank、LightMem、SuperMemory、NaiveRAG）。<br>
+          • 记忆持续加剧谄媚——DeepSeek-V4-Flash 的事实准确率从 56.1% 降至 40.2%，谄媚率从 24.3% 升至 52.3%；记忆系统会降低客观事实准确率（Qwen3-8B 降至 26–36%）；现有基准的错误主要由检索失败主导（47.4%–66.1%）。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/长程-brightgreen" alt="长程">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02255v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 引入一种有界记忆"契约"，其中每个决策提示都由来自五个类型化层（L1–L5）的类型化检索新鲜组装而成，不附加任何原始的跨决策记录，从而在任意长的运行中保持提示有界，并使每个记忆层可单独消融。<br>
+          • 研究显式记忆层如何塑造长程 LLM 智能体的决策，在随机卡牌构筑游戏《Slay the Spire 2》中实例化；发布一个可复现的测试平台，包含 298 条完成的轨迹，带有条件标签、冻结的记忆/技能快照、提示记录和分析脚本。<br>
+          • 在固定 A0 的消融中，无存储基线赢 3/10 局，加入触发式战略技能层（L5）后赢 6/10 局（方向性，Fisher 精确检验 p≈0.37）；一个公开的前沿 LLM 基准报告在 A0 下五种配置均零胜，而开发者报告的人类胜率为 16%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/长期记忆-blue" alt="长期记忆">
+          <img src="https://img.shields.io/badge/基准测试-brightgreen" alt="基准测试">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24595v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 首个直接将长期智能体记忆作为可审计的交互后产物来评估的基准——从智能体留下的记忆中重建用户隐藏的、以分类法为锚的状态——而不仅仅通过间接的下游任务成功来评估。<br>
+          • 记忆恢复基准；配备记忆的智能体帮助模拟用户完成受泄漏控制的任务，之后在全量存储（dump_all）和 top-k（retrieve）两种访问模式下，重建每个隐藏的用户状态维度并对照真值打分。<br>
+          • 涵盖 50 个模拟用户 × 31 个隐藏维度（1,550 个目标）和 5 个记忆系统，任务完成度几近饱和（~99.9%），而类别平衡的恢复度保持中等（全量存储 B≈0.611–0.624，在 top-k 下降至 0.473–0.540），其中情景/关系记忆最难。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/智能体记忆-blue" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/基准测试-brightgreen" alt="基准测试">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24775v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 将 LLM 智能体记忆重构为一个数据管理系统，并提出一个分析框架，将其分解为四个核心模块（表示与存储、抽取、检索与路由、维护），并配以对现有系统的结构化分类法。<br>
+          • 系统性实验研究，在统一测试平台上跨 5 种工作负载 / 11 个数据集对 12 个代表性记忆系统加 2 个参考基线进行基准测试，评估任务有效性、检索保真度、动态更新鲁棒性、长程稳定性和运行成本，并进行逐模块消融。<br>
+          • 没有单一架构占绝对优势——有效性取决于记忆结构与工作负载瓶颈之间的契合；基于图的方法最可靠地处理更新，而仅追加存储会返回陈旧事实；高度结构化的系统会带来数量级更高的延迟，却没有相应的准确率提升。
+      </td>
+  </tr>
        <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
