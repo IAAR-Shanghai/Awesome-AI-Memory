@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-07-06 - 🎉 Updated 25 papers, including 4 on Datasets & Benchmark, and 23 on Framework & Methods
 + 2026-06-14 - 🎉 Updated 24 papers, including 2 on Survey, 4 on Systems & Models, 2 on Datasets & Benchmark, and 16 on Framework & Methods
 + 2026-06-06 - 🎉 Updated 45 papers, including 1 on Survey, 6 on Systems & Models, 12 on Datasets & Benchmark, and 26 on Framework & Methods
 + 2026-05-10 - 🎉 Updated 16 papers, including 3 on systems and models, 1 on benchmarks, and 12 on methods; also added 1 new project under systems and open sources
@@ -748,6 +749,420 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+    <tr>
+    <td rowspan="2" style="width: 15%;">2026-07-02</td>
+    <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
+    <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory_Drift-blue" alt="Memory Drift">
+        <img src="https://img.shields.io/badge/Personalization-brightgreen" alt="Personalization">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02374v1">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+  <tr>
+      <td colspan="3">
+          • DRIFTLENS is a ground-truth-free framework that maps each expressed reasoning step to a value-ontology symbol and measures divergence between a question's no-memory trajectory and its trajectory under injected user-attribute memory, revealing that personalization memory silently reshapes how a model reasons ("symbolic drift"), not just its answer.<br>
+          • Measures per-instance reasoning stability of personalized LLMs under memory perturbations using a value ontology and two drift metrics (DTW and SRI) on a benchmark of unverifiable, persona-indifferent questions, and evaluates GRPO- and DPO-based post-training as mitigation.<br>
+          • Across four LLMs and 10 user-attribute categories, irrelevant persona memory induces medium-to-large reasoning drift (Cohen's d ≈ 0.35–0.98); GRPO and DPO both reduce drift but neither dominates (e.g., GRPO lowers DTW to 0.186 vs. 0.309 on Gemma2-2B; DPO reaches 0.204 on Qwen3-4B).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/KV_Memory-blue" alt="KV Memory">
+          <img src="https://img.shields.io/badge/Continual_Learning-brightgreen" alt="Continual Learning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02010v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Reframes continual multimodal-LLM adaptation as budgeted online inducing-set selection: task increments are stored as attention-compatible external KV memories (a frozen retrieval key plus compact layerwise KV payloads) injected into self-attention, keeping the backbone frozen under a strict fixed memory budget.<br>
+          • Fixed-footprint continual adaptation of MLLMs (task-incremental tuning, continual VQA, domain-incremental, lifelong tuning); extracts attention-ready memory entries and builds a compact inducing set via bilevel optimization (inner retrieval calibration; outer weight selection).<br>
+          • Consistently beats PEFT, MoE, replay, and prompt-retrieval baselines under matched budgets; improves over HiDe-LLaVA by 0.88 Avg/1.12 Last on UCIT and 1.35/1.43 on COIN, and raises continual-VQA AP 51.34→52.64 over CL-MoE while outperforming QUAD on VQACL.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--term_Memory-blue" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/State--Aware-brightgreen" alt="State-Aware">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01935v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Identifies "ghost memory" — a state-coordination failure where old, current, and transition facts coexist and mislead answers — and proposes A-TMA (Adaptive Truth Maintenance Auditing), a state-aware overlay that decouples memory into three diagnosable levels (bank maintenance, retrieval, answer-time resolution).<br>
+          • Long-term agent memory under changing user facts; A-TMA keeps superseded/transition records with typed links (a lightweight Sentry gate plus a Qwen2.5-3B Judge), builds state-aligned evidence packets, and conditions QA on explicit labels, alongside a new conflict-heavy benchmark LTP (LoCoMo Temporal Plus).<br>
+          • On LTP, Graphiti/Zep +A-TMA improves conflict accuracy by 0.240 absolute (0.480→0.720) and InsideOut+A-TMA lifts Acc from 0.117 to 0.662; on LoCoMo, Graphiti/Zep +A-TMA raises temporal F1 from 0.0295 to 0.1705.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--term_Memory-blue" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/Personalized_Retrieval-brightgreen" alt="Personalized Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00017v2">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Profile-guided Personalized Retrieval Optimization (PPRO) makes long-term conversational memory retrieval both user-aware and optimizable by injecting a derived user-profile embedding as an explicit personalized prior into the retrieval ranking score.<br>
+          • Personalized long-term conversational QA; PPRO builds episodic and semantic memory banks plus a user profile offline, performs profile-guided dual-path retrieval, and trains a query rewriter with GRPO using evidence-retrieval and answer quality as rewards while keeping memory banks and answer model frozen.<br>
+          • On LoCoMo, PPRO gives the best overall F1 across three backbones, beating prior-best SimpleMem by 7–19 points (e.g., GPT-4o overall F1 48.16 vs. 40.87); on LongMemEval-S it reaches 81.5 overall accuracy vs. 75.9 for the best baseline.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>ISM: Self-Improving Strategy Memory for Continual Mathematical Reasoning</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Strategy_Memory-blue" alt="Strategy Memory">
+          <img src="https://img.shields.io/badge/Continual_Learning-brightgreen" alt="Continual Learning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.31191v3">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Intelligent Schema Memory (ISM) is a self-evolving external memory that lets a frozen LLM improve at math reasoning under hard episodic resets by maintaining a compact, bounded bank of strategy schemas with dual representation (stable content + online-adapting feature hook), where every update is gated by symbolic verification.<br>
+          • Continual mathematical reasoning under a streaming episode protocol with frozen parameters; ISM uses two-stage retrieval (operator filter + soft scoring), symmetric success/failure learning, and seven self-improvement mechanisms plus conditional schema synthesis.<br>
+          • 80.67% on MATH-Hard and 61.67% on OlympiadBench over a 300-episode stream, beating the strongest baseline by +2.00 points on each while storing 64% and 86% fewer schemas (up to 23× fewer entries), with positive backward transfer (+0.03) on OlympiadBench.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>Multi-Head Recurrent Memory Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Recurrent_Memory-blue" alt="Recurrent Memory">
+          <img src="https://img.shields.io/badge/Long_Context-brightgreen" alt="Long Context">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01523v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Decomposes recurrent-memory performance into capture vs. retention, diagnoses retention as the dominant bottleneck (caused by monolithic memory blocks), and proposes Multi-Head Recurrent Memory (MHM) — a training-free framework partitioning memory into independent heads with a stage-wise select-then-update strategy that structurally shields unselected heads from overwriting.<br>
+          • Reliable long-context reasoning over 100K–1M tokens; MHM-LRU is a lightweight instantiation that selects the least-recently-updated head each step, guaranteeing uniform head utilization with zero extra token overhead and no retraining.<br>
+          • On RULER-HQA at 896K tokens, MHM-LRU lifts retention from less than 30% to 73.96% and accuracy to 49.74% (vs. 21.62% MemAgent, 0.00% native LLM); on BABILong at 1M tokens it reaches 41.41% vs. 25.26% for MemAgent, staying stable where baselines collapse.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>AUTOMEM: Automated Learning of Memory as a Cognitive Skill</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Metamemory-brightgreen" alt="Metamemory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01224v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Reframes memory management as an independently trainable "metamemory" skill by promoting file-system operations (read/write/search/append/create) to first-class memory actions alongside task actions, then automates its improvement along scaffold structure and model proficiency via meta-LLM-driven outer loops.<br>
+          • Long-horizon procedurally generated games (Crafter, MiniHack, NetHack); Loop 1 (a meta-LLM revises the agent scaffold/file schema) and Loop 2 (a meta-LLM curates good memory decisions to LoRA-finetune a dedicated "memory specialist" while the gameplay model stays frozen).<br>
+          • Optimizing memory alone yields ~2×–4× gains on a Qwen2.5-32B base — Crafter 25.0→51.36%, MiniHack 7.5→30.0%, NetHack 0.42→1.85% — bringing the 32B model to the level of frontier systems like Claude Opus 4.5 and Gemini 3.1 Pro Thinking.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-01</td>
+      <td style="width: 55%;"><strong>Imprint: Online Memory Compression for Long-Horizon Egocentric QA</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Compression-blue" alt="Memory Compression">
+          <img src="https://img.shields.io/badge/Egocentric_QA-brightgreen" alt="Egocentric QA">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00696v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Imprint reframes long-horizon egocentric memory as an online memory compression problem (rather than hierarchical text summarization), representing observations as structured Interaction Records and consolidating them using cognitively-inspired signals of recurrence, recency, and distinctiveness.<br>
+          • Long-horizon egocentric QA; parses captions into (person, action, object, timestamps) records via Qwen2.5-7B-Instruct, groups them into event prototypes, scores importance, and consolidates online into a compact retrieval-oriented memory.<br>
+          • On the EgoLifeQA 7-day benchmark, improves QA accuracy 31.0%→35.8% and grounded accuracy 10.8%→64.8% (6× more evidence-grounded answers than EgoRAG), while reducing memory footprint 2.3× (109 MB vs. 254 MB) and retrieval latency 11.8× (1.7s vs. 20.1s/query).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-30</td>
+      <td style="width: 55%;"><strong>From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Architecture-blue" alt="Memory Architecture">
+          <img src="https://img.shields.io/badge/Language_Emergence-brightgreen" alt="Language Emergence">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.00233v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Demonstrates that in Lewis signaling games with frozen LLM agents, memory architecture matters more than channel capacity for language emergence — a persistent private notebook lets agents externalize learned conventions and avoid the high-capacity collapse seen in stateless agents.<br>
+          • A two-agent referential signaling game (sender/receiver coordinating a code from scratch) run with gpt-5.4-mini; compares five memory architectures (memory only, env board, scratchpad, codebook, codebook meta) across channel capacities from 4 to 125.<br>
+          • The scratchpad notebook achieves the most reliable coordination (0.867 ± 0.023 at capacity=25) while stateless "memory only" peaks at cap=25 then collapses (collision 1.0 at cap=64); the information-bottleneck point (cap=8) is a bimodal fragility point, not a compositional optimum.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-30</td>
+      <td style="width: 55%;"><strong>The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory_Update-brightgreen" alt="Memory Update">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.31121v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Janus is a method-agnostic plug-in memory controller that treats each candidate memory update as an accept/reject deployment decision, combining a Memory Momentum Trigger (when to compare old vs. new memory) with a compact hybrid evaluation set of coverage, boundary, and fresh tasks (what to compare on).<br>
+          • Sequentially evolving LLM memory for task-solving agents; Janus wraps existing memory updaters (e.g., DC-RS, ExpeL) without changing their update rules, using directional deviation of the memory-update trajectory to trigger bounded-cost old-vs-new validation.<br>
+          • Across six datasets, two LLMs (Qwen3-8B, DeepSeek-V4-Flash), and two updaters, Janus improves average accuracy by +2.7 to +4.6 points (e.g., DC-RS 79.5→83.2 and ExpeL 78.3→81.5 on Qwen3-8B).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Forensic Trajectory Signatures for Agent Memory Poisoning Detection</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Poisoning-blue" alt="Memory Poisoning">
+          <img src="https://img.shields.io/badge/Agent_Security-brightgreen" alt="Agent Security">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.30566v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Discovers a mechanistically-forced behavioral invariant ("recall fact before send email") that persistent memory-poisoning attacks imprint on an LLM agent's tool-call trajectory, enabling detection from operation-only tool logs without access to memory contents, model weights, or activations.<br>
+          • Detects memory-channel (delayed-trigger) poisoning by extracting 19 trajectory features from trigger-session tool logs and training LR/RF/GBM classifiers, evaluated via 5-fold CV, BCa bootstrap, and leave-one-model-out hold-out on 2,520 runs across 9 models (7B–120B).<br>
+          • The single invariant rule alone reaches AUC=0.9563; the full Random Forest reaches AUC=0.9904 (Recall 0.984), with AUC=1.000 on 6/9 cross-model hold-outs and zero-retraining transfer to GPT-4.1/GPT-4o; a prefix-only variant hits AUC=0.934 for inline blocking.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Procedural_Memory-blue" alt="Procedural Memory">
+          <img src="https://img.shields.io/badge/Activation_Steering-brightgreen" alt="Activation Steering">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29824v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • NPM is a training-free framework that represents agent procedural memory as implicit activation-steering vectors in the residual stream rather than explicit textual instructions, distilled from dual-granularity contrastive experiences to overcome the text-action disconnect of RAG-injected guidelines.<br>
+          • Procedural memory for LLM agents; pre-computes steering vectors from contrastive success/failure trajectories, then retrieves and dynamically synthesizes a task-specific vector injected at inference time to modulate reasoning and action selection without parameter updates or context expansion.<br>
+          • On four benchmarks (ALFWorld, WebShop, ScienceWorld, BabyAI), NPM matches/exceeds explicit textual baselines (e.g., MiniCPM3-4B avg 22.60→28.87; Qwen3-8B 30.63→36.32) and the hybrid NPM+Workflows setting is best overall (Qwen3-8B avg 41.89, ALFWorld 66.42%).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-29</td>
+      <td style="width: 55%;"><strong>Mandol: An Agglomerative Agent Memory System for Long-Term Conversations</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Long--term_Conversation-brightgreen" alt="Long-term Conversation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29778v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Mandol consolidates fragmented vector/graph memory into a unified memory-native architecture combining a hierarchical memory model, an agglomerative SemanticMap/SemanticGraph structure that natively fuses key-value/vector/graph storage, and a quantitative retrieval mechanism that runs without invoking LLMs.<br>
+          • Long-term cross-session conversational memory; replaces RAG-style recall-then-rank with query-adaptive routing, MAD-based denoising/conflict resolution, and MMR token-constrained context generation over an in-memory unified store (with DuckDB persistence).<br>
+          • Best overall accuracy on LoCoMo (92.21%) and LongMemEval (88.40%), with ~5.4× mean retrieval and ~4.8× mean insertion speedup under 10 QPS load, cutting tokens 17.4–20.0% vs. EverMemOS.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-28</td>
+      <td style="width: 55%;"><strong>Manufactured Confidence: How Memory Consolidation Turns Hearsay into Confident Facts</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Consolidation-blue" alt="Memory Consolidation">
+          <img src="https://img.shields.io/badge/Memory_Poisoning-brightgreen" alt="Memory Poisoning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29279v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Diagnoses "manufactured confidence" — memory-consolidation products (mem0, LangMem) rewrite hedged, casual remarks into confident, dated standalone "facts" that agents then obey, showing agents key on the confidence of phrasing rather than the source, needing no attacker.<br>
+          • Uses judge-free access-control and budget-approval agents across five models/four providers to isolate the failure, running the same poisoning protocol against mem0, LangMem, and a verbatim-storage control, and testing framings, source attribution, uncertainty tags, and a hedge-preserving extraction prompt.<br>
+          • mem0 and LangMem launder hedged injections into confident facts at 100% (verbatim control 0%); confident framings grant unauthorized access ~0.81 while hedges collapse to ~0.00; a redundant directory restores 0.00 wrong-grant, and hedge-preserving extraction cuts wrong-grant from 0.45 to 0.10.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-28</td>
+      <td style="width: 55%;"><strong>Selective Memory Retention for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Retention-blue" alt="Memory Retention">
+          <img src="https://img.shields.io/badge/Long--Horizon_Agent-brightgreen" alt="Long-Horizon Agent">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29178v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • TraceRetain is a lightweight capacity-bounded memory-retention framework for frozen LLM agents that scores memory entries by interpretable features (success, age, access frequency, redundancy, specificity, similarity, downstream utility) and evicts the lowest-scoring ones.<br>
+          • Formulates external-memory management as a capacity-constrained retention problem on ALFWorld (gpt-5-mini, ReAct-style), comparing TraceRetain-Linear/CEM against cache heuristics (FIFO/LRU/LFU/Random/Ebbinghaus) and unbounded memory under a 75%-distractor noisy-write stress.<br>
+          • Methods saturate on clean ALFWorld (47–49/50 vs. 39/50 no-memory); under noisy writes, unbounded and FIFO Precision@5 collapse while TraceRetain-CEM stays stable (16.9%→16.6%) and preserves 97/100 task success, with bounded K=50 matching unbounded K=100.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-27</td>
+      <td style="width: 55%;"><strong>Memory as an Attack Surface in LLM Agents: A Study on Multiple-Choice Question Answering</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Attack-blue" alt="Memory Attack">
+          <img src="https://img.shields.io/badge/Agent_Security-brightgreen" alt="Agent Security">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.29030v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Frames the external memory of LLM agents as an attack surface, showing that misleading or corrupted memories inserted through ordinary natural-language interactions can silently flip an agent's answer even when the current query is clean.<br>
+          • Builds a planner-guided LLM QA agent with external memory for four-option MCQ, then applies two attacks — false-information memory injection and interaction-based answer-choice steering — across ML, cybersecurity, and networking on GPT-5.4/GPT-4o mini, Gemma2-9B, and Phi3-14B.<br>
+          • Clean baselines average 91.85% (closed) vs. 77.10% (open); false-memory injection causes 82/1064 answer changes (7.80% ASR) with Phi3-14B most vulnerable (34.48% shift in cybersecurity); feedback reinforcement biases answers more than example exposure.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Memory_Update-blue" alt="Memory Update">
+          <img src="https://img.shields.io/badge/RL_Environment-brightgreen" alt="RL Environment">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.27472v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Introduces "supersession" (keeping the current value of a changed fact) as a distinct, trainable failure mode, and releases Supersede — the first RL environment whose reward directly targets temporal fact-currency rather than a proxy, reframing the FAMA metric as a dense training signal.<br>
+          • Handling superseded facts in long multi-session dialogue under a bounded, self-maintained memory; diagnoses the gap on the LongMemEval knowledge-update subset and trains it down via GRPO fine-tuning of Qwen2.5-3B with a programmatic supersession-aware reward.<br>
+          • Bounded memory drops knowledge-update accuracy 92%→77% on frontier gpt-5.4 (p=0.0033); accuracy falls further as conversations grow 24× (68%→28%); GRPO training nearly doubles held-out supersession accuracy on real unseen conversations (9.0%→16.7%).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents over Evolving Knowledge</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Temporal_Validity-blue" alt="Temporal Validity">
+          <img src="https://img.shields.io/badge/Retrieval_Memory-brightgreen" alt="Retrieval Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.26511v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • MemStrata maintains temporal validity via a deterministic (subject, relation, object) supersession rule in a bi-temporal ledger — retiring stale facts with no similarity threshold and no LLM call on the read path — backed by a proof that cosine similarity cannot separate contradictions from duplicates (AUROC 0.59).<br>
+          • Keeps agent memory current under evolving knowledge (code renames, config/dependency/API changes); stores facts like RAG for full static recall but supersedes contradicted values, evaluated fully deterministically on a local 7B model across 6 benchmarks.<br>
+          • Ties RAG on static knowledge yet reaches 0.95–1.00 accuracy on evolving knowledge vs. RAG's 0.20–0.47 (2–5× gain), drives stale-fact-error rate from 15–40% to ~0%, and runs ~8× faster than LLM-reranking baselines (~2.1s vs. ~16–18s).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-24</td>
+      <td style="width: 55%;"><strong>Memory Makes the Difference: Evaluating How Different Memory Roles Shape Conversational Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Conversational_Memory-blue" alt="Conversational Memory">
+          <img src="https://img.shields.io/badge/Memory_Taxonomy-brightgreen" alt="Memory Taxonomy">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.25361v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Introduces the first fine-grained taxonomy of conversational memory by functional role (answer, clarifying, enriching, distracting, irrelevant) plus a user-centric, context-aware LLM-as-judge evaluation framework covering accuracy, relevance, and informativeness.<br>
+          • Controlled comparative experiments on conversational RAG over two long-term multi-session datasets (LongMemEval-m, Long-MT-Bench+) with three frontier LLMs and three retrievers, varying context size and memory-type composition.<br>
+          • Clarifying memory reliably improves factual accuracy; distracting memory substantially harms accuracy/relevance; irrelevant memory reduces topic relevance; performance rises then declines as context grows (information overload), and answer memory remains essential.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Reasoning as Attractor Dynamics: Latent Memory Retrieval via Gibbs-Weighted Energy Minimization</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Associative_Memory-blue" alt="Associative Memory">
+          <img src="https://img.shields.io/badge/Test--Time_Compute-brightgreen" alt="Test-Time Compute">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24543v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Reframes LLM reasoning as retrieval from a Dense Associative Memory — correct chains as flat-minima attractor basins, hallucinations as sharp minima — and introduces a Gibbs-Weighted Basin Selection operator that reweights sampled paths by inverse-square spectral entropy (W ∝ E⁻²).<br>
+          • Math reasoning (GSM8K); sample K high-temperature trajectories, compute each path's trajectory energy as length-normalized NLL, then reweight via a post-hoc Gibbs measure to relax into the dominant attractor basin.<br>
+          • On GSM8K with Phi-3.5-mini (3.8B), Gibbs-Weighted Retrieval (K=12) reaches 90.07% vs. Standard Sampling/majority-vote 84.69% and Greedy Decoding 78.4% — a +5.38% gain over self-consistency.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Reasoning_Memory-blue" alt="Reasoning Memory">
+          <img src="https://img.shields.io/badge/Mixture--of--Agents-brightgreen" alt="Mixture-of-Agents">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24437v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • A memory-augmented Mixture-of-Agents framework built on a Ranked Reasoning Memory that persistently stores/ranks cross-layer reasoning traces via a comparative Reviewer Agent, paired with Curated Diversified Memory Routing to preserve both reasoning quality and exploration diversity.<br>
+          • Scalable multi-agent LLM reasoning; at each layer a Reviewer Agent comparatively scores traces with rationales and later agents receive distinct high/low/contrastive trace subsets, with an optional frontier-model (GPT-5.5) LoRA distillation pipeline to upgrade the Reviewer.<br>
+          • Across five reasoning benchmarks (MATH, MMLU-redux, Formal Logic, CRUX, HellaSwag) it consistently beats prior MoA variants and the gap widens with depth — e.g., MATH at L=9: ReM-MoA* 84.0% vs. AttentionMoA 76.9% vs. Standard MoA 61.0%.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-19</td>
+      <td style="width: 55%;"><strong>When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Trajectory_Retrieval-brightgreen" alt="Trajectory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.28376v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • OSU-Mem organizes agent trajectory memory into overlapping semantic units with budgeted coarse-to-fine retrieval, and shows via cell-conditional analysis that overlap helps only when evidence steps share tool calls or entities (T+E+) and hurts when they share neither (T−E−).<br>
+          • Budgeted retrieval from long-horizon LLM-agent trajectories under a strict token budget; builds OSUs from entity/tool/subgoal/similarity views, then query-adaptive centroid-scored expansion, evaluated on a synthetic benchmark, τ-bench, and ToolBench with a 2×2 tool/entity cross-tabulation.<br>
+          • +39.9% Recall and +61.5% Hit@2 over the strongest baseline at B=256 on the synthetic benchmark; wins on T+E+ but loses on T−E− in τ-bench; on ToolBench overlap beats disjoint construction with a monotonic dose-response.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-05-30</td>
+      <td style="width: 55%;"><strong>Memory Shot for Long-Term Dialogue</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Dialogue_Memory-blue" alt="Dialogue Memory">
+          <img src="https://img.shields.io/badge/Visual_Memory-brightgreen" alt="Visual Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.28338v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • MemShot renders raw dialogue spans directly into structured visual "memory shots" (images preserving speaker turns, timestamps, and turn boundaries) and leverages an MLLM's internal visual reasoning, avoiding fragile, heavyweight text-based memory construction.<br>
+          • Long-term dialogue memory-augmented QA; segments dialogue into contiguous spans, renders each into a hierarchical header+chat visual unit, retrieves top-k units (Qwen3-VL-Embedding-8B), and answers with Qwen3-VL-Instruct MLLMs (2B/8B/32B).<br>
+          • Competitive-to-superior on LoCoMo (79.61 overall Acc @32B) and LongMemEval (74.80 overall Acc @32B) while delivering ~70× faster memory construction (≈9.56s), beating visual-memory baseline MemOCR by over 10%.
+      </td>
+  </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-25</td>
         <td style="width: 55%;"><strong>MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</strong></td>
@@ -7277,6 +7692,42 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>MemSyco-Bench: Benchmarking Sycophancy in Agent Memory</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Benchmark-blue" alt="Benchmark">
+          <img src="https://img.shields.io/badge/Sycophancy-brightgreen" alt="Sycophancy">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.01071v2">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Identifies and formalizes "memory-induced sycophancy" (agents over-aligning with retrieved historical user memory at the cost of factual accuracy) and introduces MemSyco-Bench, which shifts evaluation from retrieval success to post-retrieval decision calibration.<br>
+          • A benchmark of five task categories — Objective Fact Judgment, Contextual Scope Control, Memory-Evidence Conflict, Valid Memory Selection, and Personalized Memory Use — built from simulated multi-turn dialogues; evaluates memory systems (Mem0, A-Mem, MemGPT, MemoryBank, LightMem, SuperMemory, NaiveRAG) across backbones.<br>
+          • Memory consistently increases sycophancy — DeepSeek-V4-Flash factual accuracy drops 56.1%→40.2% with sycophancy rate rising 24.3%→52.3%; memory systems degrade objective-fact accuracy (Qwen3-8B down to 26–36%); existing benchmarks' errors are dominated by retrieval failure (47.4%–66.1%).
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-02</td>
+      <td style="width: 55%;"><strong>AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Long--Horizon-brightgreen" alt="Long-Horizon">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.02255v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Introduces a bounded-memory "contract" in which every decision prompt is freshly assembled by typed retrieval from five typed layers (L1–L5) with no raw cross-decision transcript appended, keeping the prompt bounded across arbitrarily long runs and making each memory layer individually ablatable.<br>
+          • Studies how explicit memory layers shape long-horizon LLM-agent decisions, instantiated in the stochastic deck-building game Slay the Spire 2; releases a reproducible testbed of 298 completed trajectories with condition tags, frozen memory/skill snapshots, prompt records, and analysis scripts.<br>
+          • In the fixed-A0 ablation the no-store baseline wins 3/10 games and adding the triggered strategic-skill layer (L5) wins 6/10 (directional, Fisher exact p≈0.37); a public frontier-LLM benchmark reports zero wins at A0 across five configurations versus a 16% developer-reported human win rate.
+      </td>
+  </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-25</td>
         <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
@@ -7299,6 +7750,42 @@ Papers below are ordered by **publication date**:
           • The proposed DualMem architecture keeps visual and verbal memory codes in parallel and outperforms caption-only and recent multimodal memory baselines across chain lengths on Gemini 2.5 Flash and Qwen2.5-VL-7B.
         </td>
       </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Long--term_Memory-blue" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/Benchmark-brightgreen" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24595v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • The first benchmark to evaluate long-term agent memory directly as an auditable post-interaction artifact — reconstructing a user's hidden, taxonomy-anchored state from the memory an agent leaves behind — rather than only through indirect downstream task success.<br>
+          • Memory recovery benchmark; memory-equipped agents assist simulated users through leak-controlled tasks, after which each hidden user-state dimension is reconstructed and scored against ground truth under both full-store (dump_all) and top-k (retrieve) access modes.<br>
+          • Spanning 50 simulated users × 31 hidden dimensions (1,550 targets) and 5 memory systems, task completion nearly saturates (~99.9%) while category-balanced recovery stays moderate (B≈0.611–0.624 full-store, dropping to 0.473–0.540 under top-k), with episodic/relational memory the hardest.
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-23</td>
+      <td style="width: 55%;"><strong>Are We Ready For An Agent-Native Memory System?</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent_Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Benchmark-brightgreen" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.24775v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • Reframes LLM agent memory as a data-management system and proposes an analytical framework that decomposes it into four core modules (representation & storage, extraction, retrieval & routing, maintenance), paired with a structured taxonomy of existing systems.<br>
+          • Systematic experimental study benchmarking 12 representative memory systems plus 2 reference baselines on a unified testbed across 5 workloads / 11 datasets, evaluating task effectiveness, retrieval fidelity, dynamic-update robustness, long-horizon stability, and operational cost, plus per-module ablations.<br>
+          • No single architecture dominates — effectiveness depends on alignment between memory structure and workload bottleneck; graph-based methods handle updates most reliably while append-only stores return stale facts; highly structured systems incur orders-of-magnitude higher latency without proportional accuracy gains.
+      </td>
+  </tr>
      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-23</td>
         <td style="width: 55%;"><strong>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</strong></td>
