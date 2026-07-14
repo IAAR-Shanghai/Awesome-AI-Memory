@@ -2871,6 +2871,26 @@ Papers below are ordered by **publication date**:
         </td>
       </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-04-26</td>
+        <td style="width: 55%;"><strong>ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Long--term%20Memory-brightgreen" alt="Long-term Memory">
+          <img src="https://img.shields.io/badge/Hebbian%20Learning-yellow" alt="Hebbian Learning">
+          <img src="https://img.shields.io/badge/Spaced%20Repetition-teal" alt="Spaced Repetition">
+          <img src="https://img.shields.io/badge/Open--Source-orange" alt="Open Source">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.23878">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • Introduces ZenBrain, a seven-layer long-term memory architecture for autonomous agents that combines neuroscience-inspired mechanisms — Hebbian learning, FSRS spaced repetition, sleep-cycle consolidation, and Bayesian confidence propagation — released as an open-source, zero-dependency TypeScript library (Apache-2.0).<br>
+          • On LongMemEval-500 it attains 91.3% of oracle accuracy at 1/106 of the token budget, with 12/12 Bonferroni-corrected head-to-head wins over Letta, Mem0, and A-Mem.<br>
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-04-18</td>
         <td style="width: 55%;"><strong>HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents</strong></td>
         <td style="width: 15%;">
