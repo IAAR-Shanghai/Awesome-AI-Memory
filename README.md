@@ -10851,6 +10851,7 @@ Systems below are ordered by **publication date**:
 | Engrava | 2026-06-02 | ![GitHub Repo stars](https://img.shields.io/github/stars/sovantica/engrava?style=social) | https://github.com/sovantica/engrava<br>https://engrava.ai |
 | Mimir | 2026-06-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/mimir?style=social) | https://github.com/tcconnally/mimir<br>https://perseus.observer/mimir |
 | AccInt | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=social) | https://github.com/maxbaluev/accreted-intelligence<br>https://accint.xyz/ |
+| Lians | 2026-07-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/Lians-ai/Lians?style=social) | https://github.com/Lians-ai/Lians<br>https://www.lians.ai/ |
 | Tree Ring Memory | 2026-07-07 | ![GitHub Repo stars](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory?style=social) | https://github.com/TerminallyLazy/Tree-Ring-Memory<br>https://terminallylazy.github.io/Tree-Ring-Memory/ |
 | Data Olympus | 2026-07-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/knaisoma/data-olympus?style=social) | https://github.com/knaisoma/data-olympus<br>No official website |
 
