@@ -10797,6 +10797,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | PackRat | 2026-04-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/kevdogg102396-afk/packrat?style=social) | https://github.com/kevdogg102396-afk/packrat<br>https://www.npmjs.com/package/packrat-compress |
 | SkillClaw | 2026-04-10 | ![GitHub Repo stars](https://img.shields.io/github/stars/AMAP-ML/SkillClaw?style=social) | https://github.com/AMAP-ML/SkillClaw<br>https://arxiv.org/abs/2604.08377 |
 | Synap | 2026-04-10 | ![GitHub Repo stars](https://img.shields.io/github/stars/maximem-ai/maximem_synap_sdk?style=social) | https://github.com/maximem-ai/maximem_synap_sdk<br>https://maximem.ai |
+| Mnemoverse | 2026-04-10 | ![GitHub Repo stars](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social) | https://github.com/mnemoverse/mcp-memory-server<br>https://mnemoverse.com |
 | Formative Memory | 2026-04-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/jarimustonen/formative-memory?style=social) | https://github.com/jarimustonen/formative-memory<br>No official website |
 | taOSmd | 2026-04-13 | ![GitHub Repo stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=social) | https://github.com/jaylfc/taosmd<br>[Docs & benchmarks](https://github.com/jaylfc/taosmd/blob/master/docs/benchmarks.md) |
 | ToolPipe | 2026-04-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/COSAI-Labs/toolpipe-mcp-server?style=social) | https://github.com/COSAI-Labs/toolpipe-mcp-server<br>https://toolpipe.dev |
