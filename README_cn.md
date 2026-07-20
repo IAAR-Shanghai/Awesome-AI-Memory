@@ -10806,6 +10806,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | kaeru | 2026-05-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/LamantinAI/kaeru?style=social) | https://github.com/LamantinAI/kaeru<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
 | Perseus | 2026-05-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/perseus?style=social) | https://github.com/tcconnally/perseus<br>https://perseus.observer/ |
+| Talamus | 2026-05-21 | ![GitHub Repo stars](https://img.shields.io/github/stars/ampres-ai/talamus?style=social) | https://github.com/ampres-ai/talamus<br>https://ampres-ai.github.io/talamus/ |
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
 | OWASP Agent Memory Guard | 2026-05-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/OWASP/www-project-agent-memory-guard?style=social) | https://github.com/OWASP/www-project-agent-memory-guard<br>https://pypi.org/project/agent-memory-guard/ |
 | Engrava | 2026-06-02 | ![GitHub Repo stars](https://img.shields.io/github/stars/sovantica/engrava?style=social) | https://github.com/sovantica/engrava<br>https://engrava.ai |
