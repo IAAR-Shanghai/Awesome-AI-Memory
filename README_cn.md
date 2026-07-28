@@ -1,4 +1,4 @@
-﻿# Awesome-AI-Memory
+# Awesome-AI-Memory
 
 <p align="center">
     【中文 | <a href="README.md">English</a>】
@@ -106,6 +106,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 近期热点研究与新闻
++ 2026-07-28 - 🎉 更新1篇方法类与框架类论文（NapMem: 主动记忆导航）
 + 2026-07-06 - 🎉 更新25篇论文，数据集和评估基准类5篇，方法类与框架类23篇
 + 2026-06-21 - 🎉 更新27篇论文，模型和系统类9篇，数据集和评估基准类5篇，方法类与框架类13篇
 + 2026-06-14 - 🎉 更新24篇论文，综述类2篇，模型和系统类4篇，数据集和评估基准类2篇，方法类与框架类16篇
@@ -750,6 +751,26 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-07</td>
+      <td style="width: 55%;"><strong>从被动检索到主动记忆导航：学习将记忆作为结构化动作空间</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/Memory%20Navigation-green" alt="Memory Navigation">
+          <img src="https://img.shields.io/badge/Multi--Granularity%20Memory-orange" alt="Multi-Granularity Memory">
+          <img src="https://img.shields.io/badge/Reinforcement%20Learning-red" alt="Reinforcement Learning">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.05794">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 本文提出 NapMem 框架，将长期用户记忆视为结构化动作空间而非被动检索的上下文。它将用户历史组织为一个链接的多粒度记忆金字塔（原始对话、类型化记忆记录、主题轨迹、用户画像），通过来源关系相互连接，并通过记忆工具暴露这些层级。<br>
+          • Agent 通过记忆工具强化学习进行训练，根据查询和中间证据选择记忆，从而在回答前检查不同粒度的记忆。这将范式从一次性检索查找转变为迭代的、策略驱动的导航过程。<br>
+          • 在 PersonaMem-v2、LongMemEval 和 LoCoMo 上的实验表明，经过 RL 训练的 NapMem Agent 在多种记忆密集型任务上具有竞争力，而非记忆任务上的评估表明学习到的策略基本保留了通用推理和工具使用能力。
+      </td>
+  </tr>
+  <tr>
       <td rowspan="2" style="width: 15%;">2026-07-02</td>
       <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
       <td style="width: 15%;">

@@ -1,4 +1,4 @@
-﻿# Awesome-AI-Memory
+# Awesome-AI-Memory
 
 <p align="center">
     【English | <a href="README_cn.md">中文</a></a>】
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-07-28 - 🎉 Updated 1 paper on Framework & Methods (NapMem: Active Memory Navigation)
 + 2026-07-06 - 🎉 Updated 25 papers, including 4 on Datasets & Benchmark, and 23 on Framework & Methods
 + 2026-06-14 - 🎉 Updated 24 papers, including 2 on Survey, 4 on Systems & Models, 2 on Datasets & Benchmark, and 16 on Framework & Methods
 + 2026-06-06 - 🎉 Updated 45 papers, including 1 on Survey, 6 on Systems & Models, 12 on Datasets & Benchmark, and 26 on Framework & Methods
@@ -750,6 +751,26 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+    <td rowspan="2" style="width: 15%;">2026-07-07</td>
+    <td style="width: 55%;"><strong>From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space</strong></td>
+    <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Memory%20Navigation-green" alt="Memory Navigation">
+        <img src="https://img.shields.io/badge/Multi--Granularity%20Memory-orange" alt="Multi-Granularity Memory">
+        <img src="https://img.shields.io/badge/Reinforcement%20Learning-red" alt="Reinforcement Learning">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.05794">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+  <tr>
+      <td colspan="3">
+          • This paper introduces NapMem, a framework that treats long-term user memory as a structured action space rather than passively retrieved context. It organizes user history into a linked multi-granularity memory pyramid (raw conversations, typed memory records, topic tracks, user profiles) connected through provenance relations and exposes these levels through memory tools.<br>
+          • The agent is trained via memory-tool reinforcement learning to select memory according to the query and intermediate evidence, allowing it to inspect different memory granularities before answering. This shifts the paradigm from retrieval as a one-shot lookup to navigation as an iterative, policy-driven process.<br>
+          • Experiments on PersonaMem-v2, LongMemEval, and LoCoMo show that a NapMem agent trained with RL is competitive across diverse memory-intensive tasks, while evaluations on non-memory tasks suggest that the learned policy largely preserves general reasoning and tool-use abilities.
+      </td>
+  </tr>
+  <tr>
     <td rowspan="2" style="width: 15%;">2026-07-02</td>
     <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
     <td style="width: 15%;">
