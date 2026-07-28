@@ -10954,6 +10954,8 @@ Systems below are ordered by **publication date**:
 
 ### 🧠 Adam Framework
 
+- [Bride Cognitive Engine](https://tools.gracestack.se/oracle-bridge-landing.html) — Cognitive API for AI agent memory & monitoring. HDC + Active Inference + Ebbinghaus memory. Free 7-day trial, no credit card.
+
 - **Description:** 5-layer persistent memory and coherence architecture for local AI assistants built on OpenClaw. Solves AI amnesia (cross-session) and within-session coherence degradation.
 - **Layers:** Vault injection, mid-session memory search, neural graph (7219+ neurons), nightly Gemini reconciliation, coherence monitor with scratchpad dropout detection.
 - **Validated:** 353 sessions, 6619 message turns, 8 months production use on a live business by a non-developer.
