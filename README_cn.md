@@ -106,6 +106,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 近期热点研究与新闻
++ 2026-07-28 - 🎉 更新2篇方法类与框架类论文（NapMem: 记忆导航, Proactive Memory Agent: 主动记忆）
 + 2026-07-06 - 🎉 更新25篇论文，数据集和评估基准类5篇，方法类与框架类23篇
 + 2026-06-21 - 🎉 更新27篇论文，模型和系统类9篇，数据集和评估基准类5篇，方法类与框架类13篇
 + 2026-06-14 - 🎉 更新24篇论文，综述类2篇，模型和系统类4篇，数据集和评估基准类2篇，方法类与框架类16篇
@@ -750,6 +751,26 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-07-09</td>
+      <td style="width: 55%;"><strong>在重要时记住它：用于长程 Agent 的主动记忆 Agent</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Proactive%20Memory-blue" alt="Proactive Memory">
+          <img src="https://img.shields.io/badge/Long--Horizon%20Tasks-green" alt="Long-Horizon Tasks">
+          <img src="https://img.shields.io/badge/Agent%20Memory-orange" alt="Agent Memory">
+          <img src="https://img.shields.io/badge/RL%20Policy-red" alt="RL Policy">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.08716">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 本文将记忆视为一种主动干预机制而非被动检索。一个独立的记忆 Agent 与未修改的行动 Agent 并行运行，从最近的轨迹更新结构化记忆库，并决定是否注入基于记忆的提醒（被遗忘的需求、环境事实、失败尝试或诊断），或保持沉默。<br>
+          • 引入"行为状态衰减"概念：随着轨迹增长，任务需求、环境事实、先前尝试、诊断和开放子目标可能被埋没在上下文窗口中或被推出，在需要时无法影响决策。<br>
+          • 在 Terminal-Bench 2.0 和 τ²-Bench 上，即插即用模块分别将 pass@1 提高了 +8.3 和 +6.8 个百分点。消融实验表明，选择性干预优于被动库暴露、持续注入、仅顾问指导和通用检索。还使用 SFT 和 GRPO 在 SETA 上训练 Qwen3.5-27B 以实现开放权重记忆策略。
+      </td>
+  </tr>
+  <tr>
       <td rowspan="2" style="width: 15%;">2026-07-02</td>
       <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
       <td style="width: 15%;">

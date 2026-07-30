@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-07-28 - 🎉 Updated 2 papers on Framework & Methods (NapMem: Memory Navigation, Proactive Memory Agent)
 + 2026-07-06 - 🎉 Updated 25 papers, including 4 on Datasets & Benchmark, and 23 on Framework & Methods
 + 2026-06-14 - 🎉 Updated 24 papers, including 2 on Survey, 4 on Systems & Models, 2 on Datasets & Benchmark, and 16 on Framework & Methods
 + 2026-06-06 - 🎉 Updated 45 papers, including 1 on Survey, 6 on Systems & Models, 12 on Datasets & Benchmark, and 26 on Framework & Methods
@@ -750,6 +751,26 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+    <td rowspan="2" style="width: 15%;">2026-07-09</td>
+    <td style="width: 55%;"><strong>Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents</strong></td>
+    <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Proactive%20Memory-blue" alt="Proactive Memory">
+        <img src="https://img.shields.io/badge/Long--Horizon%20Tasks-green" alt="Long-Horizon Tasks">
+        <img src="https://img.shields.io/badge/Agent%20Memory-orange" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/RL%20Policy-red" alt="RL Policy">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2607.08716">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+  <tr>
+      <td colspan="3">
+          • This paper studies memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder (forgotten requirement, environment fact, failed attempt, or diagnosis) or remain silent.<br>
+          • Introduces the concept of "behavioral state decay": as trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in or pushed beyond the context window, failing to influence decisions when needed.<br>
+          • Across Terminal-Bench 2.0 and τ²-Bench, the plug-and-play module improves pass@1 by +8.3 pp and +6.8 pp respectively. Ablations show selective intervention outperforms passive bank exposure, always-on injection, advisor-only guidance, and general retrieval. Also trains Qwen3.5-27B on SETA using SFT and GRPO for open-weight memory policies.
+      </td>
+  </tr>
+  <tr>
     <td rowspan="2" style="width: 15%;">2026-07-02</td>
     <td style="width: 55%;"><strong>DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models</strong></td>
     <td style="width: 15%;">
