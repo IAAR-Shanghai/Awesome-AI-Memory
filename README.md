@@ -9362,29 +9362,29 @@ Papers below are ordered by **publication date**:
 
   <table style="width: 100%;">
     <tr>
-<td rowspan="2" style="width: 15%;">2026-08-24</td>
-<td style="width: 55%;"><strong>Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching</strong></td>
-<td style="width: 15%;">
-<img src="https://img.shields.io/badge/Memory%20Retrieval-blue" alt="Memory Retrieval">
-<img src="https://img.shields.io/badge/Memory%20Evaluation-brightgreen" alt="Memory Evaluation">
-</td>
-<td style="width: 15%;"><a href="https://arxiv.org/pdf/2608.23920">
-<img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
-</a></td>
-</tr>
-<tr>
-<td colspan="3">
-• Retrieval path with no lexical matching, no keyword scoring and no language model of its own<br>
-• Measures a production memory engine on LongMemEval-S and BEAM-1M, and on cross-lingual retrieval of photographs stored with no text<br>
-• 95.2% mean recall@5 over 70 store-and-query language cells where BM25 reaches 19.0% and is exactly zero in 54; changing only the reader moves LongMemEval-S by 2.0 points and only the re-ask budget moves BEAM-1M by 8.9<br>
-</td>
-</tr>
-<tr>
       <td><strong>Date</strong></td>
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-08-24</td>
+        <td style="width: 55%;"><strong>Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching</strong></td>
+        <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-blue" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Memory%20Evaluation-brightgreen" alt="Memory Evaluation">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2608.23920">
+        <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+        </tr>
+        <tr>
+        <td colspan="3">
+        • Retrieval path with no lexical matching, no keyword scoring and no language model of its own<br>
+        • Measures a production memory engine on LongMemEval-S and BEAM-1M, and on cross-lingual retrieval of photographs stored with no text<br>
+        • 95.2% mean recall@5 over 70 store-and-query language cells where BM25 reaches 19.0% and is exactly zero in 54; changing only the reader moves LongMemEval-S by 2.0 points and only the re-ask budget moves BEAM-1M by 8.9<br>
+        </td>
+      </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-06-24</td>
         <td style="width: 55%;"><strong>Bridging the Post-discharge Gap: A Traceable Multi-agent Framework for Safe and Continuous Care</strong></td>
