@@ -9348,6 +9348,27 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
       <tr>
+        <td rowspan="2" style="width: 15%;">2026-08-24</td>
+        <td style="width: 55%;"><strong>Wontopos Tablet 2：无词汇匹配的多语言与多模态记忆检索测量</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/%E8%AE%B0%E5%BF%86%E6%A3%80%E7%B4%A2-4A90E2" alt="Memory Retrieval">
+          <img src="https://img.shields.io/badge/%E8%AE%B0%E5%BF%86%E8%AF%84%E6%B5%8B-7ED321" alt="Memory Evaluation">
+          <img src="https://img.shields.io/badge/%E5%A4%9A%E8%AF%AD%E8%A8%80-F5A623" alt="Multilingual">
+        </td>
+        <td style="width: 15%;">
+          <a href="https://arxiv.org/pdf/2608.23920">
+            <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          • 本文测量一个生产环境的长期记忆引擎，其检索路径不包含词汇匹配、关键词打分，也不包含语言模型。<br>
+          • 评测覆盖 LongMemEval-S 与 BEAM-1M 文本基准，以及对无任何文字存储的照片进行跨语言检索。<br>
+          • 在 70 个存储与查询语言组合上平均 recall@5 为 95.2%，而 BM25 为 19.0% 且在 54 个组合中为零；仅更换阅读模型使 LongMemEval-S 变动 2.0 个点，仅更换重问预算使 BEAM-1M 变动 8.9 个点。
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2" style="width: 15%;">2026-06-24</td>
         <td style="width: 55%;"><strong>Bridging the Post-discharge Gap: A Traceable Multi-agent Framework for Safe and Continuous Care</strong></td>
         <td style="width: 15%;">
