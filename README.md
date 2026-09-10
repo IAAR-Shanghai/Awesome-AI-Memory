@@ -10930,7 +10930,9 @@ Systems below are ordered by **publication date**:
 | chamnan | 2026-08-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/ArcticFox2029/chamnan?style=social) | https://github.com/ArcticFox2029/chamnan |
 | Verified Memory Vault | 2026-08-24 | ![GitHub Repo stars](https://img.shields.io/github/stars/secondbrainstarter/verified-memory-vault?style=social) | https://github.com/secondbrainstarter/verified-memory-vault<br>https://secondbrainstarter.github.io/verified-memory-vault/ |
 | kgai | 2026-08-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/kgaidev/kgai?style=social) | https://github.com/kgaidev/kgai<br>https://kgai.dev/?ref=awesome-ai-memory |
-| causal-memory | 2026-07-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
+| causal-memory | 2026-07-26 |
+| agent-memory-doctor | 2026-09-07 | ![GitHub Repo stars](https://img.shields.io/github/stars/chenhz01/agent-memory-doctor?style=social) | https://github.com/chenhz01/agent-memory-doctor<br>https://pypi.org/project/agent-memory-doctor/ |
+ ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
 
 ### 🎥 Multi-media resource
 
