@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-09-15 - 🎉 Updated 1 paper, including 1 on Framework & Methods
 + 2026-07-06 - 🎉 Updated 25 papers, including 4 on Datasets & Benchmark, and 23 on Framework & Methods
 + 2026-06-14 - 🎉 Updated 24 papers, including 2 on Survey, 4 on Systems & Models, 2 on Datasets & Benchmark, and 16 on Framework & Methods
 + 2026-06-06 - 🎉 Updated 45 papers, including 1 on Survey, 6 on Systems & Models, 12 on Datasets & Benchmark, and 26 on Framework & Methods
