@@ -749,7 +749,6 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
-    
     <tr>
       <td rowspan="2" style="width: 15%;">2026-09-14</td>
       <td style="width: 55%;"><strong>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</strong></td>
@@ -763,7 +762,7 @@ Papers below are ordered by **publication date**:
         • The abstract reports improvements across three benchmarks and four model backbones; the central contribution concerns ontology-mediated data interaction.
       </td>
     </tr>
-<tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-08-21</td>
       <td style="width: 55%;"><strong>ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction</strong></td>
       <td style="width: 15%;">
