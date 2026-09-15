@@ -749,7 +749,6 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
-    
     <tr>
       <td rowspan="2" style="width: 15%;">2026-09-14</td>
       <td style="width: 55%;"><strong>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</strong></td>
@@ -763,7 +762,7 @@ To systematically organize the diverse research and practical resources in the f
         • 摘要报告三个数据智能体基准、四个模型上的基线提升；其主要贡献是本体与数据交互，而非跨会话记忆评测。
       </td>
     </tr>
-<tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-08-21</td>
       <td style="width: 55%;"><strong>ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction</strong></td>
       <td style="width: 15%;">
