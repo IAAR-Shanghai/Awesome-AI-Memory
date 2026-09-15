@@ -1,4 +1,4 @@
-﻿# Awesome-AI-Memory
+# Awesome-AI-Memory
 
 <p align="center">
     【中文 | <a href="README.md">English</a>】
@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-541-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-544-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -749,7 +749,21 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+    
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15779"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出 EvoOntology，为异构数据智能体构建可自演化的本体层，属于邻近的智能体知识组织方向。<br>
+        • 通过 MCP 提供模式、内容与工具层，由构建智能体生成本体，并通过归因指导的编辑和成对评估持续修订。<br>
+        • 摘要报告三个数据智能体基准、四个模型上的基线提升；其主要贡献是本体与数据交互，而非跨会话记忆评测。
+      </td>
+    </tr>
+<tr>
       <td rowspan="2" style="width: 15%;">2026-08-21</td>
       <td style="width: 55%;"><strong>ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction</strong></td>
       <td style="width: 15%;">
