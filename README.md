@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-542-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-545-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -749,7 +749,21 @@ Papers below are ordered by **publication date**:
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
     </tr>
+    
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15779"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EvoOntology builds a self-evolving ontology layer for heterogeneous data agents, adjacent to agent knowledge organization.<br>
+        • An MCP server exposes schema, content, and tools; a builder agent constructs the ontology and evaluation-gated, attribution-guided edits refine it.<br>
+        • The abstract reports improvements across three benchmarks and four model backbones; the central contribution concerns ontology-mediated data interaction.
+      </td>
+    </tr>
+<tr>
       <td rowspan="2" style="width: 15%;">2026-08-21</td>
       <td style="width: 55%;"><strong>ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction</strong></td>
       <td style="width: 15%;">
