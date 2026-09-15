@@ -44,13 +44,15 @@ git checkout -b add-paper-{论文简称} upstream/main
 
 ### 4. 语言要求
 
-- **README.md**：英文描述
-- **README_cn.md**：中文描述
+- **README.md**：中文描述（仓库默认首页）
+- **README_en.md**：英文描述
+
+`README_cn.md` 仅保留旧链接入口，不再维护论文条目。
 
 ### 5. 提交并创建 PR
 
 ```bash
-git add README.md README_cn.md
+git add README.md README_en.md
 git commit -m "Add [论文简称] paper on [主题] for LLM Agents"
 git push -u origin add-paper-{论文简称}
 ```
@@ -71,7 +73,7 @@ gh pr create --repo IAAR-Shanghai/Awesome-AI-Memory \
 
 ## Test plan
 - [x] Added entry to README.md
-- [x] Added entry to README_cn.md"
+- [x] Added entry to README_en.md"
 ```
 
 ### 6. Issue 模板（可选）

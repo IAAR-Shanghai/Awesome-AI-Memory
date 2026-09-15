@@ -4,12 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a curated research paper collection (Awesome-AI-Memory) covering AI memory and memory systems for large language models. It is not a typical software project — the primary content is research paper metadata stored in HTML tables within README.md and README_cn.md.
+This is a curated research paper collection (Awesome-AI-Memory) covering AI memory and memory systems for large language models. It is not a typical software project — the primary content is research paper metadata stored in HTML tables within README.md and README_en.md.
 
 ## Repository Structure
 
-- `README.md` — Main paper list (English)
-- `README_cn.md` — Main paper list (Chinese)
+- `README.md` — Main paper list (Chinese, default repository homepage)
+- `README_en.md` — Main paper list (English)
+- `README_cn.md` — Legacy link to the Chinese homepage; do not add paper entries here
 - `CONTRIBUTING.md` — Detailed workflow for adding papers
 - `scripts/update_paper_count.py` — Updates paper count badges in both READMEs
 - `assets/` — Images and resources
@@ -22,7 +23,7 @@ Papers are stored as HTML `<tr>` rows in the READMEs. Each paper consists of two
 
 **Key pattern**: Each paper entry uses `rowspan="2"` on the date cell.
 
-When adding a paper, you must update BOTH `README.md` (English) and `README_cn.md` (Chinese).
+When adding a paper, you must update BOTH `README.md` (Chinese) and `README_en.md` (English).
 
 ## Scripts
 
