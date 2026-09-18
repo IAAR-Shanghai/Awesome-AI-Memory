@@ -14534,6 +14534,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | LycheeMem | 2026-03-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social) | https://github.com/LycheeMem/LycheeMem<br>No official website |
 | GoodMemory | 2026-03-24 | ![GitHub Repo stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=social) | https://github.com/hjqcan/GoodMemory<br>https://www.npmjs.com/package/goodmemory |
 | MemClaw | 2026-03-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/Felo-Inc/memclaw?style=social) | https://github.com/Felo-Inc/memclaw<br>https://memclaw.me |
+| MindForge | 2026-03-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/opok-ops/MindForge?style=social) | https://github.com/opok-ops/MindForge<br>https://opok-ops.github.io/MindForge/ |
 | MemPalace | 2026-04-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemPalace/mempalace?style=social) | https://github.com/MemPalace/mempalace<br>http://mempalaceofficial.com/ |
 | SwarmVault | 2026-04-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/swarmclawai/swarmvault?style=social) | https://github.com/swarmclawai/swarmvault<br>https://swarmvault.ai |
 | PackRat | 2026-04-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/kevdogg102396-afk/packrat?style=social) | https://github.com/kevdogg102396-afk/packrat<br>https://www.npmjs.com/package/packrat-compress |
