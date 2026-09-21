@@ -14934,6 +14934,7 @@ Systems below are ordered by **publication date**:
 | ToolPipe | 2026-04-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/COSAI-Labs/toolpipe-mcp-server?style=social) | https://github.com/COSAI-Labs/toolpipe-mcp-server<br>https://toolpipe.dev |
 | Origin | 2026-04-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/7xuanlu/origin?style=social) | https://github.com/7xuanlu/origin<br>https://useorigin.app |
 | Omnigraph | 2026-04-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/ModernRelay/omnigraph?style=social) | https://github.com/ModernRelay/omnigraph<br>No official website |
+| Caura | 2026-04-27 | ![GitHub Repo stars](https://img.shields.io/github/stars/caura-ai/caura?style=social) | https://github.com/caura-ai/caura<br>https://caura.ai/ |
 | Mnemory | 2026-05-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/fpytloun/mnemory?style=social) | https://github.com/fpytloun/mnemory<br>No official website |
 | kaeru | 2026-05-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/LamantinAI/kaeru?style=social) | https://github.com/LamantinAI/kaeru<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
