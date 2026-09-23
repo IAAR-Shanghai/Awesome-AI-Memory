@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-820-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-888-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-09-23 - 🎉 Updated 68 papers, including 42 on Framework & Methods, 10 on Datasets & Benchmark, 16 on Systems & Models
 + 2026-09-20 - 🎉 Updated 25 papers, including 17 on Framework & Methods, 4 on Datasets & Benchmark, 4 on Systems & Models
 + 2026-09-15 - 🎉 Updated 250 papers, including 3 on Survey, 180 on Framework & Methods, 32 on Datasets & Benchmark, 35 on Systems & Models
 + 2026-09-15 - 🎉 Updated 1 paper, including 1 on Framework & Methods
@@ -798,6 +799,314 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25537"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CMC compresses long contexts into answer-aligned memory embeddings for frozen language-model decoders.<br>
+        • Answer-targeted distillation trains the compressor, while question-guided selection combines compact memory with a local context window.<br>
+        • Nine encoder–decoder combinations show QA gains; reported maxima include 7.3 EM points and 50% lower reserved GPU memory under tested settings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>Rewired or Gated? How Instruction Tuning Shapes Knowledge-Conflict Circuits in LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25602"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This study examines how instruction tuning changes competition between parametric memory and conflicting prompts.<br>
+        • Five attribution and intervention methods compare base and instruction-tuned models across three families.<br>
+        • Results favor reweighting existing late-layer heads rather than replacing circuits; robustness to terse false context disappears under richer evidential framing.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>When Does Execution Provenance Help Agent Memory Retrieval?</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25913"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work measures whether agent memory retrieves complete execution evidence within a token budget.<br>
+        • Source-aligned provenance units improve candidate granularity, while a residual R-GCN refines retrieval over typed execution edges.<br>
+        • Across 2,000 queries, units add 19.07 Full Support@2048 points over flat windows; graph propagation adds a smaller 4.55 points under matched candidates.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.26780"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SpeakerMem-R1 separates speaker-attributed raw messages from structured conversational states.<br>
+        • Person and group views are combined at retrieval; a locally deployable writer is trained with speaker-aware rewards and GRPO.<br>
+        • Reported binary accuracies are 47.9%, 69.2% and 61.9% on GroupMemBench, SocialMemBench and EverMemBench; protocols differ from leaderboard reports.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>TTSE: A Two-Track Online Self-Evolution Framework</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24289"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TTSE separates evolving environmental facts from task-conditioned procedural knowledge.<br>
+        • FACT reliability is checked through interaction, while TIP stores execution guidance; retrieved knowledge is injected into later agent decisions.<br>
+        • Ablations and multiple agent benchmarks support the dual-track design, with repeated PinchBench gains; the abstract gives no numerical effect sizes.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25299"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Skill habit formation converts repeated agent execution into guarded deterministic procedures.<br>
+        • Candidate skills are mined from history and admitted through four gates, including trace comparison against retained reference executions.<br>
+        • A text-to-SQL variant is consistent across 456 repeated dispatches and uses fewer tokens, but boundary-routing errors can become repeatable bad habits.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>What Can a Recurrent State Safely Forget?</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23366"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work formalizes which recurrent-state directions can be corrected without erasing future-relevant memory.<br>
+        • A predictive quotient separates behaviorally equivalent states, with finite-future audit banks providing bounded-distortion certificates.<br>
+        • Controlled experiments support the margins and probe-scaling laws; guarantees rely on stated probe-access and coverage assumptions.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23371"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MII compiles documents into portable compact neural memory states for heterogeneous frozen readers.<br>
+        • A state-space writer produces 56-token states; translators map them into reader embeddings, with residual evidence supporting lexical detail.<br>
+        • On 7,405 HotpotQA queries, Residual-MII reportedly exceeds full-context EM at about 7% of attention FLOPs under the evaluated setup.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>PSD: Pseudo Self-Distillation of Memory Representation Capabilities for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23449"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PSD transfers hierarchical memory-construction behavior from a black-box oracle into small language models.<br>
+        • The same small model acts as a privileged-prompt teacher and ordinary-prompt student, without access to oracle logits or hidden states.<br>
+        • Qwen3 models from 0.6B to 4B match or exceed GPT-4.1-mini on LoCoMo retrieval and transfer to LongMemEval without training on it.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>Propose, Verify, Commit: Evidence-Grounded Memory for Long-Horizon Multi-Actor Conversations</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23465"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EGMEMORY models multi-actor conversational memory as evidence plus an explicit active state.<br>
+        • An evidence-grounded propose–verify–commit protocol governs writes, while adaptive navigation retrieves state and supporting messages.<br>
+        • Reported scores are 68.2% on GroupMemBench, 77.9% on EverMemBench and 73.6% on LoCoMo; code release is deferred to formal publication.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23601"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PREM stores long-video evidence in a compact recurrent state for frozen vision-language models.<br>
+        • A recurrent writer produces a 256 KiB associative memory; question-conditioned readout modulates existing prompt-prefix keys and values.<br>
+        • Across six benchmarks, the 16-frame setting improves macro accuracy by 3.06%; memory-related tuning covers 0.24% of backbone parameters.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23790"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Total Cost of Agency isolates the token cost of injecting retrieved memory into multi-agent workflows.<br>
+        • A two-pass token count separates memory injection from other workflow costs on a 200-task enterprise benchmark.<br>
+        • Memory injection accounts for about 12% of billed cost; reducing retrieval capacity lowers injected tokens 28.7%, while caching is not evaluated.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-19</td>
+      <td style="width: 55%;"><strong>SelfOp: An Optimization Algorithm for Self-Improving Security Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22792"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SelfOp improves persistent security-agent skills and reference context from execution failures.<br>
+        • Textual error signals propagate through outcomes and trajectories, then cross-instance consensus governs updates without changing model weights.<br>
+        • On CyberGym, fewer than 200 training examples produce reported gains of 17 and 18.5 points for two models, with cross-model skill transfer.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-19</td>
+      <td style="width: 55%;"><strong>OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22987"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • OptiSkill turns solver-verified optimization-modeling experience into reusable formulation skills.<br>
+        • A hierarchical SkillBank separates global formulation strategies from local error-prevention rules and admits updates after batch validation.<br>
+        • The authors report gains across eight OR benchmarks and multiple backbones; evidence concerns mathematical formulation tasks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>ArenaFlow: From Trajectory Ranking to Hierarchical Credit Propagation for Open-Ended Agent RL</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21378"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ArenaFlow converts comparative execution feedback into reusable global skill memory alongside agent RL.<br>
+        • Tournament rankings identify pivotal steps and skill attribution, guiding utility-aware skill updating, pruning and retrieval.<br>
+        • Experiments report improved open-ended task performance; the abstract does not isolate a numerical contribution from memory alone.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21468"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SkillIR stores image-restoration experience as state-dependent action evidence.<br>
+        • Retrieved skills guide one action at a time; verified outcomes then create, refine or patch skills for future inputs.<br>
+        • Synthetic and real-image experiments report better restoration and tool use; the abstract provides no numerical effect sizes.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21533"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MACE co-evolves multi-agent procedural memory and how agents consume it.<br>
+        • MemGoG stores conditions, actions and outputs as linked functional subgraphs; execution feedback adjusts retrieval and instruction/checklist presentation.<br>
+        • Across eight benchmarks, the reported average score is 81.11% versus 78.97% for the strongest compared baseline.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21749"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • GraphSkillEvo represents reusable agent skills as graphs of execution steps and conditional transitions.<br>
+        • Population-based mutation and crossover optimize structured procedural guidance rather than a single unstructured instruction.<br>
+        • Across five agent benchmarks, reported average accuracy improves over SkillOpt by 4.01% on GPT-5.4-nano and 1.76% on GPT-5.4.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21940"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • AutoViewMem organizes conversational memory into complementary semantic views before indexing.<br>
+        • It discovers views from interaction traces, extracts provenance-grounded records at write time, and consolidates them offline for ordinary top-K retrieval.<br>
+        • Experiments on LoCoMo and PersonaMem with Qwen3-8B/14B report improved long-horizon QA and personalization without iterative retrieval.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22043"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • The Memory Decision Layer assesses whether retrieved memories should influence generation under conflict.<br>
+        • A parameter-free controller combines relevance, reliability and task risk through geometric projections, explicit abstention and risk inversion.<br>
+        • The abstract reports about 56.04% lower hallucination rates in general conflict settings and 0.14 ms per decision; claims depend on the evaluated settings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22086"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Designer-RSI accumulates reusable graphic-design procedures in external memory while keeping the model frozen.<br>
+        • The skill bank expands for uncovered subtasks and revises procedures using execution feedback, with a matched replay gate checking regressions.<br>
+        • Five rounds grow 76 skills to 139 and raise reported GenEval2 execution success from 72.7% to 99.3%; feedback is automatically graded.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-17</td>
+      <td style="width: 55%;"><strong>Learning and Transferring Closed-Loop Robot Software</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.19906"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work stores execution-improved robot control software as reusable procedural experience.<br>
+        • A coding agent refines source-task implementations through simulation, archives validated programs, and reuses them to build target-task policies.<br>
+        • Across nine target tasks, optimized references raise mean success from 45.2% without references to 57.0%; gains are not uniform across tasks.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-09-17</td>
       <td style="width: 55%;"><strong>FINSKILLOPS: A Self-Evolving Multi-Agent System for SEC Filing QA</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
@@ -1009,6 +1318,118 @@ Papers below are ordered by **publication date**:
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16540"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work separates weight memorization from in-context retrieval when analyzing state-space-model gates.<br>
+        • Theory and controlled experiments show that gates can favor memorized solutions and delay in-context learning even without capacity limitations.<br>
+        • Gating can still improve long-sequence generalization, exposing a training-dynamics trade-off rather than a blanket architecture limitation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>EchoPath: Execution-Level Replayable Memory for GUI Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16635"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EchoPath converts validated GUI trajectories into parameterized, callable execution memories.<br>
+        • Stored preconditions, visual evidence and provenance guide image-based target re-aiming; incompatible replay falls back to bounded repair or planning.<br>
+        • Real computer-use experiments report over 90% lower median token cost and about 60% lower median execution time for recurrent tasks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Memory-Skill Isomorphism: One Skill Carrier, Two Native Uses</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16669"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Memory-Skill Isomorphism proposes a shared carrier for distilled memory and reusable procedures.<br>
+        • A compact resident description, on-demand skill index and detailed reference files provide progressive disclosure, with distinct governed write paths.<br>
+        • Evidence comes from one deployed system and a selected-task experiment; observed failure reductions are exploratory rather than confirmatory.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Smarter by the Moment: Environment-Driven Dynamic Policies for Continual LLM Improvement</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16800"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • DRPG synthesizes task-specific policies from retrieved historical experience and environment feedback.<br>
+        • A dynamic policy generator transforms prior examples into actionable guidance for a frozen or separately configured task model.<br>
+        • Evaluation spans six benchmarks and seven LLMs; benefits vary by task and do not require continuous retention of prior policy text.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17010"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ThinkFlow represents evolving user states as probabilistic latent memory instead of explicit textual records.<br>
+        • Teacher-guided alignment initializes memory, followed by self-supervised next-user-utterance prediction for test-time personalization.<br>
+        • The abstract reports gains on long-term conversation benchmarks but gives no numerical results or deployment-scale validation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Interactive Memory Learning for Long-Term Conversations</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17088"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ICML learns conversational-memory storage and retrieval policies through interaction.<br>
+        • Planner and Trigger agents co-adapt using online reinforcement learning, with delayed rewards connecting future responses to earlier storage choices.<br>
+        • The authors report stronger long-term conversational responses as interactions accumulate; the abstract does not give numerical effect sizes.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Trust propagation and structural containment in Multi-agent LLM pipelines</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17648"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This study examines how shared-memory poisoning propagates across agents with different privileges.<br>
+        • A four-agent pipeline separates model judgments from task-bound signed authorization and an independent policy oracle.<br>
+        • Across three seeds and 60 tasks, authorization blocks unsafe execution despite complete validator bypass under the tested memory attacks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17708"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • XConf calibrates confidence using the model&#39;s own graded episodic history.<br>
+        • Recall retrieves similar tasks and confidence levels; reflection compares historical outcomes and lessons before revising current confidence.<br>
+        • Across nine benchmarks, it matches or beats ten-sample self-consistency in 23 of 24 AUROC comparisons at one-tenth generation cost.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
       <td style="width: 55%;"><strong>Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
         <img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
@@ -1033,6 +1454,146 @@ Papers below are ordered by **publication date**:
         • Proposes collaborative memory for multi-agent VLM systems that need a coherent shared understanding of visual environments.<br>
         • Organizes observations, interpretations, and reasoning dependencies through memory hierarchies, sharing policies, and consistency mechanisms.<br>
         • The framework identifies how new evidence should update dependent beliefs; the abstract presents design arguments rather than quantified controlled improvements.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15161"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EMR accumulates reusable clinical reasoning experience for medical multi-agent systems.<br>
+        • A hierarchical library stores principles, diagnostic patterns and representative cases, adding successful insights and failure warnings from trajectories.<br>
+        • Medical reasoning benchmarks report improved performance and cross-specialty/backbone transfer; these are benchmark results, not clinical deployment validation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15195"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • HarnessVLN combines hierarchical event memory with a persistent spatiotemporal graph for navigation.<br>
+        • A shared harness validates evidence, geometry and subgoals, then updates memory from structured execution and recovery feedback.<br>
+        • Reported success rates are 60.8% on R2R and 76.0% on HM3D-v2, with additional benchmarks and humanoid demonstrations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15364"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • RSIAgent autonomously constructs reusable environment-specific memory without weight updates.<br>
+        • Curriculum, actor and verifier agents explore broadly and then deeply, retaining validated causal relations and constraints for later tasks.<br>
+        • The authors report gains on OSWorld-v2 and Agent&#39;s Last Exam; downstream memory is frozen before reuse.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>SkillLift: Learning Dense Rubrics from Sparse Oracles for Efficient Skill Evolution</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15396"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SkillLift reduces the rollout cost of evolving persistent procedural prompts.<br>
+        • A learned ranking rubric guides inexpensive inner-loop skill revisions, while occasional oracle rollouts realign the rubric.<br>
+        • The authors report stronger agent performance with 40–70% less token cost than compared evolving methods.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>The Token Before the Value Is the Key: How Hybrid Architectures Organize Induction Circuits</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15545"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work traces how hybrid language-model layers organize information carrying, matching and copying for recall.<br>
+        • Paired probes and causal interventions isolate predecessor-token support in recurrent/global and local/global layer combinations.<br>
+        • Interventions alter natural-text recall in configuration-dependent ways, linking architectural priors to induction-circuit development.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>RESKILL: Explicit Failure Attribution and Structured Repair for Interactive Language Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15684"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • RESKILL preserves failure explanations and repair outcomes across procedural-skill revision rounds.<br>
+        • It links hypotheses to local patches, retests them, and carries unsuccessful retest evidence into subsequent updates.<br>
+        • Across ALFWorld and TextCraft with three model sizes, average final success exceeds direct repair by 3.7 points.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15820"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • AlgoEvo accumulates algorithm-search experience and transfers it through reusable skills.<br>
+        • A task-level trajectory tree guides exploration, while a cross-task skill hub separates design knowledge from the core search engine.<br>
+        • Across six benchmark tasks, the authors report competitive or stronger results with fewer evaluations and lower token use.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>The Router Within: Eliciting Native Skill Routing from a Frozen LLM</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15982"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Gavel routes reusable skills using signals inside a frozen language model.<br>
+        • Two trained linear maps shortlist compact per-skill representations; resumed forward passes provide a likelihood-and-judgment verdict.<br>
+        • Qwen3-32B gains reach 13.4 points on written tasks and 21.9 during rollouts versus compared routing pipelines.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>Anatomy of Associative Recall in Fixed-State Recurrences: A Matched-State Decomposition, an Interference Wall, and a Curriculum That Breaks It</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16183"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This study isolates mechanisms governing associative recall in fixed-state recurrent models.<br>
+        • Matched-state experiments separately vary convolution, transition structure, decay and training curricula.<br>
+        • Convolution and curriculum account for major gains; sparse-supervision failures can improve without enlarging memory, limiting broad architecture claims.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16287"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • AgentGuard distills recurring coding-agent failures into reusable conditional guardrail skills.<br>
+        • Historical anomalous trajectories yield instruction-level constraints that activate only for relevant tasks.<br>
+        • On a held-out 100-task evaluation, abnormal execution falls from 69.0% to 26.7% and successful completion rises from 21.7% to 35.0%.
       </td>
     </tr>
     <tr>
@@ -1092,6 +1653,34 @@ Papers below are ordered by **publication date**:
         • EvoOntology builds a self-evolving ontology layer for heterogeneous data agents, adjacent to agent knowledge organization.<br>
         • An MCP server exposes schema, content, and tools; a builder agent constructs the ontology and evaluation-gated, attribution-guided edits refine it.<br>
         • The abstract reports improvements across three benchmarks and four model backbones; the central contribution concerns ontology-mediated data interaction.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-13</td>
+      <td style="width: 55%;"><strong>MOSCOPT: Mixture-of-Skills Collective Optimization for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.14399"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MOSCOPT jointly optimizes a pool of complementary agent skills and a routing skill.<br>
+        • A text-based EditAdam procedure maintains update states and alternates skill and gate revisions without model-weight tuning.<br>
+        • Experiments across five benchmarks and three LLMs support selective skill mixtures; the abstract gives no numerical gains.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-13</td>
+      <td style="width: 55%;"><strong>The Immutable Past: Formalizing State Mutability and Conflict Resolution in Mutable RAG</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16073"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • GC-Mem addresses obsolete facts that overwhelm current state in append-only agent memory.<br>
+        • Temporal dominance and contradiction detection remove superseded evidence while preserving unrelated valid long-term records.<br>
+        • The authors report over 90% conflict-resolution accuracy on their accumulation benchmark, with explicit precision/recall conditions for deployment.
       </td>
     </tr>
     <tr>
@@ -10681,6 +11270,118 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24124"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ActiveArena evaluates embodied agents&#39; acquisition, retention and use of actively gathered evidence.<br>
+        • Its 35 tasks and 13 VLA configurations isolate memory writing, capacity, state inputs, supervision and planning under ID/OOD splits.<br>
+        • Results expose a substantial generalization gap; reliable writes and memory-aware planning matter more than capacity alone.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>Memory vs. Context? Influential Factors of Factual Recall in Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24238"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This replication studies competition between parametric factual memory and contradictory context.<br>
+        • World-capital probes across 31 models are extended to five additional knowledge relations and varied prompt framing.<br>
+        • Some original trends replicate, but phrasing can change memory reliance by up to 80 points and family-level exceptions limit generalization.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24259"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemCalib evaluates whether language models give retrieved memories an appropriate influence on responses.<br>
+        • MemCalib-RL separates over-use and under-use through bidirectional counterfactual credit assignment and token-level atom ablation.<br>
+        • Results across three model families/configurations report better balance and external transfer; common post-training methods exhibit directional trade-offs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>Beyond Endpoint Performance: Process-Level Evaluation of Self-Evolving Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24663"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EvoPathBench tracks capability development as persistent agent memories or skills evolve.<br>
+        • It freezes artifacts at successive checkpoints with fixed models and tools, testing transfer, retention and rule adaptation on held-out episodes.<br>
+        • Gains weaken under distribution shift, forgetting concentrates in some paths, and no evaluated method reliably adapts rules.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>DolphinBench: Mapping the Pareto Frontier of Agent Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24971"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • DolphinBench evaluates long-term agent memory through task completion, cost and latency.<br>
+        • Three knowledge-work personas each supply about 500k history tokens and 200 tasks verified to require relevant prior history.<br>
+        • The benchmark makes quality–cost trade-offs explicit; the abstract does not report a winning memory system.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>VibeMemBench: Evaluating Memory Systems for Coding Agents on Real Repository Coding Tasks</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23570"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • VibeMemBench evaluates whether coding-agent memory improves executable repository tasks.<br>
+        • It pairs 111 coding targets from 90 repositories with 3,634 history trajectories, retaining targets where reference history helps a reference solver.<br>
+        • Direct experience helps four of five held-out solvers, yet 11 of 12 tested memory-system pairings fail to beat memory-off; target selection is intentionally history-sensitive.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>Impact Is Not Invalidation: Ask About the Claim, Not the Diff</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25130"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This work evaluates when stored coding-agent memory claims become invalid after repository changes.<br>
+        • Execution-verified claim flips distinguish claim-specific invalidation from generic behavioral-change detection.<br>
+        • Across 10,369 claims from 23 Python libraries, claim-focused questions yield 0.705–0.974 precision versus 0.291–0.329 for diff-focused judgments.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-19</td>
+      <td style="width: 55%;"><strong>The Price of Safety: Benign-Case Utility and Token Overhead of Memory-Poisoning Defenses in LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22818"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • This study measures the benign-traffic cost of agent-memory poisoning defenses.<br>
+        • Memory backend, retrieval and judging are held fixed while three write-time defenses and one read-time reranker are compared across repeated runs.<br>
+        • The reranker quarantines legitimate memory on 33.6% of adjudicated items; accuracy effects are small and uncertain in a five-conversation study.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-09-17</td>
       <td style="width: 55%;"><strong>EconSkills: Studying Skill Transfer and Retrieval for Web Agents on Live Economic Data</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory">
@@ -10720,6 +11421,34 @@ Papers below are ordered by **publication date**:
         • Introduces update sufficiency: compressed memory should retain distinctions needed for future updates, even when its current answer is correct.<br>
         • Audits paired histories with identical current answers and shared future updates but different correct subsequent answers, using a small synthetic pilot.<br>
         • Finds that present-answer correctness can hide lost update evidence; the study also exposes identifier shortcuts and does not establish natural-task generalization.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16730"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LSREP evaluates how conversational memory accumulates, ages and incorporates revisions across time.<br>
+        • Ordered replay, repeated probes, changing reference answers and fidelity checks audit the local-first ICE v2 memory architecture.<br>
+        • Private replay and public LongMemEval tests reveal quality-cost trade-offs and implementation defects; ICE v2 underperforms vector-RAG in the public diagnostic.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17320"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Emergence World stress-tests persistent multi-agent systems after operational memory has accumulated.<br>
+        • Eight ten-agent worlds run for 16 days before controlled injection, misinformation and private-memory exposure events.<br>
+        • No tested world resists all three events; agents sometimes retain and act on adversarial content up to 46 hours later.
       </td>
     </tr>
     <tr>
@@ -12846,6 +13575,188 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>AkasicMEM: Governed Enterprise Memory for Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25563"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • AkasicMEM targets persistent enterprise memory shared across tasks and agents.<br>
+        • Transitive lineage, policy composition at write time and policy reevaluation at retrieval preserve authorization across derived memories.<br>
+        • The architecture runs on a unified vector–graph–relational database; the abstract does not report a quantitative benchmark.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>Latest Exact Match Attention</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25802"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LEMA uses binary keys and queries to retrieve the latest exact match from a growing internal state.<br>
+        • A surrogate training scheme enables non-differentiable matching, while dictionary-based inference provides context-length-independent per-token lookup.<br>
+        • Models up to 834M parameters outperform fixed-state GDN on some recall tasks but remain behind softmax Transformers on loss and tested natural-text retrieval.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-22</td>
+      <td style="width: 55%;"><strong>MemoryAthena: Adaptive Routing over Latent and Generated Memories</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.25853"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemoryAthena selectively combines direct learned-memory retrieval with generated latent memories.<br>
+        • A lightweight causal router learns counterfactual future-token advantages and bounds interpolation around the direct retrieval pathway.<br>
+        • Five-task QA averages rise from 37.65 to 39.28; the complete memory-side system uses about 201M parameters beyond the frozen backbone.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23986"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Jev-Mem separates lightweight memory control from deliberative language-model reasoning.<br>
+        • A System-One controller manages typing, relations, query routing, retrieval budgets and stopping over a structured memory plane.<br>
+        • The authors report a 0.777 LoCoMo judge score, 158 s construction time and 0.93 s average query latency in their setup.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>ME-Brain-1.0: Memory, Cognition and Action for Evolving Embodied Intelligence</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24271"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ME-Brain organizes embodied adaptation around reusable experience and skills after deployment.<br>
+        • Evolvable Memory consolidates trajectories, Cognitive Core extracts skills, and an Action Model uses event-driven prediction and memory modulation.<br>
+        • The system reports 47.88% mean RoboMME success and 66.7% success on six-task ME-RealBench; results cover the evaluated embodied settings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>ARM: Attention with Routed-Memory for Learnable Sparse Control</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.24417"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ARM introduces a learned fixed-size internal memory with hierarchical routing.<br>
+        • Differentiable slot selection and gated updates combine new and stored information; an inference policy varies the memory access budget.<br>
+        • The authors report commonsense and long-context gains over fixed KV-cache approaches, without numerical results in the abstract.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-20</td>
+      <td style="width: 55%;"><strong>RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.23466"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • RPMem maintains evolving cross-session memory that can survive a language-model backbone replacement.<br>
+        • Session compilation produces backbone-independent latent memory, a recurrent gate consolidates it, and a mapper generates backbone-specific LoRA parameters.<br>
+        • Across three benchmarks and five backbones, Qwen3-8B reaches 85.52% on PERMA with near-constant memory and update cost.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-19</td>
+      <td style="width: 55%;"><strong>StateMem: Single-State Residual Memory with Adaptive Inference for Vision-Language-Action Policies</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22684"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • StateMem replaces an explicit external VLA memory bank with a persistent residual memory state.<br>
+        • Prediction errors update a memory token through low-rank residuals; adaptive routing and correction regulate reuse of prefix features.<br>
+        • The authors report 97.6% LIBERO success and 21.8% task success on RoboMemArena Occlusion; the latter highlights remaining difficulty.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-19</td>
+      <td style="width: 55%;"><strong>SmoLSTM: A Compact Vision-Language-Action Model with Recurrent Memory that Persists</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22854"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SmoLSTM gives a compact VLA policy persistent recurrent memory throughout an episode.<br>
+        • A frozen 256M SmolVLM feeds a matrix-memory LSTM and flow-matching action head, with state storage independent of episode length.<br>
+        • LIBERO-Mem full-task success is 77.5%, falling to 7.0% when state resets each step; results use held-out initial states.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-18</td>
+      <td style="width: 55%;"><strong>PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.22040"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • PRIME feeds past reasoning and behavior back into a VLA model&#39;s perception through situational memory.<br>
+        • Cross-attention aggregates recent perception, goals, reasoning and predicted actions to condition perceptual queries.<br>
+        • On Bench2Drive it reports an 82.47 Driving Score and 60.00% success; the added module is at most 0.41% of base-model parameters.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-17</td>
+      <td style="width: 55%;"><strong>LSTM-UT and Recurrent-Depth Transformers on Cellular Automata</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.19521"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • LSTM-UT adds bounded gated memory to a recurrent-depth Transformer.<br>
+        • Controlled cellular-automata and delayed-recall tasks compare current-state recurrence, growing attention history and LSTM memory.<br>
+        • LSTM-UT improves depth extrapolation and delayed recall in these synthetic tasks; broader language-model generalization is not established.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-17</td>
+      <td style="width: 55%;"><strong>TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21139"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TinyCeNN-LM studies conservative conversion of pretrained attention into compact cellular-recurrent memory layers.<br>
+        • Representation and language-model-loss checks accept or roll back each replacement, preserving compatibility with later layers.<br>
+        • Selected conversions keep loss changes small, but one tested layer fails the fidelity gate; this does not establish universal replacement or speedup.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-17</td>
+      <td style="width: 55%;"><strong>CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.21154"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CoLearn maintains an evidence-grounded learner memory for personalized tutoring.<br>
+        • Soft-evidence Bayesian knowledge tracing updates topic mastery and misconceptions, which guide future questions and visible progress feedback.<br>
+        • Memory-conditioned questions receive 68–69% preference in blind comparisons; mastery convergence is evaluated in persona simulations.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-09-17</td>
       <td style="width: 55%;"><strong>An Architecture for Long-Horizon Agents: Levels, Ticks and Cascaded Intelligence</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
@@ -12899,6 +13810,48 @@ Papers below are ordered by **publication date**:
         • Presents Cairn, a shared reputation layer that treats evidence about tools, services, and information sources as community memory.<br>
         • Agents consult reputation before use and contribute evidence-backed ratings afterward; aggregation combines time decay, confidence shrinkage, and semantic rationales.<br>
         • Evaluates retrieval and adversarial scenarios including collusion and camouflage, alongside a production case study of collective reputation reuse.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Beyond Episodic AI: Cognitive Field Networks for Biologically Inspired Persistent Cognition</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.16752"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Cognitive Field Networks study persistent cognition through a recurrent Transformer hidden field.<br>
+        • History-dependent states re-enter later inference, with recurrence-off and unrelated-input controls probing memory persistence and renewal.<br>
+        • Controlled experiments show finite passive relaxation and content-dependent renewal; this is a computational study, not evidence of general autonomous cognition.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-15</td>
+      <td style="width: 55%;"><strong>Persistent Recurrent Memory Between Transformer Layers - Improves Language Model Generalization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Language%20Models-blue" alt="Language Models"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.17251"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • A persistent recurrent state bridges the lower and upper halves of a decoder-only Transformer.<br>
+        • Cross-attention reads hidden representations, a GRU updates state, and gated addition modulates subsequent computation.<br>
+        • A six-layer model adds 3.7% parameters and reduces held-out loss by 28.5% across five seeds; evidence is small-scale.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-14</td>
+      <td style="width: 55%;"><strong>Semantic-TVM: Structure-Preserving Trustworthy Virtual Memory for Memory-Augmented and Tool-Using Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-blue" alt="Long-Term Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.15011"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Semantic-TVM protects exact private values in memory-augmented and tool-using agent workflows.<br>
+        • A trusted local runtime preserves executable values while exposing recoverable handles or selectively masked spans to remote models.<br>
+        • On Memory-EHR, span-level protection reports 84.17% task success versus 52.33% for whole-field replacement with DeepSeek, alongside low measured exposure.
       </td>
     </tr>
     <tr>
