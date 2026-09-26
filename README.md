@@ -16427,6 +16427,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Verified Memory Vault | 2026-08-24 | ![GitHub Repo stars](https://img.shields.io/github/stars/secondbrainstarter/verified-memory-vault?style=social) | https://github.com/secondbrainstarter/verified-memory-vault<br>https://secondbrainstarter.github.io/verified-memory-vault/ |
 | kgai | 2026-08-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/kgaidev/kgai?style=social) | https://github.com/kgaidev/kgai<br>https://kgai.dev/?ref=awesome-ai-memory |
 | causal-memory | 2026-07-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
+| OrcaReplay | 2026-08-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=social) | https://github.com/Continuum-AI-Corp/OrcaReplay<br>No official website |
 
 ### 🎥 多媒体资源
 
