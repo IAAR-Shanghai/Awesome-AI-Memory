@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-930-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1072-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -107,6 +107,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 Recent hot research and news
++ 2026-09-29 - 🎉 Updated 142 papers, including 3 on Survey, 76 on Framework & Methods, 29 on Datasets & Benchmark, 34 on Systems & Models
 + 2026-09-26 - 🎉 Updated 42 papers, including 23 on Framework & Methods, 5 on Datasets & Benchmark, 14 on Systems & Models
 + 2026-09-23 - 🎉 Updated 68 papers, including 42 on Framework & Methods, 10 on Datasets & Benchmark, 16 on Systems & Models
 + 2026-09-20 - 🎉 Updated 25 papers, including 17 on Framework & Methods, 4 on Datasets & Benchmark, 4 on Systems & Models
@@ -244,6 +245,46 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>What Does a Skill Actually Do? Estimands and Evaluation Validity for Tool and Skill Use in LLM Agents: A Critical Review</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33153"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Clarifies what tool and reusable-skill evaluations actually estimate.<br>
+        • Reviews thirteen core studies using six design axes and analytical counterexamples.<br>
+        • Shows invocation, deployment, and budget-constrained effects are distinct; the review adds no new experiments.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30909"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Surveys unlearning across model parameters and external agent state.<br>
+        • Uses five system layers and six evidence dimensions to compare removal claims and recovery tests.<br>
+        • Finds model-only evaluations insufficient to establish deletion across memory, tools, and subsequent updates.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Amnesia by Design, Memory By Necessity: Persistent State for Document Intelligence</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32041"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Frames document intelligence around persistent evidence-grounded state.<br>
+        • Defines state operations and audits ten benchmarks against eight statefulness criteria.<br>
+        • Finds cross-session evolution largely untested and proposes five longitudinal evaluation metrics.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-09-08</td>
@@ -798,6 +839,1017 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34049"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies information retained after source tokens leave a sliding KV window.<br>
+        • Compares cached-state reuse with recomputing the final raw-token window across five models.<br>
+        • Finds latent information relay, strongest in two models using sliding-window attention; causal training explanations remain open.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>From Attack Success to Attack Severity: Counterfactual Memory Attacks on LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34132"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Measures persistent memory attack severity through counterfactual regret.<br>
+        • MemHarm selects grounded semantic edits using paired downstream-loss feedback.<br>
+        • Severity-guided selection causes greater downstream loss than success-only optimization on matched attack support.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34134"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Maintains explicit validity of long-horizon analytical state.<br>
+        • StateGuard externalizes dependencies in a graph and learns verification and repair from counterfactual trajectories.<br>
+        • Improves three data-analysis benchmarks while reducing propagation of stale analytical artifacts.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Self-Evolving Agents via Likelihood-Guided Tool-Space Optimization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34151"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Consolidates observed tool experience into persistent task-specific tool spaces.<br>
+        • LOTS measures output contributions through likelihood changes and amortizes later tool selection.<br>
+        • Improves tested task performance while reducing tool context, with sequential and cross-model reuse gains.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34163"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Uses reliable route memories for return navigation.<br>
+        • Stores outbound geometry as ordered anchors and gates reverse-route hints and interventions.<br>
+        • Raises return success from 22.0% to 55.1% in fifty episodes; unreliable online geometry leaves an oracle gap.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>RoboICL: Embodied In-Context Learning with GPT-6 Astra</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34261"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Combines demonstration context with bounded interaction memory for robot control.<br>
+        • RoboICL uses a shared observation-action-receipt format and fixed historical anchors.<br>
+        • Improves progress across thirty RoboDojo tasks; real-robot evidence covers three tasks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Commutator Memory: Sparse, Path-Local Reading and Steering in Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34348"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Identifies parametric traces of training-order history.<br>
+        • Projects gradient-field commutators into token-level readouts and tests targeted interventions.<br>
+        • Order can be identified in 92% of cases across four LLMs; the trace is source-pair-specific and decays with training.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>PersMem: Internalizing Personality into Dual-Pathway Memory for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34372"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Makes personality influence memory processing directly.<br>
+        • PersMem conditions appraisal, retention, passive retrieval, and goal-driven selection on personality.<br>
+        • Produces distinguishable personality-related traces and improves tested dialogue metrics; this measures behavioral consistency.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Just-In-Time Agent Memory with Runtime Agentic Research</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34385"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Constructs query-specific memory context at runtime.<br>
+        • JAM preserves raw histories in a hierarchical page store and trains an evidence-seeking researcher.<br>
+        • Reports stronger task performance than ahead-of-time construction with lower cost than prior trained agentic approaches.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>SkillFocus: Evolving Agent Skills via Capability Decomposition</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34397"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Guides skill revision with a stable capability decomposition.<br>
+        • SkillFocus maps failures to recurring requirements and matches revision evidence to the chosen capability.<br>
+        • Leads four held-out benchmarks by 5.7 points on average over strongest competitors, using fewer evolution tokens.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Remember by Asking: Retrieval-Induced Memory Evolution for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34438"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds memory through evidence-focused self-questioning and retrieval.<br>
+        • RIME reconciles retrieved dialogue with prior memory and falls back to source context when needed.<br>
+        • Leads compared methods on three LoCoMo quality metrics with fewer query-time tokens.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Remember Before You&#39;re Asked: MemDream for Self-Probing Memory Evolution</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34545"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proactively probes and repairs memories before real questions expose failures.<br>
+        • MemDream uses offline dream cycles, learned repair policies, and reversible decay.<br>
+        • Reports gains of 4.5 F1 points on LoCoMo and 9.1 overall points on MemoryAgentBench.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34557"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Pairs reusable skill guidance with aligned evaluation rubrics.<br>
+        • SkillRubric assigns intermediate rewards and alternates validated guidance and rubric updates.<br>
+        • Reports multimodal benchmark gains and better guidance under controlled paired rollouts.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Single-Layer MeMo as a Randomized Hamming-Kernel Classifier</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34562"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Analyzes single-layer MeMo as a randomized associative classifier.<br>
+        • Derives context-sketch and output-decoding errors relative to a Hamming-kernel predictor.<br>
+        • Simulations and restricted WikiText-2 tests support the analysis; results do not establish full-scale language-model parity.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>FlowState: Execution State as Memory for Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34565"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Preserves execution state as revisitable long-horizon memory.<br>
+        • Typed nodes retain relations and raw-observation references with incremental updates and progressive access.<br>
+        • Improves MemoryArena and tau3-Bench by 4.55 and 13.95 points while reducing tokens by about 40%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>GenMem: Generative Symbolic Memory for Self-Evolving Harness</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34633"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Treats evolving memory access as generative symbolic addressing.<br>
+        • Stable hierarchical identifiers decouple retrieval policy from continually revised memory payloads.<br>
+        • Evaluates offline evolution across interactive and reasoning tasks; conclusions are limited to tested memory settings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34649"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Learns context-management policies from long-horizon failures.<br>
+        • ContextEvo reconstructs decision-time context and targets policy updates at information-management errors.<br>
+        • Improves three benchmark settings; fixed and locally evolved strategies remain sensitive to context pressure.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34677"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Learns which episodic observations are useful for world-model prediction.<br>
+        • Future-aware training supervises a multi-cue retriever that remains future-blind at inference.<br>
+        • Outperforms hand-designed recall across three settings using the same available cues.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>V-Gym: Enhancing Agentic Visual Reasoning via Skill-Data Co-Evolution</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34682"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Co-evolves procedural skills and targeted multimodal practice data.<br>
+        • V-Gym distills trajectories, validates skill changes, and generates practice for diagnosed bottlenecks.<br>
+        • Reports gains across backbones and transfer of evolved skills across domains and models.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34712"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Co-evolves model routing and reusable subtask skills from experience.<br>
+        • RSI-Router mines subtasks, tests assignments, refines model-specific guidance, and retains Pareto candidates.<br>
+        • Reports better performance than a large-model-only baseline at 48.3% of its cost across five benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>SmartMemory: Detecting On-chain-off-chain Communication Inconsistency for Smart Contract via Memory-based Agent</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34983"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Reuses vulnerability experience through structured agent memory.<br>
+        • SmartMemory abstracts cases into patterns and rules, then verifies candidates with taint analysis.<br>
+        • Reports 80.68% precision and 87.65% recall; authors report 36 newly confirmed vulnerabilities.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>The Right Lesson at the Right Step: Deriving Control Updates for Self-Evolving Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34988"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Compiles experience into localized control-program updates.<br>
+        • EvoCUE tests edits from matched execution checkpoints and retains applicability rules.<br>
+        • Improves AppWorld and office workflows, showing that lesson placement matters alongside storage.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35233"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Controls memory disclosure according to user-owned social boundaries.<br>
+        • Combines person/event policies with generation, storage, and retrieval enforcement.<br>
+        • Reports 75.6% lower leakage and improved permission judgments on introduced and transfer evaluations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35497"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds video memory incrementally while answering questions.<br>
+        • A persistent temporal tree grows from coarse observations and targeted high-resolution revisits.<br>
+        • Matches or improves tested offline-memory methods with lower context cost and no upfront full-video construction.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Continuous Context Management</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35540"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Compacts agent history into updated memory on every turn.<br>
+        • Trains context management with privileged full-history distillation and GRPO.<br>
+        • Reduces context cost, but untrained compaction often lowers success; training gains vary by model and environment.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35551"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Maintains Bayesian memory of advisor reliability.<br>
+        • Historical interactions update trust estimates that govern consultation and worker allocation.<br>
+        • Across nine benchmarks, resists misleading advice better than debate and voting under tested conditions.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>From Experience to Expertise: Adoption-Aware Memory Learning for Data-Scarce NPU Kernel Synthesis</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35568"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Learns reusable programming memory from actual experience adoption.<br>
+        • SAGE assigns adoption-aware utility and consolidates repeatedly useful rules into bounded context.<br>
+        • Reaches 95.5% execution on NPUKernelBench versus 84.1% for the strongest controlled baseline.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>How Linear Attention Remembers</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33093"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Explains selective recall and interference in linear-attention states.<br>
+        • Combines analytical decomposition with causal write, retention, and read interventions in pretrained models.<br>
+        • Memory load harms recall more than elapsed context in tested regimes; hybrid recall often shifts to full-attention state.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33226"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Preserves raw interactions as first-class conversational memory.<br>
+        • Threader performs incremental topic segmentation and multi-view, localized evidence retrieval.<br>
+        • Reports stronger answer accuracy and evidence recall with lower construction overhead than rewriting-based methods.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>CodeSkill: Latent Skill Abstraction for Long-Horizon Code Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33243"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Abstracts coding trajectories into reusable latent skills.<br>
+        • CodeSkill combines textual hierarchy distillation, variational skill inference, and feedback-gated transitions.<br>
+        • Reports competitive coding performance and cross-domain transfer with a frozen language-model policy.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33244"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Organizes procedural experience as dependency-aware memory trees.<br>
+        • ActiveMem learns state-conditioned path retrieval and memory expansion and pruning with reinforcement learning.<br>
+        • Reports better completion, stability, and efficiency across tested agent benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Informative Viewpoint Selection for Episodic-Memory Embodied Question Answering using Omnidirectional Images</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33288"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Selects useful views from episodic panoramic observation memory.<br>
+        • Uses cubemap projection, question-conditioned relevance, and diversity-aware selection.<br>
+        • Maintains much of the answer quality after removing 65.5% of frames on the tested OpenEQA subset.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33304"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Activates personal GUI experience only when it applies to the current situation.<br>
+        • ExpActivator matches current screens to historical states and gates proactive intents by time and context.<br>
+        • Improves step success by 28% on average across four backbones while using about one-fifth of history tokens.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Recursive Harness Distillation across Agents for Robot Manipulation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33378"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Transfers robot intervention experience through reusable cross-agent playbooks.<br>
+        • A strong agent distills guidance and refines it using a lighter agent&#39;s execution feedback.<br>
+        • Raises real-world manipulation success from 37.3% to 64.0%, with simulation gains for both agents.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>NLPG: Natural-Language Policy Gradients for Self-Evolving Language Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33379"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Stores local procedural corrections as external policy memory.<br>
+        • NLPG propagates feedback through module graphs and aggregates bounded route-specific instructions.<br>
+        • Reports an average 8.71-point improvement over the strongest listed baselines across six benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>SIVIA-RSI: Source-Grounded Adaptation of Diagramming Skills</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33386"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Adapts persistent diagramming skills using source-grounded critiques.<br>
+        • SIVIA-RSI separates candidate generation from acceptance and evaluates all learned candidates on transfer papers.<br>
+        • Best relation accuracy rises from 83.33% to 87.50%, but the small study does not establish consistent transfer.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Grounding Memory Summarization in Utility Intent</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33417"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Aligns memory summaries with downstream evidence utility.<br>
+        • MemSuit distills query-informed teacher entries and adapts retrieval to compact facts.<br>
+        • Reports gains across conversational query types; the student builds memory from raw conversations alone.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>TRACE: Governing Memory Validity in Evolving Multi-Agent Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33517"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Governs whether returning agents may act on previously valid memory.<br>
+        • TRACE reconciles departure checkpoints with intervening updates and releases a bounded eligible view.<br>
+        • Preserves valid information while rejecting stale state; gains incur additional token cost.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Self-Designed Evaluators and Warm Memory for Long-Horizon Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33717"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds label-free evaluators to support outcome-tracked warm memory.<br>
+        • SelfSuite freezes self-designed judges that gate retries and label reusable experience.<br>
+        • Improves over a plain agent, but performance varies by environment and a gated second attempt drives consistent gains.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Positions Are Not Facts: The Mismatch Between KV Caches and Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33759"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Examines semantic updates when KV caches serve as memory.<br>
+        • Compares masking values or records with deletion and recomputation, including dependency preservation.<br>
+        • Updating values can damage units and historical answers; cache positions do not directly encode editable facts.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Vestrum: Improving Agent Harnesses by Adapting Their Verification, Structure and Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33822"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Turns recurring execution failures into reusable harness improvements.<br>
+        • Vestrum scopes edits across verification, retrieval, structure, and knowledge, with a persistent lessons file.<br>
+        • Improves held-out results across five settings; evidence-grounded verification works better than rebuilding finished answers.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>R² Flow: Recursive Self-Improvement via Recursive Skill Evolution</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33867"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Alternates policy learning with independently verified skill-library evolution.<br>
+        • R2 Flow merges equivalent execution histories and uses signed utility with versioned updates.<br>
+        • Improves accuracy and edit precision across tested reasoning, interaction, and coding tasks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Residual Streams Read, Recurrent States Remember: The Global Workspace in Mamba Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32102"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Analyzes persistent information in Mamba recurrent states and residual streams.<br>
+        • Uses Jacobian lenses, temporal probes, and guarded interventions across Mamba versions.<br>
+        • State readouts recover complementary content, but verbal steering gains do not consistently transfer to relational answers.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32182"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds bounded visual memory for streaming and long-video questions.<br>
+        • Combines a detailed recent cache, an event bank, and query-dependent budget allocation.<br>
+        • Leads compressed baselines in 13 of 15 settings at 10% of the dense visual-token budget.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>BMA: Backchain Memory Attacks Create Unauthorized Control Paths in LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32186"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies indirect attacks that turn low-trust evidence into actionable persistent memory.<br>
+        • BMA plans backward from a target action and certifies the evidence-to-memory pathway.<br>
+        • Reports 18.8% certified success versus 13.4% for the strongest matched baseline; authorization controls reduce harm.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>LAM: Efficient Lossy Agent Memory Framework With A Retrieval-Score Error Bound</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32256"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Bounds retrieval-score perturbation under deterministic lossy memory compression.<br>
+        • LAM combines deduplication with prefix-preserving, overlapped compaction scheduling.<br>
+        • Removes 22.47% of observation tokens while retaining 99.984% of measured evidence; the bound does not certify rankings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>When Does a Skill Add Value? Task-Conditional Gain Prediction for Selective Skill Use</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32274"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Predicts task-specific benefit before activating a reusable skill.<br>
+        • SkillDelta transfers gains from paired executions with and without the skill.<br>
+        • At matched use rates, beats random activation in fifteen settings by 4.3 points on average; within-group evidence is uneven.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Agentsensus: Consensus-Compressed Shared Memory for Multi-Agent Story Worlds</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32297"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Compresses shared story events into jointly owned memory records.<br>
+        • Agentsensus merges witnessed events and links related records across character agents.<br>
+        • Writes 22–44% fewer entries with comparable judged simulation quality; sharing grows with horizon.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Delayed Supervision for Test-Time Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32312"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Trains test-time memory to preserve facts across delayed queries.<br>
+        • Supervises questions on disposable branches after unrelated events, separating retention from revision.<br>
+        • Improves recall benchmarks for several recurrent models; delay-specific benefit remains confounded with general QA supervision.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Enabling Timely Guidance before Skill Retrieval: Retaining Helpful Warm Tips in Agent Context</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32339"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Makes useful skill guidance available before full skill retrieval.<br>
+        • TipsWarm maintains budgeted keypoints with event-triggered assessment and cheap per-turn filtering.<br>
+        • Leads tested task-success comparisons across three benchmarks while controlling maintenance time.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>ALLOT: Budgeted Hybrid-Memory Routing for Knowledge Updates in LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32344"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Allocates limited parametric writes by their incremental value beyond retrieval.<br>
+        • ALLOT keeps all facts externally and ranks updates using text, retrieval confidence, and relation metadata.<br>
+        • At a 20% write budget on CounterFact, reaches 0.760 accuracy and 78.4% of budget-matched oracle gain.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Shared Worlds, Private Minds: Structured Memory for Long-Form Writing as World Creation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32401"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds structured storyworld memory for consistent long-form writing.<br>
+        • NarraWorld separates facts, beliefs, open developments, and hypothetical branches with traceable aggregation.<br>
+        • Leads aggregate results on three writing benchmarks and transfers to role-playing and general recall.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32511"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Shares reusable experience while retaining receiving-user preference boundaries.<br>
+        • ShareMem separates procedural guidance from preference values and uses two-stage consolidation.<br>
+        • Improves four backbones across three domains; source quality and preference interference still limit transfer.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32521"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Routes across heterogeneous memory providers instead of relying on one representation.<br>
+        • MemAgent learns probing, short-term gating, and selective storage decisions.<br>
+        • Across three benchmarks, reports 10.0% average accuracy improvement with under 0.3% routing overhead.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32522"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Maintains interaction-aware memory for multi-party spoken conversations.<br>
+        • VoxPolyMem combines speaker identification, layered memories, and evidence-gain-trained retrieval decisions.<br>
+        • Scores 85.0 on VoxPolyBench, 23.6 points above the strongest evaluated baseline, with transfer gains on two datasets.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>ProTTT: Learning to Learn Semantic User Memory with Test-Time Training</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32564"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Learns evolving semantic user memory through test-time training.<br>
+        • ProTTT meta-learns profile-supervised initialization and updates compact user-specific parameters from history.<br>
+        • Outperforms tested context and parametric baselines while reducing inference cost and tracking changing preferences.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>EMIR²: Evolution-Aware Memory with Intent-Guided Multi-Round Retrieval</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32584"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tracks evolving knowledge and adaptively gathers missing evidence.<br>
+        • EMIR2 combines a state-evolving memory graph with intent-guided multi-round retrieval.<br>
+        • Improves conflict handling and complex retrieval on LoCoMo and MemConflict, with gains varying by category.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Retrieved but Not Delivered: Multimodal Memory Delivery for Long-Term Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32590"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates retrieved evidence from how it is delivered to multimodal models.<br>
+        • DeliverMem preserves original modality, item identity, and timestamps under matched retrieval controls.<br>
+        • Delivery has a larger measured effect than perfect retrieval on MemLens and improves two tested benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>SPACE: Sparse Predictive Attractor via Counterfactual Eviction for Streaming Video Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32592"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Chooses streaming-memory evictions by their effects on predictive state.<br>
+        • SPACE uses frozen future-representation predictions and slow-state geometry to balance stability and adaptation.<br>
+        • Improves dataset-native tasks while reducing predictive drift under matched streams and budgets.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32630"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Synthesizes skills by navigating raw experience on demand.<br>
+        • ExpVoyager searches multiple trajectory views and resolutions while tracking missing procedural knowledge.<br>
+        • Reports consistent downstream gains as experience grows and compatibility with existing skills.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Contract Memory Compiler: Resolve, Then Traverse</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32658"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Resolves evolving relations before choosing evidence for multi-hop memory queries.<br>
+        • CMC extracts provenance-linked relations, applies updates, and traverses current links to raw records.<br>
+        • Reaches 78.25% multi-hop accuracy on FactConsolidation; selecting evidence before updates drops it to 21.50%.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Self-Evolving Time-Series Forecasting Agents with Episodic Memory and Online Policy Learning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32689"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Reuses delayed forecasting feedback through episodic memory and online guidance.<br>
+        • FASE retrieves completed cases and summarizes accumulated outcomes into action-ranking policy.<br>
+        • Across 29 configurations, reduces normalized MAE by 9.1% versus the best individual foundation-model baseline.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>SkillVine: Agent Skill Evolution via Branching Exploration</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32731"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Explores branching alternatives in procedural skill evolution.<br>
+        • SkillVine combines trunk-branch search, parent selection, and adaptive update granularity.<br>
+        • Finds stronger skill banks than linear evolution and leads nine of ten benchmark-model combinations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Decision-Sufficient State Representations: Measuring and Reducing Write-Time Regret</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32805"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Measures information lost by sequential memory rewriting as write-time regret.<br>
+        • DSSR trains writers using reader outcomes after forward-rolled state updates.<br>
+        • Adds seven success points at short delays, but gains shrink at longer delays because credit assignment remains difficult.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Counterfactual Self-Evolving Agents for Evidence-Grounded Reasoning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32870"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Accumulates accepted counterfactuals as evidence memory for frozen solvers.<br>
+        • A trained proposer edits evidence, while solver and verifier feedback select useful revisions.<br>
+        • Reports improvements across reasoning domains; adaptation occurs through evolving context rather than solver weight updates.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>The Key Handoff: Retrieval in Hybrid Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32942"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Traces how hybrid models hand off retrieval keys between layers.<br>
+        • Hidden-state transfers and recurrent-memory edits distinguish entity-addressed retrieval from positional cues.<br>
+        • Attention converts keys while recurrence can carry and later query them; behavior varies across twelve models.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Certified Long-Horizon Code Agent Evolution via Validation-Gated Skill Optimization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32990"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Validates persistent skill updates over long coding-task streams.<br>
+        • VALVE gates text-based skill changes and analyzes gain, drawdown, and holdout requirements.<br>
+        • Across over 1,000 tasks, reports 14.9-point average final gains and 75% lower drawdown than ungated evolution.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32993"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Recovers reusable experience hierarchies directly from action data.<br>
+        • X-Tree merges frequent successful spans and integrates them into offline RL, online rewards, and self-distillation.<br>
+        • At matched budgets, reports gains up to 4.5, 5.8, and 4.1 points across three agent benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Causal Retention in Interactive Agents: Interface Factorization and Selective Adaptation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30650"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates retained causal mechanisms from task performance.<br>
+        • Derives interface-based limits and implements evidence-gated writes and selective state updates.<br>
+        • Controlled causal and model experiments show improved mechanism retention; task success alone is insufficient evidence.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>SkillRefine: Cross-Source Skill Induction and Execution Validation for LLM Agents in Refinery Planning Software</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30674"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Induces procedural skills from heterogeneous industrial evidence.<br>
+        • Grounds expert coordination patterns in documentation and repairs skills using execution validation.<br>
+        • Reports 14–30-point component-match F1 gains across four backbones on held-out PIMS tasks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>MammoClaw: Towards Skill-Evolving Agent Harness for Breast Cancer Mammography Analysis</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31789"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies reusable skill evolution for mammography agents with frozen models.<br>
+        • Transforms failed tool-use trajectories into guidance for later runs.<br>
+        • Evolved skills help in some settings, while tools alone are unreliable; this is an exploratory study.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>HasMem: Hard-Origin Adaptively Softened Memory for Long-Term LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30797"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Adapts continuous memory capacity from a verifiable hard-prompt initialization.<br>
+        • A controller resizes entries while writer, reader, and global state adapt encoding and readout.<br>
+        • Improves lexical F1 in two evaluations, but exact-match accuracy declines, limiting a simple success interpretation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>SkillEvoReg: Regularizing Agent Skill Evolution Against Overfitting</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30861"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Regularizes evolving procedural skills against overfitting and regression.<br>
+        • Combines skill dropout, complexity penalties, and causal counterexample validation.<br>
+        • Controls skill-bank growth while improving several transfer outcomes across three benchmark suites.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Up and Down the Abstraction Ladder: Code-Based Skills for Language Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31076"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies reusable code skills as action abstractions for language agents.<br>
+        • CodeHack compares primitive, skill-only, and mixed control in prompting, fine-tuning, and RL.<br>
+        • Skills nearly triple zero-shot game progress and reduce inference cost by 86%; primitives preserve flexibility.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>COUNTERMEM: World-Model Verified Counter-Factual Memory for Language Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31874"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Constructs reusable counterfactual memories from verified alternative actions.<br>
+        • Executable world models test local corrections; a learned policy selects or skips memories.<br>
+        • Reports a 12.6-point average gain over unaugmented agents across twelve settings; offline training costs are excluded from token savings.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>EngramRAG: Dynamic Usage-Weighted Topology and Synaptic Consolidation for Multi-Hop Agentic Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32049"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces adaptive graph memory with background consolidation.<br>
+        • Combines usage-weighted PageRank, topology-aware retention, revision filtering, and hybrid retrieval.<br>
+        • On LoCoMo, Recall@5 rises from 38.29% to 53.21% over dense retrieval; retention tests include simulations.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-09-24</td>
@@ -11570,6 +12622,393 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Evo2Team: When Do Evolved Skills Transfer? From Selection to Deployment</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34135"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies when evolved skills transfer between multi-agent teams.<br>
+        • Evo2Team selects, adapts, and confirms source skills while tracing target-side actions and costs.<br>
+        • Twenty of twenty-eight directions show positive transfer; changed graphs can invalidate earlier confirmations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>RoutePrism: Tracing Construction Order Effects in Agent Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34160"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Diagnoses how memory construction order changes retained evidence.<br>
+        • RoutePrism rebuilds identical sources in different orders and restores displaced records under matched controls.<br>
+        • Restoring one supporting record recovers over sixty accuracy points in the controlled intervention.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>ReplayLens: Auditing Agents&#39; Use of Outcomes</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34177"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Audits whether agents use stored outcome relationships rather than incidental record features.<br>
+        • ReplayLens independently changes score attachment, order, names, and slots.<br>
+        • Controlled interventions reveal ingestion-order sensitivity and harmful dependence that endpoint accuracy misses.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34227"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests whether selecting raw turns can replace extracted memory facts.<br>
+        • A preregistered comparison varies retrieval budgets and answer models.<br>
+        • Selection is competitive at tight budgets and much cheaper to write; extraction wins at generous budgets and reranking hurts abstention.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34526"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests when a retrieved user preference should influence an answer.<br>
+        • PairPref holds preferences and requests fixed while changing situations across 1,227 pairs.<br>
+        • Free-generation success on both situations is only 3.6–18.3%, exposing an applicability gap.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>After the Fix: How Corrected Agent Histories Transfer to Related Tasks</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34603"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Distinguishes repairing a past episode from making it useful for a new task.<br>
+        • Compares original, corrected, and independent executions across 3,300 runs.<br>
+        • Benefits vary by task family; memory updates require both previous-version and fresh-start references.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>VCN-Bench: A Video-Contextualized Navigation Benchmark for Spatial Reasoning over Prior Visual Experience</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34687"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests navigation using spatial knowledge from prior visual experience.<br>
+        • VCN-Bench supplies prior videos, five instruction types, and 1,250 evaluation episodes.<br>
+        • Models often identify destinations yet fail to navigate, exposing a gap between recalled spatial information and action.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35052"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Benchmarks object-instance memory in video world models.<br>
+        • OPIS anchors 500 cases and 12,672 object instances to the initial input.<br>
+        • Eight models struggle with identity retention, which worsens as object inventories grow.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>MemoReason: Evaluating the Effect of Parametric Memory on Contextual Reasoning in LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35312"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates parametric familiarity from contextual reasoning performance.<br>
+        • Pairs factual tasks with structurally matched fictional versions.<br>
+        • Performance drops by up to 15.7%, but direct recall of factual answers is rarely the dominant error.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35576"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies adversarial state propagation through shared artifacts and persistent memories.<br>
+        • Simulated agent communities track survival, spread, and repeated memory-to-artifact handoffs.<br>
+        • Some configurations reach 60–80% of agents over chains up to eight hops; evidence is simulation-based.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35596"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Benchmarks persistent safety failures arising from agent self-evolution.<br>
+        • Uses 48 longitudinal sequences with paired non-evolving controls and causal attribution.<br>
+        • Task gains can accompany new safety failures; reasoning-based monitoring mitigates some tested risks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Report: Progressive Disclosure of Agent Skills</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35692"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Empirically studies progressive disclosure of reusable agent skills.<br>
+        • Compares lazy loading with keeping named procedures in context in a deployed-agent setting.<br>
+        • Finds better skill-retrieval quality but a small increase in overall latency.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Separating Memory and Workflow Effects in Predicting Individual Answers</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33321"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates memory construction from answer-workflow effects in personalization.<br>
+        • Compares concrete memories, traits, raw records, retrieval, and multi-answer fusion.<br>
+        • Raw evidence often helps, but gains do not establish a universal human-prediction ceiling or an advantage over recency truncation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>EverMine: Dissecting the Self-Evolution of Research Capabilities in Long-Horizon Alpha Research</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33524"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests whether accumulated research skills improve later scientific-style search.<br>
+        • EverMine separates history, current portfolio, and reusable capability in controlled continuations.<br>
+        • Across eighteen trajectories and forty-eight branches, evolving capabilities gives no consistent improvement.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33623"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Characterizes mismatches between agent memory and user expectations.<br>
+        • Combines usage records, diaries, co-design workshops, and a 121-user preference study.<br>
+        • Finds fourteen mismatch types and heterogeneous preferences, favoring low-friction proactive control.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32192"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces topology-conditioned boundaries for collaborative memory.<br>
+        • Tests sharing and isolation in 800 execution-grounded workflows across four domains.<br>
+        • Broader context improves availability but can weaken isolation; rankings vary by topology.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Before Answering: Evidence Sufficiency under Size-Matched Memory Construction</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32269"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Removes memory-size shortcuts from evidence-sufficiency evaluation.<br>
+        • Size-matched construction supports testing MemSafe, a query-unit encoder with set aggregation.<br>
+        • Strong in-distribution detection does not transfer reliably; practical abstention gains depend on coverage.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>MemTransfer: Benchmarking Memory Beyond Matched Experience in Embodied Decision-Making</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32313"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests embodied memory transfer under changed execution conditions.<br>
+        • MemTransfer compares six representations across starting poses, blocked routes, and history relevance.<br>
+        • Episodic success drops sharply at new starts; robustness to one mismatch does not imply robustness to another.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>SkillDRE: Dual-Stage Red-Team Evolution of Agent Skills via Pre-Execution and Runtime Feedback</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32400"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests adaptive threats to reusable skill packages across defense stages.<br>
+        • SkillDRE alternates scanner and runtime feedback while preserving legitimate task capability.<br>
+        • Reports 45.28% average attack success despite clean final scans, exposing limits of stage-isolated evaluation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32574"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests user memory inferred from implicit multimodal cues.<br>
+        • CUE-Mem contains 2,674 text-image-audio questions spanning recall, patterns, recommendations, and refusal.<br>
+        • Detailed captions recover some evidence at growing cost; native multimodal access still suffers retrieval noise.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32607"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Benchmarks spoken memory beyond transcript semantics.<br>
+        • VoxMem crosses four acoustic evidence types with four operations over 34,743 sessions and 3,196 instances.<br>
+        • None of fifteen tested audio-language models exceeds 40% at 32K context; nonlexical cues are especially weak.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33013"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Evaluates the quality and governance of memory consolidation decisions.<br>
+        • Studies episodic boundaries, promotion, ConsolidationBench, and reversible, auditable consolidation.<br>
+        • Reports useful controlled gains but finds its quality score does not predict real transfer accuracy.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30813"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Benchmarks admission of correlated claims into shared memory.<br>
+        • Static and live tracks compare eight policies with source-lineage-aware diagnostics.<br>
+        • Coverage and false-admission trade off; an admitted uncontested false belief is repeated in 97–99% of probes.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>ROTE: Benchmarking Neural Memorization on Complexity-Controlled Symbolic Sequences</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31918"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Benchmarks memorization using complexity-controlled symbolic sequences.<br>
+        • Uses LZW complexity sweeps and matched prediction and rollout protocols across architectures.<br>
+        • Exposes trade-offs between recall, rollout stability, and computational cost.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32093"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Evaluates autonomous experience learning in unfamiliar video games.<br>
+        • Includes 500 short tasks and two full playthroughs with exploration-based knowledge reuse.<br>
+        • Frontier models solve fewer than half the short tasks; tested memory pipelines fail early in full games.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-24</td>
+      <td style="width: 55%;"><strong>Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30383"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Exposes harmful interactions between individually innocuous reusable skills.<br>
+        • SkillCascade distributes adversarial changes across skills and supplies 213 validated test cases.<br>
+        • Tested per-skill scanners and runtime monitors miss cross-skill harm, motivating composition-level evaluation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-24</td>
+      <td style="width: 55%;"><strong>Probing Stability-Plasticity Tradeoffs in Agent Memory through Cognitive Experimental Paradigms</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation">
+        <img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30558"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Diagnoses stability-plasticity trade-offs in agent memory.<br>
+        • MemProbe uses interference, misinformation, consolidation, and reconsolidation experiments over 56 episodes.<br>
+        • Six systems with similar aggregate scores exhibit different maintenance behaviors.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-24</td>
+      <td style="width: 55%;"><strong>In-Context Binding Capacity in Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30634"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Measures how many entity-value bindings language models can recall.<br>
+        • Uses load-dependent recall curves and a broader sweep of thirty open models.<br>
+        • Finds scale-related capacity and interference effects; state updating and downstream transfer are not measured.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-09-24</td>
       <td style="width: 55%;"><strong>Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Skill%20Reuse-blue" alt="Skill Reuse"></td>
@@ -11593,6 +13032,20 @@ Papers below are ordered by **publication date**:
         • A retrospective study audits whether reusable migration skills improve contract-correct advice.<br>
         • It traces 328 grading decisions across 64 reports, adds executable probes and compares independent model judges.<br>
         • The original mean gain is 4.92 points, but reviewed estimates have intervals reaching zero; executable end-to-end repair evaluation remains future work.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-23</td>
+      <td style="width: 55%;"><strong>What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31760"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Examines whether autonomous robot skill discovery produces cumulative improvement.<br>
+        • Analyzes 123 rounds of failure diagnosis, skill construction, and simulation testing.<br>
+        • Skills emerge, but the target task remains unsolved; weak evaluation and misleading memory impede progress.
       </td>
     </tr>
     <tr>
@@ -13940,6 +15393,445 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Stashbird: Efficient Speaker-Indexed Memory for Conversational Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34242"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Links conversational memory state to source episodes and speakers.<br>
+        • Stashbird maintains episodic records, semantic relations, community summaries, and deletion provenance.<br>
+        • Reduces ingestion and retrieval workload substantially, with benchmark-dependent accuracy trade-offs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>DreamingGoose: Staged Distillation from Autoregressive Transformers to Bidirectional Recurrent Diffusion Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34253"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Tests whether retrieval survives conversion to recurrent diffusion language models.<br>
+        • DreamingGoose stages architecture and objective distillation, then varies retrieval curricula.<br>
+        • Language modeling partly transfers but retrieval initially vanishes; recovery is seed- and token-coverage-dependent.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>NavHarness: Towards Lifelong Embodied Navigation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34276"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Carries navigation experience across fresh reasoning sessions.<br>
+        • NavHarness checks evolving maps and records against observations and consolidates recovery handovers.<br>
+        • Improves GOAT-Bench task success over independent sessions by 18.6 and 22.6 points for two models.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34422"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Post-trains agents to use ordinary filesystem operations as memory.<br>
+        • CAMG supplies four long-horizon environments and persistent workspaces; asynchronous PPO learns memory behavior.<br>
+        • The 4B and 9B models are competitive with larger Qwen baselines on tested coding benchmarks.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Where Memory Belongs: Ledger, an Object Ledger for Memory-Augmented VLAs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34554"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates short perceptual memory from explicit long-term object memory.<br>
+        • Ledger combines an in-policy frame memory with an external object record and planner.<br>
+        • Achieves 64.3% across four RoboMME suites versus 45.9% for the strongest compared prior method.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>D²-VLA: Dual-Memory Dual-Frequency Vision-Language-Action Model For Long Dynamic Manipulation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.34792"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Combines historical and fast memory for dynamic long-horizon manipulation.<br>
+        • Separate KV read views and a gated visual adapter support different perception and action rates.<br>
+        • Reaches 60.0% on DOMINO-Long versus 35.4% and 20.6% for compared policies.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Research-Native by Construction: Minimal Nodes, Re-verifiable Workflows, and Compounding Memory for Long-Horizon Scientific Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35182"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Designs persistent scientific-agent memory around explicit evidence integrity.<br>
+        • Uses frozen inquiry contracts, artifact ledgers, and two-tier knowledge promotion.<br>
+        • Presents failure traces and worked campaigns, with no quantitative benchmark yet.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>ReCAT: Remember, Count, and Time: Structured Recurrent Memory for Robot Manipulation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35200"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Adds structured recurrent memory to language-conditioned robot policies.<br>
+        • Mamba layers and causal attention feed separate historical cross-attention into an action decoder.<br>
+        • Reaches 62.4% on RMBench; different update rules favor spatial recall versus counting and timing.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35318"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Accumulates reusable tools and verifiers from human-to-robot processing.<br>
+        • DexAgent adapts simulation and trajectory-generation procedures and retains newly developed capabilities.<br>
+        • Across eleven robot tasks, reports 3.5× baseline success and lower processing time with accumulated experience.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Scalable In-Context Reinforcement Learning with Recurrent Algorithm Distillation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35333"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Distills long interaction histories into bounded recurrent memory for in-context RL.<br>
+        • A compression Transformer feeds latent tokens and recent transitions to an action model.<br>
+        • Matches standard algorithm-distillation asymptotic performance with smaller context in tested environments.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Memory in the Sky: Low-Altitude Question Answering with Multi-Agent Memory Aggregation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35431"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Values distributed UAV memories by downstream question-answering utility.<br>
+        • Simulation-based exams guide memory selection and communication-resource allocation.<br>
+        • Reports 88.5% QA accuracy on PMAS alongside simulated and robot demonstrations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35432"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Represents physical task state and procedures as revisable code.<br>
+        • HexaAnything converts verified execution traces into reusable programs, memory, and training data.<br>
+        • Reports simulation and robot gains; several deeper self-redesign capabilities remain future work.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35578"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Factorizes learned n-gram memory into shared components.<br>
+        • Sparse coefficients and basis-level contextual gates support selective memory readout.<br>
+        • Improves language modeling on 340M and 1B backbones; ablations favor middle-layer insertion before attention.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-28</td>
+      <td style="width: 55%;"><strong>MS-GLA: Multi-Scale Gated Linear Attention for Addressing Representational Bottlenecks via Multi-Temporal Resolution</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.35664"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Expands effective recurrent memory through multiple temporal resolutions.<br>
+        • MS-GLA pools different token spans across heads and learns input-dependent fusion.<br>
+        • Reports up to 18.9% recall improvement and lower perplexity at matched parameter counts.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33258"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates persistent robot scene memory from onboard residency.<br>
+        • PORTER keeps lightweight anchors locally and offloads replaceable payloads using requirement-coverage loss.<br>
+        • On JITOMA-Bench, pooled relative recall remains intact through 91% payload offloading under progressive compression.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>CORTEX: A Verified Experience Layer for Generalist Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33260"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Defines an external layer for verified experience reuse.<br>
+        • CORTEX stores task conditions, source versions, proof traces, and outcomes to choose replay, adaptation, or fresh synthesis.<br>
+        • Controlled synthetic and family-holdout studies support the replay core; evidence remains an initial implementation.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>LSTMem: Hierarchical Long Short-Term Online Memory for Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33268"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Separates history accumulation from memory expression inside frozen LLMs.<br>
+        • LSTMem uses gated cell and hidden matrices with cross-layer propagation and reconstruction feedback.<br>
+        • Improves three memory/reasoning benchmarks on Qwen3-4B; cross-layer propagation contributes to gains.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>Structured Sparse Memory for Recurrent Reasoning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33270"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Compresses task-conditioned memory for recurrent reasoning.<br>
+        • CHARM uses compositional sparse embeddings alongside recurrent computation and synthetic augmentation.<br>
+        • Cuts task-memory parameters by over 90%; the combined system scores 84% and 46.7% on two public ARC evaluations.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>VisionHOPE: Visual Backbones as Self-Modifying Learning Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33325"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds a visual backbone whose memory and learning rules co-evolve.<br>
+        • VisionHOPE couples five memories with stability-controlled self-referential updates and multidirectional scans.<br>
+        • Reports competitive classification, detection, and segmentation results with a non-expansive memory-dynamics guarantee.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-27</td>
+      <td style="width: 55%;"><strong>SchemaMem: Schema-Indexed Recurrent Memory for Delayed State Retrieval</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.33436"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Introduces schema-indexed recurrent memory for delayed retrieval.<br>
+        • Shared schema embeddings guide reads and bounded chunk-boundary writes without direct state feedback.<br>
+        • Improves delayed written-value retention in controlled tasks, but needs more optimization and trails on default values.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>REBASE: Device-Cloud Experience Coherence for GUI Agents Across App Updates</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32130"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Maintains GUI experience validity across application updates.<br>
+        • Cloud replay and device-side step checks produce version-specific repairs with incremental evidence upload.<br>
+        • Restores stale-experience success within one episode on tested devices; results cover nine app-version pairs.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>PastForward: Faster On-Device GUI Agents via Computational Experience Reuse</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32166"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Reuses validated computational experience to accelerate on-device GUI agents.<br>
+        • Verifies prior output proposals and speculates on future screens using earlier transitions.<br>
+        • Reports 1.63–2.36× action-step speedups while maintaining task success on tested workloads.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>SCLATE: a Substrate for Continual-Learning Agent Training and Evaluation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Evaluation-blue" alt="Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32391"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Provides a shared execution substrate for continual-learning agents and benchmarks.<br>
+        • SCLATE schedules sessions and consolidation events while preserving native harnesses and memory.<br>
+        • Compares seven benchmarks and ten configurations; added memory is not uniformly better, while post-training improves usage.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Memory as a cache: Exact context reuse and deletion by construction</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32395"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Makes model context exactly composable and deletable by construction.<br>
+        • SMem independently encodes blocks and reads their union through cross-attention.<br>
+        • Improves edit and reuse efficiency with recipe-dependent perplexity trade-offs; very long deletion tests probe cost rather than served quality.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>DRAM: Delta-rule Recurrent Associative Memory for Robot Manipulation Policies</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32453"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Adds fixed-size associative memory to frozen robot policies.<br>
+        • DRAM uses frame-parallel gated delta-rule updates and architecture-independent action readout.<br>
+        • Improves tested pretrained policies without backbone retraining, but memory and action components still need task-specific training.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32862"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Evolves embodied-agent context and skills as persistent system state.<br>
+        • RoboFoundry validates trace-derived updates and promotes recurring improvements into general capabilities.<br>
+        • Reports gains on embodied and memory benchmarks plus robot transfer; contributions span several coupled system components.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-26</td>
+      <td style="width: 55%;"><strong>Relic: From Multi-Agent Collaboration to Persistent Organizational Capability</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32965"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Turns collaboration experience into persistent organizational protocols.<br>
+        • Relic binds adopted rules to runtime triggers, responsibilities, evidence, and consequences.<br>
+        • Fresh-member transfer benefits more from executable bindings than text alone; controlled software-team studies support the mechanism.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Shared%20Memory-blue" alt="Shared Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30939"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Adds longitudinal memory to a multi-agent CBT support workflow.<br>
+        • Tracks cognitive patterns and intervention history across sessions using a fine-tuned backbone.<br>
+        • Reports improved continuity and session quality on simulated dialogue with model judges; clinical effectiveness is not established.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31255"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Builds typed persistent health records from conversational requests.<br>
+        • PIA separates extraction, storage, retrieval, and longitudinal understanding through pluggable domain controls.<br>
+        • Reports operational lessons rather than controlled clinical effectiveness; self-reports and causal links remain noisy.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Omni-IO Skills: Harnessing Your Agent Omni-Native</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31847"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Composes reusable multimodal skills through an agent harness.<br>
+        • Uses dependency-aware execution graphs and a persistent registry for cross-turn artifact reuse.<br>
+        • Evaluates 27 skills covering 38 tasks and improves support and quality on UniM-90.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-25</td>
+      <td style="width: 55%;"><strong>Memory as Middleware for Self-Improving AI Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.32091"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Argues for agent memory as a pluggable middleware layer.<br>
+        • ALTK-Evolve illustrates isolation, consistent writes, provenance-aware sharing, and lifecycle governance.<br>
+        • Presents a reference implementation and research agenda rather than a comparative performance claim.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-24</td>
+      <td style="width: 55%;"><strong>Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Experience%20Reuse-blue" alt="Experience Reuse">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31770"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Studies body knowledge and experience reuse in robot manipulation.<br>
+        • Combines synchronized demonstrations with reusable visual-feedback programs in simulation and real trials.<br>
+        • Reports substantial time savings, but evidence is concentrated on a narrow elevator-button task.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-24</td>
+      <td style="width: 55%;"><strong>LensDesigner: A Self-Improving Agent for Optical Lens Design</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.30450"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Accumulates reusable design heuristics in an optical-design agent.<br>
+        • Combines physically grounded retrieval, simulation feedback, and curriculum-driven experience refinement.<br>
+        • Reports better success and efficiency on 120 optical tasks; claims remain domain-specific.
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-09-24</td>
       <td style="width: 55%;"><strong>HarnessPAI: An Evolving Harness for Physical AI</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory"></td>
@@ -14161,6 +16053,21 @@ Papers below are ordered by **publication date**:
         • MemoryAthena selectively combines direct learned-memory retrieval with generated latent memories.<br>
         • A lightweight causal router learns counterfactual future-token advantages and bounds interpolation around the direct retrieval pathway.<br>
         • Five-task QA averages rise from 37.65 to 39.28; the complete memory-side system uses about 201M parameters beyond the frozen backbone.
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-09-21</td>
+      <td style="width: 55%;"><strong>PanOVOcc: Panoramic Embodied Open-Vocabulary Occupancy Mapping with Long-term Spatial Voxel Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Internal%20Memory-blue" alt="Internal Memory">
+        <img src="https://img.shields.io/badge/Embodied%20Memory-blue" alt="Embodied Memory">
+        <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2609.31716"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Maintains persistent open-vocabulary spatial memory from panoramic observations.<br>
+        • Integrates panoramic SLAM, semantic perception, and online voxel-memory updates.<br>
+        • Improves mapping metrics on two introduced benchmarks; evidence concerns spatial mapping rather than general reasoning.
       </td>
     </tr>
     <tr>
