@@ -16378,6 +16378,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Mengram | 2026-02-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/alibaizhanov/mengram?style=social) | https://github.com/alibaizhanov/mengram<br>https://mengram.io/ |
 | widemem-ai | 2026-02-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/remete618/widemem-ai?style=social) | https://github.com/remete618/widemem-ai<br>https://widemem.ai |
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
+| Hermeneutic | 2026-04-27 | ![GitHub Repo stars](https://img.shields.io/github/stars/hermes-labs-ai/hermeneutic?style=social) | https://github.com/hermes-labs-ai/hermeneutic<br>https://hermes-labs.ai/hermeneutic |
 | SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
 | Cog | 2026-03-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/marciopuga/cog?style=social) | https://github.com/marciopuga/cog<br>No official website |
 | NeverOnce | 2026-03-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/WeberG619/neveronce?style=social) | https://github.com/WeberG619/neveronce<br>https://pypi.org/project/neveronce/ |
