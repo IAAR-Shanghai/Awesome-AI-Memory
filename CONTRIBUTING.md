@@ -2,6 +2,16 @@
 
 ## 添加论文流程
 
+### 0. 先确认收录范围与证据
+
+请先阅读 [论文筛选规则](SCREENING.md)。仅收录以 Agent Memory 或语言模型内部记忆为核心贡献的工作；相邻主题、关键词匹配与证据不足的候选不能直接入库。
+
+在 `screening/YYYY-MM-DD-review.json` 保存逐篇人工判断与来源证据。流程技能须说明经验形成、持久保存、后续复用和验证/维护。已排除或待复核的 ID 再次提交须附新证据和 `reassessment`，保留历史记录。
+
+提交前执行 `python3 scripts/check_screening.py --base origin/main --review screening/YYYY-MM-DD-review.json`，并核验三条双语摘要、日期倒序、去重、统计与 GitHub 表格渲染。检查器核对证据记录，不代替人工相关性判断。摘要核验与全文阅读须如实区分。
+
+Read [SCREENING.md](SCREENING.md) before adding papers. Include a human review record with concrete memory evidence, run the publication gate, and require new evidence to reconsider an excluded or held paper.
+
 ### 1. 准备工作
 
 从上游仓库 fork 并创建新分支：
@@ -52,7 +62,7 @@ git checkout -b add-paper-{论文简称} upstream/main
 ### 5. 提交并创建 PR
 
 ```bash
-git add README.md README_en.md
+git add README.md README_en.md screening/YYYY-MM-DD-review.json
 git commit -m "Add [论文简称] paper on [主题] for LLM Agents"
 git push -u origin add-paper-{论文简称}
 ```
