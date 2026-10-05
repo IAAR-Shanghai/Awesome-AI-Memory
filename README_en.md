@@ -38,7 +38,7 @@ This repository focuses on **Agent Memory and memory mechanisms inside language 
 - **Exclude**: pure vision or low-level robot state, hardware/KV-cache efficiency, general RAG/long-context/tool routing, and adjacent work supported only by speculative transfer to LLMs. High-level language-agent memory in embodied or multimodal settings can qualify.
 - **Hold uncertain candidates** until the memory user, content, operations, central contribution and supporting evidence are established. State the actual reading depth; abstract verification is not full-text review.
 
-See the [screening policy and publication gate](SCREENING.md). The [2026-09-30 review](screening/2026-09-30-review.md) records decisions for the September 23, 26 and 29 batches; older entries have not all been reassessed under this policy.
+See the [screening policy and publication gate](SCREENING.md).
 
 ---
 
@@ -97,10 +97,9 @@ To systematically organize the diverse research and practical resources in the f
 
 ## 🔔 Recent hot research and news
 + 2026-10-03 - 🎉 Updated 118 papers, including 1 on Survey, 93 on Framework & Methods, 16 on Datasets & Benchmark, 8 on Systems & Models
-+ 2026-09-30 - 🔎 [Scope review](screening/2026-09-30-review.md): reviewed 252 papers from the September 23, 26 and 29 batches; retained 148 and removed 104 (99 excluded, 5 held for further evidence).
-+ 2026-09-29 - Originally added 142 papers; the 2026-09-30 scope review retains 83 (17 on Datasets & Benchmark, 47 on Framework & Methods, 17 on Systems & Models, 2 on Survey) and removes 59.
-+ 2026-09-26 - Originally added 42 papers; the 2026-09-30 scope review retains 20 (15 on Framework & Methods, 3 on Systems & Models, 2 on Datasets & Benchmark) and removes 22.
-+ 2026-09-23 - Originally added 68 papers; the 2026-09-30 scope review retains 45 (29 on Framework & Methods, 9 on Systems & Models, 7 on Datasets & Benchmark) and removes 23.
++ 2026-09-29 - 🎉 Updated 83 papers, including 2 on Survey, 47 on Framework & Methods, 17 on Datasets & Benchmark, 17 on Systems & Models
++ 2026-09-26 - 🎉 Updated 20 papers, including 15 on Framework & Methods, 2 on Datasets & Benchmark, 3 on Systems & Models
++ 2026-09-23 - 🎉 Updated 45 papers, including 29 on Framework & Methods, 7 on Datasets & Benchmark, 9 on Systems & Models
 + 2026-09-20 - 🎉 Updated 25 papers, including 17 on Framework & Methods, 4 on Datasets & Benchmark, 4 on Systems & Models
 + 2026-09-15 - 🎉 Updated 250 papers, including 3 on Survey, 180 on Framework & Methods, 32 on Datasets & Benchmark, 35 on Systems & Models
 + 2026-09-15 - 🎉 Updated 1 paper, including 1 on Framework & Methods
