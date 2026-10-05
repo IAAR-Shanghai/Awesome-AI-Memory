@@ -59,6 +59,10 @@ git checkout -b add-paper-{论文简称} upstream/main
 
 `README_cn.md` 仅保留旧链接入口，不再维护论文条目。
 
+首页和新闻直接呈现最终收录结果及分类数量；筛选、修订和排除过程记录在 `screening/` 与本地批次证据中。
+
+Present final inclusion results and category counts on the homepages and in news. Keep screening, revision and exclusion details in `screening/` and local batch evidence.
+
 ### 5. 提交并创建 PR
 
 ```bash
