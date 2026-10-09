@@ -6,7 +6,8 @@ from pathlib import Path
 import re
 import subprocess
 
-POLICY_VERSION = '2026-09-30'
+POLICY_VERSION = '2026-10-09'
+MEMORY_SIGNAL = re.compile(r'\b(?:memory|memories)\b', re.I)
 TRACKS = {'agent_memory', 'llm_memory', 'procedural_memory', 'memory_evaluation',
           'memory_security', 'memory_survey'}
 ID = r'(?:\d{4}\.\d{4,5}|[a-z][a-z.\-]+/\d{7})'
@@ -54,10 +55,21 @@ def validate(selected, reviews, history):
             errors.append(f'{ident}: requires a direct include decision')
         if r.get('policy_version') != POLICY_VERSION or r.get('track') not in TRACKS:
             errors.append(f'{ident}: unsupported policy version or memory track')
-        for field in ('title', 'target', 'memory_content', 'memory_operation', 'centrality',
+        for field in ('title', 'abstract', 'memory_focus_quote', 'memory_focus_reason',
+                      'target', 'memory_content', 'memory_operation', 'centrality',
                       'evidence', 'reason', 'source_url', 'source_sha256', 'reading_scope'):
             if not nonempty(r, field):
                 errors.append(f'{ident}: missing {field}')
+        # Only official title/abstract text supplies the entry signal. Human review
+        # must still distinguish central memory research from incidental mentions.
+        sources = [' '.join(r[field].split()) for field in ('title', 'abstract')
+                   if isinstance(r.get(field), str)]
+        if not any(MEMORY_SIGNAL.search(s) for s in sources):
+            errors.append(f'{ident}: no memory/memories in official title or abstract')
+        quote = r.get('memory_focus_quote', '')
+        quote = ' '.join(quote.split()) if isinstance(quote, str) else ''
+        if not quote or not MEMORY_SIGNAL.search(quote) or not any(quote in s for s in sources):
+            errors.append(f'{ident}: memory_focus_quote must quote title/abstract memory evidence')
         if not HASH.fullmatch(str(r.get('source_sha256', ''))):
             errors.append(f'{ident}: invalid source SHA-256')
         if r.get('source_url') != 'https://arxiv.org/abs/' + ident:

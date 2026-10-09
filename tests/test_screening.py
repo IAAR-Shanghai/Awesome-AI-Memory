@@ -11,7 +11,10 @@ spec.loader.exec_module(screening)
 class ScreeningTests(unittest.TestCase):
     def setUp(self):
         self.record = dict(id='2609.22987', title='Example experience memory',
-                           decision='include', direct=True, policy_version='2026-09-30',
+                           abstract='We study persistent memory formed from execution experiences.',
+                           memory_focus_quote='persistent memory formed from execution experiences',
+                           memory_focus_reason='Studies how agents form and reuse persistent experience memory',
+                           decision='include', direct=True, policy_version=screening.POLICY_VERSION,
                            track='procedural_memory', target='LLM agent',
                            memory_content='Verified execution experiences',
                            memory_operation='Retrieve and revise persistent records',
@@ -28,6 +31,36 @@ class ScreeningTests(unittest.TestCase):
 
     def test_direct_evidence_accepted(self):
         self.assertEqual(self.check(), [])
+
+    def test_title_or_abstract_memory_signal(self):
+        for title, abstract, quote in (
+                ('MEMORY-based agents', 'We evaluate cross-task reuse.', 'MEMORY-based agents'),
+                ('Agent evaluation', 'We study episodic memories.', 'episodic memories')):
+            with self.subTest(quote=quote):
+                self.assertEqual(self.check(self.record | dict(
+                    title=title, abstract=abstract, memory_focus_quote=quote)), [])
+
+    def test_adjacent_terms_and_body_only_evidence_rejected(self):
+        for text in ('Skills and experience reuse', 'Memorization and forgetting',
+                     'Continual learning with retrieval', 'MemoryBank and memoryless agents'):
+            with self.subTest(text=text):
+                r = self.record | dict(title=text, abstract=text,
+                    reading_scope='abstract_and_selected_sections',
+                    sections_read='Section 3: memory experiments',
+                    evidence='Full body describes memory')
+                self.assertTrue(any('no memory/memories' in e for e in self.check(r)))
+
+    def test_topic_quote_must_be_from_a_single_official_field(self):
+        for quote in ('We study memory lifecycle', 'persistent', 'memory formed from execution experiences Example'):
+            self.assertTrue(self.check(self.record | {'memory_focus_quote': quote}))
+        self.assertEqual(self.check(self.record | {
+            'memory_focus_quote': 'persistent  memory\nformed from execution experiences'}), [])
+
+    def test_missing_abstract_or_topic_evidence_and_old_policy_rejected(self):
+        for field in ('abstract', 'memory_focus_quote', 'memory_focus_reason'):
+            for value in ('', None, []):
+                self.assertTrue(self.check(self.record | {field: value}), field)
+        self.assertTrue(self.check(self.record | {'policy_version': '2026-09-30'}))
 
     def test_excluded_held_or_adjacent_never_approved(self):
         for change in ({'decision': 'exclude'}, {'decision': 'hold'}, {'direct': False}):
