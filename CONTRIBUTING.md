@@ -6,11 +6,15 @@
 
 请先阅读 [论文筛选规则](SCREENING.md)。仅收录以 Agent Memory 或语言模型内部记忆为核心贡献的工作；相邻主题、关键词匹配与证据不足的候选不能直接入库。
 
+标题或官方摘要必须出现独立单词 `memory`/`memories`，且明确将记忆作为核心研究问题；两处都没有则默认排除。不得用正文中的零散提及、经验/技能复用、持续学习或遗忘等相邻概念替代。记录原始 `abstract`、原文 `memory_focus_quote` 与具体 `memory_focus_reason`；命中关键词仍须人工判断。
+
 在 `screening/YYYY-MM-DD-review.json` 保存逐篇人工判断与来源证据。流程技能须说明经验形成、持久保存、后续复用和验证/维护。已排除或待复核的 ID 再次提交须附新证据和 `reassessment`，保留历史记录。
 
 提交前执行 `python3 scripts/check_screening.py --base origin/main --review screening/YYYY-MM-DD-review.json`，并核验三条双语摘要、日期倒序、去重、统计与 GitHub 表格渲染。检查器核对证据记录，不代替人工相关性判断。摘要核验与全文阅读须如实区分。
 
 Read [SCREENING.md](SCREENING.md) before adding papers. Include a human review record with concrete memory evidence, run the publication gate, and require new evidence to reconsider an excluded or held paper.
+
+The official title or abstract must contain `memory`/`memories` and identify memory as the central research question. Record the original abstract, a verbatim `memory_focus_quote` and its `memory_focus_reason`. Adjacent topics and body-only mentions do not pass the entry gate.
 
 ### 1. 准备工作
 
