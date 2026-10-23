@@ -20784,6 +20784,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Mimir | 2026-06-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/mimir?style=social) | https://github.com/tcconnally/mimir<br>https://perseus.observer/mimir |
 | mem0ry4ai | 2026-06-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/cremenescu/mem0ry4ai?style=social) | https://github.com/cremenescu/mem0ry4ai<br>https://cremenescu.ro/en/mem0ry4ai/ |
 | AccInt | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=social) | https://github.com/maxbaluev/accreted-intelligence<br>https://accint.xyz/ |
+| LLMSlim | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/Thanatos9404/llmslim?style=social) | https://github.com/Thanatos9404/llmslim<br>https://www.llmslim.app |
 | Lians | 2026-06-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/Lians-ai/Lians?style=social) | https://github.com/Lians-ai/Lians<br>https://www.lians.ai/ |
 | SQLite Graph Memory | 2026-07-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/Palo-Alto-AI-Research-Lab/sqlite-graph-memory?style=social) | https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory<br>No official website |
 | wiki | 2026-07-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/plasma-ai/wiki?style=social) | https://github.com/plasma-ai/wiki<br>https://docs.plasma.ai/wiki |
