@@ -139,6 +139,7 @@ To systematically organize the diverse research and practical resources in the f
   - [🧰 仓库资源](#-仓库资源)
     - [📊 测试基准](#-测试基准)
     - [💻 开源系统](#-开源系统)
+    - [🧪 持久记忆应用](#-持久记忆应用)
     - [🎥 多媒体资源](#-多媒体资源)
     - [🧠 Adam 框架](#-adam-框架)
   - [🤝  如何贡献](#--如何贡献)
@@ -20804,6 +20805,12 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | kgai | 2026-08-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/kgaidev/kgai?style=social) | https://github.com/kgaidev/kgai<br>https://kgai.dev/?ref=awesome-ai-memory |
 | causal-memory | 2026-07-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
 | ReasonGraph | 2026-02-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/bgokden/reasongraph?style=social) | https://github.com/bgokden/reasongraph<br>https://memory.primaxiom.ai |
+
+### 🧪 持久记忆应用
+
+| 应用 | 记忆机制与用途 | 资源 |
+|------|----------------|------|
+| [agent-qa](https://vostride.com) | 用自然语言测试 Web、Android 和 iOS 应用；memidex 将运行证据提炼为持久化的事实与操作流程，验证学习结果，并在后续测试中复用，实现经验证的自我改进。 | [源码](https://github.com/vostride/agent-qa) · [记忆文档](https://vostride.com/docs/agent-qa/memory) · [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md) |
 
 ### 🎥 多媒体资源
 
