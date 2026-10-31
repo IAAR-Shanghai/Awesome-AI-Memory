@@ -140,6 +140,7 @@ To systematically organize the diverse research and practical resources in the f
   - [🧰 Resources](#-resources)
     - [📊 Benchmarks and Tasks](#-benchmarks-and-tasks)
     - [💻 Systems and Open Sources](#-systems-and-open-sources)
+    - [🧪 Applications with Persistent Memory](#-applications-with-persistent-memory)
     - [🎥 Multi-media resource](#-multi-media-resource)
     - [🧠 Adam Framework](#-adam-framework)
   - [🤝  Make a Contribution](#--make-a-contribution)
@@ -21284,6 +21285,12 @@ Systems below are ordered by **publication date**:
 | kgai | 2026-08-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/kgaidev/kgai?style=social) | https://github.com/kgaidev/kgai<br>https://kgai.dev/?ref=awesome-ai-memory |
 | causal-memory | 2026-07-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
 | ReasonGraph | 2026-02-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/bgokden/reasongraph?style=social) | https://github.com/bgokden/reasongraph<br>https://memory.primaxiom.ai |
+
+### 🧪 Applications with Persistent Memory
+
+| Application | Memory mechanism and use | Resources |
+|-------------|--------------------------|-----------|
+| [agent-qa](https://vostride.com) | Natural-language testing for Web, Android and iOS. memidex retains evidence-derived facts and procedures, validates learned updates, and reuses them in later runs for validated self-improvement. | [Source](https://github.com/vostride/agent-qa) · [Memory docs](https://vostride.com/docs/agent-qa/memory) · [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md) |
 
 ### 🎥 Multi-media resource
 
