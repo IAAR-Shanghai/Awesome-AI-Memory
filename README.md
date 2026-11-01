@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-1305-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1344-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -95,6 +95,7 @@ To systematically organize the diverse research and practical resources in the f
 --- -->
 
 ## 🔔 近期热点研究与新闻
++ 2026-11-01 - 🎉 更新 39 篇论文，其中方法类与框架类论文 31 篇，数据集和评估基准类论文 5 篇，模型和系统类论文 3 篇
 + 2026-10-27 - 🎉 更新 34 篇论文，其中综述 2 篇，方法类与框架类论文 26 篇，数据集和评估基准类论文 5 篇，模型和系统类论文 1 篇
 + 2026-10-23 - 🎉 更新 109 篇论文，其中综述 1 篇，方法类与框架类论文 70 篇，数据集和评估基准类论文 28 篇，模型和系统类论文 10 篇
 + 2026-10-18 - 🎉 更新 32 篇论文，其中综述 2 篇，方法类与框架类论文 22 篇，数据集和评估基准类论文 6 篇，模型和系统类论文 2 篇
@@ -900,6 +901,396 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>MemSteer: Turning User Histories into Supervision for Agent Memory Optimization</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39276"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MemSteer 从未标注用户历史生成记忆优化监督。<br>
+        • 以证据支撑的回答计划生成 QA，经来源审计和盲答核验，再诊断并修改存储、检索与上下文设计。<br>
+        • 相对 Base-BM25，ATM-Bench 提升 13.4 点；RHELM 在无/有外部数据时提升 4.1/6.6 点。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Federated Recommender Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39289"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • FedRecAgent 让推荐代理共享自然语言经验，同时将个人历史与记忆留在本地。<br>
+        • 将经验表示为条件—转移—理由单元，分层整合共享理由，由个人语义和决策记忆引导检索。<br>
+        • 三个领域的稠密与稀疏设置优于所测基线，消融支持记忆和结构整合的作用。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39446"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EvoLife 将主动询问、导航动作与持久空间记忆结合。<br>
+        • 把观察和对话绑定到地点，保留经验以指导后续访问和连续任务。<br>
+        • R2R 回访 SPL 从 82.23% 升至 93.31%，并报告多日实机导航；结果限于所测路线和任务。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Sticky Collusion: Persistence of LLM Agent Collusion after Incentive Removal and Partner Replacement</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Security-blue" alt="Memory Security"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39660"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 研究合谋是否由交互记忆承载，而非仅由奖励或固定伙伴维持。<br>
+        • 从已形成合谋的历史分支执行，比较奖励变化、换伙伴、完整擦除及分部件擦除记忆。<br>
+        • 全部擦除在所测模型中终止合谋，部分擦除在 8/9 组合仍保留；证据限于特定双代理验证任务。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Long-Term Agent Memory through Complementary Curation and Consolidation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39790"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 结合情节与关系记忆，研究两者在长期对话中的互补性。<br>
+        • 混合记忆架构保存事实、事件和关系，并通过巩固机制维持效率。<br>
+        • 报告 LoCoMo 90.2% 和 LongMemEval-S 85.5% 准确率；证据范围为这两个基准。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39931"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 研究低比特循环记忆写回误差及近期信息维护。<br>
+        • 按未来预测损失敏感度分配精度，并将近期纯写入暂存为 FP8 向量对，离开窗口后再并入历史状态。<br>
+        • Qwen3.5-4B/9B 的七任务平均分达 69.83%/78.63%；结果来自所测精度预算及窗口配置。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Don&#39;t Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.40350"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CORAL 让代理主动管理工作记忆，减少长程推理中的上下文干扰。<br>
+        • 代理保存进度与已验证事实，重置上下文后继续推理，并通过多阶段强化学习优化检查点。<br>
+        • 8B 模型在 GAIA 达到 42.8% 准确率，输入 token 比 ReAct 少约 6–7 倍；另报告跨任务收益。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.40611"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 联合研究何时调用用户记忆及如何生成主动提示。<br>
+        • 同一紧凑解码器从中间层门控，并在一次前向计算中生成记忆支持的建议。<br>
+        • 28,058 个决策点显示移除记忆损失 24.7 个精确匹配点；人工评价中单模型仍低于 8B 生成器。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>Is it my preference? Role Grounding Attack against Agent&#39;s Memory via Social Interaction</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Security-blue" alt="Memory Security"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38209"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 揭示嵌套社会对话导致偏好被错误归属到受害用户的记忆漏洞。<br>
+        • 攻击者发布显式标注来源的经验对话，利用写入时角色绑定丢失，使错误偏好在后续召回影响决策。<br>
+        • 在五种记忆系统、六种语言模型上报告工具操纵和隐私泄露风险，强调需保留角色归属。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38318"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 研究零样本语言导航应保留什么信息及如何组织记忆。<br>
+        • 任务、时序和空间记忆联合保存进展、位姿锚定的压缩观察及几何，供推理器选择路点。<br>
+        • 移除时序记忆使平均路径由 16.9 米增至 39.1 米；另在 R2R-CE 与实机场景评估。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38332"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MUSE 将科学编码执行经验组织为全局、方法和实现三级记忆。<br>
+        • 根据成败反馈抽取经验，全局库可替换和退役并复核来源；运行时按当前操作门控注入检查建议。<br>
+        • 四类科学编码评测及跨核函数基准迁移支持收益；记忆库在测试前冻结。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>Security Impact of Coding Agent&#39;s Memory Files</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Security-blue" alt="Memory Security"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38521"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 把项目记忆文件视为可操纵编码代理的持久攻击入口。<br>
+        • 在 36 个 SecRepoBench 任务、12 类 CWE 上比较两类恶意指导及无攻击对照，并检查来源披露。<br>
+        • 安全完成率变化为 −8 至 +6 个百分点，无一致攻击效果；代理间披露行为差异明显。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38573"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CALM 区分持久保存与查询时准入，让过时记忆仍可支持历史重建。<br>
+        • 根据支持、冲突和依赖更新有效性，再按时间适用性门控查询证据。<br>
+        • 在 LoCoMo、LongMemEval-S 及冲突分析中报告改进；历史重建实验支持保留被替代记录。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>Routed Continual Learning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38796"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Routed CL 根据任务选择经验应保存在何种记忆系统和状态簇中。<br>
+        • 执行前读取簇记忆增强上下文，执行后仅更新被选簇；可保留轨迹、提炼策略或维护结构化状态。<br>
+        • 398 个交错实例、四模型中优于全局历史，并降低估计 API 成本；记忆系统库在评价前固定。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>HEDGE: Gated Hypergraph Memory for Scalable Multi-Agent Debate</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38902"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • HEDGE 用超图组织跨轮、多代理辩论记忆。<br>
+        • 超边关联相关论点，内部关系图保留细节；学习门控决定 STORE、BACKUP 或 OMIT。<br>
+        • 七基准中相对最强多代理对照平均提升 5.0 点，记忆用量减少 48%；收益依赖所测骨干与任务。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36652"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • DiscernMem 同时修正流程记忆内容并学习适用边界。<br>
+        • 比较单条记忆与无记忆执行，诊断并修复规则，在当前和旧任务复测；元记忆记录各角色使用效果。<br>
+        • 四基准、三框架上平均领先最强所报基线 0.51–4.32 点；评价使用单一 Qwen3-4B 骨干。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36713"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EvoSpeakerMem 区分声纹观测与持久用户身份，保护用户级记忆访问。<br>
+        • 因果说话人路由和选择性声学更新引导分区写入与检索，并构建隐藏身份的 LoCoMo-ID。<br>
+        • 身份门控 QA 在干净/偏移条件提高 3.86/11.62 点；减少碎片仍可能伴随错误跨用户链接。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>CAMR: Compatibility-Aware Memory Replay for Continual Learning in Large Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36734"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CAMR 联合控制新样本学习与历史记忆回放。<br>
+        • 兼容性检查和学习门控在通用回放、相关强化与跳过已掌握重复项间选择，反馈包括获取、保持和成本。<br>
+        • Qwen3-8B-Base 在事实更新及四类任务序列上显示保持收益；结果未覆盖其他模型规模。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36794"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Select-TTT 针对均匀写入导致的无关内容干扰。<br>
+        • 从冻结输出头估计各块对查询的相关性，以温度 softmax 调节快权重写入学习率，无新增参数。<br>
+        • 两个基准和两个骨干的长上下文 QA 均改善；多查询长程代理仍是未来扩展。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36918"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TrawMem 将记忆组织为任务导向、角色自适应工作区。<br>
+        • 从交互历史构建本地线程，联合选择直接证据与语义相似度较低但互补的记忆。<br>
+        • 在两基准、四骨干上宏 F1 提升 2.23–3.14 点；LoCoMo 部分设置同时降低上下文 token。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>TDLM: Adaptive Temporal Integration for Diffusion Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36940"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TDLM 为扩散去噪引入跨步隐藏状态记忆。<br>
+        • 冻结去噪器，让未决位置通过因果时序注意力读取自身历史表示，并用自生成轨迹训练。<br>
+        • LLaDA 中新增约 0.84% 参数；LLaDA/Dream 上最高报告 7.15 倍生成加速及具竞争力质量。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36948"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SKIM 研究无需外部存储的对话记忆写入与召回。<br>
+        • 模型为每回合生成多样问题作键，通过闭式方法把键及对话内容写入参数。<br>
+        • 五种语言模型中可由后续用户问题召回多数已存回合；摘要未提供统一定量总分。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Proactive Memory for Event-Driven LLM Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36967"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ProactMem 强调先验证历史行为规律，再用于主动服务。<br>
+        • 近期事件支撑轨迹事实，历史回放评价规律，随后匹配当前事件条件。<br>
+        • 提出纵向 ProactiveStream 基准，报告整体 F1 52.6%，相对最强外部基线提升 21.4%。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>The Envelope Layer: An Underestimated Surface of LLM Agent Defense</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Security-blue" alt="Memory Security"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37415"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 研究历史经验记忆如何改变代理消息封装层的防御边界。<br>
+        • 在 A2A-TIBA 设置中交叉测试标签强度、封装真实性及成功/失败记忆。<br>
+        • 成功记忆提高语义突破率，失败记忆降低；混合经验多回到无记忆基线，结论受攻击与前端范围限制。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37443"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ETAMem 将异质对话信息解耦为互补记忆视图。<br>
+        • 抽取原子单元，增量维护事件、情感、时间层次，并按查询熵分配各视图检索预算。<br>
+        • 在 LoCoMo 和 LongMemEval-S 报告 12.46%/7.96% 相对准确率提升，视图分析支持互补性。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37482"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • TAM 将 GUI 已验证进展同时用于当前任务状态和可复用操作学习。<br>
+        • 从成功或失败任务的局部成果抽取输入、预期结果及验证条件，按界面兼容性检索并以新观察验证执行。<br>
+        • MobileWorld 状态记忆使成功率从 12.0% 升至 28.2%；完整方法相对最强对照提升 17.6%。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Multi-State Linear Attention with Generalized Second-Order Routing</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37645"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • MERLIN 用二阶信息改善分段记忆状态的内容寻址。<br>
+        • 跟踪各段键的一阶和二阶矩，以查询对齐的均值与方差融合各状态读出。<br>
+        • Gated DeltaNet 与 Mamba-2 上的长上下文 QA 和 LongBench 均有收益；验证限于所测多状态模型。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37935"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • SkillMem 将执行经验提炼的文本技能编译为紧凑外部潜记忆。<br>
+        • 成败配对轨迹产生技能，经去实例信息和去重后蒸馏；角色条件读出器在后续任务读取同一记忆。<br>
+        • 六基准中显示推理与存储收益，每技能约 9.6 KB；评测库离线构建，未证明在线生命周期治理。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-26</td>
+      <td style="width: 55%;"><strong>Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.35985"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 发现按访问频率分配条件记忆精度可能损害长尾事实，读取门值更能反映误差影响。<br>
+        • GateRQ 将表项编码为逐级一比特残差，根据门控值选择读取深度。<br>
+        • 两模型实验在每次读取 2.10 比特时约损失 0.2 个 PopQA 点；准确率和资源收益依赖所测设置。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-26</td>
+      <td style="width: 55%;"><strong>Stratum: Repository Memory for Coding Agents Beyond the Context Window</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36153"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出随代码仓库持久保存、跨模型会话继承的分层经验记忆。<br>
+        • 用索引和分页安全工具返回相关知识，并明确已返回内容、剩余内容及成本。<br>
+        • 八个真实 bug 的实验中，根因文件定位为 21/24，对照为 6/24；规模较小，属于初步验证。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-10-26</td>
       <td style="width: 55%;"><strong>Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Agent%20Memory-blue" alt="Agent Memory"></td>
@@ -988,6 +1379,19 @@ To systematically organize the diverse research and practical resources in the f
         • 提出 CRIM，将项目语义编码为可跨请求复用的连续记忆，分离项目表示与用户历史建模。<br>
         • 用可学习摘要 token 压缩项目，按交互顺序组合记忆；少量实时重编码和周期刷新支持联合训练。<br>
         • 在 MovieLens-1M、Qilin 和 LazSeq 上报告更好的检索质量与较低推理成本；验证范围为个性化检索。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-25</td>
+      <td style="width: 55%;"><strong>EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Procedural%20Memory-blue" alt="Procedural Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.35966"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • EMMA 将执行经验按控制、角色和流程三层持久组织。<br>
+        • 反思定位失败所属层级，每次只做受护栏限制的一处修改，并重跑验证；测试阶段冻结记忆。<br>
+        • 在三个基准、五骨干上报告优于比较方法，并减少训练执行次数；不意味着部署时持续在线更新。
       </td>
     </tr>
     <tr>
@@ -14868,6 +15272,71 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>Finding Is Not Returning, Returning Is Not Reconstructing: A Multi-Dimensional Evaluation of Agent Social Re-entry</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.39781"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 将社交记忆效果拆分为找到会话、主动返回与重建情境三种能力。<br>
+        • 用共享快照独立评估会话重现和持久记忆的影响。<br>
+        • 六种 LLM 配置中，定位和主动回复可改善，但情境重建未稳定提升。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-29</td>
+      <td style="width: 55%;"><strong>VideoMemBench: How Well Do MLLMs Remember in Video Conversations?</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.40131"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • VideoMemBench 专门测试视频对话中跨回合的信息保持与复用。<br>
+        • 以视觉情节依赖和回答依赖连接问题，并核验前文必要性与无信息泄漏。<br>
+        • 含 326 个视频和 2,476 个回合；20 余模型中报告最高总体分为 45.7%，显示持续对话记忆仍有不足。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>REEL: Same Frames, Different Answers and Different Costs</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38158"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • REEL 用相同观测帧比较视频记忆的信息保持和重复问答成本。<br>
+        • 配对追踪答案正确性变化，并测累计 GPU 时间和存储，区分复用计算与丢弃信息。<br>
+        • 六 VLM、两基准中文本记忆有 20%–29% 问题与原帧答案正确性不同；前缀更保真但可占约 21 GiB/视频。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37624"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • CrossProfile 揭示稀有优先和相关性优先两种讨论记忆选择启发式的失效。<br>
+        • 60 个模板生成 480 个受控任务，在事实文本不变时交叉改变拥有者及支持/诱饵/无关类型。<br>
+        • 相关性会重新引入诱饵，稀有优先平均不优于随机；移除社会归属标签在经典配置提高 13–24 点。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-26</td>
+      <td style="width: 55%;"><strong>When Retrieval Is Not Enough: Obsolete Facts in Agent Memory</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.36308"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 区分正确事实未被检索与已检索却被过时事实干扰两种失效。<br>
+        • 在 MemoryAgentBench 单跳事实巩固任务中，以等长证据替换控制过时陈述的影响。<br>
+        • Qwen2.5 的配对准确率由 100% 降至 44.6%；结论限于所测单跳任务与模型。
+      </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-10-26</td>
       <td style="width: 55%;"><strong>The Right Fact, the Wrong Decision: SciValidityBench for Scientific Agent Memory</strong></td>
       <td style="width: 15%;"><img src="https://img.shields.io/badge/Memory%20Evaluation-blue" alt="Memory Evaluation"></td>
@@ -18459,6 +18928,45 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38255"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • ParaTTT 用迭代求解并行计算深层非线性记忆的在线更新轨迹。<br>
+        • 前向、精确 delta 读出和反向三类并行计算逐步修正梯度估计，并给出受条件限制的收敛证明。<br>
+        • 340M 与 1.3B 模型在语言任务上具竞争力且召回优于线性循环；两次迭代的完整 340M 训练加速 4.9 倍。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-28</td>
+      <td style="width: 55%;"><strong>Dual DeltaNet: Value-Side Memory Reorganization for Linear Attention</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.38578"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Dual DeltaNet 从值侧重组记忆地址，以补充键侧纠错并管理干扰。<br>
+        • 双侧 delta 规则分别纠正键对应的值，以及按值特征调整占用地址，并提供分块并行算法。<br>
+        • 在所测语言建模、下游任务和召回上整体优于比较模型，相对 KDA 有额外训练与推理开销。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-10-27</td>
+      <td style="width: 55%;"><strong>V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/LLM%20Memory-blue" alt="LLM Memory"></td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2610.37019"><img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • V-LUMEN 将查找式记忆容量扩展到视觉语言模型。<br>
+        • 冻结码本离散视觉特征，空间哈希构建地址，文本相关度调制读取，并以门控残差融合。<br>
+        • 冻结 Qwen3-VL-2B 上五个推理基准改进，另测三个图像不重叠的迁移基准；容量增长仍增加存储。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-10-26</td>
