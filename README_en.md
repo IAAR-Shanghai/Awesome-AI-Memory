@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-1479-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1480-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -14878,6 +14878,27 @@ Papers below are ordered by **publication date**:
           • The framework employs a dynamic memory workspace and a metacognitive regulation loop (including Self-Probe, Mem-Fuse, and Mem-Update) to iteratively fuse fragmented evidence into coherent context.<br>
           • Experimental results demonstrate that ComoRAG consistently outperforms strong baselines on challenging benchmarks like NarrativeQA and ∞BENCH, particularly excelling in complex narrative queries requiring global understanding.
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-11-10</td>
+      <td style="width: 55%;"><strong>Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+        <img src="https://img.shields.io/badge/AAAI%202026-D0021B" alt="AAAI 2026">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.07587">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • Proposes the Generative Semantic Workspace (GSW), a neuro-inspired structured episodic memory framework that tracks entities' roles, actions and spatiotemporal states across long texts, addressing the fact-retrieval focus of existing RAG and knowledge-graph methods.<br>
+        • An Operator maps incoming observations into intermediate semantic structures, and a Reconciler integrates them into a persistent workspace that enforces temporal, spatial and logical coherence.<br>
+        • The authors report up to 20% gains over RAG baselines on EpBench (100k–1M-token corpora) and 51% fewer query-time context tokens than the next most token-efficient baseline; results are self-reported and the evaluation focuses on narrative episodic-memory tasks.
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
