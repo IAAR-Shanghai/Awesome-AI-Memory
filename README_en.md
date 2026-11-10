@@ -22970,6 +22970,7 @@ Systems below are ordered by **publication date**:
 | Puppyone    | 2024-12-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/puppyone-ai/puppyone?style=social) | https://github.com/puppyone-ai/puppyone<br>https://www.puppyone.ai/ |
 | LangMem     | 2025-01-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=social) | https://github.com/langchain-ai/langmem<br>https://langchain-ai.github.io/langmem/ |
 | Vestige     | 2025-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social) | https://github.com/samvallad33/vestige<br>https://samvallad33.github.io/vestige/ |
+| ZizkaDB | 2026-05-10 | ![GitHub Repo stars](https://img.shields.io/github/stars/ZIZKA-AI-SL/ZizkaDB?style=social) | https://github.com/ZIZKA-AI-SL/ZizkaDB<br>https://db.zizka.ai/ |
 | A-Mem       | 2025-02-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) | https://github.com/agiresearch/A-mem <br>No official website |
 | Mirix       | 2025-04-16 | ![GitHub Repo stars](https://img.shields.io/github/stars/Mirix-AI/MIRIX?style=social) | https://github.com/Mirix-AI/MIRIX<br>https://mirix.io/ |
 | MemEngine   | 2025-05-04 | ![GitHub Repo stars](https://img.shields.io/github/stars/nuster1128/MemEngine?style=social) | https://github.com/nuster1128/MemEngine<br>No official website |
