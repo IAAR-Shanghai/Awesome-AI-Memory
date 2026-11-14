@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2511.07587",
+    "title": "Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces",
+    "abstract": "Large Language Models (LLMs) face fundamental challenges in long-context reasoning: many documents exceed their finite context windows, while performance on texts that do fit degrades with sequence length, necessitating their augmentation with external memory frameworks. Current solutions, which have evolved from retrieval using semantic embeddings to more sophisticated structured knowledge graphs representations for improved sense-making and associativity, are tailored for fact-based retrieval and fail to build the space-time-anchored narrative representations required for tracking entities through episodic events. To bridge this gap, we propose the \\textbf{Generative Semantic Workspace} (GSW), a neuro-inspired generative memory framework that builds structured, interpretable representations of evolving situations, enabling LLMs to reason over evolving roles, actions, and spatiotemporal contexts. Our framework comprises an \\textit{Operator}, which maps incoming observations to intermediate semantic structures, and a \\textit{Reconciler}, which integrates these into a persistent workspace that enforces temporal, spatial, and logical coherence. On the Episodic Memory Benchmark (EpBench) \\cite{huet_episodic_2025} comprising corpora ranging from 100k to 1M tokens in length, GSW outperforms existing RAG based baselines by up to \\textbf{20\\%}. Furthermore, GSW is highly efficient, reducing query-time context tokens by \\textbf{51\\%} compared to the next most token-efficient baseline, reducing inference time costs considerably. More broadly, GSW offers a concrete blueprint for endowing LLMs with human-like episodic memory, paving the way for more capable agents that can reason over long horizons. Code is available at https://github.com/roychowdhuryresearch/gsw-memory.",
+    "policy_version": "2026-10-09",
+    "decision": "include",
+    "direct": true,
+    "reason": "提出面向大语言模型的结构化情节记忆框架 GSW；记忆的写入（Operator）、整合与一致性维护（Reconciler）以及基于工作空间的检索是论文核心贡献，并在 EpBench 情节记忆基准上评测。",
+    "source_url": "https://arxiv.org/abs/2511.07587",
+    "reading_scope": "abstract",
+    "memory_focus_quote": "More broadly, GSW offers a concrete blueprint for endowing LLMs with human-like episodic memory, paving the way for more capable agents that can reason over long horizons.",
+    "memory_focus_reason": "摘要明确以为大语言模型构建类人情节记忆为研究目标，GSW 的记忆写入、整合与检索机制即核心贡献，而非附带模块。",
+    "submitted_search": "10 November, 2026",
+    "source_file": "raw/abs/2511.07587.html",
+    "source_sha256": "cfda6959e096f2368800e4775a9234829e3c29d35a6c6a91627d8fd53205d93c",
+    "v1_utc": "2025-11-10T19:59:34.000Z",
+    "v1_beijing": "2025-11-11T03:59:34.000+08:00",
+    "track": "agent_memory",
+    "target": "大语言模型及其长程推理智能体",
+    "memory_content": "由实体、角色、动作及其时空状态构成的结构化情节工作空间",
+    "memory_operation": "Operator 将新观测映射为中间语义结构；Reconciler 将其整合进持久工作空间并维护时间、空间与逻辑一致性；查询时在工作空间上检索。",
+    "centrality": "情节记忆框架本身（写入、整合、检索）即论文的核心贡献。",
+    "evidence": "作者在 EpBench（10 万至 100 万 token 语料）上报告比 RAG 基线最高提升 20%，查询时上下文 token 比次优基线减少 51%（作者自报）。"
+  }
+]

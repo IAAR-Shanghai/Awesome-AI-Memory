@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-1478-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1479-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -13572,6 +13572,7 @@ Memory via Dual-Level Recurrent Queries</strong></td>
       <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
       <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      <img src="https://img.shields.io/badge/ICML%202026-D0021B" alt="ICML 2026">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15156v1.pdf">
       <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
@@ -14880,6 +14881,27 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 该框架采用动态记忆工作空间和元认知调节循环(包括自我探测、记忆融合和记忆更新),以迭代方式将碎片化的证据融合为连贯的上下文。<br>
           • 实验结果表明,ComoRAG 在 NarrativeQA 和 ∞BENCH 等具有挑战性的基准测试中持续优于强大的基线,特别是在需要全局理解的复杂叙事查询中表现出色。
         </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2025-11-10</td>
+      <td style="width: 55%;"><strong>Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+        <img src="https://img.shields.io/badge/Long--Text%20Understanding-darkseagreen" alt="Long-Text Understanding">
+        <img src="https://img.shields.io/badge/AAAI%202026-D0021B" alt="AAAI 2026">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2511.07587">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出生成语义工作空间（GSW），一种受神经科学启发的结构化情节记忆框架，用于追踪长文本中实体在事件中的角色、动作与时空状态，弥补现有面向事实检索的 RAG 与知识图谱方法的不足。<br>
+        • 框架由 Operator（将新观测映射为中间语义结构）和 Reconciler（将其整合进持久工作空间，并维护时间、空间与逻辑一致性）两部分组成。<br>
+        • 作者报告在 EpBench（10 万至 100 万 token 语料）上比 RAG 基线最高提升 20%，查询时上下文 token 比次优基线减少 51%；结果为作者自报，评测集中于叙事类情节记忆任务。
+      </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-11-04</td>
