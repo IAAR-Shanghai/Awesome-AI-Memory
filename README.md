@@ -13572,6 +13572,7 @@ Memory via Dual-Level Recurrent Queries</strong></td>
       <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
       <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
       <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      <img src="https://img.shields.io/badge/ICML%202026-D0021B" alt="ICML 2026">
       </td>
       <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15156v1.pdf">
       <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
