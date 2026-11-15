@@ -6744,7 +6744,7 @@ Papers below are ordered by **publication date**:
       <tr>
         <td colspan="3">
           • Introduces ZenBrain, a seven-layer long-term memory architecture for autonomous agents that combines neuroscience-inspired mechanisms — Hebbian learning, FSRS spaced repetition, sleep-cycle consolidation, and Bayesian confidence propagation — released as an open-source, zero-dependency TypeScript library (Apache-2.0).<br>
-          • On LongMemEval-500 it attains 91.3% of oracle accuracy at 1/109.6 of the token budget; of nine Bonferroni-corrected head-to-head comparisons against Letta, Mem0, and A-Mem, three hold (all against A-Mem) and six are ties — none lost.<br>
+          • On LongMemEval-500 the measured arm (per the correction notice a Python port of a test-harness class) reaches 91.3% of the accuracy of a full-context comparison arm with 1/109.7 of its input tokens in the answer step; of nine Bonferroni-corrected head-to-head comparisons against Letta, Mem0 and A-Mem, three hold (all against A-Mem) and the six against Letta and Mem0 show no significant difference.<br>
         </td>
       </tr>
       <tr>
