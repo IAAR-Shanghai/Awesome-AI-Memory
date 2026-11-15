@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-1497-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1498-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -19146,6 +19146,26 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 引入一种有界记忆"契约"，其中每个决策提示都由来自五个类型化层（L1–L5）的类型化检索新鲜组装而成，不附加任何原始的跨决策记录，从而在任意长的运行中保持提示有界，并使每个记忆层可单独消融。<br>
           • 研究显式记忆层如何塑造长程 LLM 智能体的决策，在随机卡牌构筑游戏《Slay the Spire 2》中实例化；发布一个可复现的测试平台，包含 298 条完成的轨迹，带有条件标签、冻结的记忆/技能快照、提示记录和分析脚本。<br>
           • 在固定 A0 的消融中，无存储基线赢 3/10 局，加入触发式战略技能层（L5）后赢 6/10 局（方向性，Fisher 精确检验 p≈0.37）；一个公开的前沿 LLM 基准报告在 A0 下五种配置均零胜，而开发者报告的人类胜率为 16%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/多模态记忆-4A90E2" alt="多模态记忆">
+          <img src="https://img.shields.io/badge/基准测试-F5A623" alt="基准测试">
+          <img src="https://img.shields.io/badge/智能体记忆-7ED321" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/双重编码-D0021B" alt="双重编码">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.27499v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 本文针对 Agent 记忆评估的空白：多数基准考察的是文本回忆，而多模态 Agent 常需记住初次观察时只是偶发线索的视觉细节。<br>
+          • DMV-Bench 构建受控家居电商交互环境，包含 1,000 种商品变体、文本泄漏控制、多会话购物链，以及事后用于识别曾见商品的预渲染视觉线索。<br>
+          • 所提出的 DualMem 架构并行保存视觉与语言双编码，在 Gemini 2.5 Flash 与 Qwen2.5-VL-7B 上，跨多会话链长均优于仅字幕基线与三个近期的多模态 Agent 记忆系统。
       </td>
   </tr>
   <tr>
