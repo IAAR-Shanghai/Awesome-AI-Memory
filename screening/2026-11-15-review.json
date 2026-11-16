@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2606.27499",
+    "title": "DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection",
+    "policy_version": "2026-10-09",
+    "decision": "include",
+    "direct": true,
+    "track": "memory_evaluation",
+    "abstract": "Agent benchmarks for measuring memory largely study textual cases, in which information is deliberately extracted from the environment, written down, and then later retrieved. In other words, they assess what agents elected to record, not what they happened to see. We introduce DMV-Bench (code: https://github.com/yyyujintang/DMV-Bench), the first interactive benchmark for visual memory in multimodal agents, to study this often-neglected property. DMV-Bench is built on (1) a controlled home-furnishing e-commerce environment, supported by a catalog of 1,000 product variants, and (2) a text-leakage contract which ensures that the primary discriminative signal of each task is solely in the pixels. In DMV-Bench, agents undergo chains of autonomous shopping sessions in which every visited product image carries a unique, pre-rendered incidental cue that the agent is later asked to recall. We show that conventional solutions struggle with this task. Inspired by dual-coding theory, we propose a memory architecture that uses parallel visual and verbal codes, which we call DualMem. On DMV-Bench, DualMem outperforms a caption-only baseline and three recent multimodal agent-memory systems across multi-session chain lengths on multiple models. These gains persist even adjusting for memory-bank size and encoding-position bias. Further experiments also reveal an asymmetric division of labor between the two codes; a weighted coding scheme is often strongest. We view this as a step towards memory systems that preserve a richer record of agents' observations.",
+    "memory_focus_quote": "the first interactive benchmark for visual memory in multimodal agents",
+    "memory_focus_reason": "DMV-Bench 直接以多模态 Agent 的视觉记忆为评测对象：考察 Agent 能否记住初次观察时仅为偶发线索的图像细节并在跨会话链中召回；记忆是该基准声明的核心研究问题，而非附带模块。",
+    "target": "DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection — Agent benchmarks for measuring memory largely study textual cases, in which information is deliberately extracted from the environment, written down, and then later retrieved.",
+    "memory_content": "多模态 Agent 在自主购物会话中看到的商品图像及每张图上预渲染的独特偶发视觉线索。",
+    "memory_operation": "会话内自然观察形成视觉记忆，跨多会话链后按线索召回并识别曾见商品；DualMem 以并行视觉/语言双编码进行写入、保存与检索。",
+    "centrality": "基准通过文本泄漏契约保证任务判别信号只在像素中，全部任务直接评测多模态 Agent 的视觉记忆形成与召回。",
+    "evidence": "DualMem 在 DMV-Bench 上跨多会话链长优于 caption-only 基线与三个近期多模态记忆系统，收益在调整记忆库大小与编码位置偏差后保持；并报告两编码间的不对称分工与加权编码方案。 本轮人工核验：依据 arXiv 官方摘要逐句核对，摘要明确 DMV-Bench 为首个面向多模态 Agent 视觉记忆的交互式基准。",
+    "reason": "首个面向多模态 Agent 视觉记忆的交互式评测基准，记忆是摘要声明的核心研究问题；属 memory_evaluation 范围。",
+    "source_url": "https://arxiv.org/abs/2606.27499",
+    "source_sha256": "8bc64514fc182b937968e000e9a3d35c364fc7295a5ba61fead5ddf32c94f4a7",
+    "reading_scope": "abstract",
+    "batch": "2026-11-15",
+    "published_date": "2026-06-25",
+    "v1_utc": "2026-06-25T19:34:25Z",
+    "review_context": "Parity restoration: this entry has been visible in README_en.md since the #167 homepage restructure (2026-09-15) but missing from README.md; the official abstract was re-verified from arXiv on 2026-11-15 (abstract-only reading). Memory3 was also audited and found intentionally commented out in README_en.md, so it was not restored."
+  }
+]

@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-1497-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-1498-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-111-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -12802,7 +12802,7 @@ To systematically organize the diverse research and practical resources in the f
           <img src="https://img.shields.io/badge/Multimodal%20Memory-blue" alt="Multimodal Memory">
           <img src="https://img.shields.io/badge/Lifelong%20Learning-brightgreen" alt="Lifelong Learning">
         </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.00131">
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2604.01007">
           <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a></td>
       </tr>
@@ -15624,7 +15624,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2025-07-29</td>
-      <td style="width: 55%;"><strong>SynapticRAG:Enhancing temporal memory retrieval in large language models through synaptic mechanisms</strong></td>
+      <td style="width: 55%;"><strong>MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations</strong></td>
       <td style="width: 15%;">
         <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
         <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
@@ -15734,11 +15734,11 @@ Framework for Experience-Driven Agent Evolution</strong></td>
     </tr>
     <tr>
         <td rowspan="2" style="width: 15%;">2025-05-30</td>
-        <td style="width: 55%;"><strong>M+：Extending MemoryLLM with scalable Long-Term Memory</strong></td>
+        <td style="width: 55%;"><strong>M+: Extending MemoryLLM with Scalable Long-Term Memory</strong></td>
         <td style="width: 15%;"><img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
         <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
         </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/abs/2310.04625">
+        <td style="width: 15%;"><a href="https://arxiv.org/abs/2502.00592">
         <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a>
     </tr>
     <tr>
@@ -19146,6 +19146,26 @@ Framework for Experience-Driven Agent Evolution</strong></td>
           • 引入一种有界记忆"契约"，其中每个决策提示都由来自五个类型化层（L1–L5）的类型化检索新鲜组装而成，不附加任何原始的跨决策记录，从而在任意长的运行中保持提示有界，并使每个记忆层可单独消融。<br>
           • 研究显式记忆层如何塑造长程 LLM 智能体的决策，在随机卡牌构筑游戏《Slay the Spire 2》中实例化；发布一个可复现的测试平台，包含 298 条完成的轨迹，带有条件标签、冻结的记忆/技能快照、提示记录和分析脚本。<br>
           • 在固定 A0 的消融中，无存储基线赢 3/10 局，加入触发式战略技能层（L5）后赢 6/10 局（方向性，Fisher 精确检验 p≈0.37）；一个公开的前沿 LLM 基准报告在 A0 下五种配置均零胜，而开发者报告的人类胜率为 16%。
+      </td>
+  </tr>
+  <tr>
+      <td rowspan="2" style="width: 15%;">2026-06-25</td>
+      <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/多模态记忆-4A90E2" alt="多模态记忆">
+          <img src="https://img.shields.io/badge/基准测试-F5A623" alt="基准测试">
+          <img src="https://img.shields.io/badge/智能体记忆-7ED321" alt="智能体记忆">
+          <img src="https://img.shields.io/badge/双重编码-D0021B" alt="双重编码">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2606.27499v1">
+          <img src="https://img.shields.io/badge/arXiv-论文-%23D2691E?logo=arxiv" alt="论文徽章">
+      </a></td>
+  </tr>
+  <tr>
+      <td colspan="3">
+          • 本文针对 Agent 记忆评估的空白：多数基准考察的是文本回忆，而多模态 Agent 常需记住初次观察时只是偶发线索的视觉细节。<br>
+          • DMV-Bench 构建受控家居电商交互环境，包含 1,000 种商品变体、文本泄漏控制、多会话购物链，以及事后用于识别曾见商品的预渲染视觉线索。<br>
+          • 所提出的 DualMem 架构并行保存视觉与语言双编码，在 Gemini 2.5 Flash 与 Qwen2.5-VL-7B 上，跨多会话链长均优于仅字幕基线与三个近期的多模态 Agent 记忆系统。
       </td>
   </tr>
   <tr>
@@ -23664,15 +23684,14 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | 系统      | 时间       | 关注数 | 开源网址和官方网站 |
 |-------------|------------|-------|------------------|
 | Zep         | 2023-05-19 | ![GitHub Repo stars](https://img.shields.io/github/stars/getzep/zep?style=social) | https://github.com/getzep/zep<br>https://www.getzep.com/ |
-| Agentmemory | 2023-07-07 | ![GitHub Repo stars](https://img.shields.io/github/stars/elizaOS/agentmemory?style=social) | https://github.com/elizaOS/agentmemory<br>No official website |
+| Agentmemory | 2023-07-07 | ![GitHub Repo stars](https://img.shields.io/github/stars/elizaOS/eliza?style=social) | https://github.com/elizaOS/eliza<br>No official website |
 | Cognee      | 2023-10-09 | ![GitHub Repo stars](https://img.shields.io/github/stars/topoteretes/cognee?style=social) | https://github.com/topoteretes/cognee<br>https://www.cognee.ai/ |
 | Letta       | 2023-10-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/letta-ai/letta?style=social) | https://github.com/letta-ai/letta<br>https://www.letta.com/ |
 | Supermemory | 2024-02-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/supermemoryai/supermemory?style=social) | https://github.com/supermemoryai/supermemory<br>https://supermemory.ai/ |
 | Memary      | 2024-04-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/kingjulio8238/Memary?style=social) | https://github.com/kingjulio8238/Memary <br>No official website |
 | Second-Me   | 2024-06-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/mindverse/Second-Me?style=social) | https://github.com/mindverse/Second-Me<br>https://home.second.me/ |
 | Mem0        | 2024-07-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) | https://github.com/mem0ai/mem0<br>https://mem0.ai/ |
-| Memobase    | 2024-10-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) | https://github.com/memodb-io/memobase<br>https://www.memobase.io/ |
-| Agent Brain | 2024-12-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/kaderosio/agent-brain?style=social) | https://github.com/kaderosio/agent-brain<br>No official website |
+| Memobase    | 2024-10-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) | https://github.com/memodb-io/memobase<br>https://docs.memobase.io/ |
 | Puppyone    | 2024-12-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/puppyone-ai/puppyone?style=social) | https://github.com/puppyone-ai/puppyone<br>https://www.puppyone.ai/ |
 | LangMem     | 2025-01-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=social) | https://github.com/langchain-ai/langmem<br>https://langchain-ai.github.io/langmem/ |
 | Vestige     | 2025-01-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/samvallad33/vestige?style=social) | https://github.com/samvallad33/vestige<br>https://samvallad33.github.io/vestige/ |
@@ -23699,9 +23718,8 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
 | SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
 | Cog | 2026-03-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/marciopuga/cog?style=social) | https://github.com/marciopuga/cog<br>No official website |
-| NeverOnce | 2026-03-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/WeberG619/neveronce?style=social) | https://github.com/WeberG619/neveronce<br>https://pypi.org/project/neveronce/ |
+| NeverOnce | 2026-03-18 | ![PyPI version](https://img.shields.io/pypi/v/neveronce?style=social) | https://pypi.org/project/neveronce/ |
 | MHN AI Agent Memory | 2026-03-21 | ![GitHub Repo stars](https://img.shields.io/github/stars/shahzebqazi/mhn-ai-agent-memory?style=social) | https://github.com/shahzebqazi/mhn-ai-agent-memory<br>No official website |
-| LycheeMem | 2026-03-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social) | https://github.com/LycheeMem/LycheeMem<br>No official website |
 | GoodMemory | 2026-03-24 | ![GitHub Repo stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=social) | https://github.com/hjqcan/GoodMemory<br>https://www.npmjs.com/package/goodmemory |
 | MemClaw | 2026-03-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/Felo-Inc/memclaw?style=social) | https://github.com/Felo-Inc/memclaw<br>https://memclaw.me |
 | MemPalace | 2026-04-05 | ![GitHub Repo stars](https://img.shields.io/github/stars/MemPalace/mempalace?style=social) | https://github.com/MemPalace/mempalace<br>http://mempalaceofficial.com/ |
@@ -23720,14 +23738,13 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | Mnemory | 2026-05-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/fpytloun/mnemory?style=social) | https://github.com/fpytloun/mnemory<br>No official website |
 | kaeru | 2026-05-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/LamantinAI/kaeru?style=social) | https://github.com/LamantinAI/kaeru<br>No official website |
 | Dakera | 2026-05-12 | ![GitHub Repo stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=social) | https://github.com/dakera-ai/dakera-mcp<br>https://dakera.ai/ |
-| Perseus | 2026-05-18 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/perseus?style=social) | https://github.com/tcconnally/perseus<br>https://perseus.observer/ |
+| Perseus | 2026-05-18 | - | https://github.com/Perseus-Computing-LLC<br>https://perseuscomputing.com/ |
 | Talamus | 2026-05-21 | ![GitHub Repo stars](https://img.shields.io/github/stars/ampres-ai/talamus?style=social) | https://github.com/ampres-ai/talamus<br>https://ampres-ai.github.io/talamus/ |
 | Agentic Task System | 2026-05-29 | ![GitHub Repo stars](https://img.shields.io/github/stars/renezander030/agentic-task-system?style=social) | https://github.com/renezander030/agentic-task-system<br>https://www.npmjs.com/package/@reneza/ats-cli |
 | OWASP Agent Memory Guard | 2026-05-30 | ![GitHub Repo stars](https://img.shields.io/github/stars/OWASP/www-project-agent-memory-guard?style=social) | https://github.com/OWASP/www-project-agent-memory-guard<br>https://pypi.org/project/agent-memory-guard/ |
 | Engrava | 2026-06-02 | ![GitHub Repo stars](https://img.shields.io/github/stars/sovantica/engrava?style=social) | https://github.com/sovantica/engrava<br>https://engrava.ai |
-| Mimir | 2026-06-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/tcconnally/mimir?style=social) | https://github.com/tcconnally/mimir<br>https://perseus.observer/mimir |
 | mem0ry4ai | 2026-06-11 | ![GitHub Repo stars](https://img.shields.io/github/stars/cremenescu/mem0ry4ai?style=social) | https://github.com/cremenescu/mem0ry4ai<br>https://cremenescu.ro/en/mem0ry4ai/ |
-| AccInt | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=social) | https://github.com/maxbaluev/accreted-intelligence<br>https://accint.xyz/ |
+| AccInt | 2026-06-15 | ![GitHub Repo stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=social) | https://github.com/maxbaluev/accreted-intelligence<br>No official website |
 | Lians | 2026-06-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/Lians-ai/Lians?style=social) | https://github.com/Lians-ai/Lians<br>https://www.lians.ai/ |
 | SQLite Graph Memory | 2026-07-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/Palo-Alto-AI-Research-Lab/sqlite-graph-memory?style=social) | https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory<br>No official website |
 | wiki | 2026-07-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/plasma-ai/wiki?style=social) | https://github.com/plasma-ai/wiki<br>https://docs.plasma.ai/wiki |
