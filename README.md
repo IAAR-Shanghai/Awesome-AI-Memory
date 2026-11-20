@@ -12386,7 +12386,7 @@ To systematically organize the diverse research and practical resources in the f
       <tr>
         <td colspan="3">
           • 推出 ZenBrain——一种面向自主智能体的七层长期记忆架构，融合了受神经科学启发的多种机制——包括赫布学习（Hebbian learning）、FSRS 间隔重复、睡眠周期巩固和贝叶斯置信传播——并以开源、零依赖的 TypeScript 库形式发布。<br>
-          • 在 LongMemEval-500 评测中，它仅用 1/106 的 token 预算即达到 91.3% 的 oracle 准确率，并在与 Letta、Mem0 和 A-Mem 的逐一对比中取得经 Bonferroni 校正的 9/9 全胜。<br>
+          • 在 LongMemEval-500 评测中，被测臂（据更正说明，为测试框架中一个类的 Python 移植）在回答步骤中仅用全上下文对照臂 1/109.7 的输入 token，即达到其准确率的 91.3%；在与 Letta、Mem0 和 A-Mem 的九项经 Bonferroni 校正的逐一对比中，三项保持显著优势（均针对 A-Mem），针对 Letta 和 Mem0 的六项无显著差异。<br>
         </td>
       </tr>
       <tr>
