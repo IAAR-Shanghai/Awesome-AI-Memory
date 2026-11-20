@@ -24542,6 +24542,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | kgai | 2026-08-03 | ![GitHub Repo stars](https://img.shields.io/github/stars/kgaidev/kgai?style=social) | https://github.com/kgaidev/kgai<br>https://kgai.dev/?ref=awesome-ai-memory |
 | causal-memory | 2026-07-26 | ![GitHub Repo stars](https://img.shields.io/github/stars/JingxuanC/causal-memory?style=social) | https://github.com/JingxuanC/causal-memory<br>No official website |
 | ReasonGraph | 2026-02-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/bgokden/reasongraph?style=social) | https://github.com/bgokden/reasongraph<br>https://memory.primaxiom.ai |
+| ClickHouse Loom | 2026-10-08 | ![GitHub Repo stars](https://img.shields.io/github/stars/ClickHouse/loom?style=social) | https://github.com/ClickHouse/loom<br>https://clickhouse.github.io/loom/ |
 
 ### 🎥 多媒体资源
 
