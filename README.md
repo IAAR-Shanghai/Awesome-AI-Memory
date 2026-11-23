@@ -19882,7 +19882,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td style="width: 55%;"><strong>DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection</strong></td>
       <td style="width: 15%;">
           <img src="https://img.shields.io/badge/多模态记忆-4A90E2" alt="多模态记忆">
-          <img src="https://img.shields.io/badge/基准测试-F5A623" alt="基准测试">
+          <img src="https://img.shields.io/badge/视觉基准-F5A623" alt="视觉基准">
           <img src="https://img.shields.io/badge/智能体记忆-7ED321" alt="智能体记忆">
           <img src="https://img.shields.io/badge/双重编码-D0021B" alt="双重编码">
       </td>
